@@ -19,7 +19,7 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 > Decomposição de Cholesky
 
-> *Decomposição em valores singulares (SVD)</font>
+> *Decomposição em valores singulares (SVD)*
 
 ####Solução numérica de sistemas não-lineares
 
@@ -49,20 +49,20 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 > *Elementos finitos*
 
-####<font color='red'>Integração numérica*
+####*Integração numérica*
 
 > *Fórmulas de Newton-Cotes*
 
 > *Quadratura Gaussiana*
 
-####<font color='red'>Transformadas*
+####*Transformadas*
 
 > *Transformada de Fourier*
 
 > *Transformada de Hilbert*
 
 *Obs.: Os tópicos destacados em *itálico* poderão ser abordados ou não,
-dependendo do andamento do curso.</font>
+dependendo do andamento do curso.
 
 ## Bibliografia recomendada
 
