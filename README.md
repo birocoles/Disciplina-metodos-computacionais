@@ -61,7 +61,7 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 > *Transformada de Hilbert*
 
-*Obs.: Os tópicos destacados em *itálico* poderão ser abordados ou não,
+Obs.: Os tópicos destacados em *itálico* poderão ser abordados ou não,
 dependendo do andamento do curso.
 
 ## Bibliografia recomendada
