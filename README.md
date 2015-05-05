@@ -5,67 +5,26 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 **Responsável**: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
 
-## Tópicos
+## Tópicos abordados durante a disciplina
 
-A descrição breve dos tópicos a serem abordados durante a 
-disciplina está no diretório `Aulas`. 
+Uma descrição mais detalhada sobre os tópicos listados abaixo 
+está no diretório `Aulas`. 
 
-####Noções de programação em linguagem Python
+* **Noções de programação em linguagem Python**
 
-####Tópicos de álgebra linear
+* **Tópicos de álgebra linear**
 
-####Solução numérica de sistemas lineares
+* **Solução numérica de sistemas lineares**
 
-> Eliminação de Gauss
+* **Solução numérica de sistemas não-lineares**
 
-> Decomposição LU
+* **Interpolação**
 
-> Decomposição de Cholesky
+* **Solução numérica de equações diferenciais**
 
-> *Decomposição em valores singulares (SVD)*
+* **Integração numérica**
 
-####Solução numérica de sistemas não-lineares
-
-> Método de Newton
-
-> Método steepest descent (descida mais íngreme)
-
-> Método de Gauss-Newton
-
-> Método de Levenberg-Marquardt
-
-> *Método dos gradientes conjugados*
-
-####Interpolação
-
-> Ajuste polinomial
-
-> *Série de Fourier*
-
-> Splines
-
-> *Mínima curvatura*
-
-####Solução numérica de equações diferenciais
-
-> Diferenças finitas
-
-> *Elementos finitos*
-
-####*Integração numérica*
-
-> *Fórmulas de Newton-Cotes*
-
-> *Quadratura Gaussiana*
-
-####*Transformadas*
-
-> *Transformada de Fourier*
-
-> *Transformada de Hilbert*
-
-Obs.: Os tópicos destacados em *itálico* poderão ser abordados ou não,
-dependendo do andamento do curso.
+* **Transformadas**
 
 ## Bibliografia recomendada
 
@@ -90,8 +49,8 @@ Diferentemente de C ou Fortran, a linguagem [Python](https://www.python.org/)
 compilado e os comandos são executados imediatamente. De acordo com a 
 [Software Carpentry](http://software-carpentry.org/index.html), quando 
 estamos programando, o tempo total necessário para obtermos a solução 
-desejada é determinado por duas coisas: *o tempo gasto por **você** para 
-desenvolver o código* e *o tempo gasto pelo **computador** para rodar o 
+desejada é determinado por duas coisas: *o tempo gasto por* **você** *para 
+desenvolver o código* e *o tempo gasto pelo* **computador** *para rodar o 
 código*. Estes fatores devem ser levados em consideração no momento da 
 escolha de uma linguagem de programação. Para fins acadêmicos de pesquisa 
 e ensino, a linguagem Python oferece algumas vantagens, dentre as quais 
