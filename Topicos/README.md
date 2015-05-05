@@ -2,7 +2,7 @@
 
 ####Noções de programação em linguagem Python
 
-* O conteúdo deste tópico está no diretório: `Nocoes_programacao_Python`
+> O conteúdo deste tópico está no diretório: `Nocoes_programacao_Python`
 
 Durante esta parte do curso, são apresentadas noções básicas de
 programação em linguagem Python. Vale ressaltar que o objetivo desta
@@ -12,7 +12,7 @@ queiram se aprofundar no assunto.
 
 ####Tópicos de álgebra linear
 
-* O conteúdo deste tópico está no diretório: `Algelin`
+> O conteúdo deste tópico está no diretório: `Algelin`
 
 Conceitos básicos sobre vetores e matrizes são apresentados nesta
 parte do curso. Além disso, também são apresentados algoritmos 
