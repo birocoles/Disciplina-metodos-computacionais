@@ -8,7 +8,7 @@ Durante esta parte do curso, são apresentadas noções básicas de
 programação em linguagem Python. Vale ressaltar que o objetivo desta
 parte do curso NÃO É ENSINAR A PROGRAMAR E NEM ENSINAR PYTHON. O
 conteúdo desta parte do curso serve de base para aqueles que 
-queiram se aprofundar no assunto.
+quiserem se aprofundar no assunto.
 
 ####Tópicos de álgebra linear
 
