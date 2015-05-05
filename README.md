@@ -9,13 +9,13 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 * Solução numérica de sistemas lineares
 
-** Eliminação de Gauss
+ ** Eliminação de Gauss
 
-** Decomposição LU
+ ** Decomposição LU
 
-** Decomposição de Cholesky
+ ** Decomposição de Cholesky
 
-** Decomposição em valores singulares (SVD)<sup>#</sup>
+ ** Decomposição em valores singulares (SVD)<sup>#</sup>
 
 * Solução numérica de sistemas não-lineares
 
