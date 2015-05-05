@@ -2,7 +2,7 @@
 
 ####Noções de programação em linguagem Python
 
-> O conteúdo deste tópico está no diretório: `Nocoes_programacao_Python`
+* O conteúdo deste tópico está no diretório: `Nocoes_programacao_Python`
 
 Durante esta parte do curso, são apresentadas noções básicas de
 programação em linguagem Python. Vale ressaltar que o objetivo desta
@@ -12,7 +12,7 @@ queiram se aprofundar no assunto.
 
 ####Tópicos de álgebra linear
 
-> O conteúdo deste tópico está no diretório: `Algelin`
+* O conteúdo deste tópico está no diretório: `Algelin`
 
 Conceitos básicos sobre vetores e matrizes são apresentados nesta
 parte do curso. Além disso, também são apresentados algoritmos 
@@ -21,53 +21,53 @@ longo do curso.
 
 ####Solução numérica de sistemas lineares
 
-> Eliminação de Gauss
+* Eliminação de Gauss
 
-> Decomposição LU
+* Decomposição LU
 
-> Decomposição de Cholesky
+* Decomposição de Cholesky
 
-> *Decomposição em valores singulares (SVD)*
+* *Decomposição em valores singulares (SVD)*
 
 ####Solução numérica de sistemas não-lineares
 
-> Método de Newton
+* Método de Newton
 
-> Método steepest descent (descida mais íngreme)
+* Método steepest descent (descida mais íngreme)
 
-> Método de Gauss-Newton
+* Método de Gauss-Newton
 
-> Método de Levenberg-Marquardt
+* Método de Levenberg-Marquardt
 
-> *Método dos gradientes conjugados*
+* *Método dos gradientes conjugados*
 
 ####Interpolação
 
-> Ajuste polinomial
+* Ajuste polinomial
 
-> *Série de Fourier*
+* *Série de Fourier*
 
-> Splines
+* Splines
 
-> *Mínima curvatura*
+* *Mínima curvatura*
 
 ####Solução numérica de equações diferenciais
 
-> Diferenças finitas
+* Diferenças finitas
 
-> *Elementos finitos*
+* *Elementos finitos*
 
 ####*Integração numérica*
 
-> *Fórmulas de Newton-Cotes*
+* *Fórmulas de Newton-Cotes*
 
-> *Quadratura Gaussiana*
+* *Quadratura Gaussiana*
 
 ####*Transformadas*
 
-> *Transformada de Fourier*
+* *Transformada de Fourier*
 
-> *Transformada de Hilbert*
+* *Transformada de Hilbert*
 
 Obs.: Os tópicos destacados em *itálico* poderão ser abordados ou não,
 dependendo do andamento do curso.
