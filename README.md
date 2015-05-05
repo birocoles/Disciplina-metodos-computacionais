@@ -1,79 +1,81 @@
 # Métodos Computacionais Aplicados à Geofísica
 
-Disciplina obrigatória oferecida no programa de pós-graduação em 
+Disciplina oferecida no programa de pós-graduação em 
 geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 **Responsável**: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
 
 ## Tópicos
 
-* Solução numérica de sistemas lineares
+####Álgebra linear
 
- ** Eliminação de Gauss
+####Solução numérica de sistemas lineares
 
- ** Decomposição LU
+> Eliminação de Gauss
 
- ** Decomposição de Cholesky
+> Decomposição LU
 
- ** Decomposição em valores singulares (SVD)<sup>#</sup>
+> Decomposição de Cholesky
 
-* Solução numérica de sistemas não-lineares
+> Decomposição em valores singulares (SVD)<sup>#</sup>
 
-** Método de Newton
+####Solução numérica de sistemas não-lineares
 
-** Método steepest descent (descida mais íngreme)
+> Método de Newton
 
-** Método de Gauss-Newton
+> Método steepest descent (descida mais íngreme)
 
-** Método de Levenberg-Marquardt
+> Método de Gauss-Newton
 
-** Método dos gradientes conjugados<sup>#</sup>
+> Método de Levenberg-Marquardt
 
-* Interpolação
+> Método dos gradientes conjugados<sup>#</sup>
 
-** Ajuste polinomial
+####Interpolação
 
-** Ajuste de funções ortogonais
+> Ajuste polinomial
 
-** Série de Fourier<sup>#</sup>
+> Ajuste de funções ortogonais
 
-** Splines
+> Série de Fourier<sup>#</sup>
 
-** Mínima curvatura<sup>#</sup>
+> Splines
 
-* Solução numérica de equações diferenciais
+> Mínima curvatura<sup>#</sup>
 
-** Diferenças finitas
+####Solução numérica de equações diferenciais
 
-** Elementos finitos<sup>#</sup>
+> Diferenças finitas
 
-* Integração numérica<sup>#</sup>
+> Elementos finitos<sup>#</sup>
 
-** Fórmulas de Newton-Cotes<sup>#</sup>
+####Integração numérica<sup>#</sup>
 
-** Quadratura Gaussiana<sup>#</sup>
+> Fórmulas de Newton-Cotes<sup>#</sup>
 
-* Transformadas<sup>#</sup>
+> Quadratura Gaussiana<sup>#</sup>
 
-** Transformada de Fourier<sup>#</sup>
+####Transformadas<sup>#</sup>
 
-** Transformada de Hilbert<sup>#</sup>
+> Transformada de Fourier<sup>#</sup>
+
+> Transformada de Hilbert<sup>#</sup>
 
 <sup>#</sup> Tópicos extra
 
 ## Bibliografia recomendada
 
-** Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
+* Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
 
-** Golub, G. H. and Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
+* Golub, G. H. and Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
 
-** Boyd, S. and Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
+* Boyd, S. and Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
 
-** Kinzelbach, W. Groundwater modelling: An introduction with sample programs in BASIC, Elsevler, 1986
+* Kinzelbach, W. Groundwater modelling: An introduction with sample programs in BASIC, Elsevler, 1986
 
-** Press, W. H., Teukolsky, S. A, Vetterling, W. T. and Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
+* Press, W. H., Teukolsky, S. A, Vetterling, W. T. and Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
 
-** Periódicos/sites da área 
+* Periódicos/sites da área 
 
 
 
