@@ -77,7 +77,7 @@ dependendo do andamento do curso.
 Os IPython Notebooks de cada tópico podem ser visualizados 
 no nbviewer pelo seguinte link:
 
-http://nbviewer.ipython.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Aulas/
+http://nbviewer.ipython.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Topicos/
 
 Para tanto, após clicar no link acima, procure o IPython Notebook que 
 você deseja visualizar dentro do respectivo diretório. Por exemplo,
