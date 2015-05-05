@@ -8,23 +8,41 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 ## Tópicos abordados durante a disciplina
 
 Uma descrição mais detalhada sobre os tópicos listados abaixo 
-está no diretório `Aulas`. 
+está no diretório `Topicos`. O conteúdo de cada um dos tópicos
+listados abaixo está armazenado em um diretório diferente, dentro 
+do diretório `Topicos`, tal como descrito abaixo.
 
 * **Noções de programação em linguagem Python**
 
+> O conteúdo deste tópico está no diretório: `Nocoes_programacao_Python`
+
 * **Tópicos de álgebra linear**
+
+> O conteúdo deste tópico está no diretório: `Algelin`
 
 * **Solução numérica de sistemas lineares**
 
+> O conteúdo deste tópico está no diretório: `Sol_sist_lin`
+
 * **Solução numérica de sistemas não-lineares**
+
+> O conteúdo deste tópico está no diretório: `Sol_sist_nao_lin`
 
 * **Interpolação**
 
+> O conteúdo deste tópico está no diretório: `Interp`
+
 * **Solução numérica de equações diferenciais**
+
+> O conteúdo deste tópico está no diretório: `Sol_eds`
 
 * **Integração numérica**
 
+> O conteúdo deste tópico está no diretório: `Integ`
+
 * **Transformadas**
+
+> O conteúdo deste tópico está no diretório: `Transf`
 
 ## Bibliografia recomendada
 
@@ -87,20 +105,3 @@ da [Continuum Analytics](http://continuum.io/). Basta escolher o instalador
 adequado para o seu sistema operacional e seguir as instruções. Esta 
 distribuição Python já vem com quase tudo o que você precisa para fazer os 
 seus primeiros códigos Python.
-
-## Visualização online dos IPython Notebooks
-
-O conteúdo de cada tópico a ser abordado durante a disciplina
-(isto é, as notas de aula, figuras e IPython Notebooks)
-está armazenado em um diretório diferente dentro do diretório
-`Aulas`. Os IPython Notebooks de cada tópico podem ser visualizados 
-no nbviewer pelo seguinte link:
-
-http://nbviewer.ipython.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Aulas/
-
-Para tanto, após clicar no link acima, entre no diretório desejado
-e clique no IPython Notebook que você deseja visualizar. Este
-IPython Notebook será mostrado como uma página estática e, portanto,
-não poderá ser executado. Para executar o conteúdo de um determinado
-IPython Notebook é necessário baixa-lo e instalar os programas
-necessários.

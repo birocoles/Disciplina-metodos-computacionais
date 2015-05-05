@@ -72,3 +72,22 @@ longo do curso.
 Obs.: Os tópicos destacados em *itálico* poderão ser abordados ou não,
 dependendo do andamento do curso.
 
+# Visualização online dos IPython Notebooks
+
+Os IPython Notebooks de cada tópico podem ser visualizados 
+no nbviewer pelo seguinte link:
+
+http://nbviewer.ipython.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Aulas/
+
+Para tanto, após clicar no link acima, procure o IPython Notebook que 
+você deseja visualizar dentro do respectivo diretório. Por exemplo,
+para visualizar o conteúdo do IPython Notebook `nocoes_python1.ipynb`,
+clique no link acima, em seguida entre no diretório `Nocoes_programacao_Python`
+e, por fim, clique no aquivo `nocoes_python1.ipynb`.
+
+O nbviewer possibilita a visualização de um IPython Notebook 
+como uma página estática. Não é possivel executar um IPython Notebook
+pelo nbviewer. Para executar um determinado
+IPython Notebook é necessário baixa-lo e instalar os programas
+necessários de acordo com a seção
+[Instalação do Python e de suas dependências](https://github.com/birocoles/Disciplina-metodos-computacionais#instala%C3%A7%C3%A3o-do-python-e-de-suas-depend%C3%AAncias).
