@@ -1,13 +1,15 @@
 # Métodos Computacionais Aplicados à Geofísica
 
-Disciplina oferecida no programa de pós-graduação em 
+> Disciplina oferecida no programa de pós-graduação em 
 geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 **Responsável**: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
 
 ## Tópicos
 
-####Álgebra linear
+####Noções de programação em linguagem Python
+
+####Tópicos de álgebra linear
 
 ####Solução numérica de sistemas lineares
 
@@ -17,7 +19,7 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 > Decomposição de Cholesky
 
-> Decomposição em valores singulares (SVD)<sup>#</sup>
+> <font color='red'>Decomposição em valores singulares (SVD)</font>
 
 ####Solução numérica de sistemas não-lineares
 
@@ -29,39 +31,38 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 > Método de Levenberg-Marquardt
 
-> Método dos gradientes conjugados<sup>#</sup>
+> <font color='red'>Método dos gradientes conjugados</font>
 
 ####Interpolação
 
 > Ajuste polinomial
 
-> Ajuste de funções ortogonais
-
-> Série de Fourier<sup>#</sup>
+> <font color='red'>Série de Fourier</font>
 
 > Splines
 
-> Mínima curvatura<sup>#</sup>
+> <font color='red'>Mínima curvatura</font>
 
 ####Solução numérica de equações diferenciais
 
 > Diferenças finitas
 
-> Elementos finitos<sup>#</sup>
+> <font color='red'>Elementos finitos</font>
 
-####Integração numérica<sup>#</sup>
+####<font color='red'>Integração numérica</font>
 
-> Fórmulas de Newton-Cotes<sup>#</sup>
+> <font color='red'>Fórmulas de Newton-Cotes</font>
 
-> Quadratura Gaussiana<sup>#</sup>
+> <font color='red'>Quadratura Gaussiana</font>
 
-####Transformadas<sup>#</sup>
+####<font color='red'>Transformadas</font>
 
-> Transformada de Fourier<sup>#</sup>
+> <font color='red'>Transformada de Fourier</font>
 
-> Transformada de Hilbert<sup>#</sup>
+> <font color='red'>Transformada de Hilbert</font>
 
-<sup>#</sup> Tópicos extra
+<font color='red'>Obs.: Os tópicos destacados em vermelho poderão ser abosdados ou não,
+dependendo do andamento do curso.</font>
 
 ## Bibliografia recomendada
 
