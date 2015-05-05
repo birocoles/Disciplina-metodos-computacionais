@@ -7,42 +7,24 @@ geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 ## Tópicos abordados durante a disciplina
 
-Uma descrição mais detalhada sobre os tópicos listados abaixo 
-está no diretório `Topicos`. O conteúdo de cada um dos tópicos
-listados abaixo está armazenado em um diretório diferente, dentro 
-do diretório `Topicos`, tal como descrito abaixo.
+No diretório `Topicos` há uma descrição breve sobre os 
+tópicos listados abaixo .
 
 * **Noções de programação em linguagem Python**
 
-> O conteúdo deste tópico está no diretório: `Nocoes_programacao_Python`
-
 * **Tópicos de álgebra linear**
-
-> O conteúdo deste tópico está no diretório: `Algelin`
 
 * **Solução numérica de sistemas lineares**
 
-> O conteúdo deste tópico está no diretório: `Sol_sist_lin`
-
 * **Solução numérica de sistemas não-lineares**
-
-> O conteúdo deste tópico está no diretório: `Sol_sist_nao_lin`
 
 * **Interpolação**
 
-> O conteúdo deste tópico está no diretório: `Interp`
-
 * **Solução numérica de equações diferenciais**
-
-> O conteúdo deste tópico está no diretório: `Sol_eds`
 
 * **Integração numérica**
 
-> O conteúdo deste tópico está no diretório: `Integ`
-
 * **Transformadas**
-
-> O conteúdo deste tópico está no diretório: `Transf`
 
 ## Bibliografia recomendada
 
