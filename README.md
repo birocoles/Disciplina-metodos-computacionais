@@ -3,7 +3,7 @@
 > Disciplina oferecida no programa de pós-graduação em 
 geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
-**Responsável**: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
+> Responsável: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
 
 ## Tópicos abordados durante a disciplina
 
@@ -28,17 +28,17 @@ tópicos listados abaixo .
 
 ## Bibliografia recomendada
 
-* Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
-
-* Golub, G. H. e Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
-
-* Boyd, S. e Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
-
 * Kinzelbach, W. Groundwater modelling: An introduction with sample programs in BASIC, Elsevler, 1986
+
+* Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
 
 * Lapidus, L. e Pinder, G. F. Numerical solution of partial differential equations in science and engineering, John Wiley & Sons, Inc., 1999
 
-* Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
+* Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
+
+* Boyd, S. e Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
+
+* Golub, G. H. e Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
 
 * Periódicos/sites da área 
 
@@ -86,4 +86,4 @@ dependências é utilizar a distribuição [Anaconda](http://continuum.io/downlo
 da [Continuum Analytics](http://continuum.io/). Basta escolher o instalador 
 adequado para o seu sistema operacional e seguir as instruções. Esta 
 distribuição Python já vem com quase tudo o que você precisa para fazer os 
-seus primeiros códigos Python.
+seus primeiros códigos.
