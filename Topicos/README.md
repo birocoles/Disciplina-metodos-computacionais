@@ -91,3 +91,11 @@ pelo nbviewer. Para executar um determinado
 IPython Notebook é necessário baixa-lo e instalar os programas
 necessários de acordo com a seção
 [Instalação do Python e de suas dependências](https://github.com/birocoles/Disciplina-metodos-computacionais#instala%C3%A7%C3%A3o-do-python-e-de-suas-depend%C3%AAncias).
+
+# Template para a elaboração dos códigos
+
+Todos os códigos a serem desenvolvidos durante a disciplina deverão
+seguir a formatação do IPython Notebook `template-codigo`. Este
+template pode ser visualizado no link abaixo:
+
+http://nbviewer.ipython.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Topicos/template-codigo.ipynb
