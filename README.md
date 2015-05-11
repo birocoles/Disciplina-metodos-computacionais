@@ -38,6 +38,8 @@ tópicos listados abaixo .
 
 * Boyd, S. e Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
 
+* Kreyszig, E. Advanced engineering mathematics, 9th edition, John Wiley & Sons, Inc., 2006
+
 * Golub, G. H. e Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
 
 * Periódicos/sites da área 
