@@ -1,3 +1,24 @@
+def prod_escalar_vetor(a, x):
+    
+    '''
+    Esta funcao calcula o produto escalar entre o
+    escalar "a" e o vetor "x"
+    
+    input
+    
+    a: float - escalar
+    x: numpy array - vetor
+    
+    output
+    
+    y: float - produto escalar entre os 
+       vetores x e y
+    '''
+
+    y = a*x
+    
+    return y
+
 def produto_escalar(x, y):
     
     '''

@@ -19,6 +19,18 @@ parte do curso. Além disso, também são apresentados algoritmos
 básicos envolvendo operações matriciais que serão utilizados ao
 longo do curso.
 
+O conteúdo deste tópico está organizado da seguinte forma:
+
+* Produto entre um escalar e um vetor (`produto-escalar-vetor.ipynb`)
+
+* Produto escalar (`produto-escalar.ipynb`)
+
+* Demais produtos entre vetores (`produtos-entre-vetores.ipynb`)
+
+* Produto entre matriz e vetor (`produto-matriz-vetor.ipynb`)
+
+* Produto entre matrizes (`produto-matriz-matriz.ipynb`)
+
 ####Solução numérica de sistemas lineares
 
 * Eliminação de Gauss
@@ -74,28 +86,20 @@ dependendo do andamento do curso.
 
 # Visualização online dos IPython Notebooks
 
-Os IPython Notebooks de cada tópico podem ser visualizados 
-no nbviewer pelo seguinte link:
-
-http://nbviewer.ipython.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Topicos/
-
-Para tanto, após clicar no link acima, procure o IPython Notebook que 
+Os IPython Notebooks estão armazenados dentro do diretório
+`Topicos` e podem ser visualizados
+como páginas estáticas. Para tanto, clique no IPython Notebook que 
 você deseja visualizar dentro do respectivo diretório. Por exemplo,
 para visualizar o conteúdo do IPython Notebook `nocoes_python1.ipynb`,
-clique no link acima, em seguida entre no diretório `Nocoes_programacao_Python`
-e, por fim, clique no aquivo `nocoes_python1.ipynb`.
+entre no diretório `Nocoes_programacao_Python` e, por fim, clique no 
+aquivo `nocoes_python1.ipynb`.
 
-O nbviewer possibilita a visualização de um IPython Notebook 
-como uma página estática. Não é possivel executar um IPython Notebook
-pelo nbviewer. Para executar um determinado
-IPython Notebook é necessário baixa-lo e instalar os programas
-necessários de acordo com a seção
+Para executar um determinado IPython Notebook é necessário 
+baixa-lo e instalar os programas necessários de acordo com a seção
 [Instalação do Python e de suas dependências](https://github.com/birocoles/Disciplina-metodos-computacionais#instala%C3%A7%C3%A3o-do-python-e-de-suas-depend%C3%AAncias).
 
 # Template para a elaboração dos códigos
 
 Todos os códigos a serem desenvolvidos durante a disciplina deverão
-seguir a formatação do IPython Notebook `template-codigo`. Este
-template pode ser visualizado no link abaixo:
-
-http://nbviewer.ipython.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Topicos/template-codigo.ipynb
+seguir a formatação do IPython Notebook `template-codigo`, que está
+dentro do diretório `Topicos`.
