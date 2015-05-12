@@ -32,6 +32,8 @@ tópicos listados abaixo .
 
 * Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
 
+* Horn, R. A. e Johnson, C. R. Topics in matrix analysis, Cambridge University Press, 1994
+
 * Lapidus, L. e Pinder, G. F. Numerical solution of partial differential equations in science and engineering, John Wiley & Sons, Inc., 1999
 
 * Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
