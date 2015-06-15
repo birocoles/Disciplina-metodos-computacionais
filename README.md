@@ -87,7 +87,18 @@ pode ser encontrado nos seguinte endereços:
 
 Uma maneira fácil de baixar e instalar a última versão do Python e de suas 
 dependências é utilizar a distribuição [Anaconda](http://continuum.io/downloads), 
-da [Continuum Analytics](http://continuum.io/). Basta escolher o instalador 
-adequado para o seu sistema operacional e seguir as instruções. Esta 
-distribuição Python já vem com quase tudo o que você precisa para fazer os 
-seus primeiros códigos.
+da [Continuum Analytics](http://continuum.io/). Para tanto:
+
+1. Acesse o link do [Anaconda](http://continuum.io/downloads), 
+escolha o instalador adequado para o seu sistema
+operacional e sega as instruções. O Anaconda já vem com quase tudo o que você 
+precisa para fazer os seus primeiros códigos.
+
+2. Para checar se a instalação deu certo, abra uma janela do prompt de comando,
+caso você esteja no Windows, ou um terminal, se estiver no Linux.
+
+3. Digite o comando: `conda list`. Este comando mostrará uma
+ lista de *coisas* que foram instaladas pelo Anaconda. Nesta lista,
+ procure os itens: `python`, `ipython`, `ipython-notebook`, `numpy`,
+ `matplotlib` e `scipy`. Se estes itens estiverem na lista, fique
+ tranquilo(a)... pelo menos por enquanto :).
