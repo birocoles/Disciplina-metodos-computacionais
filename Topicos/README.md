@@ -10,6 +10,16 @@ parte do curso NÃO É ENSINAR A PROGRAMAR E NEM ENSINAR PYTHON. O
 conteúdo desta parte do curso serve de base para aqueles que 
 quiserem se aprofundar no assunto.
 
+O conteúdo deste tópico está organizado da seguinte forma:
+
+* Noções de Python (`nocoes_python.ipynb`)
+
+* Listas (`listas.ipynb`)
+
+* `while`, `if`, `elif`, `else` e `for` (`loops_condicionais.ipynb`)
+
+* Numpy arrays (`numpy_arrays.ipynb`)
+
 ####Tópicos de álgebra linear
 
 > O conteúdo deste tópico está no diretório: `Algelin`
