@@ -41,6 +41,8 @@ O conteúdo deste tópico está organizado da seguinte forma:
 
 * Produto entre matrizes (`produto-matriz-matriz.ipynb`)
 
+* Sistemas lineares (`sistemas-lineares.ipynb`)
+
 ####Solução numérica de sistemas lineares
 
 * Eliminação de Gauss
