@@ -45,7 +45,12 @@ O conteúdo deste tópico está organizado da seguinte forma:
 
 ####Solução numérica de sistemas lineares
 
-* Eliminação de Gauss
+> O conteúdo deste tópico está no diretório: `Sistemas_lineares`
+
+Apresenta algoritmos clássicos para a solução numéricas de 
+sistemas lineares.
+
+* Eliminação de Gauss (`elim-gauss.ipynb`)
 
 * Decomposição LU
 
