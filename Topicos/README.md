@@ -41,14 +41,14 @@ O conteúdo deste tópico está organizado da seguinte forma:
 
 * Produto entre matrizes (`produto-matriz-matriz.ipynb`)
 
-* Sistemas lineares (`intro-sistemas-lineares.ipynb`)
-
 ####Solução numérica de sistemas lineares
 
 > O conteúdo deste tópico está no diretório: `Sistemas_lineares`
 
 Apresenta algoritmos clássicos para a solução numéricas de 
 sistemas lineares.
+
+* Sistemas lineares (`intro-sistemas-lineares.ipynb`)
 
 * Eliminação de Gauss (`elim-gauss.ipynb`)
 
