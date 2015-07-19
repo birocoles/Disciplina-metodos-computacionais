@@ -50,6 +50,8 @@ sistemas lineares.
 
 * Sistemas lineares (`intro-sistemas-lineares.ipynb`)
 
+* Sistemas especiais (`sistemas-especiais.ipynb`)
+
 * Eliminação de Gauss (`elim-gauss.ipynb`)
 
 * Decomposição LU
