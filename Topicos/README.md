@@ -52,7 +52,11 @@ sistemas lineares.
 
 * Sistemas especiais (`sistemas-especiais.ipynb`)
 
-* Eliminação de Gauss (`elim-gauss.ipynb`)
+* Eliminação de Gauss - Introdução (`elim-gauss.ipynb`)
+
+* Eliminação de Gauss com pivotamento parcial - parte 1 (`elim-gauss-piv-parcial1.ipynb`)
+
+* Eliminação de Gauss com pivotamento parcial - parte 2 (`elim-gauss-piv-parcial2.ipynb`)
 
 * Decomposição LU
 
