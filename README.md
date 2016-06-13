@@ -1,7 +1,8 @@
-# Métodos Computacionais Aplicados à Geofísica
+# Métodos computacionais aplicados à Geofísica - MCOM
 
-> Disciplina oferecida no programa de pós-graduação em 
-geofísica do [Observatório Nacional - MCTI](http://www.on.br)
+> Disciplina oferecida no [2<sup>o</sup> trimestre]
+(http://www.on.br/conteudo/dppg_e_iniciacao/dppg/neweb_geo/conteudo/2trim2016-atualizado.pdf) do programa 
+de pós-graduação em geofísica do [Observatório Nacional - MCTI](http://www.on.br)
 
 > Responsável: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
 
@@ -46,6 +47,30 @@ tópicos listados abaixo .
 
 * Periódicos/sites da área 
 
+**OBSERVAÇÃO**: Esta lista de referências poderá ser atualizada ao longo do curso.
+
+## Links úteis
+
+* [Fatiando a Terra](http://www.fatiando.org/index.html)
+
+* [Computational Infrastructure for Geodynamics (CIG)](http://geodynamics.org/cig/)
+
+* [Generic Mapping Tools (GMT)](http://gmt.soest.hawaii.edu/projects/gmt/wiki)
+
+* [CFD Python: 12 steps to Navier-Stokes :: Lorena A. Barba group](http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/)
+
+* [Software Carpentry](http://software-carpentry.org/index.html)
+
+* [Pythonic Perambulations](https://jakevdp.github.io/)
+
+* [nbviewer - A simple way to share Jupyter Notebooks](http://nbviewer.jupyter.org/)
+
+* [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
+
+* [Notebook Gallery - Links to the best IPython and Jupyter Notebooks](http://nb.bianp.net/sort/views/)
+
+* [matplotlib - 2D and 3D plotting in Python](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
+
 ## A linguagem Python
 
 Diferentemente de C ou Fortran, a linguagem [Python](https://www.python.org/) 
@@ -63,25 +88,23 @@ relativamente fácil de aprender e extremamente bem documentada.
 
 Para mais informações, eu recomendo (fortemente) que você acesse o site 
 da [Software Carpentry](http://software-carpentry.org/index.html). Mais 
-especificamente, dê uma olhada nas [lições](http://software-carpentry.org/v4/python/index.html) 
-de Python da versão 4. Grande parte do que está feito aqui é baseado nestas 
-lições. Nestas lições, os instrutores recomendam o uso do ambiente de desenvolvimento 
-integrado (*integrated development environment* - IDE) 
-[Wing 101](http://wingware.com/downloads/wingide-101). Contudo, eu optei pelo 
-[IPython Notebook](http://ipython.org/notebook.html#the-ipython-notebook).
+especificamente, dê uma olhada na lição [Programming with Python] 
+(http://swcarpentry.github.io/python-novice-inflammation/). 
+Os códigos Python serão feitos utilizando-se o [Jupyter Notebook]
+(http://jupyter.org/).
 
-## IPython Notebook
+## Jupyter Notebook
 
-O **IPython Notebook** é um documento iterativo que permite combinar 
-código, texto, equações feitas em LaTeX, figuras e animações. Além disso, 
+O [Jupyter Notebook](http://jupyter.readthedocs.org/) 
+permite combinar código, texto, equações feitas em 
+LaTeX, figuras e animações. Além disso, 
 é gratuito e extremamente bem documentado. Esta poderosa feramenta computacional 
 possibilita reunir (quase) todas as etapas envolvidas no desenvolvimento de 
 um código com fins acadêmicos, desde a leitura e processamento dos dados até a 
-visualização dos resultados. Um tutorial completo sobre **IPython Notebook** 
-pode ser encontrado nos seguinte endereços:
+visualização dos resultados. Para informações sobre o Jupyter Notebook, 
+acesse:
 
-* [http://ipython.org/notebook.html#the-ipython-notebook](http://ipython.org/notebook.html#the-ipython-notebook)
-* [http://ipython.org/ipython-doc/stable/notebook/index.html](http://ipython.org/ipython-doc/stable/notebook/index.html)
+* http://jupyter-notebook.readthedocs.io/en/latest/notebook.html
 
 ## Instalação do Python e de suas dependências
 
@@ -90,15 +113,19 @@ dependências é utilizar a distribuição [Anaconda](http://continuum.io/downlo
 da [Continuum Analytics](http://continuum.io/). Para tanto:
 
 1. Acesse o link do [Anaconda](http://continuum.io/downloads), 
-escolha o instalador adequado para o seu sistema
-operacional e sega as instruções. O Anaconda já vem com quase tudo o que você 
+escolha o instalador `PYTHON 2.X` adequado para o seu sistema
+operacional e siga as instruções. O Anaconda já vem com quase tudo o que você 
 precisa para fazer os seus primeiros códigos.
 
 2. Para checar se a instalação deu certo, abra uma janela do prompt de comando,
 caso você esteja no Windows, ou um terminal, se estiver no Linux.
 
 3. Digite o comando: `conda list`. Este comando mostrará uma
- lista de *coisas* que foram instaladas pelo Anaconda. Nesta lista,
- procure os itens: `python`, `ipython`, `ipython-notebook`, `numpy`,
- `matplotlib` e `scipy`. Se estes itens estiverem na lista, fique
+ lista de *coisas* que foram instaladas pelo Anaconda. Deve aparecer
+ algo do tipo:
+ 
+ <img src='conda-list.png' width = 500>
+ 
+ Nesta lista, procure os itens: `python`, `ipython`, `ipython-notebook`, `jupyter`, 
+ `numpy`, `matplotlib` e `scipy`. Se estes itens estiverem na lista, fique
  tranquilo(a)... pelo menos por enquanto :).
