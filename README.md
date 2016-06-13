@@ -30,7 +30,7 @@ sugiro que os links sejam acessados na ordem.
 
 * [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
  
-<img src = 'http://i.imgur.com/H3BR7EA.gif' width = 500>
+<img src='http://i.imgur.com/H3BR7EA.gif' width = 500>
  
 Beleza, é possível que as informações acima tenham sido completamente 
 inúteis para este curso. Sendo assim, vamos agilizar um pouco as
@@ -45,16 +45,14 @@ por fazer assim porque, no início, o GitHub é meio assustador. Eu coloquei
 números para identificar os pontos importantes e, logo abaixo da imagem,
 os pontos são descritos. 
 
-<img src='repositorio-GitHub' width = 500>
+<img src='repositorio-GitHub.png' width = 500>
 
-1. *Disciplina-metodos-computacionais* é o nome deste repositório no GitHub
+1. **Disciplina-metodos-computacionais** é o nome deste repositório no GitHub
 
-2. *birocoles* é o meu nome no GitHub e também é o meu apelido de faculdade.
-É que na minha cidade, [Fernandópolis](http://www.fernandopolis.sp.gov.br/), [bola de gude]
-(https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiKgPat76XNAhWMIZAKHZX
-SBvMQjRwIBw&url=https%3A%2F%2Fanosincriveisblog.wordpress.com%2F2014%2F05%2F25%2Fbola-de-gude%2F&psig=AFQjCNE-iqEmWnI
-YzIEHoh54LmSyzHp9Lw&ust=1465937067947914) se chama **biroca**... com "b", cuidado.
-Enfim, virou apelido. Ok, mais uma informação inútil pro curso.
+2. **birocoles** é o meu nome no GitHub e também é o meu apelido de faculdade.
+É que na minha cidade, [Fernandópolis](http://www.fernandopolis.sp.gov.br/), *bola de gude*
+se chama *biroca*... com "b", cuidado. E o *biroca* virou *birocoles*.
+Vai entender né? Ok, mais uma informação inútil pro curso.
 
 3. Pasta que contém os códigos a serem utilizados neste curso. Esta pasta será
 mencionada nas descrições abaixo. Vá lá, clique na pasta, veja o que tem dentro 
@@ -185,7 +183,7 @@ clique no arquivo.
 Note que, desta forma, os Jupyter Notebook são vistos como uma página
 estática. Para executar um determinado Jupyter Notebook, é necessário 
 baixa-lo e instalar os programas necessários de acordo com a seção
-[Instalação do Python e de suas dependências](https://github.com/birocoles/Disciplina-metodos-computacionais#instala%C3%A7%C3%A3o-do-python-e-de-suas-depend%C3%AAncias).
+**Instalação do Python e de suas dependências**.
 
 ## Instalação do Python e de suas dependências
 
