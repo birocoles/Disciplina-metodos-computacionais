@@ -63,25 +63,20 @@ relativamente fácil de aprender e extremamente bem documentada.
 
 Para mais informações, eu recomendo (fortemente) que você acesse o site 
 da [Software Carpentry](http://software-carpentry.org/index.html). Mais 
-especificamente, dê uma olhada nas [lições](http://software-carpentry.org/v4/python/index.html) 
-de Python da versão 4. Grande parte do que está feito aqui é baseado nestas 
-lições. Nestas lições, os instrutores recomendam o uso do ambiente de desenvolvimento 
-integrado (*integrated development environment* - IDE) 
-[Wing 101](http://wingware.com/downloads/wingide-101). Contudo, eu optei pelo 
-[IPython Notebook](http://ipython.org/notebook.html#the-ipython-notebook).
+especificamente, dê uma olhada na lição [Programming with Python] 
+(http://swcarpentry.github.io/python-novice-inflammation/). 
+Os códigos Python serão feitos utilizando-se o [Jupyter Notebook]
+(http://jupyter.org/).
 
-## IPython Notebook
+## Jupyter Notebook
 
-O **IPython Notebook** é um documento iterativo que permite combinar 
-código, texto, equações feitas em LaTeX, figuras e animações. Além disso, 
+O [**Jupyter Notebook**](http://jupyter.readthedocs.io/en/latest/content-quickstart.html) 
+permite combinar código, texto, equações feitas em 
+LaTeX, figuras e animações. Além disso, 
 é gratuito e extremamente bem documentado. Esta poderosa feramenta computacional 
 possibilita reunir (quase) todas as etapas envolvidas no desenvolvimento de 
 um código com fins acadêmicos, desde a leitura e processamento dos dados até a 
-visualização dos resultados. Um tutorial completo sobre **IPython Notebook** 
-pode ser encontrado nos seguinte endereços:
-
-* [http://ipython.org/notebook.html#the-ipython-notebook](http://ipython.org/notebook.html#the-ipython-notebook)
-* [http://ipython.org/ipython-doc/stable/notebook/index.html](http://ipython.org/ipython-doc/stable/notebook/index.html)
+visualização dos resultados. 
 
 ## Instalação do Python e de suas dependências
 
