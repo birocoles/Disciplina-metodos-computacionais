@@ -6,10 +6,71 @@ de pós-graduação em geofísica do [Observatório Nacional - MCTI](http://www.
 
 > Responsável: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
 
+## Como as coisas estão organizadas aqui
+
+<img src='http://1.bp.blogspot.com/-U5KrIXiwC00/ToEEwimmlhI/AAAAAAAABMk/Bq-D9EIgKE0/s1600/rola+2.gif' width = 500>
+
+O gif acima foi só para chamar a sua atenção. O importante vem logo abaixo.
+
+Esta página é um repositório no GitHub. Mas que raio é isso?
+Pois é, muita gente ao redor do mundo tem utilizado o Git e o GitHub para
+fazer colaborações em suas pesquisas, divulgar a pesquisa, divulgar
+o material desenvolvido em disciplinas, palestras, seminários, etc.
+AO LONGO DESTE CURSO, NÃO SERÁ COBRADO O CONHECIMENTO SOBRE Git OU
+GitHub. Mas, como conhecimento nunca é demais, abaixo segue uma
+lista de links úteis sobre Git e GitHub. Para quem tiver interesse, eu 
+sugiro que os links sejam acessados na ordem.
+
+* [Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar]
+(http://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/)
+
+* [Git e Github para Iniciantes](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes)
+
+* [tryGit - Got 15 minutes and want to learn Git?](https://try.github.io/levels/1/challenges/1)
+
+* [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+ 
+<img src = 'http://i.imgur.com/H3BR7EA.gif' width = 500>
+ 
+Beleza, é possível que as informações acima tenham sido completamente 
+inúteis para este curso. Sendo assim, vamos agilizar um pouco as
+coisas, afinal, você não quer ficar lendo um monte de baboseiras,
+tal como estas duas últimas frases que você acabou de ler :P
+Pois bem, a ideia é que você utilize este repositório apenas como
+uma página que contém todo o material do curso. Dessa forma,
+eu coloquei logo abaixo uma figura da parte superior desta página. 
+Isso mesmo, uma figura da parte superior desta página. O objetivo é 
+apontar o que é útil pra você no meio desse monte de coisa. Eu optei
+por fazer assim porque, no início, o GitHub é meio assustador. Eu coloquei
+números para identificar os pontos importantes e, logo abaixo da imagem,
+os pontos são descritos. 
+
+<img src='repositorio-GitHub' width = 500>
+
+1. *Disciplina-metodos-computacionais* é o nome deste repositório no GitHub
+
+2. *birocoles* é o meu nome no GitHub e também é o meu apelido de faculdade.
+É que na minha cidade, [Fernandópolis](http://www.fernandopolis.sp.gov.br/), [bola de gude]
+(https://www.google.com.br/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiKgPat76XNAhWMIZAKHZX
+SBvMQjRwIBw&url=https%3A%2F%2Fanosincriveisblog.wordpress.com%2F2014%2F05%2F25%2Fbola-de-gude%2F&psig=AFQjCNE-iqEmWnI
+YzIEHoh54LmSyzHp9Lw&ust=1465937067947914) se chama **biroca**... com "b", cuidado.
+Enfim, virou apelido. Ok, mais uma informação inútil pro curso.
+
+3. Pasta que contém os códigos a serem utilizados neste curso. Esta pasta será
+mencionada nas descrições abaixo. Vá lá, clique na pasta, veja o que tem dentro 
+e volte pra cá pra continuarmos. Não explode.
+
+4. Arquivo onde está escrito isso que você está lendo agora. O GitHub se encarrega
+de deixar as coisas bonitas. Se quiser saber mais, a notação utilizada para escrever
+estas coisas é o [Markdown](https://daringfireball.net/projects/markdown/).
+
+Pronto, só isso. Agora, leia o conteúdo abaixo, com atenção. Há várias informações
+úteis sobre a disciplina.
+
 ## Tópicos abordados durante a disciplina
 
 No diretório `Topicos` há uma descrição breve sobre os 
-tópicos listados abaixo .
+ítens listados abaixo .
 
 * **Noções de programação em linguagem Python**
 
@@ -63,8 +124,6 @@ tópicos listados abaixo .
 
 * [Pythonic Perambulations](https://jakevdp.github.io/)
 
-* [nbviewer - A simple way to share Jupyter Notebooks](http://nbviewer.jupyter.org/)
-
 * [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
 
 * [Notebook Gallery - Links to the best IPython and Jupyter Notebooks](http://nb.bianp.net/sort/views/)
@@ -95,7 +154,8 @@ Os códigos Python serão feitos utilizando-se o [Jupyter Notebook]
 
 ## Jupyter Notebook
 
-O [Jupyter Notebook](http://jupyter.readthedocs.org/) 
+O [Jupyter Notebook](http://jupyter.readthedocs.org/) é um
+arquivo com extansão `.ipynb` e
 permite combinar código, texto, equações feitas em 
 LaTeX, figuras e animações. Além disso, 
 é gratuito e extremamente bem documentado. Esta poderosa feramenta computacional 
@@ -105,6 +165,27 @@ visualização dos resultados. Para informações sobre o Jupyter Notebook,
 acesse:
 
 * http://jupyter-notebook.readthedocs.io/en/latest/notebook.html
+
+## Visualização online dos Jupyter Notebooks
+
+Os Jupyter Notebooks estão armazenados dentro do diretório
+`Topicos` e podem ser visualizados como páginas estáticas no
+nbviewer no link abaixo:
+
+* https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Topicos/
+
+Neste link, acesse o conteúdo das pasta normalmente. Para visualizar um
+determinado Jupyter Notebook, clique sobre ele
+normalmente.
+
+Por exemplo, para visualizar o Jupyter Notebook `template-codigo.ipynb`, 
+dentro da pasta `Topicos`, acesse o link acima e, em seguida,
+clique no arquivo.
+
+Note que, desta forma, os Jupyter Notebook são vistos como uma página
+estática. Para executar um determinado Jupyter Notebook, é necessário 
+baixa-lo e instalar os programas necessários de acordo com a seção
+[Instalação do Python e de suas dependências](https://github.com/birocoles/Disciplina-metodos-computacionais#instala%C3%A7%C3%A3o-do-python-e-de-suas-depend%C3%AAncias).
 
 ## Instalação do Python e de suas dependências
 
@@ -129,3 +210,9 @@ caso você esteja no Windows, ou um terminal, se estiver no Linux.
  Nesta lista, procure os itens: `python`, `ipython`, `ipython-notebook`, `jupyter`, 
  `numpy`, `matplotlib` e `scipy`. Se estes itens estiverem na lista, fique
  tranquilo(a)... pelo menos por enquanto :).
+ 
+## Template para a elaboração dos códigos
+
+Todos os códigos a serem desenvolvidos durante a disciplina deverão
+seguir a formatação do Jupyter Notebook `template-codigo.ipynb`, que está
+dentro do diretório `Topicos`.

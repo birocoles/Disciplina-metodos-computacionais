@@ -1,4 +1,4 @@
-#Descrição breve dos tópicos a serem abordados durante a disciplina
+#Descrição breve dos tópicos a serem abordados durante a disciplina MCOM
 
 ####Noções de programação em linguagem Python
 
@@ -7,8 +7,8 @@
 Durante esta parte do curso, são apresentadas noções básicas de
 programação em linguagem Python. Vale ressaltar que o objetivo desta
 parte do curso NÃO É ENSINAR A PROGRAMAR E NEM ENSINAR PYTHON. O
-conteúdo desta parte do curso serve de base para aqueles que 
-quiserem se aprofundar no assunto.
+conteúdo desta parte do curso serve para fornecer os conhecimentos 
+básicos necessários para acompanhar o curso.
 
 O conteúdo deste tópico está organizado da seguinte forma:
 
@@ -104,25 +104,5 @@ sistemas lineares.
 
 * *Transformada de Hilbert*
 
-Obs.: Os tópicos destacados em *itálico* poderão ser abordados ou não,
+**Observação**: Os tópicos destacados em *itálico* poderão ser abordados ou não,
 dependendo do andamento do curso.
-
-# Visualização online dos IPython Notebooks
-
-Os IPython Notebooks estão armazenados dentro do diretório
-`Topicos` e podem ser visualizados
-como páginas estáticas. Para tanto, clique no IPython Notebook que 
-você deseja visualizar dentro do respectivo diretório. Por exemplo,
-para visualizar o conteúdo do IPython Notebook `nocoes_python1.ipynb`,
-entre no diretório `Nocoes_programacao_Python` e, por fim, clique no 
-aquivo `nocoes_python1.ipynb`.
-
-Para executar um determinado IPython Notebook é necessário 
-baixa-lo e instalar os programas necessários de acordo com a seção
-[Instalação do Python e de suas dependências](https://github.com/birocoles/Disciplina-metodos-computacionais#instala%C3%A7%C3%A3o-do-python-e-de-suas-depend%C3%AAncias).
-
-# Template para a elaboração dos códigos
-
-Todos os códigos a serem desenvolvidos durante a disciplina deverão
-seguir a formatação do IPython Notebook `template-codigo`, que está
-dentro do diretório `Topicos`.
