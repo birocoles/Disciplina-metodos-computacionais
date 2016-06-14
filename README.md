@@ -150,7 +150,7 @@ Os códigos Python serão feitos utilizando-se o [Jupyter Notebook]
 ## Jupyter Notebook
 
 O [Jupyter Notebook](http://jupyter.readthedocs.org/) é um
-arquivo com extansão `.ipynb` e
+arquivo com extensão `.ipynb` e
 permite combinar código, texto, equações feitas em 
 LaTeX, figuras e animações. Além disso, 
 é gratuito e extremamente bem documentado. Esta poderosa feramenta computacional 
