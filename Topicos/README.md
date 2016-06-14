@@ -10,15 +10,9 @@ parte do curso NÃO É ENSINAR A PROGRAMAR E NEM ENSINAR PYTHON. O
 conteúdo desta parte do curso serve para fornecer os conhecimentos 
 básicos necessários para acompanhar o curso.
 
-O conteúdo deste tópico está organizado da seguinte forma:
-
-* Noções de Python (`nocoes_python.ipynb`)
-
-* Listas (`listas.ipynb`)
-
-* `while`, `if`, `elif`, `else` e `for` (`loops_condicionais.ipynb`)
-
-* Numpy arrays (`numpy_arrays.ipynb`)
+O conteúdo deste tópico está inteiramente baseado nas lições
+[Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+do [Software Carpentry](http://software-carpentry.org/).
 
 ####Tópicos de álgebra linear
 
