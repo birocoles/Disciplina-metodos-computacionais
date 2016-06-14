@@ -16,14 +16,10 @@ do [Software Carpentry](http://software-carpentry.org/).
 
 ####Tópicos de álgebra linear
 
-> O conteúdo deste tópico está no diretório: `Algelin`
-
 Conceitos básicos sobre vetores e matrizes são apresentados nesta
 parte do curso. Além disso, também são apresentados algoritmos 
 básicos envolvendo operações matriciais que serão utilizados ao
 longo do curso.
-
-O conteúdo deste tópico está organizado da seguinte forma:
 
 * Produto entre um escalar e um vetor (`produto-escalar-vetor.ipynb`)
 
@@ -36,8 +32,6 @@ O conteúdo deste tópico está organizado da seguinte forma:
 * Produto entre matrizes (`produto-matriz-matriz.ipynb`)
 
 ####Solução numérica de sistemas lineares
-
-> O conteúdo deste tópico está no diretório: `Sistemas_lineares`
 
 Apresenta algoritmos clássicos para a solução numéricas de 
 sistemas lineares.
