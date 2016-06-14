@@ -105,4 +105,4 @@ dependendo do andamento do curso.
 
 Todos os códigos a serem desenvolvidos durante a disciplina deverão
 seguir a formatação do Jupyter Notebook `template-codigo.ipynb`, que está
-dentro do diretório `Topicos`.
+dentro do diretório `Conteudo`.
