@@ -104,5 +104,11 @@ sistemas lineares.
 
 * *Transformada de Hilbert*
 
-**Observação**: Os tópicos destacados em *itálico* poderão ser abordados ou não,
+**OBSERVAÇÃO**: Os tópicos destacados em *itálico* poderão ser abordados ou não,
 dependendo do andamento do curso.
+
+#### Template para a elaboração dos códigos
+
+Todos os códigos a serem desenvolvidos durante a disciplina deverão
+seguir a formatação do Jupyter Notebook `template-codigo.ipynb`, que está
+dentro do diretório `Topicos`.
