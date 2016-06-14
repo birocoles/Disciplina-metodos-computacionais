@@ -30,7 +30,7 @@ sugiro que os links sejam acessados na ordem.
 
 * [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
  
-<img src='http://i.imgur.com/H3BR7EA.gif' width = 500>
+<img src='http://images.virgula.uol.com.br/2015/11/09.gif' width = 500>
  
 Beleza, é possível que as informações acima tenham sido completamente 
 inúteis para este curso. Sendo assim, vamos agilizar um pouco as
@@ -49,10 +49,7 @@ os pontos são descritos.
 
 1. **Disciplina-metodos-computacionais** é o nome deste repositório no GitHub
 
-2. **birocoles** é o meu nome no GitHub e também é o meu apelido de faculdade.
-É que na minha cidade, [Fernandópolis](http://www.fernandopolis.sp.gov.br/), *bola de gude*
-se chama *biroca*... com "b", cuidado. E o *biroca* virou *birocoles*.
-Vai entender né? Ok, mais uma informação inútil pro curso.
+2. **birocoles** é o meu nome no GitHub
 
 3. Pasta que contém os códigos a serem utilizados neste curso. Esta pasta será
 mencionada nas descrições abaixo. Vá lá, clique na pasta, veja o que tem dentro 
@@ -208,9 +205,3 @@ caso você esteja no Windows, ou um terminal, se estiver no Linux.
  Nesta lista, procure os itens: `python`, `ipython`, `ipython-notebook`, `jupyter`, 
  `numpy`, `matplotlib` e `scipy`. Se estes itens estiverem na lista, fique
  tranquilo(a)... pelo menos por enquanto :).
- 
-## Template para a elaboração dos códigos
-
-Todos os códigos a serem desenvolvidos durante a disciplina deverão
-seguir a formatação do Jupyter Notebook `template-codigo.ipynb`, que está
-dentro do diretório `Topicos`.
