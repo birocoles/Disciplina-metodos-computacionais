@@ -64,7 +64,7 @@ Pronto, só isso. Agora, leia o conteúdo abaixo, com atenção. Há várias inf
 
 ## Tópicos abordados durante a disciplina
 
-No diretório `Topicos` há uma descrição breve sobre os 
+No diretório `Conteudo` há uma descrição breve sobre os 
 ítens listados abaixo .
 
 * **Noções de programação em linguagem Python**
@@ -164,17 +164,17 @@ acesse:
 ## Visualização online dos Jupyter Notebooks
 
 Os Jupyter Notebooks estão armazenados dentro do diretório
-`Topicos` e podem ser visualizados como páginas estáticas no
+`Conteudo` e podem ser visualizados como páginas estáticas no
 nbviewer no link abaixo:
 
-* https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Topicos/
+* https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Conteudo/
 
 Neste link, acesse o conteúdo das pasta normalmente. Para visualizar um
 determinado Jupyter Notebook, clique sobre ele
 normalmente.
 
 Por exemplo, para visualizar o Jupyter Notebook `template-codigo.ipynb`, 
-dentro da pasta `Topicos`, acesse o link acima e, em seguida,
+dentro da pasta `Conteudo`, acesse o link acima e, em seguida,
 clique no arquivo.
 
 Note que, desta forma, os Jupyter Notebook são vistos como uma página
