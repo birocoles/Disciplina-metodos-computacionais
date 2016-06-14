@@ -51,13 +51,13 @@ os pontos são descritos.
 
 2. **birocoles** é o meu nome no GitHub
 
-3. Pasta que contém os códigos a serem utilizados neste curso. Esta pasta será
-mencionada nas descrições abaixo. Vá lá, clique na pasta, veja o que tem dentro 
-e volte pra cá pra continuarmos. Não explode.
-
-4. Arquivo onde está escrito isso que você está lendo agora. O GitHub se encarrega
+3. Arquivo onde está escrito isso que você está lendo agora. O GitHub se encarrega
 de deixar as coisas bonitas. Se quiser saber mais, a notação utilizada para escrever
 estas coisas é o [Markdown](https://daringfireball.net/projects/markdown/).
+
+4. ISSO É IMPORTANTE! Esta pasta que contém os códigos a serem utilizados neste curso. 
+No item **Visualização online dos Jupyter Notebooks**, descrito nesta página, há uma 
+descrição de como acessar o conteúdo desta pasta.
 
 Pronto, só isso. Agora, leia o conteúdo abaixo, com atenção. Há várias informações
 úteis sobre a disciplina.
