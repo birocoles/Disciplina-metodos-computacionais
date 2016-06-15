@@ -55,7 +55,7 @@ os pontos são descritos.
 de deixar as coisas bonitas. Se quiser saber mais, a notação utilizada para escrever
 estas coisas é o [Markdown](https://daringfireball.net/projects/markdown/).
 
-4. ISSO É IMPORTANTE! Esta pasta que contém os códigos a serem utilizados neste curso. 
+4. ISSO É IMPORTANTE! Esta pasta contém os códigos a serem utilizados neste curso. 
 No item **Visualização online dos Jupyter Notebooks**, descrito nesta página, há uma 
 descrição de como acessar o conteúdo desta pasta.
 
@@ -142,7 +142,7 @@ relativamente fácil de aprender e extremamente bem documentada.
 
 Para mais informações, eu recomendo (fortemente) que você acesse o site 
 da [Software Carpentry](http://software-carpentry.org/index.html). Mais 
-especificamente, dê uma olhada na lição [Programming with Python] 
+especificamente, dê uma olhada nas lições [Programming with Python] 
 (http://swcarpentry.github.io/python-novice-inflammation/). 
 Os códigos Python serão feitos utilizando-se o [Jupyter Notebook]
 (http://jupyter.org/).
@@ -169,16 +169,15 @@ nbviewer no link abaixo:
 
 * https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Conteudo/
 
-Neste link, acesse o conteúdo das pasta normalmente. Para visualizar um
-determinado Jupyter Notebook, clique sobre ele
-normalmente.
+Neste link, acesse o conteúdo das pastas normalmente. Para visualizar um
+determinado Jupyter Notebook, apenas clique sobre ele.
 
 Por exemplo, para visualizar o Jupyter Notebook `template-codigo.ipynb`, 
 dentro da pasta `Conteudo`, acesse o link acima e, em seguida,
 clique no arquivo.
 
-Note que, desta forma, os Jupyter Notebook são vistos como uma página
-estática. Para executar um determinado Jupyter Notebook, é necessário 
+Note que, desta forma, os Jupyter Notebooks são vistos como páginas
+estáticas. Para executar um determinado Jupyter Notebook, é necessário 
 baixa-lo e instalar os programas necessários de acordo com a seção
 **Instalação do Python e de suas dependências**.
 
