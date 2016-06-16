@@ -10,7 +10,7 @@ parte do curso NÃO É ENSINAR A PROGRAMAR E NEM ENSINAR PYTHON. O
 conteúdo desta parte do curso serve para fornecer os conhecimentos 
 básicos necessários para acompanhar o curso.
 
-O conteúdo deste tópico está inteiramente baseado nas lições
+O conteúdo deste tópico é baseado nas lições
 [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
 do [Software Carpentry](http://software-carpentry.org/).
 
