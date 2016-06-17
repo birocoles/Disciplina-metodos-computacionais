@@ -1,46 +1,21 @@
-#Guia para execução das lições [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+#Examples
 
-1. Crie uma pasta para salvar os arquivos das lições.
-Todas as etapas abaixo serão realizadas dentro desta pasta.
+####First steps in Python
 
-2. Baixe os dados `python-novice-inflammation-data.zip`
+> The contents of this topic are located at the directory: `SC`
 
-    Os dados estarão compactados em formato `.zip`. Descompacte a pasta `dados`
-    e apague o arquivo `.zip`.
+Guide for executing the lessons 
+[Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+of the [Software Carpentry](http://software-carpentry.org/).
 
-3. Abra o cmd do Windows ou um terminal do Linux e execute o comando: `jupyter notebook`
+####Simple Moving Average (SMA)
 
-    <img src='3.png' width = 700>
+> The contents of this topic are located at the directory: `SMA`
 
-4. Crie um notebook chamado `analyzing_patient_data`
+Application of the [SMA filter] (https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average) 
+to a synthetic data set. The main goal is:
 
-    a) [Como criar um notebook](http://jupyter-notebook.readthedocs.io/en/latest/notebook.html#creating-a-new-notebook-document)
-
-    <img src='4a.png' width = 700>
-
-    b) Modifique o nome do notebook
-
-    <img src='4b.png' width = 700>
-
-    c) Modifique a primeira célula do notebook de `Code` para `Markdown` e
-    escreva o título do notebook
-
-    <img src='4c.png' width = 700>
-    
-5. Execute a primeira célula
-
-    <img src='5.png' width = 700>
-    
-    Há duas formas de executar a célula: clicando no botão destacado na figura acima
-    ou pressionando o atalho `shift`+`enter`
-    
-6. Execute o comando `import numpy` na segunda célula
-
-    <img src='6.png' width = 700>
-    
-7. Execute todos os exemplos da lição, cada um em uma célula separada
-
-8. Faça todas as tarefas, cada uma em uma célula separada
-
-
-
+* [creating a 1D numpy array](http://docs.scipy.org/doc/numpy/reference/routines.array-creation.html)
+* practicing the concept of [loops](http://swcarpentry.github.io/python-novice-inflammation/02-loop.html)
+* creating [functions](http://swcarpentry.github.io/python-novice-inflammation/06-func.html)
+* [testing and documenting](http://swcarpentry.github.io/python-novice-inflammation/06-func.html) the code
