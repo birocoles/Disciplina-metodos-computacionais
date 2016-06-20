@@ -1,35 +1,32 @@
-#Descrição breve dos tópicos a serem abordados durante a disciplina MCOM
+#Brief description of the topics to be studied along the course MCOM
 
-####Noções de programação em linguagem Python
+####First steps in Python
 
-> O conteúdo deste tópico está no diretório: `Nocoes_programacao_Python`
+> The contents of this topic are at the directory: `first_steps_Python`
 
-Durante esta parte do curso, são apresentadas noções básicas de
-programação em linguagem Python. Vale ressaltar que o objetivo desta
-parte do curso NÃO É ENSINAR A PROGRAMAR E NEM ENSINAR PYTHON. O
-conteúdo desta parte do curso serve para fornecer os conhecimentos 
-básicos necessários para acompanhar o curso.
+It presents a basic introduction of Python programming. 
+I would like to stress that the main goal in 
+this part of the course IS NEITHER TEACHING PROGRAMMING NOR PYTHON.
+Rather, it gives the required background to follow the classes.
 
-O conteúdo deste tópico é baseado nas lições
+The content of this topic is mostly based on the lessons
 [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
-do [Software Carpentry](http://software-carpentry.org/).
+of the [Software Carpentry](http://software-carpentry.org/).
 
-####Tópicos de álgebra linear
+####Basic matrix operations
 
-Conceitos básicos sobre vetores e matrizes são apresentados nesta
-parte do curso. Além disso, também são apresentados algoritmos 
-básicos envolvendo operações matriciais que serão utilizados ao
-longo do curso.
+It presents some basic concepts about vectors and matrices.
+Besides that, it is also presented some algorithms for computing:
 
-* Produto entre um escalar e um vetor (`produto-escalar-vetor.ipynb`)
+* scalar-vector product (`scalar-vector.ipynb`)
 
-* Produto escalar (`produto-escalar.ipynb`)
+* dot product (`dot.ipynb`)
 
-* Demais produtos entre vetores (`produtos-entre-vetores.ipynb`)
+* other products of vectors (`other.ipynb`)
 
-* Produto entre matriz e vetor (`produto-matriz-vetor.ipynb`)
+* matrix-vector product (`matrix-vector.ipynb`)
 
-* Produto entre matrizes (`produto-matriz-matriz.ipynb`)
+* matrix-matrix product (`matrix-matrix.ipynb`)
 
 ####Solução numérica de sistemas lineares
 
