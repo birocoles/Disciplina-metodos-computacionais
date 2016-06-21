@@ -172,7 +172,7 @@ nbviewer no link abaixo:
 Neste link, acesse o conteúdo das pastas normalmente. Para visualizar um
 determinado Jupyter Notebook, apenas clique sobre ele.
 
-Por exemplo, para visualizar o Jupyter Notebook `template-codigo.ipynb`, 
+Por exemplo, para visualizar o Jupyter Notebook `code-template.ipynb`, 
 dentro da pasta `Content`, acesse o link acima e, em seguida,
 clique no arquivo.
 

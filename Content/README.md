@@ -13,6 +13,12 @@ The content of this topic is mostly based on the lessons
 [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
 of the [Software Carpentry](http://software-carpentry.org/).
 
+* Software Carpentry Lessons (`SC\analyzing_patient_data.ipynb`)
+
+* Simple moving average filter (`SMA\sma.ipynb`)
+
+    - [ ] Exercise: implement the SMA filter
+
 ####Basic matrix operations
 
 It presents some basic concepts about vectors and matrices.
@@ -24,18 +30,21 @@ Besides that, it is also presented some algorithms for computing:
 
 * other products of vectors (`other.ipynb`)
 
+    - [ ] Exercise 1: Hadamard product
+    - [ ] Exercise 2: Outer product
+    - [ ] Exercise 3: Outer product versus `numpy.meshgrid` function
+
 * matrix-vector product (`matrix-vector.ipynb`)
 
 * matrix-matrix product (`matrix-matrix.ipynb`)
 
-####Solução numérica de sistemas lineares
+####Numerical solution of linear systems
 
-Apresenta algoritmos clássicos para a solução numéricas de 
-sistemas lineares.
+Present some classical algorithms for solving linear systems.
 
-* Sistemas lineares (`intro-sistemas-lineares.ipynb`)
+- [ ] Introduction (`intro-sistemas-lineares.ipynb`)
 
-* Sistemas especiais (`sistemas-especiais.ipynb`)
+- [ ] Especial linear systems (`sistemas-especiais.ipynb`)
 
 * Eliminação de Gauss - Introdução (`elim-gauss.ipynb`)
 
