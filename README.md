@@ -64,48 +64,48 @@ Pronto, só isso. Agora, leia o conteúdo abaixo, com atenção. Há várias inf
 
 ## Tópicos abordados durante a disciplina
 
-No diretório `Conteudo` há uma descrição breve sobre os 
+No diretório `Content` há uma descrição breve sobre os 
 ítens listados abaixo .
 
-* **Noções de programação em linguagem Python**
+* **First steps in Python**
 
-* **Tópicos de álgebra linear**
+* **Topics of linear algebra**
 
-* **Solução numérica de sistemas lineares**
+* **Numerical solution of linear systems**
 
-* **Solução numérica de sistemas não-lineares**
+* **Numerical solution of non-linear systems**
 
-* **Interpolação**
+* **Interpolation**
 
-* **Solução numérica de equações diferenciais**
+* **Numerical solution of differential equations**
 
-* **Integração numérica**
+* **Numerical integration**
 
-* **Transformadas**
+* **Transformations**
 
-## Bibliografia recomendada
+## Recommended bibliography
 
 * Kinzelbach, W. Groundwater modelling: An introduction with sample programs in BASIC, Elsevler, 1986
 
 * Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
 
-* Horn, R. A. e Johnson, C. R. Topics in matrix analysis, Cambridge University Press, 1994
+* Horn, R. A. and Johnson, C. R. Topics in matrix analysis, Cambridge University Press, 1994
 
-* Lapidus, L. e Pinder, G. F. Numerical solution of partial differential equations in science and engineering, John Wiley & Sons, Inc., 1999
+* Lapidus, L. and Pinder, G. F. Numerical solution of partial differential equations in science and engineering, John Wiley & Sons, Inc., 1999
 
 * Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
 
-* Boyd, S. e Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
+* Boyd, S. and Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
 
 * Kreyszig, E. Advanced engineering mathematics, 9th edition, John Wiley & Sons, Inc., 2006
 
-* Golub, G. H. e Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
+* Golub, G. H. and Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
 
-* Periódicos/sites da área 
+* Papers
 
-**OBSERVAÇÃO**: Esta lista de referências poderá ser atualizada ao longo do curso.
+**P.S.**: This list may be updated along the course.
 
-## Links úteis
+## Useful links
 
 * [Fatiando a Terra](http://www.fatiando.org/index.html)
 
@@ -164,16 +164,16 @@ acesse:
 ## Visualização online dos Jupyter Notebooks
 
 Os Jupyter Notebooks estão armazenados dentro do diretório
-`Conteudo` e podem ser visualizados como páginas estáticas no
+`Content` e podem ser visualizados como páginas estáticas no
 nbviewer no link abaixo:
 
-* https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Conteudo/
+* https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Content/
 
 Neste link, acesse o conteúdo das pastas normalmente. Para visualizar um
 determinado Jupyter Notebook, apenas clique sobre ele.
 
-Por exemplo, para visualizar o Jupyter Notebook `template-codigo.ipynb`, 
-dentro da pasta `Conteudo`, acesse o link acima e, em seguida,
+Por exemplo, para visualizar o Jupyter Notebook `code-template.ipynb`, 
+dentro da pasta `Content`, acesse o link acima e, em seguida,
 clique no arquivo.
 
 Note que, desta forma, os Jupyter Notebooks são vistos como páginas
