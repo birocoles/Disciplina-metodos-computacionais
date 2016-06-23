@@ -17,7 +17,7 @@ of the [Software Carpentry](http://software-carpentry.org/).
 
 * Simple moving average filter (`SMA\sma.ipynb`)
 
-    - [x] Exercise: implement the SMA filter
+    - [x] Exercise 1: implement the SMA filter
 
 ####Basic matrix operations
 
@@ -30,17 +30,19 @@ Besides that, it is also presented some algorithms for computing:
 
 * other products of vectors (`other.ipynb`)
 
-    - [x] Exercise 1: Hadamard product
-    - [x] Exercise 2: Outer product
-    - [x] Exercise 3: Outer product versus `numpy.meshgrid` function
+    - [x] Exercise 2: Hadamard product
+    - [x] Exercise 3: Outer product
+    - [x] Exercise 4: Outer product versus `numpy.meshgrid` function
 
 * matrix-vector product (`matrix-vector.ipynb`)
 
-    - [ ] Exercise 1: matrix-vector product functions
-    - [ ] Exercise 2: comparison with the moving average code developed in a previous class
-    - [ ] Exercise 3: computation of first derivative by using the central finite difference
+    - [ ] Exercise 5: matrix-vector product functions
+    - [ ] Exercise 6: comparison with the moving average code developed in a previous class
+    - [ ] Exercise 7: computation of first derivative by using the central finite difference
 
 * matrix-matrix product (`matrix-matrix.ipynb`)
+
+    - [ ] Exercise 8: matrix-matrix product functions
 
 ####Numerical solution of linear systems
 
