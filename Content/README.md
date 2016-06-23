@@ -36,6 +36,10 @@ Besides that, it is also presented some algorithms for computing:
 
 * matrix-vector product (`matrix-vector.ipynb`)
 
+    - [ ] Exercise 1: matrix-vector product functions
+    - [ ] Exercise 2: comparison with the moving average code developed in a previous class
+    - [ ] Exercise 3: computation of first derivative by using the central finite difference
+
 * matrix-matrix product (`matrix-matrix.ipynb`)
 
 ####Numerical solution of linear systems
