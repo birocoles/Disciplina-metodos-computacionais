@@ -36,21 +36,43 @@ Besides that, it is also presented some algorithms for computing:
 
 * matrix-vector product (`matrix-vector.ipynb`)
 
-    - [ ] Exercise 5: matrix-vector product functions
-    - [ ] Exercise 6: comparison with the moving average code developed in a previous class
-    - [ ] Exercise 7: computation of first derivative by using the central finite difference
+    - [x] Exercise 5: matrix-vector product functions
+    - [x] Exercise 6: comparison with the moving average code developed in a previous class
+    - [x] Exercise 7: computation of first derivative by using the central finite difference
 
 * matrix-matrix product (`matrix-matrix.ipynb`)
 
-    - [ ] Exercise 8: matrix-matrix product functions
+    - [x] Exercise 8: matrix-matrix product functions
+    
+####Special matrices
+    
+* Diagonal matrices (`diagonal_matrices.ipynb`)
+
+    - [ ] Exercise 9: products of diagonal and full matrices
+    
+* Triangular matrices (`triangular_matrices.ipynb`)
+
+    - [ ] Exercise 10:
+    
+* Symmetric matrices (`symmetric_matrices.ipynb`)
+
+    - [ ] Exercise 11:
+    
+* Banded matrices (`banded_matrices.ipynb`)
+
+    - [ ] Exercise 12:
+    
+* Block matrices
+
+    - [ ] Exercise 13:
 
 ####Numerical solution of linear systems
 
 Present some classical algorithms for solving linear systems.
 
-- [ ] Introduction (`intro-sistemas-lineares.ipynb`)
+* Introduction to linear systems (`intro_linear_syst.ipynb`)
 
-- [ ] Especial linear systems (`sistemas-especiais.ipynb`)
+* Special linear systems (`special_linear_syst.ipynb`)
 
 * Eliminação de Gauss - Introdução (`elim-gauss.ipynb`)
 
