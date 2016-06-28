@@ -52,19 +52,15 @@ Besides that, it is also presented some algorithms for computing:
     
 * Triangular matrices (`triangular_matrices.ipynb`)
 
-    - [ ] Exercise 10:
+    - [ ] Exercise 10: products of triangular matrices and vectors
     
 * Symmetric matrices (`symmetric_matrices.ipynb`)
 
-    - [ ] Exercise 11:
+    - [ ] Exercise 11: product of symmetric matrices and vectors
     
-* Banded matrices (`banded_matrices.ipynb`)
+* *Banded matrices* (`banded_matrices.ipynb`) - extra
 
-    - [ ] Exercise 12:
-    
-* Block matrices
-
-    - [ ] Exercise 13:
+* *Block matrices*  (`block_matrices.ipynb`) - extra
 
 ####Numerical solution of linear systems
 
