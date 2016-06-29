@@ -71,6 +71,8 @@ No diretório `Content` há uma descrição breve sobre os
 
 * **Topics of linear algebra**
 
+* **Special matrices**
+
 * **Numerical solution of linear systems**
 
 * **Numerical solution of non-linear systems**
