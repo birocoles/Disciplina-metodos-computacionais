@@ -48,15 +48,15 @@ Besides that, it is also presented some algorithms for computing:
     
 * Diagonal matrices (`diagonal_matrices.ipynb`)
 
-    - [ ] Exercise 9: products of diagonal and full matrices
+    - [x] Exercise 9: products of diagonal and full matrices
     
 * Triangular matrices (`triangular_matrices.ipynb`)
 
-    - [ ] Exercise 10: products of triangular matrices and vectors
+    - [x] Exercise 10: products of triangular matrices and vectors
     
 * Symmetric matrices (`symmetric_matrices.ipynb`)
 
-    - [ ] Exercise 11: product of symmetric matrices and vectors
+    - [x] Exercise 11: product of symmetric matrices and vectors
     
 * *Banded matrices* (`banded_matrices.ipynb`) - extra
 
@@ -69,6 +69,9 @@ Present some classical algorithms for solving linear systems.
 * Introduction to linear systems (`intro_linear_syst.ipynb`)
 
 * Special linear systems (`special_linear_syst.ipynb`)
+
+    - [ ] Exercise 12: upper triangular system
+    - [ ] Exercise 13: lower triangular system
 
 * Eliminação de Gauss - Introdução (`elim-gauss.ipynb`)
 
