@@ -73,7 +73,7 @@ Present some classical algorithms for solving linear systems.
     - [ ] Exercise 12: upper triangular system
     - [ ] Exercise 13: lower triangular system
 
-* Eliminação de Gauss - Introdução (`elim-gauss.ipynb`)
+* Gaussian elimination - Introduction (`elim-gauss.ipynb`)
 
 * Eliminação de Gauss com pivotamento parcial - parte 1 (`elim-gauss-piv-parcial1.ipynb`)
 
