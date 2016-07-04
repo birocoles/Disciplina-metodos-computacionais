@@ -70,20 +70,20 @@ Present some classical algorithms for solving linear systems.
 
 * Special linear systems (`special_linear_syst.ipynb`)
 
-    - [ ] Exercise 12: upper triangular system
-    - [ ] Exercise 13: lower triangular system
+    - [x] Exercise 12: upper triangular system
+    - [x] Exercise 13: lower triangular system
 
-* Eliminação de Gauss - Introdução (`elim-gauss.ipynb`)
+* Gaussian elimination - Introduction (`gauss-elim-intro.ipynb`)
 
-* Eliminação de Gauss com pivotamento parcial - parte 1 (`elim-gauss-piv-parcial1.ipynb`)
+* Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
 
-* Eliminação de Gauss com pivotamento parcial - parte 2 (`elim-gauss-piv-parcial2.ipynb`)
+* Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
 
-* Decomposição LU
+* LU decomposition
 
-* Decomposição de Cholesky
+* Cholesky decomposition
 
-* *Decomposição em valores singulares (SVD)*
+* *Singular Value Decomposition (SVD)* - extra
 
 ####Solução numérica de sistemas não-lineares
 
