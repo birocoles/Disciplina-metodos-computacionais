@@ -1,5 +1,7 @@
 #Brief description of the topics to be studied along the course MCOM
 
+<img src='LU_decomposition_sketch.JPG' width = 500>
+
 ####First steps in Python
 
 > The contents of this topic are at the directory: `first_steps_Python`
@@ -78,6 +80,9 @@ Present some classical algorithms for solving linear systems.
 * Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
 
 * Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
+
+    - [ ] Exercise 14: Gaussian elimination with partial pivoting
+    - [ ] Exercise 15: Calculating inverse matrices
 
 * LU decomposition
 
