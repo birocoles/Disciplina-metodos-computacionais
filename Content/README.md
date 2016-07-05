@@ -79,6 +79,9 @@ Present some classical algorithms for solving linear systems.
 
 * Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
 
+    - [ ] Exercise 14: Gaussian elimination with partial pivoting
+    - [ ] Exercise 15: Calculating inverse matrices
+
 * LU decomposition
 
 * Cholesky decomposition
