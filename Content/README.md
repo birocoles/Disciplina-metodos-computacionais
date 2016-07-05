@@ -1,5 +1,7 @@
 #Brief description of the topics to be studied along the course MCOM
 
+![](LU_decomposition_sketch.jpg)
+
 ####First steps in Python
 
 > The contents of this topic are at the directory: `first_steps_Python`
