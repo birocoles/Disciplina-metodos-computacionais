@@ -1,6 +1,6 @@
 #Brief description of the topics to be studied along the course MCOM
 
-![](LU_decomposition_sketch.JPG)
+<img src='LU_decomposition_sketch.JPG' width = 500>
 
 ####First steps in Python
 
