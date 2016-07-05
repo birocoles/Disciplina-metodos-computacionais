@@ -1,6 +1,6 @@
 #Brief description of the topics to be studied along the course MCOM
 
-![](LU_decomposition_sketch.jpg)
+![](LU_decomposition_sketch.JPG)
 
 ####First steps in Python
 
