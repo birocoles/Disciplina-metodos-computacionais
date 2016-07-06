@@ -2,6 +2,8 @@
 
 <img src='LU_decomposition_sketch.JPG' width = 500>
 
+> All the content of this folder can be accessed at [nbviewer](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Content/)
+
 ####First steps in Python
 
 > The contents of this topic are at the directory: `first_steps_Python`
