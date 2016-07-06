@@ -15,9 +15,9 @@ The content of this topic is mostly based on the lessons
 [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
 of the [Software Carpentry](http://software-carpentry.org/).
 
-* Software Carpentry Lessons (`SC\analyzing_patient_data.ipynb`)
+* Software Carpentry Lessons ([`SC\analyzing_patient_data.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SC/analyzing_patient_data.ipynb))
 
-* Simple moving average filter (`SMA\sma.ipynb`)
+* Simple moving average filter ([`SMA\sma.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SMA/sma.ipynb))
 
     - [x] Exercise 1: implement the SMA filter
 
@@ -26,37 +26,37 @@ of the [Software Carpentry](http://software-carpentry.org/).
 It presents some basic concepts about vectors and matrices.
 Besides that, it is also presented some algorithms for computing:
 
-* scalar-vector product (`scalar-vector.ipynb`)
+* scalar-vector product ([`scalar-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar-vetor.ipynb))
 
-* dot product (`dot.ipynb`)
+* dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-* other products of vectors (`other.ipynb`)
+* other products of vectors ([`other.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/other.ipynb))
 
     - [x] Exercise 2: Hadamard product
     - [x] Exercise 3: Outer product
     - [x] Exercise 4: Outer product versus `numpy.meshgrid` function
 
-* matrix-vector product (`matrix-vector.ipynb`)
+* matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
     - [x] Exercise 5: matrix-vector product functions
     - [x] Exercise 6: comparison with the moving average code developed in a previous class
     - [x] Exercise 7: computation of first derivative by using the central finite difference
 
-* matrix-matrix product (`matrix-matrix.ipynb`)
+* matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
     - [x] Exercise 8: matrix-matrix product functions
     
 ####Special matrices
     
-* Diagonal matrices (`diagonal_matrices.ipynb`)
+* Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
     - [x] Exercise 9: products of diagonal and full matrices
     
-* Triangular matrices (`triangular_matrices.ipynb`)
+* Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices.ipynb))
 
     - [x] Exercise 10: products of triangular matrices and vectors
     
-* Symmetric matrices (`symmetric_matrices.ipynb`)
+* Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
     - [x] Exercise 11: product of symmetric matrices and vectors
     
@@ -68,21 +68,21 @@ Besides that, it is also presented some algorithms for computing:
 
 Present some classical algorithms for solving linear systems.
 
-* Introduction to linear systems (`intro_linear_syst.ipynb`)
+* Introduction to linear systems ([`intro_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/intro_linear_syst.ipynb))
 
-* Special linear systems (`special_linear_syst.ipynb`)
+* Special linear systems ([`special_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/special_linear_syst.ipynb))
 
     - [x] Exercise 12: upper triangular system
     - [x] Exercise 13: lower triangular system
 
-* Gaussian elimination - Introduction (`gauss-elim-intro.ipynb`)
+* Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
 
-* Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
+* Gaussian elimination - Outer product formulation ([`gauss-elim-outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-outer.ipynb))
 
-* Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
+* Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-pivoting.ipynb))
 
-    - [ ] Exercise 14: Gaussian elimination with partial pivoting
-    - [ ] Exercise 15: Calculating inverse matrices
+    - [x] Exercise 14: Gaussian elimination with partial pivoting
+    - [x] Exercise 15: Calculating inverse matrices
 
 * LU decomposition
 
