@@ -86,7 +86,9 @@ Present some classical algorithms for solving linear systems.
     - [x] Exercise 14: Gaussian elimination with partial pivoting
     - [x] Exercise 15: Calculating inverse matrices
 
-* LU decomposition
+* LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_intro.ipynb))
+
+* LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_pivoting.ipynb))
 
 * Cholesky decomposition
 
