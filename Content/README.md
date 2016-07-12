@@ -90,7 +90,9 @@ Present some classical algorithms for solving linear systems.
 
 * LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_pivoting.ipynb))
 
-* Cholesky decomposition
+* LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
+
+* Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
 * *Singular Value Decomposition (SVD)* - extra
 
@@ -134,8 +136,12 @@ Present some classical algorithms for solving linear systems.
 
 * *Transformada de Hilbert*
 
-**OBSERVAÇÃO**: Os tópicos destacados em *itálico* poderão ser abordados ou não,
+
+####**P.S.**
+
+Os tópicos destacados em *itálico* poderão ser abordados ou não,
 dependendo do andamento do curso.
+
 
 #### Template para a elaboração dos códigos
 
