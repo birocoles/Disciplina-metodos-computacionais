@@ -21,7 +21,7 @@ of the [Software Carpentry](http://software-carpentry.org/).
 
 * Simple moving average filter ([`SMA\sma.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SMA/sma.ipynb))
 
-    - [x] Exercise 1: implement the SMA filter
+    - [x] Exercise **1**: implement the SMA filter
 
 ####Basic matrix operations
 
@@ -34,33 +34,33 @@ Besides that, it is also presented some algorithms for computing:
 
 * other products of vectors ([`other.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/other.ipynb))
 
-    - [x] Exercise 2: Hadamard product
-    - [x] Exercise 3: Outer product
-    - [x] Exercise 4: Outer product versus `numpy.meshgrid` function
+    - [x] Exercise **2**: Hadamard product
+    - [x] Exercise **3**: Outer product
+    - [x] Exercise **4**: Outer product versus `numpy.meshgrid` function
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
-    - [x] Exercise 5: matrix-vector product functions
-    - [x] Exercise 6: comparison with the moving average code developed in a previous class
-    - [x] Exercise 7: computation of first derivative by using the central finite difference
+    - [x] Exercise **5**: matrix-vector product functions
+    - [x] Exercise **6**: comparison with the moving average code developed in a previous class
+    - [x] Exercise **7**: computation of first derivative by using the central finite difference
 
 * matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
-    - [x] Exercise 8: matrix-matrix product functions
+    - [x] Exercise **8**: matrix-matrix product functions
     
 ####Special matrices
     
 * Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
-    - [x] Exercise 9: products of diagonal and full matrices
+    - [x] Exercise **9**: products of diagonal and full matrices
     
 * Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices.ipynb))
 
-    - [x] Exercise 10: products of triangular matrices and vectors
+    - [x] Exercise **10**: products of triangular matrices and vectors
     
 * Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
-    - [x] Exercise 11: product of symmetric matrices and vectors
+    - [x] Exercise **11**: product of symmetric matrices and vectors
     
 * *Banded matrices* (`banded_matrices.ipynb`) - extra
 
@@ -74,8 +74,8 @@ Present some classical algorithms for solving linear systems.
 
 * Special linear systems ([`special_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/special_linear_syst.ipynb))
 
-    - [x] Exercise 12: upper triangular system
-    - [x] Exercise 13: lower triangular system
+    - [x] Exercise **12**: upper triangular system
+    - [x] Exercise **13**: lower triangular system
 
 * Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
 
@@ -83,38 +83,50 @@ Present some classical algorithms for solving linear systems.
 
 * Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-pivoting.ipynb))
 
-    - [x] Exercise 14: Gaussian elimination with partial pivoting
-    - [x] Exercise 15: Calculating inverse matrices
+    - [x] Exercise **14**: Gaussian elimination with partial pivoting
+    - [x] Exercise **15**: Calculating inverse matrices
 
 * LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_intro.ipynb))
 
-    - [ ] Exercise 16: LU decomposition without pivoting
+    - [x] Exercise **16**: LU decomposition without pivoting
 
 * LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_pivoting.ipynb))
 
-    - [ ] Exercise 17: LU decomposition with partial pivoting
+    - [x] Exercise **17**: LU decomposition with partial pivoting
 
 * LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
 
-    - [ ] Exercise 18: LDL<sup>T</sup> decomposition
+    - [ ] Exercise **18**: LDL<sup>T</sup> decomposition
 
 * Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
-    - [ ] Exercise 19: Cholesky decomposition
+    - [ ] Exercise **19**: Cholesky decomposition
 
-* *Singular Value Decomposition (SVD)* - extra
+* *Singular Value Decomposition (SVD)* (`svd.ipynb`) - extra
 
-####Solução numérica de sistemas não-lineares
+* Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
-* Método de Newton
+    - [ ] Exercise **20**: Fitting a straight line
 
-* Método steepest descent (descida mais íngreme)
+* Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
 
-* Método de Gauss-Newton
+    - [ ] Exercise **21**: Calculating absolute gravity values from measurements of gravity differences
 
-* Método de Levenberg-Marquardt
+####Numerical solution of nonlinear systems
 
-* *Método dos gradientes conjugados*
+* Newton ([`newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton.ipynb))
+
+* Steepest descent ([`steepest_decent.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/steepest_decent.ipynb))
+
+* Gauss-Newton ([`gauss_newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss_newton.ipynb))
+
+* Levenberg-Marquardt ([`leven_marq.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/leven_marq.ipynb))
+
+* *Conjugated gradient* (`conjugated_grad.ipynb`) - extra
+
+* Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
+
+    - [ ] Exercise **22**: Estimate the horizontal coordinates of a epicenter
 
 ####Interpolação
 
