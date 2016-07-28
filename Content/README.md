@@ -106,25 +106,27 @@ Present some classical algorithms for solving linear systems.
 
 * Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
-    - [ ] Exercise **20**: Fit a straight line by using the (i) Gaussian elimination with pivoting,
-(ii) LU decomposition with pivoting, (iii) LDL<sup>T</sup> decomposition and (iv) Cholesky decomposition
+    - [ ] Exercise **20**: Fitting a straight line
+
+* Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
+
+    - [ ] Exercise **21**: Calculating absolute gravity values from measurements of gravity differences
 
 ####Numerical solution of nonlinear systems
 
-* Newton
+* Newton ([`newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton.ipynb))
 
-* Steepest descent
+* Steepest descent ([`steepest_decent.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/steepest_decent.ipynb))
 
-* Gauss-Newton
+* Gauss-Newton ([`gauss_newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss_newton.ipynb))
 
-* Levenberg-Marquardt
+* Levenberg-Marquardt ([`leven_marq.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/leven_marq.ipynb))
 
-* *Conjugated gradient*
+* *Conjugated gradient* (`conjugated_grad.ipynb`) - extra
 
 * Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
-    - [ ] Exercise **21**: Estimate the horizontal coordinates of the epicenter by using the (i) Steepest descent,
-(ii) Gauss-Newton and (iv) Levenberge-Marquardt methods
+    - [ ] Exercise **22**: Estimate the horizontal coordinates of a epicenter
 
 ####Interpolação
 
