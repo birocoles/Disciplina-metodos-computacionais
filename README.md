@@ -69,7 +69,7 @@ No diretório `Content` há uma descrição breve sobre os
 
 * **First steps in Python**
 
-* **Topics of linear algebra**
+* **Basic matrix operations**
 
 * **Special matrices**
 

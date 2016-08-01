@@ -128,15 +128,15 @@ Present some classical algorithms for solving linear systems.
 
     - [ ] Exercise **22**: Estimate the horizontal coordinates of a epicenter
 
-####Interpolação
+####Interpolation
 
-* Ajuste polinomial
+* Lagrange's method
 
-* *Série de Fourier*
+* Neville's method
 
-* Splines
+* Polynomial fitting
 
-* *Mínima curvatura*
+* Cubic splines
 
 ####Solução numérica de equações diferenciais
 
