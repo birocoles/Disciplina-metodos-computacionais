@@ -140,10 +140,6 @@ Present some classical algorithms for solving linear systems.
 
 * Polynomial fitting
 
-* Cubic splines
-
-* Bicubic splines
-
     - [ ] Exercise **25**: Interpolate a gravity anomaly on a regular grid
 
 ####Numerical solution of differential equations

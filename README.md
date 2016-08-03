@@ -87,6 +87,8 @@ No diretório `Content` há uma descrição breve sobre os
 
 ## Recommended bibliography
 
+* Carslaw, H. S., and Jaeger, J. C. Conduction of heat in solids, 2nd edition, Oxford University Press, 1959.
+
 * Kinzelbach, W. Groundwater modelling: An introduction with sample programs in BASIC, Elsevler, 1986
 
 * Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
