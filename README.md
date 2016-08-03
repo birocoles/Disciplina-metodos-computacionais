@@ -101,6 +101,8 @@ No diretório `Content` há uma descrição breve sobre os
 
 * Kreyszig, E. Advanced engineering mathematics, 9th edition, John Wiley & Sons, Inc., 2006
 
+* Kiusalaas, J. Numerical methods in engineering with Python 3, Cambridge University Press, 2013
+
 * Golub, G. H. and Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
 
 * Papers
