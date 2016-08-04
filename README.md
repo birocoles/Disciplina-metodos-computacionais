@@ -69,7 +69,7 @@ No diretório `Content` há uma descrição breve sobre os
 
 * **First steps in Python**
 
-* **Topics of linear algebra**
+* **Basic matrix operations**
 
 * **Special matrices**
 
@@ -87,6 +87,8 @@ No diretório `Content` há uma descrição breve sobre os
 
 ## Recommended bibliography
 
+* Carslaw, H. S., and Jaeger, J. C. Conduction of heat in solids, 2nd edition, Oxford University Press, 1959.
+
 * Kinzelbach, W. Groundwater modelling: An introduction with sample programs in BASIC, Elsevler, 1986
 
 * Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
@@ -100,6 +102,8 @@ No diretório `Content` há uma descrição breve sobre os
 * Boyd, S. and Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
 
 * Kreyszig, E. Advanced engineering mathematics, 9th edition, John Wiley & Sons, Inc., 2006
+
+* Kiusalaas, J. Numerical methods in engineering with Python 3, Cambridge University Press, 2013
 
 * Golub, G. H. and Van Loan, C. F. Matrix computations, 4th edition, Johns Hopkins University Press, 2013
 

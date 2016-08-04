@@ -128,43 +128,56 @@ Present some classical algorithms for solving linear systems.
 
     - [ ] Exercise **22**: Estimate the horizontal coordinates of a epicenter
 
-####Interpolação
+####Interpolation
 
-* Ajuste polinomial
+* Lagrange's method
 
-* *Série de Fourier*
+    - [ ] Exercise **23**: Implement the Lagrange's method
 
-* Splines
+* Neville's method
 
-* *Mínima curvatura*
+    - [ ] Exercise **24**: Implement the Neville's method
 
-####Solução numérica de equações diferenciais
+* Polynomial fitting
 
-* Diferenças finitas
+    - [ ] Exercise **25**: Interpolate a gravity anomaly on a regular grid
 
-* *Elementos finitos*
+####Numerical solution of differential equations
 
-####*Integração numérica*
+* Finite differences
 
-* *Fórmulas de Newton-Cotes*
+* Simulation of a magnatic intrusion
 
-* *Quadratura Gaussiana*
+    - [ ] Exercise **26**: Simulate the cooling of a vertical dike
 
-####*Transformadas*
+* *Finite elements* - extra
 
-* *Transformada de Fourier*
+####*Numerical integration*
 
-* *Transformada de Hilbert*
+* *Newton-Cotes formulas*
 
+* *Gaussian quadrature*
+
+    - [ ] Exercise **27**: Simulate a vertical seismic profiling
+
+####*Transforms*
+
+* *Fourier transform*
+
+    - [ ] Exercise **28**: Calculate the Analytic Signal Amplitude of a 
+    total-field anomaly on a profile
+
+* *Hilbert transform*
+
+    - [ ] Exercise **29**: Calculate the Hilbert transform of a total-field 
+    anomaly on a profile
 
 ####**P.S.**
 
-Os tópicos destacados em *itálico* poderão ser abordados ou não,
-dependendo do andamento do curso.
+The topics in *italic* may be given or not, depending on the development of 
+the course.
 
+#### Template for elaborating the codes
 
-#### Template para a elaboração dos códigos
-
-Todos os códigos a serem desenvolvidos durante a disciplina deverão
-seguir a formatação do Jupyter Notebook `template-codigo.ipynb`, que está
-dentro do diretório `Conteudo`.
+All codes to be developed along this course must follow the format described in
+the Jupyter Notebook `code-template.ipynb`, which is in the folder `Contents`.
