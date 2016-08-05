@@ -100,7 +100,7 @@ Present some classical algorithms for solving linear systems.
 
 * Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
-    - [ ] Exercise **19**: Cholesky decomposition
+    - [x] Exercise **19**: Cholesky decomposition
 
 * *Singular Value Decomposition (SVD)* (`svd.ipynb`) - extra
 
