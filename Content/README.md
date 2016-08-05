@@ -96,7 +96,7 @@ Present some classical algorithms for solving linear systems.
 
 * LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
 
-    - [ ] Exercise **18**: LDL<sup>T</sup> decomposition
+    - [x] Exercise **18**: LDL<sup>T</sup> decomposition
 
 * Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
