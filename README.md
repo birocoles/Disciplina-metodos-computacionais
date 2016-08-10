@@ -91,6 +91,9 @@ No diretório `Content` há uma descrição breve sobre os
 
 * Kinzelbach, W. Groundwater modelling: An introduction with sample programs in BASIC, Elsevler, 1986
 
+* Bartels, R. H., Beatty, J. C., and Barsky, B. A. An introduction to splines for use in computer graphics and geometric modeling 
+(Morgan Kaufmann Series in Computer Graph Series), M. Kaufmann Publishers, 1987
+
 * Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, second edition, Cambridge University Press, 1992
 
 * Horn, R. A. and Johnson, C. R. Topics in matrix analysis, Cambridge University Press, 1994
@@ -130,6 +133,8 @@ No diretório `Content` há uma descrição breve sobre os
 * [Notebook Gallery - Links to the best IPython and Jupyter Notebooks](http://nb.bianp.net/sort/views/)
 
 * [matplotlib - 2D and 3D plotting in Python](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
+
+* [WolframMathWorld](http://mathworld.wolfram.com/)
 
 ## A linguagem Python
 
