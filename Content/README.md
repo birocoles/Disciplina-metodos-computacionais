@@ -110,7 +110,7 @@ Present some classical algorithms for solving linear systems.
 
 * Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
 
-    - [ ] Exercise **21**: Calculating absolute gravity values from measurements of gravity differences
+    - [x] Exercise **21**: Calculating absolute gravity values from measurements of gravity differences
 
 ####Numerical solution of nonlinear systems
 
