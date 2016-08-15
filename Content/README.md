@@ -136,15 +136,15 @@ Present some classical algorithms for solving linear systems.
 
 * Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
 
-    - [x] Exercise **24**: Interpolate a gravity anomaly on a regular profile
+    - [x] Exercise **24**: Interpolate gravity data on a regular profile
     
 * Cubic splines ([`cub_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cub_splines.ipynb))
 
-    - [ ] Exercise **25**: Interpolate a gravity anomaly on a regular profile
+    - [ ] Exercise **25**: Interpolate gravity data on a regular profile
 
-* Polynomial fitting
-
-    - [ ] Exercise **26**: Interpolate a gravity anomaly on a regular grid
+* Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
+    - [x] Exercise **26**: Interpolate gravity data on a regular profile
+    - [x] Exercise **27**: Interpolate gravity data on a regular grid
 
 ####Numerical solution of differential equations
 
@@ -152,26 +152,26 @@ Present some classical algorithms for solving linear systems.
 
 * Simulation of a magmatic intrusion
 
-    - [ ] Exercise **27**: Simulate the cooling of a vertical dike
+    - [ ] Exercise **28**: Simulate the cooling of a vertical dike
 
-####*Numerical integration*
+####Numerical integration
 
-* *Newton-Cotes formulas*
+* Newton-Cotes formulas
+
+       - [ ] Exercise **29**: Simulate a vertical seismic profiling
 
 * *Gaussian quadrature*
-
-    - [ ] Exercise **28**: Simulate a vertical seismic profiling
 
 ####*Transforms*
 
 * *Fourier transform*
 
-    - [ ] Exercise **29**: Calculate the Analytic Signal Amplitude of a 
+    - [ ] Exercise **30**: Calculate the Analytic Signal Amplitude of a 
     total-field anomaly on a profile
 
 * *Hilbert transform*
 
-    - [ ] Exercise **30**: Calculate the Hilbert transform of a total-field 
+    - [ ] Exercise **31**: Calculate the Hilbert transform of a total-field 
     anomaly on a profile
 
 ####**P.S.**
