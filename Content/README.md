@@ -106,7 +106,7 @@ Present some classical algorithms for solving linear systems.
 
 * Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
-    - [ ] Exercise **20**: Fitting a straight line
+    - [x] Exercise **20**: Fitting a straight line
 
 * Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
 
@@ -140,7 +140,7 @@ Present some classical algorithms for solving linear systems.
     
 * Cubic splines ([`cub_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cub_splines.ipynb))
 
-    - [ ] Exercise **25**: Interpolate gravity data on a regular profile
+    - [x] Exercise **25**: Interpolate gravity data on a regular profile
 
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
     - [x] Exercise **26**: Interpolate gravity data on a regular profile
