@@ -104,6 +104,8 @@ No diretório `Content` há uma descrição breve sobre os
 
 * Boyd, S. and Vandenberghe, L. Convex optimization, Cambridge University Press, 2004
 
+* Aster, R. C., Borchers, B., and Thurber, C. H. Parameter Estimation and Inverse Problems, Elsevier Academic Press, 2005
+
 * Kreyszig, E. Advanced engineering mathematics, 9th edition, John Wiley & Sons, Inc., 2006
 
 * Kiusalaas, J. Numerical methods in engineering with Python 3, Cambridge University Press, 2013
