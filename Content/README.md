@@ -156,9 +156,9 @@ Present some classical algorithms for solving linear systems.
 
 ####Numerical integration
 
-* Newton-Cotes formulas
+* Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
-       - [ ] Exercise **29**: Simulate a vertical seismic profiling
+       - [x] Exercise **29**: Simulate a vertical seismic profiling
 
 * *Gaussian quadrature*
 
