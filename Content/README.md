@@ -148,9 +148,7 @@ Present some classical algorithms for solving linear systems.
 
 ####Numerical solution of differential equations
 
-* Finite differences
-
-* Simulation of a magmatic intrusion
+* Finite differences ([`fd.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd.ipynb))
 
     - [ ] Exercise **28**: Simulate the cooling of a vertical dike
 
