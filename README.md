@@ -138,6 +138,8 @@ No diretório `Content` há uma descrição breve sobre os
 
 * [WolframMathWorld](http://mathworld.wolfram.com/)
 
+* [Various writings - Hans Petter Langtangen](http://hplgit.github.io/)
+
 ## A linguagem Python
 
 Diferentemente de C ou Fortran, a linguagem [Python](https://www.python.org/) 
