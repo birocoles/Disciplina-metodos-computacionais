@@ -148,9 +148,10 @@ Present some classical algorithms for solving linear systems.
 
 ####Numerical solution of differential equations
 
-* Finite differences ([`fd.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd.ipynb))
+* Finite differences
 
-    - [ ] Exercise **28**: Simulate the cooling of a vertical dike
+    - [x] Exercise **28a**: Solve the exponential decay equation ([`fd_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro.ipynb))
+    - [ ] Exercise **28b**: Solve the heat equation ([`fd_heat.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_heat.ipynb))
 
 ####Numerical integration
 
