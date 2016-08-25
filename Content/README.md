@@ -148,10 +148,11 @@ Present some classical algorithms for solving linear systems.
 
 ####Numerical solution of differential equations
 
-* Finite differences
+* Finite differences - part 1 ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
 
-    - [x] Exercise **28a**: Solve the exponential decay equation ([`fd_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro.ipynb))
-    - [ ] Exercise **28b**: Solve the heat equation ([`fd_heat.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_heat.ipynb))
+    - [x] Exercise **28**: Solve the exponential decay equation
+    
+* Finite differences - part 2 ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
 ####Numerical integration
 
