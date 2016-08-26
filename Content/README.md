@@ -154,6 +154,8 @@ Present some classical algorithms for solving linear systems.
     
 * Finite differences - part 2 ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
+    - [x] Exercise **extra**: Generalize the previous code
+
 ####Numerical integration
 
 * Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
