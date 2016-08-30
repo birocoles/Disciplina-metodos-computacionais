@@ -81,7 +81,6 @@ def sine_cosine(x_min, x_max, npoints = 100, sizex = 10., sizey = 6.):
     sine = np.sin(x)
     cosine = np.cos(x)
 
-
     plt.figure(figsize=(sizex,sizey))
 
     #horizontal line at 0
@@ -110,7 +109,7 @@ def sine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     input
     x_min: float - lower limit.
     x_max: float - upper limit.
-    k: list - list of integer wavenumbers.
+    k: list - list of integer fundamental periods.
     npoints: int - number of points were the sine
         functions are evaluated.
     sizex: float or int - define the size of the figure
@@ -136,11 +135,11 @@ def sine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     plt.figure(figsize=(sizex, sizey))
 
     #horizontal line at 0
-    plt.plot([x_min, x_max], [0., 0.], '--k')
+    plt.plot([x_min, x_max], [0., 0.], '-k')
 
     #vertical lines at the multiples of pi
     for i in range(x_n+1): 
-        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '--k')
+        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '-k')
 
     #sine functions
     for ki in k:
@@ -161,7 +160,7 @@ def cosine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     input
     x_min: float - lower limit.
     x_max: float - upper limit.
-    k: list - list of integer wavenumbers.
+    k: list - list of integer fundamental periods.
     npoints: int - number of points were the cosine
         functions are evaluated.
     sizex: float or int - define the size of the figure
@@ -187,15 +186,137 @@ def cosine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     plt.figure(figsize=(sizex, sizey))
 
     #horizontal line at 0
-    plt.plot([x_min, x_max], [0., 0.], '--k')
+    plt.plot([x_min, x_max], [0., 0.], '-k')
 
     #vertical lines at the multiples of pi
     for i in range(x_n+1): 
-        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '--k')
+        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '-k')
 
     #sine functions
     for ki in k:
         plt.plot(x, np.cos(ki*x), '-', label='cos(%d x)' % ki)
+
+    plt.xlabel('x (radians)', fontsize=16)
+    plt.xlim(x_min, x_max)
+    plt.ylim(-1.1, 1.1)
+    
+    plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+
+    plt.show()
+    
+def sine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
+    '''
+    Plot a function obtained by stacking sine functions 
+    with different periods. The function is normalized
+    by the number of stacked functions.
+    
+    input
+    x_min: float - lower limit.
+    x_max: float - upper limit.
+    k: list - list of integer fundamental periods.
+    npoints: int - number of points were the sine
+        functions are evaluated.
+    sizex: float or int - define the size of the figure
+        along the x axis.
+    sizey: float or int - define the size of the figure
+        along the y axis.
+    
+    output
+    pyplot figure.
+    '''
+    
+    assert (x_max > x_min), 'x_max must be greater than x_min'
+
+    #parameters of the plot
+    x_min_n = np.ceil(np.abs(x_min)/(2.*np.pi))
+    x_max_n = np.ceil(np.abs(x_max)/(2.*np.pi))
+    x_0 = 2*np.pi*np.round(x_min/(2*np.pi))
+    x_n = int(x_min_n + x_max_n)
+
+    #define the coordinates x
+    x = np.linspace(x_min, x_max, npoints)
+    
+    plt.figure(figsize=(sizex, sizey))
+
+    #horizontal line at 0
+    plt.plot([x_min, x_max], [0., 0.], '-k')
+
+    #vertical lines at the multiples of pi
+    for i in range(x_n+1): 
+        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '-k')
+        
+    #stacking of sine functions
+    sine = np.zeros(npoints)
+    for ki in k:
+        sine += np.sin(ki*x)
+        plt.plot(x, np.sin(ki*x), '--', label='sin(%d x)' % ki)
+    
+    #normalization by the number of stacked functions
+    sine = sine/len(k)
+        
+    #resultant function obtained by stacking the sine functions
+    plt.plot(x, sine, 'k-', linewidth = 3, label='stacked function')
+
+    plt.xlabel('x (radians)', fontsize=16)
+    plt.xlim(x_min, x_max)
+    plt.ylim(-1.1, 1.1)
+    
+    plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+
+    plt.show()
+    
+def cosine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
+    '''
+    Plot a function obtained by stacking cosine functions 
+    with different periods. The function is normalized
+    by the number of stacked functions.
+    
+    input
+    x_min: float - lower limit.
+    x_max: float - upper limit.
+    k: list - list of integer fundamental periods.
+    npoints: int - number of points were the sine
+        functions are evaluated.
+    sizex: float or int - define the size of the figure
+        along the x axis.
+    sizey: float or int - define the size of the figure
+        along the y axis.
+    
+    output
+    pyplot figure.
+    '''
+    
+    assert (x_max > x_min), 'x_max must be greater than x_min'
+
+    #parameters of the plot
+    x_min_n = np.ceil(np.abs(x_min)/(2.*np.pi))
+    x_max_n = np.ceil(np.abs(x_max)/(2.*np.pi))
+    x_0 = 2*np.pi*np.round(x_min/(2*np.pi))
+    x_n = int(x_min_n + x_max_n)
+
+    #define the coordinates x
+    x = np.linspace(x_min, x_max, npoints)
+    
+    plt.figure(figsize=(sizex, sizey))
+
+    #horizontal line at 0
+    plt.plot([x_min, x_max], [0., 0.], '-k')
+
+    #vertical lines at the multiples of pi
+    for i in range(x_n+1): 
+        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '-k')
+        
+    #stacking of cosine functions
+    cosine = np.zeros(npoints)
+    for ki in k:
+        cosine += np.cos(ki*x)
+        plt.plot(x, np.cos(ki*x), '--', label='cos(%d x)' % ki)
+    
+    #normalization by the maximum absolute value
+    cosine = cosine/len(k)
+        
+    #resultant function obtained by stacking the cosine functions
+    plt.plot(x, cosine, 'k-', linewidth = 3, label='stacked function')
 
     plt.xlabel('x (radians)', fontsize=16)
     plt.xlim(x_min, x_max)
