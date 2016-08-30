@@ -325,3 +325,39 @@ def cosine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 
     plt.show()
+    
+def euler_formula(theta, sizex = 10., sizey = 6.):
+    '''
+    Plot the imaginary and real parts of
+    Euler's formular for a given theta.
+    
+    input
+    theta: float - angle in radians
+    
+    output
+    pyplot figure.
+    '''
+    
+    dtheta_aux = theta/30.
+    theta_aux = np.arange(0., theta+0.5*dtheta_aux, dtheta_aux)
+    r_aux = np.zeros_like(theta_aux) + 0.2
+    
+    plt.figure(figsize=(sizex, sizey))
+    ax = plt.subplot(111, projection='polar')
+    ax.plot(theta_aux, r_aux, '-k', linewidth=3)
+    ax.plot([0., 0.], [0.0, np.cos(theta)], '-r', linewidth=3, label='cos$\\theta$')
+    ax.plot([theta, 0.], [1.0, np.cos(theta)], '--k', linewidth=1)
+    ax.plot([0.], [np.cos(theta)], 'ok', markersize=5)
+    ax.plot([0.0, 0.5*np.pi], [0.0, np.sin(theta)], '-b', linewidth=3, label='sin$\\theta$')
+    ax.plot([theta, 0.5*np.pi], [1.0, np.sin(theta)], '--k', linewidth=1)
+    ax.plot([0.5*np.pi], [np.sin(theta)], 'ok', markersize=5)
+    ax.plot([theta], [1.0], 'ok', markersize=5)
+    ax.plot([0.], [0.], 'ok', markersize=5)
+    ax.plot([theta, theta], [0.0, 1.0], '-k', linewidth=3)
+    ax.set_rmax(1.0)
+    ax.set_yticklabels([])
+    ax.grid(True)
+    
+    plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+
+    plt.show()
