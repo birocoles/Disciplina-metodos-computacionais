@@ -337,7 +337,7 @@ def euler_formula(theta, sizex = 10., sizey = 6.):
     output
     pyplot figure.
     '''
-    
+
     dtheta_aux = theta/30.
     theta_aux = np.arange(0., theta+0.5*dtheta_aux, dtheta_aux)
     r_aux = np.zeros_like(theta_aux) + 0.2
@@ -345,12 +345,25 @@ def euler_formula(theta, sizex = 10., sizey = 6.):
     plt.figure(figsize=(sizex, sizey))
     ax = plt.subplot(111, projection='polar')
     ax.plot(theta_aux, r_aux, '-k', linewidth=3)
-    ax.plot([0., 0.], [0.0, np.cos(theta)], '-r', linewidth=3, label='cos$\\theta$')
-    ax.plot([theta, 0.], [1.0, np.cos(theta)], '--k', linewidth=1)
-    ax.plot([0.], [np.cos(theta)], 'ok', markersize=5)
-    ax.plot([0.0, 0.5*np.pi], [0.0, np.sin(theta)], '-b', linewidth=3, label='sin$\\theta$')
-    ax.plot([theta, 0.5*np.pi], [1.0, np.sin(theta)], '--k', linewidth=1)
-    ax.plot([0.5*np.pi], [np.sin(theta)], 'ok', markersize=5)
+
+    if np.cos(theta) >= 0.:
+        ax.plot([0., 0.], [0.0, np.cos(theta)], '-r', linewidth=3, label='cos$\\theta$')
+        ax.plot([theta, 0.], [1.0, np.cos(theta)], '--k', linewidth=1)
+        ax.plot([0.], [np.cos(theta)], 'ok', markersize=5)
+    else:
+        ax.plot([0., np.pi], [0.0, np.abs(np.cos(theta))], '-r', linewidth=3, label='cos$\\theta$')
+        ax.plot([theta, np.pi], [1.0, np.abs(np.cos(theta))], '--k', linewidth=1)
+        ax.plot([np.pi], [np.abs(np.cos(theta))], 'ok', markersize=5)
+
+    if np.sin(theta) >= 0.:
+        ax.plot([0.0, 0.5*np.pi], [0.0, np.sin(theta)], '-b', linewidth=3, label='sin$\\theta$')
+        ax.plot([theta, 0.5*np.pi], [1.0, np.sin(theta)], '--k', linewidth=1)
+        ax.plot([0.5*np.pi], [np.sin(theta)], 'ok', markersize=5)
+    else:
+        ax.plot([0.0, 1.5*np.pi], [0.0, np.abs(np.sin(theta))], '-b', linewidth=3, label='sin$\\theta$')
+        ax.plot([theta, 1.5*np.pi], [1.0, np.abs(np.sin(theta))], '--k', linewidth=1)
+        ax.plot([1.5*np.pi], [np.abs(np.sin(theta))], 'ok', markersize=5)
+
     ax.plot([theta], [1.0], 'ok', markersize=5)
     ax.plot([0.], [0.], 'ok', markersize=5)
     ax.plot([theta, theta], [0.0, 1.0], '-k', linewidth=3)
