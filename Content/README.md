@@ -166,12 +166,18 @@ Present some classical algorithms for solving linear systems.
 
 ####*Transforms*
 
-* *Fourier transform*
+* *Fourier transform 1D - introduction part 1* ([`fourier_1D_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_intro1.ipynb))
 
+    - Exercise - extra: Implement the Fourier series for a periodic function
+    
+* *Fourier transform 1D - introduction part 2* ([`fourier_1D_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_intro2.ipynb))
+
+* *Discrete Fourier transform 1D - part 1* ([`dft_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dft_1D_1.ipynb))
+    
     - [ ] Exercise **30**: Calculate the Analytic Signal Amplitude of a 
     total-field anomaly on a profile
 
-* *Hilbert transform*
+* *Discrete Fourier transform 1D - part 2* ([`dft_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dft_1D_2.ipynb))
 
     - [ ] Exercise **31**: Calculate the Hilbert transform of a total-field 
     anomaly on a profile
