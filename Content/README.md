@@ -164,23 +164,24 @@ Present some classical algorithms for solving linear systems.
 
 * *Gaussian quadrature*
 
-####*Transforms*
+####Transforms
 
-* *Fourier transform 1D - introduction part 1* ([`fourier_1D_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_intro1.ipynb))
+* Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
 
-    - Exercise - extra: Implement the Fourier series for a periodic function
+    - [x] Exercise **extra**: Implement the Fourier series for a periodic function
     
-* *Fourier transform 1D - introduction part 2* ([`fourier_1D_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_intro2.ipynb))
+* Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
 
-* *Discrete Fourier transform 1D - part 1* ([`dft_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dft_1D_1.ipynb))
-    
-    - [ ] Exercise **30**: Calculate the Analytic Signal Amplitude of a 
+* Fourier Transform 1D - part 3 ([`fourier_1D_3.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_3.ipynb))
+
+* Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
+
+    - [ ] Exercise **30**: Implement the Discrete Fourier Transform 1D
+    - [ ] Exercise **extra**: Calculate the horizontal derivative of a
+    total-field anomaly on a profile
+    - [ ] Exercise **extra**: Calculate the Analytic Signal Amplitude of a 
     total-field anomaly on a profile
 
-* *Discrete Fourier transform 1D - part 2* ([`dft_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dft_1D_2.ipynb))
-
-    - [ ] Exercise **31**: Calculate the Hilbert transform of a total-field 
-    anomaly on a profile
 
 ####**P.S.**
 
