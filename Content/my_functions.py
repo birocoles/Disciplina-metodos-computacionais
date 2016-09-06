@@ -227,11 +227,16 @@ def sine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     
     assert (x_max > x_min), 'x_max must be greater than x_min'
 
+    dx = x_max - x_min
+
     #parameters of the plot
-    x_min_n = np.ceil(np.abs(x_min)/(2.*np.pi))
-    x_max_n = np.ceil(np.abs(x_max)/(2.*np.pi))
-    x_0 = 2*np.pi*np.round(x_min/(2*np.pi))
-    x_n = int(x_min_n + x_max_n)
+    x_n = int(np.round(dx/(2.*np.pi)))
+    if x_min < 0.:
+        x_0 = 2.*np.pi*np.round(x_min/(2.*np.pi))
+    if x_min > 0.:
+        x_0 = 2.*np.pi*(np.round(x_min/(2.*np.pi)) + 1.)
+    if x_min == 0.:
+        x_0 = x_min
 
     #define the coordinates x
     x = np.linspace(x_min, x_max, npoints)
@@ -243,7 +248,7 @@ def sine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
 
     #vertical lines at the multiples of pi
     for i in range(x_n+1): 
-        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '-k')
+        plt.plot([x_0 + i*2.*np.pi, x_0 + i*2.*np.pi], [-1.1, 1.1], '-k')
         
     #stacking of sine functions
     sine = np.zeros(npoints)
@@ -289,12 +294,17 @@ def cosine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     '''
     
     assert (x_max > x_min), 'x_max must be greater than x_min'
+    
+    dx = x_max - x_min
 
     #parameters of the plot
-    x_min_n = np.ceil(np.abs(x_min)/(2.*np.pi))
-    x_max_n = np.ceil(np.abs(x_max)/(2.*np.pi))
-    x_0 = 2*np.pi*np.round(x_min/(2*np.pi))
-    x_n = int(x_min_n + x_max_n)
+    x_n = int(np.round(dx/(2.*np.pi)))
+    if x_min < 0.:
+        x_0 = 2.*np.pi*np.round(x_min/(2.*np.pi))
+    if x_min > 0.:
+        x_0 = 2.*np.pi*(np.round(x_min/(2.*np.pi)) + 1.)
+    if x_min == 0.:
+        x_0 = x_min
 
     #define the coordinates x
     x = np.linspace(x_min, x_max, npoints)
@@ -306,7 +316,7 @@ def cosine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
 
     #vertical lines at the multiples of pi
     for i in range(x_n+1): 
-        plt.plot([x_0 + i*np.pi, x_0 + i*np.pi], [-1.1, 1.1], '-k')
+        plt.plot([x_0 + i*2.*np.pi, x_0 + i*2.*np.pi], [-1.1, 1.1], '-k')
         
     #stacking of cosine functions
     cosine = np.zeros(npoints)
@@ -399,15 +409,19 @@ def g_T0(x, g, T0, sizex = 10., sizey = 6.):
     
     x_min = np.min(x)
     x_max = np.max(x)
+    dx = x_max - x_min
     
     g_min = np.min(g)
     g_max = np.max(g)
 
     #parameters of the plot
-    x_min_n = np.ceil(np.abs(x_min)/T0)
-    x_max_n = np.ceil(np.abs(x_max)/T0)
-    x_0 = T0*np.round(x_min/T0)
-    x_n = int(x_min_n + x_max_n)
+    x_n = int(np.round(dx/T0))
+    if x_min < 0.:
+        x_0 = T0*np.round(x_min/T0)
+    if x_min > 0.:
+        x_0 = T0*(np.round(x_min/T0) + 1.)
+    if x_min == 0.:
+        x_0 = x_min
 
     plt.figure(figsize=(sizex, sizey))
 
