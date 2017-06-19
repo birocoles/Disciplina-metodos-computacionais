@@ -71,19 +71,15 @@ def sma1d(data, window_size):
     assert data.size >= window_size, \
         'data must have more elements than window_size'
     
-    #verify if window_size is odd
-    if window_size%2 == 0:
-        window_size += 1
-    
+    assert window_size%2 != 0, 'window_size must be odd'
+
     assert window_size >= 3, 'increase the window_size'
-    
-    #lost points at the extremities
+
+    # lost points at the extremities
     i0 = window_size//2
 
-    #number of non-null points of the filtered data
+    # non-null data
     N = data.size - 2*i0
-    
-    assert N > 0, 'decrease the window_size'
 
     filtered_data = np.empty_like(data)
 
