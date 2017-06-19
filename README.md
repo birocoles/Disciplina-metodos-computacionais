@@ -1,8 +1,8 @@
 # Métodos computacionais aplicados à Geofísica - MCOM
 
-> Disciplina oferecida no [2<sup>o</sup> trimestre]
-(http://www.on.br/conteudo/dppg_e_iniciacao/dppg/neweb_geo/conteudo/2trim2016-atualizado.pdf) do programa 
-de pós-graduação em geofísica do [Observatório Nacional - MCTI](http://www.on.br)
+> [Disciplina](http://www.on.br/index.php/pt-br/conteudo-do-menu-superior/34-acessibilidade/160-grade-curricular.html) oferecida no
+[2<sup>o</sup> trimestre](http://www.on.br/dppg/geofisica/archives/2trim2017.pdf) do [programa 
+de pós-graduação em geofísica do Observatório Nacional](http://www.on.br/index.php/pt-br/programas-academicos/geofisica.html)
 
 > Responsável: [Vanderlei C. Oliveira Jr.](http://www.pinga-lab.org/people/oliveira-jr.html)
 
@@ -21,8 +21,7 @@ GitHub. Mas, como conhecimento nunca é demais, abaixo segue uma
 lista de links úteis sobre Git e GitHub. Para quem tiver interesse, eu 
 sugiro que os links sejam acessados na ordem.
 
-* [Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar]
-(http://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/)
+* [Tudo que você queria saber sobre Git e GitHub, mas tinha vergonha de perguntar](http://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/)
 
 * [Git e Github para Iniciantes](http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes)
 
@@ -130,7 +129,7 @@ No diretório `Content` há uma descrição breve sobre os
 
 * [Pythonic Perambulations](https://jakevdp.github.io/)
 
-* [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
+* [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
 * [Notebook Gallery - Links to the best IPython and Jupyter Notebooks](http://nb.bianp.net/sort/views/)
 
@@ -139,6 +138,14 @@ No diretório `Content` há uma descrição breve sobre os
 * [WolframMathWorld](http://mathworld.wolfram.com/)
 
 * [Various writings - Hans Petter Langtangen](http://hplgit.github.io/)
+
+* [scikit-learn: Machine Learning in Python](http://scikit-learn.org/stable/index.html)
+
+* [Codecademy](https://www.codecademy.com/about)
+
+* [Pandas](http://pandas.pydata.org/)
+
+* [SciPy](https://scipy.org/about.html)
 
 ## A linguagem Python
 
@@ -157,10 +164,8 @@ relativamente fácil de aprender e extremamente bem documentada.
 
 Para mais informações, eu recomendo (fortemente) que você acesse o site 
 da [Software Carpentry](http://software-carpentry.org/index.html). Mais 
-especificamente, dê uma olhada nas lições [Programming with Python] 
-(http://swcarpentry.github.io/python-novice-inflammation/). 
-Os códigos Python serão feitos utilizando-se o [Jupyter Notebook]
-(http://jupyter.org/).
+especificamente, dê uma olhada nas lições [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/). 
+Os códigos Python serão feitos utilizando-se o [Jupyter Notebook](http://jupyter.org/).
 
 ## Jupyter Notebook
 
@@ -216,6 +221,3 @@ caso você esteja no Windows, ou um terminal, se estiver no Linux.
  
  <img src='conda-list.png' width = 500>
  
- Nesta lista, procure os itens: `python`, `ipython`, `ipython-notebook`, `jupyter`, 
- `numpy`, `matplotlib` e `scipy`. Se estes itens estiverem na lista, fique
- tranquilo(a)... pelo menos por enquanto :).
