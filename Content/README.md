@@ -1,10 +1,10 @@
-#Brief description of the topics to be studied along the course MCOM
+# Brief description of the topics to be studied along the course MCOM
 
 <img src='LU_decomposition_sketch.JPG' width = 500>
 
 > All the content of this folder can be accessed at [nbviewer](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Content/)
 
-####First steps in Python
+#### First steps in Python
 
 > The contents of this topic are at the directory: `first_steps_Python`
 
@@ -21,9 +21,9 @@ of the [Software Carpentry](http://software-carpentry.org/).
 
 * Simple moving average filter ([`SMA\sma.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SMA/sma.ipynb))
 
-    - [x] Exercise **1**: implement the SMA filter
+    - [ ] Exercise: SMA filter
 
-####Basic matrix operations
+#### Basic matrix operations
 
 It presents some basic concepts about vectors and matrices.
 Besides that, it is also presented some algorithms for computing:
@@ -34,39 +34,39 @@ Besides that, it is also presented some algorithms for computing:
 
 * other products of vectors ([`other.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/other.ipynb))
 
-    - [x] Exercise **2**: Hadamard product
-    - [x] Exercise **3**: Outer product
-    - [x] Exercise **4**: Outer product versus `numpy.meshgrid` function
+    - [ ] Exercise: Hadamard product
+    - [ ] Exercise: Outer product
+    - [ ] Exercise: Outer product versus `numpy.meshgrid` function
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
-    - [x] Exercise **5**: matrix-vector product functions
-    - [x] Exercise **6**: comparison with the moving average code developed in a previous class
-    - [x] Exercise **7**: computation of first derivative by using the central finite difference
+    - [ ] Exercise: matrix-vector product functions
+    - [ ] Exercise: comparison with the moving average code developed in a previous class
+    - [ ] Exercise: computation of first derivative by using the central finite difference
 
 * matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
-    - [x] Exercise **8**: matrix-matrix product functions
+    - [ ] Exercise: matrix-matrix product functions
     
-####Special matrices
+#### Special matrices
     
 * Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
-    - [x] Exercise **9**: products of diagonal and full matrices
+    - [ ] Exercise: products of diagonal and full matrices
     
 * Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices.ipynb))
 
-    - [x] Exercise **10**: products of triangular matrices and vectors
+    - [ ] Exercise: products of triangular matrices and vectors
     
 * Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
-    - [x] Exercise **11**: product of symmetric matrices and vectors
+    - [ ] Exercise: product of symmetric matrices and vectors
     
 * *Banded matrices* (`banded_matrices.ipynb`) - extra
 
 * *Block matrices*  (`block_matrices.ipynb`) - extra
 
-####Numerical solution of linear systems
+#### Numerical solution of linear systems
 
 Present some classical algorithms for solving linear systems.
 
@@ -74,8 +74,8 @@ Present some classical algorithms for solving linear systems.
 
 * Special linear systems ([`special_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/special_linear_syst.ipynb))
 
-    - [x] Exercise **12**: upper triangular system
-    - [x] Exercise **13**: lower triangular system
+    - [ ] Exercise: upper triangular system
+    - [ ] Exercise: lower triangular system
 
 * Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
 
@@ -83,36 +83,36 @@ Present some classical algorithms for solving linear systems.
 
 * Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-pivoting.ipynb))
 
-    - [x] Exercise **14**: Gaussian elimination with partial pivoting
-    - [x] Exercise **15**: Calculating inverse matrices
+    - [ ] Exercise: Gaussian elimination with partial pivoting
+    - [ ] Exercise: Calculating inverse matrices
 
 * LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_intro.ipynb))
 
-    - [x] Exercise **16**: LU decomposition without pivoting
+    - [ ] Exercise: LU decomposition without pivoting
 
 * LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_pivoting.ipynb))
 
-    - [x] Exercise **17**: LU decomposition with partial pivoting
+    - [ ] Exercise: LU decomposition with partial pivoting
 
 * LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
 
-    - [x] Exercise **18**: LDL<sup>T</sup> decomposition
+    - [ ] Exercise: LDL<sup>T</sup> decomposition
 
 * Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
-    - [x] Exercise **19**: Cholesky decomposition
+    - [ ] Exercise: Cholesky decomposition
 
 * *Singular Value Decomposition (SVD)* (`svd.ipynb`) - extra
 
 * Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
-    - [x] Exercise **20**: Fitting a straight line
+    - [ ] Exercise: Fitting a straight line
 
 * Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
 
-    - [x] Exercise **21**: Calculating absolute gravity values from measurements of gravity differences
+    - [ ] Exercise: Calculating absolute gravity values from measurements of gravity differences
 
-####Numerical solution of nonlinear systems
+#### Numerical solution of nonlinear systems
 
 * Newton ([`newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton.ipynb))
 
@@ -126,49 +126,49 @@ Present some classical algorithms for solving linear systems.
 
 * Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
-    - [ ] Exercise **22**: Estimate the horizontal coordinates of a epicenter
+    - [ ] Exercise: Estimate the horizontal coordinates of a epicenter
 
-####Interpolation
+#### Interpolation
 
 * Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
 
-    - [x] Exercise **23**: Interpolate a gravity anomaly on a regular profile
+    - [ ] Exercise: Interpolate a gravity anomaly on a regular profile
 
 * Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
 
-    - [x] Exercise **24**: Interpolate gravity data on a regular profile
+    - [ ] Exercise: Interpolate gravity data on a regular profile
     
 * Cubic splines ([`cub_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cub_splines.ipynb))
 
-    - [x] Exercise **25**: Interpolate gravity data on a regular profile
+    - [ ] Exercise: Interpolate gravity data on a regular profile
 
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
-    - [x] Exercise **26**: Interpolate gravity data on a regular profile
-    - [x] Exercise **27**: Interpolate gravity data on a regular grid
+    - [ ] Exercise: Interpolate gravity data on a regular profile
+    - [ ] Exercise: Interpolate gravity data on a regular grid
 
-####Numerical solution of differential equations
+#### Numerical solution of differential equations
 
 * Finite differences - part 1 ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
 
-    - [x] Exercise **28**: Solve the exponential decay equation
+    - [ ] Exercise: Solve the exponential decay equation
     
 * Finite differences - part 2 ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
-    - [x] Exercise **extra**: Generalize the previous code
+    - [ ] Exercise: Generalize the previous code
 
-####Numerical integration
+#### Numerical integration
 
 * Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
-       - [x] Exercise **29**: Simulate a vertical seismic profiling
+    - [ ] Exercise: Simulate a vertical seismic profiling
 
 * *Gaussian quadrature*
 
-####Transforms
+#### Transforms
 
 * Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
 
-    - [x] Exercise **extra**: Implement the Fourier series for a periodic function
+    - [ ] Exercise: Implement the Fourier series for a periodic function
     
 * Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
 
@@ -176,14 +176,14 @@ Present some classical algorithms for solving linear systems.
 
 * Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
 
-    - [ ] Exercise **30**: Implement the Discrete Fourier Transform 1D
-    - [ ] Exercise **extra**: Calculate the horizontal derivative of a
+    - [ ] Exercise: Implement the Discrete Fourier Transform 1D
+    - [ ] Exercise: Calculate the horizontal derivative of a
     total-field anomaly on a profile
-    - [ ] Exercise **extra**: Calculate the Analytic Signal Amplitude of a 
+    - [ ] Exercise: Calculate the Analytic Signal Amplitude of a
     total-field anomaly on a profile
 
 
-####**P.S.**
+#### **P.S.**
 
 The topics in *italic* may be given or not, depending on the development of 
 the course.

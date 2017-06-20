@@ -1,6 +1,11 @@
-#Examples
+# First steps in Python
 
-####First steps in Python
+> The contents of this topic are located at the directory: `my_first_notebook`
+
+Short guide for creating a [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/)
+and solving some simple programming exercises.
+
+#### Software Carpentry Lessons
 
 > The contents of this topic are located at the directory: `SC`
 
@@ -8,11 +13,11 @@ Guide for executing the lessons
 [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
 of the [Software Carpentry](http://software-carpentry.org/).
 
-####Simple Moving Average (SMA)
+#### Simple Moving Average (SMA)
 
 > The contents of this topic are located at the directory: `SMA`
 
-Application of the [SMA filter] (https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average) 
+Application of the [SMA filter](https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average) 
 to a synthetic data set. The main goal is:
 
 * [creating a 1D numpy array](http://docs.scipy.org/doc/numpy/reference/routines.array-creation.html)
