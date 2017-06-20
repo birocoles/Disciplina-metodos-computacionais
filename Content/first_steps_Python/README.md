@@ -1,5 +1,7 @@
 # First steps in Python
 
+#### My first notebook
+
 > The contents of this topic are located at the directory: `my_first_notebook`
 
 Short guide for creating a [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/)
