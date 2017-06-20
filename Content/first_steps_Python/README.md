@@ -1,7 +1,9 @@
 # First steps in Python
 
-* Creating a [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/)
-* Some programming exercises
+> The contents of this topic are located at the directory: `my_first_notebook`
+
+Short guide for creating a [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/)
+and solving some simple programming exercises.
 
 #### Software Carpentry Lessons
 
