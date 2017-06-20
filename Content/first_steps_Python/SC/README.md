@@ -1,4 +1,4 @@
-#Guia para execução das lições [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+# Guia para execução das lições [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
 
 1. Crie uma pasta para salvar os arquivos das lições.
 Todas as etapas abaixo serão realizadas dentro desta pasta.
