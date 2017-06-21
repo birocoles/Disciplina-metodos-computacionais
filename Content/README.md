@@ -13,12 +13,6 @@ I would like to stress that the main goal in
 this part of the course IS NEITHER TEACHING PROGRAMMING NOR PYTHON.
 Rather, it gives the required background to follow the classes.
 
-The content of this topic is mostly based on the lessons
-[Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
-of the [Software Carpentry](http://software-carpentry.org/).
-
-* Software Carpentry Lessons ([`SC\analyzing_patient_data.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SC/analyzing_patient_data.ipynb))
-
 * Simple moving average filter ([`SMA\sma.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SMA/sma.ipynb))
 
     - [ ] Exercise: SMA filter
