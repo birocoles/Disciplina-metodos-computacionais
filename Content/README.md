@@ -13,10 +13,6 @@ I would like to stress that the main goal in
 this part of the course IS NEITHER TEACHING PROGRAMMING NOR PYTHON.
 Rather, it gives the required background to follow the classes.
 
-* Simple moving average filter ([`SMA\sma.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SMA/sma.ipynb))
-
-    - [ ] Exercise: SMA filter
-
 #### Basic matrix operations
 
 It presents some basic concepts about vectors and matrices.

@@ -19,7 +19,7 @@ def plot(x, y, z = None, w = None, labely = None, labelz = None, labelw = None):
     matplotlib figure
     '''
     
-    fig = plt.figure(figsize=(10,6))
+    fig = plt.figure(figsize=(8,5))
 
     if labely is not None:
         plt.plot(x, y, '-b', linewidth = 1., label=labely)
@@ -39,7 +39,7 @@ def plot(x, y, z = None, w = None, labely = None, labelz = None, labelw = None):
             plt.plot(x, w, '-r', linewidth = 1.)
     
     plt.ylabel('data', fontsize = 22)
-    plt.xlabel('$\\theta$ ($^{\circ}$)', fontsize = 22)
+    plt.xlabel('x', fontsize = 22)
 
     plt.xticks(fontsize=16)
     plt.yticks(fontsize=16)
