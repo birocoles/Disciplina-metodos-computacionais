@@ -4,16 +4,21 @@
 
 > The contents of this topic are located at the directory: `my_first_notebook`
 
-Short guide for creating a [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/)
-and solving some simple programming exercises.
+Short guide for creating a [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/).
 
 #### Software Carpentry Lessons
 
 > The contents of this topic are located at the directory: `SC`
 
-Guide for executing the lessons 
+Simple notebook showing the lesson 
 [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
 of the [Software Carpentry](http://software-carpentry.org/).
+
+#### Programming exercises
+
+> The contents of this topic are located at the directory: `programming_exercises`
+
+Present some simple programming exercises to be solved in Python by using the Jupyter Notebook.
 
 #### Simple Moving Average (SMA)
 
