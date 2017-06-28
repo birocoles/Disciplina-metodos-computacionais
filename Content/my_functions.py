@@ -24,6 +24,7 @@ def dumb_scalar_vector(a, x):
     
     return y
 
+
 def dumb_dot(x, y):
     
     '''
