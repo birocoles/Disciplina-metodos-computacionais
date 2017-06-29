@@ -22,11 +22,15 @@ Besides that, it is also presented some algorithms for computing:
 
 * dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-* other products of vectors ([`other.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/other.ipynb))
+    - [ ] Exercise: Dot product
+
+* Hadamard products of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
 
     - [ ] Exercise: Hadamard product
+
+* Outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
+
     - [ ] Exercise: Outer product
-    - [ ] Exercise: Outer product versus `numpy.meshgrid` function
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
@@ -177,8 +181,3 @@ Present some classical algorithms for solving linear systems.
 
 The topics in *italic* may be given or not, depending on the development of 
 the course.
-
-#### Template for elaborating the codes
-
-All codes to be developed along this course must follow the format described in
-the Jupyter Notebook `code-template.ipynb`, which is in the folder `Contents`.

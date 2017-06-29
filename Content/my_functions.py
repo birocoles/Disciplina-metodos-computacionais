@@ -14,7 +14,7 @@ def dumb_scalar_vector(a, x):
     
     output
     
-    y: float - product of 'a' and 'x'
+    y: numpy array - product of 'a' and 'x'
     '''
 
     y = np.zeros_like(x)
@@ -23,6 +23,7 @@ def dumb_scalar_vector(a, x):
         y[i] = a*x[i]
     
     return y
+
 
 def dumb_dot(x, y):
     

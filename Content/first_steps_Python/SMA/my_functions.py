@@ -22,21 +22,21 @@ def plot(x, y, z = None, w = None, labely = None, labelz = None, labelw = None):
     fig = plt.figure(figsize=(8,5))
 
     if labely is not None:
-        plt.plot(x, y, '-b', linewidth = 1., label=labely)
+        plt.plot(x, y, 'ob', linewidth = 1., label=labely)
     else:
-        plt.plot(x, y, '-b', linewidth = 1.)
+        plt.plot(x, y, 'ob', linewidth = 1.)
         
     if z is not None:
         if labelz is not None:
-            plt.plot(x, z, '-k', linewidth = 1., label=labelz)
+            plt.plot(x, z, 'ok', linewidth = 1., label=labelz)
         else:
-            plt.plot(x, z, '-k', linewidth = 1.)
+            plt.plot(x, z, 'ok', linewidth = 1.)
             
     if w is not None:
         if labelw is not None:
-            plt.plot(x, w, '-r', linewidth = 1., label=labelw)
+            plt.plot(x, w, 'or', linewidth = 1., label=labelw)
         else:
-            plt.plot(x, w, '-r', linewidth = 1.)
+            plt.plot(x, w, 'or', linewidth = 1.)
     
     plt.ylabel('data', fontsize = 22)
     plt.xlabel('x', fontsize = 22)
