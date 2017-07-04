@@ -41,6 +41,7 @@ Besides that, it is also presented some algorithms for computing:
 * matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
     - [ ] Exercise: matrix-matrix product functions
+    - [ ] Exercise: rotation matrices
     
 #### Special matrices
     
