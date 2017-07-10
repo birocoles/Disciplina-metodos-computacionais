@@ -43,7 +43,9 @@ Besides that, it is also presented some algorithms for computing:
     - [x] Exercise: matrix-matrix product functions
     - [x] Exercise: rotation matrices
     
-#### Special matrices
+#### Structured matrices and code efficiency
+
+* *Floating-point operations* or *flops* ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
     
 * Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
