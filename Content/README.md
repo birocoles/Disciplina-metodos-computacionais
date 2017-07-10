@@ -22,25 +22,26 @@ Besides that, it is also presented some algorithms for computing:
 
 * dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-    - [ ] Exercise: Dot product
+    - [x] Exercise: Dot product
 
 * Hadamard products of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
 
-    - [ ] Exercise: Hadamard product
+    - [x] Exercise: Hadamard product
 
 * Outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
-    - [ ] Exercise: Outer product
+    - [x] Exercise: Outer product
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
-    - [ ] Exercise: matrix-vector product functions
-    - [ ] Exercise: comparison with the moving average code developed in a previous class
-    - [ ] Exercise: computation of first derivative by using the central finite difference
+    - [x] Exercise: matrix-vector product functions
+    - [x] Exercise: comparison with the moving average code developed in a previous class
+    - [x] Exercise: computation of first derivative by using the central finite difference
 
 * matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
-    - [ ] Exercise: matrix-matrix product functions
+    - [x] Exercise: matrix-matrix product functions
+    - [x] Exercise: rotation matrices
     
 #### Special matrices
     
