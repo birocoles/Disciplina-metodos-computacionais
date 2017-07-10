@@ -70,7 +70,7 @@ No diretório `Content` há uma descrição breve sobre os
 
 * **Basic matrix operations**
 
-* **Special matrices**
+* **Structured matrices and code efficiency**
 
 * **Numerical solution of linear systems**
 
