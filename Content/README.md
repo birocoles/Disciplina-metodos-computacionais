@@ -49,8 +49,8 @@ Besides that, it is also presented some algorithms for computing:
     
 * Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
-    - [ ] Exercise: products of diagonal and full matrices
-    
+    - [x] Exercise (extra): products of diagonal and full matrices
+
 * Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices.ipynb))
 
     - [ ] Exercise: products of triangular matrices and vectors
