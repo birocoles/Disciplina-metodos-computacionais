@@ -55,12 +55,12 @@ Besides that, it is also presented some algorithms for computing:
 
 * Triangular matrices - part 1 ([`triangular_matrices_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_1.ipynb))
 
-    - [ ] Exercise (extra): flops associated with the product of triangular matrices and vectors
-    - [ ] Exercise: products of triangular matrices and vectors
+    - [x] Exercise (extra): flops associated with the product of triangular matrices and vectors
+    - [x] Exercise: products of triangular matrices and vectors
 
 * Triangular matrices - part 2 ([`triangular_matrices_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_2.ipynb))
 
-    - [ ] Exercise: triangular matrices storage
+    - [x] Exercise: triangular matrices storage
     
 * Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
