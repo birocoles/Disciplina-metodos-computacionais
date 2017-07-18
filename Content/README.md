@@ -15,9 +15,6 @@ Rather, it gives the required background to follow the classes.
 
 #### Basic matrix operations
 
-It presents some basic concepts about vectors and matrices.
-Besides that, it is also presented some algorithms for computing:
-
 * scalar-vector product ([`scalar-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar-vetor.ipynb))
 
 * dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
@@ -64,15 +61,13 @@ Besides that, it is also presented some algorithms for computing:
     
 * Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
-    - [ ] Exercise: product of symmetric matrices and vectors
+    - [x] Exercise (extra): product of symmetric matrices and vectors
     
-* *Banded matrices* (`banded_matrices.ipynb`) - extra
+* *Banded matrices*
 
-* *Block matrices*  (`block_matrices.ipynb`) - extra
+* *Block matrices*
 
 #### Numerical solution of linear systems
-
-Present some classical algorithms for solving linear systems.
 
 * Introduction to linear systems ([`intro_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/intro_linear_syst.ipynb))
 
