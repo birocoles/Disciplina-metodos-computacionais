@@ -71,10 +71,11 @@ Rather, it gives the required background to follow the classes.
 
 * Introduction to linear systems ([`intro_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/intro_linear_syst.ipynb))
 
-* Special linear systems ([`special_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/special_linear_syst.ipynb))
+* Triangular systems ([`triangular_systems.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_systems.ipynb))
 
     - [ ] Exercise: upper triangular system
     - [ ] Exercise: lower triangular system
+    - [ ] Exercise: simple vertical seismic profiling
 
 * Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
 
