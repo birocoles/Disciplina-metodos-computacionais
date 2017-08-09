@@ -8,8 +8,8 @@
 
 > The contents of this topic are at the directory: `first_steps_Python`
 
-It presents a basic introduction of Python programming. 
-I would like to stress that the main goal in 
+It presents a basic introduction of Python programming.
+I would like to stress that the main goal in
 this part of the course IS NEITHER TEACHING PROGRAMMING NOR PYTHON.
 Rather, it gives the required background to follow the classes.
 
@@ -39,13 +39,13 @@ Rather, it gives the required background to follow the classes.
 
     - [x] Exercise: matrix-matrix product functions
     - [x] Exercise: rotation matrices
-    
+
 #### Structured matrices and code efficiency
 
 * *Floating-point operations* or *flops* ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
 
     - [x] Exercise (extra): product of three matrices
-    
+
 * Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
     - [x] Exercise (extra): products of diagonal and full matrices
@@ -58,11 +58,11 @@ Rather, it gives the required background to follow the classes.
 * Triangular matrices - part 2 ([`triangular_matrices_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_2.ipynb))
 
     - [x] Exercise: triangular matrices storage
-    
+
 * Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
     - [x] Exercise (extra): product of symmetric matrices and vectors
-    
+
 * *Banded matrices*
 
 * *Block matrices*
@@ -83,8 +83,8 @@ Rather, it gives the required background to follow the classes.
 
 * Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-pivoting.ipynb))
 
-    - [ ] Exercise: Gaussian elimination with partial pivoting
-    - [ ] Exercise: Calculating inverse matrices
+    - [x] Exercise: Gaussian elimination with partial pivoting
+    - [x] Exercise: Calculating inverse matrices
 
 * LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_intro.ipynb))
 
@@ -137,7 +137,7 @@ Rather, it gives the required background to follow the classes.
 * Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
 
     - [ ] Exercise: Interpolate gravity data on a regular profile
-    
+
 * Cubic splines ([`cub_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cub_splines.ipynb))
 
     - [ ] Exercise: Interpolate gravity data on a regular profile
@@ -151,7 +151,7 @@ Rather, it gives the required background to follow the classes.
 * Finite differences - part 1 ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
 
     - [ ] Exercise: Solve the exponential decay equation
-    
+
 * Finite differences - part 2 ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
     - [ ] Exercise: Generalize the previous code
@@ -169,7 +169,7 @@ Rather, it gives the required background to follow the classes.
 * Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
 
     - [ ] Exercise: Implement the Fourier series for a periodic function
-    
+
 * Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
 
 * Fourier Transform 1D - part 3 ([`fourier_1D_3.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_3.ipynb))
@@ -185,5 +185,5 @@ Rather, it gives the required background to follow the classes.
 
 #### **P.S.**
 
-The topics in *italic* may be given or not, depending on the development of 
+The topics in *italic* may be given or not, depending on the development of
 the course.
