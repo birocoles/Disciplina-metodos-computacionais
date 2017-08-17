@@ -88,11 +88,11 @@ Rather, it gives the required background to follow the classes.
 
 * LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_intro.ipynb))
 
-    - [ ] Exercise: LU decomposition without pivoting
+    - [x] Exercise: LU decomposition without pivoting
 
 * LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_pivoting.ipynb))
 
-    - [ ] Exercise: LU decomposition with partial pivoting
+    - [x] Exercise: LU decomposition with partial pivoting
 
 * LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
 
