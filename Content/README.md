@@ -96,13 +96,13 @@ Rather, it gives the required background to follow the classes.
 
 * LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
 
-    - [ ] Exercise: LDL<sup>T</sup> decomposition
+    - [x] Exercise: LDL<sup>T</sup> decomposition
 
 * Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
-    - [ ] Exercise: Cholesky decomposition
+    - [x] Exercise: Cholesky decomposition
 
-* *Singular Value Decomposition (SVD)* (`svd.ipynb`) - extra
+* *Singular Value Decomposition (SVD)*
 
 * Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
