@@ -42,7 +42,7 @@ Rather, it gives the required background to follow the classes.
 
 #### Structured matrices and code efficiency
 
-* *Floating-point operations* or *flops* ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
+* Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
 
     - [x] Exercise (extra): product of three matrices
 
@@ -121,8 +121,6 @@ Rather, it gives the required background to follow the classes.
 * Gauss-Newton ([`gauss_newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss_newton.ipynb))
 
 * Levenberg-Marquardt ([`leven_marq.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/leven_marq.ipynb))
-
-* *Conjugated gradient* (`conjugated_grad.ipynb`) - extra
 
 * Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
