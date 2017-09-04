@@ -114,17 +114,13 @@ Rather, it gives the required background to follow the classes.
 
 #### Numerical solution of nonlinear systems
 
-* Newton ([`newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton.ipynb))
-
-* Steepest descent ([`steepest_decent.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/steepest_decent.ipynb))
-
-* Gauss-Newton ([`gauss_newton.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss_newton.ipynb))
-
-* Levenberg-Marquardt ([`leven_marq.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/leven_marq.ipynb))
+> This topic is given in class and part of it can be found in the files `Nonlinear_methods.odp` and `Nonlinear_methods.pdf`
 
 * Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
-    - [ ] Exercise: Estimate the horizontal coordinates of a epicenter
+    - [x] Exercise: Compute the Jacobian and Hessian matrices
+    - [x] Exercise (extra): Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and
+    Levenberg-Marquardt methods
 
 #### Interpolation
 
