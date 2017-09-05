@@ -63,10 +63,6 @@ Rather, it gives the required background to follow the classes.
 
     - [x] Exercise (extra): product of symmetric matrices and vectors
 
-* *Banded matrices*
-
-* *Block matrices*
-
 #### Numerical solution of linear systems
 
 * Introduction to linear systems ([`intro_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/intro_linear_syst.ipynb))
@@ -102,8 +98,6 @@ Rather, it gives the required background to follow the classes.
 
     - [x] Exercise: Cholesky decomposition
 
-* *Singular Value Decomposition (SVD)*
-
 * Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
     - [x] Exercise: Fitting a straight line
@@ -130,11 +124,11 @@ Rather, it gives the required background to follow the classes.
 
 * Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
 
-    - [ ] Exercise: Interpolate gravity data on a regular profile
+    - [ ] Exercise (extra): Interpolate gravity data on a regular profile
 
 * Cubic splines ([`cub_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cub_splines.ipynb))
 
-    - [ ] Exercise: Interpolate gravity data on a regular profile
+    - [ ] Exercise (extra): Interpolate gravity data on a regular profile
 
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
     - [ ] Exercise: Interpolate gravity data on a regular profile
@@ -144,19 +138,17 @@ Rather, it gives the required background to follow the classes.
 
 * Finite differences - part 1 ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
 
-    - [ ] Exercise: Solve the exponential decay equation
+    - [ ] Exercise (extra): Solve the exponential decay equation
 
 * Finite differences - part 2 ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
-    - [ ] Exercise: Generalize the previous code
+    - [ ] Exercise (extra): Generalize the previous code
 
 #### Numerical integration
 
 * Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
-    - [ ] Exercise: Simulate a vertical seismic profiling
-
-* *Gaussian quadrature*
+    - [ ] Exercise: Simulate an abrupt temperature perturbation
 
 #### Transforms
 
@@ -175,9 +167,3 @@ Rather, it gives the required background to follow the classes.
     total-field anomaly on a profile
     - [ ] Exercise: Calculate the Analytic Signal Amplitude of a
     total-field anomaly on a profile
-
-
-#### **P.S.**
-
-The topics in *italic* may be given or not, depending on the development of
-the course.
