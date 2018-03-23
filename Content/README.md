@@ -19,7 +19,7 @@ Rather, it gives the required background to follow the classes.
 
 * dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-    - [ ] Exercise: Dot product
+    - [x] Exercise: Dot product
 
 * Hadamard products of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
 
@@ -40,11 +40,11 @@ Rather, it gives the required background to follow the classes.
     - [ ] Exercise: matrix-matrix product functions
     - [ ] Exercise: rotation matrices
 
-#### Structured matrices and code efficiency
-
 * Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
 
-    - [ ] Exercise (extra): product of three matrices
+    - [x] Exercise (extra): total number of flops required to perform simple matrix operations
+
+#### Structured matrices and code efficiency
 
 * Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
