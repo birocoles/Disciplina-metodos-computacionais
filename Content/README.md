@@ -37,8 +37,8 @@ Rather, it gives the required background to follow the classes.
 
 * matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
-    - [ ] Exercise: matrix-matrix product functions
-    - [ ] Exercise: rotation matrices
+    - [x] Exercise: matrix-matrix product functions
+    - [x] Exercise: rotation matrices
 
 * Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
 
