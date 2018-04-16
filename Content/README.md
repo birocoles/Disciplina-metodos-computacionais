@@ -59,6 +59,10 @@ Rather, it gives the required background to follow the classes.
 
     - [x] Exercise (extra): triangular matrices storage
 
+* Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
+
+    - [x] Exercise (extra): product of two complex matrices
+
 * Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
     - [ ] Exercise (extra): product of symmetric matrices and vectors
@@ -69,9 +73,9 @@ Rather, it gives the required background to follow the classes.
 
 * Triangular systems ([`triangular_systems.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_systems.ipynb))
 
-    - [ ] Exercise: upper triangular system
-    - [ ] Exercise: lower triangular system
-    - [ ] Exercise: simple vertical seismic profiling
+    - [x] Exercise: upper triangular system
+    - [x] Exercise: lower triangular system
+    - [x] Exercise: simple vertical seismic profiling
 
 * Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
 

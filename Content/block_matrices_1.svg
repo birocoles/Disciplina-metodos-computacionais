@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20cm"
+   height="8cm"
+   viewBox="0 0 708.66142 283.46453"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="block_matrices_1.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3879485"
+     inkscape:cx="354.33071"
+     inkscape:cy="194.88189"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="cm"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-768.89794)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5392"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion5394"><rect
+           id="rect5396"
+           width="276.0618"
+           height="208.20303"
+           x="108.72825"
+           y="471.15576" /></flowRegion><flowPara
+         id="flowPara5398" /></flowRoot>    <g
+       id="g4447"
+       transform="translate(5.9747063,0)">
+      <rect
+         y="919.68549"
+         x="111.14368"
+         height="62.090771"
+         width="52.502724"
+         id="rect4136-6"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-2"
+         y="954.96289"
+         x="125.94138"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="954.96289"
+           x="125.94138"
+           id="tspan4140-9"
+           sodipodi:role="line"><tspan
+             id="tspan4144-1"
+             style="font-weight:bold">A</tspan><tspan
+             id="tspan4142-2"
+             style="font-size:64.99999762%;baseline-shift:sub">21</tspan></tspan></text>
+      <rect
+         y="919.672"
+         x="210.20009"
+         height="61.818089"
+         width="80.397476"
+         id="rect4136-3-0"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-6-9"
+         y="954.7395"
+         x="237.87381"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="954.7395"
+           x="237.87381"
+           id="tspan4140-7-3"
+           sodipodi:role="line"><tspan
+             id="tspan4144-5-6"
+             style="font-weight:bold">A</tspan><tspan
+             id="tspan4142-3-0"
+             style="font-size:64.99999762%;baseline-shift:sub">23</tspan></tspan></text>
+      <rect
+         y="838.10553"
+         x="111.29005"
+         height="76.34111"
+         width="52.436317"
+         id="rect4136"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138"
+         y="878.20392"
+         x="125.94138"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="878.20392"
+           x="125.94138"
+           id="tspan4140"
+           sodipodi:role="line"><tspan
+             id="tspan4144"
+             style="font-weight:bold">A</tspan><tspan
+             id="tspan4142"
+             style="font-size:64.99999762%;baseline-shift:sub">11</tspan></tspan></text>
+      <rect
+         y="838.45764"
+         x="210.1554"
+         height="76.005852"
+         width="80.295792"
+         id="rect4136-3"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-6"
+         y="878.20392"
+         x="237.87381"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="878.20392"
+           x="237.87381"
+           id="tspan4140-7"
+           sodipodi:role="line"><tspan
+             id="tspan4144-5"
+             style="font-weight:bold">A</tspan><tspan
+             id="tspan4142-3"
+             style="font-size:64.99999762%;baseline-shift:sub">13</tspan></tspan></text>
+      <rect
+         y="837.87384"
+         x="168.57027"
+         height="76.387421"
+         width="37.463467"
+         id="rect4136-3-02"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-6-3"
+         y="878.20392"
+         x="174.97661"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="878.20392"
+           x="174.97661"
+           id="tspan4140-7-7"
+           sodipodi:role="line"><tspan
+             id="tspan4144-5-5"
+             style="font-weight:bold">A</tspan><tspan
+             id="tspan4142-3-9"
+             style="font-size:64.99999762%;baseline-shift:sub">12</tspan></tspan></text>
+      <rect
+         y="919.8363"
+         x="168.49643"
+         height="62.128437"
+         width="37.51091"
+         id="rect4136-3-02-8"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-6-3-9"
+         y="955.13257"
+         x="174.97661"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="955.13257"
+           x="174.97661"
+           id="tspan4140-7-7-7"
+           sodipodi:role="line"><tspan
+             id="tspan4144-5-5-3"
+             style="font-weight:bold">A</tspan><tspan
+             id="tspan4142-3-9-6"
+             style="font-size:64.99999762%;baseline-shift:sub">22</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4448"
+         y="915.67816"
+         x="63.25346"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-weight:bold"
+           y="915.67816"
+           x="63.25346"
+           id="tspan4450"
+           sodipodi:role="line">A <tspan
+   id="tspan4452"
+   style="font-weight:normal">=</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4448-4"
+         y="912.47473"
+         x="404.11765"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-weight:bold"
+           y="912.47473"
+           x="404.11765"
+           id="tspan4450-3"
+           sodipodi:role="line">A<tspan
+   id="tspan4800"
+   style="font-weight:normal"><tspan
+   id="tspan4802"
+   style="font-size:64.99999762%;baseline-shift:super">T</tspan> =</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-0"
+         y="847.51233"
+         x="483.26953"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="847.51233"
+           x="483.26953"
+           id="tspan4140-6"
+           sodipodi:role="line"><tspan
+             id="tspan4144-3"
+             style="font-weight:bold">A</tspan><tspan
+             style="font-size:64.99999762%;baseline-shift:sub"
+             id="tspan4651">11</tspan><tspan
+             id="tspan4657"
+             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
+             dx="-13.02"
+             dy="0">T</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-0-6"
+         y="960.32935"
+         x="557.51093"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="960.32935"
+           x="557.51093"
+           id="tspan4140-6-8"
+           sodipodi:role="line"><tspan
+             id="tspan4144-3-8"
+             style="font-weight:bold">A</tspan><tspan
+             style="font-size:64.99999762%;baseline-shift:sub"
+             id="tspan4651-4">23</tspan><tspan
+             id="tspan4657-3"
+             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
+             dx="-13.02"
+             dy="0">T</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-0-9"
+         y="897.25604"
+         x="557.93451"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="897.25604"
+           x="557.93451"
+           id="tspan4140-6-2"
+           sodipodi:role="line"><tspan
+             id="tspan4144-3-0"
+             style="font-weight:bold">A</tspan><tspan
+             style="font-size:64.99999762%;baseline-shift:sub"
+             id="tspan4651-6">22</tspan><tspan
+             id="tspan4657-8"
+             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
+             dx="-13.02"
+             dy="0">T</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-0-66"
+         y="897.30621"
+         x="483.10156"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="897.30621"
+           x="483.10156"
+           id="tspan4140-6-4"
+           sodipodi:role="line"><tspan
+             id="tspan4144-3-9"
+             style="font-weight:bold">A</tspan><tspan
+             style="font-size:64.99999762%;baseline-shift:sub"
+             id="tspan4651-5">12</tspan><tspan
+             id="tspan4657-0"
+             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
+             dx="-13.02"
+             dy="0">T</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-0-1"
+         y="960.23383"
+         x="483.39047"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="960.23383"
+           x="483.39047"
+           id="tspan4140-6-7"
+           sodipodi:role="line"><tspan
+             id="tspan4144-3-2"
+             style="font-weight:bold">A</tspan><tspan
+             style="font-size:64.99999762%;baseline-shift:sub"
+             id="tspan4651-7">13</tspan><tspan
+             id="tspan4657-2"
+             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
+             dx="-13.02"
+             dy="0">T</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-0-10"
+         y="847.39917"
+         x="557.72424"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:125%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="847.39917"
+           x="557.72424"
+           id="tspan4140-6-6"
+           sodipodi:role="line"><tspan
+             id="tspan4144-3-1"
+             style="font-weight:bold">A</tspan><tspan
+             style="font-size:64.99999762%;baseline-shift:sub"
+             id="tspan4651-59">21</tspan><tspan
+             id="tspan4657-4"
+             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
+             dx="-13.02"
+             dy="0">T</tspan></tspan></text>
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="539.04486"
+         x="815.75702"
+         height="62.090771"
+         width="52.502724"
+         id="rect4136-6-9"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="539.03137"
+         x="914.81342"
+         height="61.818089"
+         width="80.397476"
+         id="rect4136-3-0-0"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="457.465"
+         x="815.90338"
+         height="76.34111"
+         width="52.436317"
+         id="rect4136-9"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="457.81705"
+         x="914.76874"
+         height="76.005852"
+         width="80.295792"
+         id="rect4136-3-1"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="457.23325"
+         x="873.18365"
+         height="76.387421"
+         width="37.463467"
+         id="rect4136-3-02-7"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="539.19568"
+         x="873.1098"
+         height="62.128437"
+         width="37.51091"
+         id="rect4136-3-02-8-7"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="0%"
+         id="text4210"
+         y="1008.4086"
+         x="126.87511"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1008.4086"
+           x="126.87511"
+           id="tspan4212"
+           sodipodi:role="line">M<tspan
+   id="tspan4214"
+   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4216"
+         y="1008.4086"
+         x="176.77258"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1008.4086"
+           x="176.77258"
+           id="tspan4218"
+           sodipodi:role="line">M<tspan
+   id="tspan4220"
+   style="font-size:64.99999762%;baseline-shift:sub">2</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4222"
+         y="1008.335"
+         x="239.81543"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1008.335"
+           x="239.81543"
+           id="tspan4224"
+           sodipodi:role="line">M<tspan
+   id="tspan4226"
+   style="font-size:64.99999762%;baseline-shift:sub">3</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4210-3"
+         y="846.24042"
+         x="613.84741"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="846.24042"
+           x="613.84741"
+           id="tspan4212-6"
+           sodipodi:role="line">M<tspan
+   id="tspan4214-7"
+   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4216-5"
+         y="896.09729"
+         x="613.88806"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="896.09729"
+           x="613.88806"
+           id="tspan4218-3"
+           sodipodi:role="line">M<tspan
+   id="tspan4220-5"
+   style="font-size:64.99999762%;baseline-shift:sub">2</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4222-6"
+         y="959.17053"
+         x="613.78394"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="959.17053"
+           x="613.78394"
+           id="tspan4224-2"
+           sodipodi:role="line">M<tspan
+   id="tspan4226-9"
+   style="font-size:64.99999762%;baseline-shift:sub">3</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4267"
+         y="880.69257"
+         x="300.73773"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="880.69257"
+           x="300.73773"
+           id="tspan4269"
+           sodipodi:role="line">N<tspan
+   id="tspan4271"
+   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4273"
+         y="954.81311"
+         x="300.77835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="954.81311"
+           x="300.77835"
+           id="tspan4275"
+           sodipodi:role="line">N<tspan
+   id="tspan4277"
+   style="font-size:64.99999762%;baseline-shift:sub">2</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4279"
+         y="1020.7465"
+         x="486.22192"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1020.7465"
+           x="486.22192"
+           id="tspan4281"
+           sodipodi:role="line">N<tspan
+   id="tspan4283"
+   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="0%"
+         id="text4285"
+         y="1020.7465"
+         x="560.383"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1020.7465"
+           x="560.383"
+           id="tspan4287"
+           sodipodi:role="line">N<tspan
+   id="tspan4289"
+   style="font-size:64.99999762%;baseline-shift:sub">2</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
