@@ -15,8 +15,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.3 (unknown)"
-   sodipodi:docname="block_matrices_3.svg"
-   inkscape:export-filename="/home/vanderlei/Documents/Disciplina-metodos-computacionais/Content/block_matrices_3.png"
+   sodipodi:docname="block_matrices_5.svg"
+   inkscape:export-filename="/home/vanderlei/Documents/Disciplina-metodos-computacionais/Content/block_matrices_5.png"
    inkscape:export-xdpi="600"
    inkscape:export-ydpi="600">
   <defs
@@ -71,22 +71,6 @@
        orient="auto"
        refY="0"
        refX="0"
-       id="marker27548"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path27550"
-         d="M 0,5.65 0,-5.65"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         transform="scale(0.4,0.4)" />
-    </marker>
-    <marker
-       inkscape:stockid="StopM"
-       orient="auto"
-       refY="0"
-       refX="0"
        id="marker27138"
        style="overflow:visible"
        inkscape:isstock="true">
@@ -96,22 +80,6 @@
          d="M 0,5.65 0,-5.65"
          style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          transform="scale(0.4,0.4)" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker24630"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="StopM"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4,0.4)"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,5.65 0,-5.65"
-         id="path24632"
-         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="StopM"
@@ -147,22 +115,6 @@
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
-       id="marker21670"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="StopM"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4,0.4)"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,5.65 0,-5.65"
-         id="path21672"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
        id="marker21138"
        refX="0"
        refY="0"
@@ -174,22 +126,6 @@
          d="M 0,5.65 0,-5.65"
          id="path21140"
          inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="StopM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker19502"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path19504"
-         d="M 0,5.65 0,-5.65"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         transform="scale(0.4,0.4)" />
     </marker>
     <marker
        inkscape:isstock="true"
@@ -205,54 +141,6 @@
          d="M 0,5.65 0,-5.65"
          id="path18442"
          inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker17932"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="StopM"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4,0.4)"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,5.65 0,-5.65"
-         id="path17934"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="StopM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker16731"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path16733"
-         d="M 0,5.65 0,-5.65"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         transform="scale(0.4,0.4)" />
-    </marker>
-    <marker
-       inkscape:stockid="StopM"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker16259"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         id="path16261"
-         d="M 0,5.65 0,-5.65"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         transform="scale(0.4,0.4)" />
     </marker>
     <marker
        inkscape:stockid="StopM"
@@ -283,38 +171,6 @@
          d="M 0,5.65 0,-5.65"
          style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          transform="scale(0.4,0.4)" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker13879"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="StopM"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4,0.4)"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,5.65 0,-5.65"
-         id="path13881"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker13419"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="StopM"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4,0.4)"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,5.65 0,-5.65"
-         id="path13421"
-         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:isstock="true"
@@ -434,22 +290,6 @@
          style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          d="M 0,5.65 0,-5.65"
          id="path13146"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker12930"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="StopM"
-       inkscape:collect="always">
-      <path
-         transform="scale(0.4,0.4)"
-         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,5.65 0,-5.65"
-         id="path12932"
          inkscape:connector-curvature="0" />
     </marker>
     <marker
@@ -1580,6 +1420,264 @@
          style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          transform="scale(0.4,0.4)" />
     </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-9-3-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5317-7-8-3"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4267"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4265"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-9-56"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5317-7-2"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4273"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4271"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-9-3-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5317-7-8-2"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4267-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4265-1"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-9-87"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5317-7-92"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4273-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4271-2"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-5-3"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5317-2-1"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-9-87-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5317-7-92-1"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker10262"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path10260"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-93"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5317-74"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-9-3-52"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5317-7-8-54"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11958"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path11956"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-5-3-9"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5317-2-1-2"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopM-9-3-6-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5317-7-8-2-4"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="StopM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker15159"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path15157"
+         d="M 0,5.65 V -5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1588,7 +1686,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0464271"
+     inkscape:zoom="1.0437812"
      inkscape:cx="377.95276"
      inkscape:cy="226.77165"
      inkscape:document-units="px"
@@ -1608,7 +1706,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1633,263 +1731,122 @@
        id="rect4136-6"
        width="52.502724"
        height="62.090771"
-       x="60.074982"
-       y="724.42395" />
+       x="99.449982"
+       y="756.29895" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="74.872681"
-       y="759.70142"
+       x="114.24768"
+       y="791.57642"
        id="text4138-2"><tspan
          sodipodi:role="line"
          id="tspan4140-9"
-         x="74.872681"
-         y="759.70142"
+         x="114.24768"
+         y="791.57642"
          style="font-size:16px;line-height:1.25"><tspan
            style="font-weight:bold"
            id="tspan4144-1">A</tspan><tspan
            style="font-size:64.99999762%;baseline-shift:sub"
            id="tspan4142-2">21</tspan></tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3-0"
-       width="80.397476"
-       height="61.818089"
-       x="159.13138"
-       y="724.41052" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="186.8051"
-       y="759.47803"
-       id="text4138-6-9"><tspan
-         sodipodi:role="line"
-         id="tspan4140-7-3"
-         x="186.8051"
-         y="759.47803"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-5-6">A</tspan><tspan
-           style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan4142-3-0">23</tspan></tspan></text>
-    <rect
        style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4136"
        width="52.436317"
        height="76.34111"
-       x="60.221352"
-       y="642.84399" />
+       x="99.596336"
+       y="674.71899" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="74.872681"
-       y="682.94238"
+       x="114.24768"
+       y="714.81738"
        id="text4138"><tspan
          sodipodi:role="line"
          id="tspan4140"
-         x="74.872681"
-         y="682.94238"
+         x="114.24768"
+         y="714.81738"
          style="font-size:16px;line-height:1.25"><tspan
            style="font-weight:bold"
            id="tspan4144">A</tspan><tspan
            style="font-size:64.99999762%;baseline-shift:sub"
            id="tspan4142">11</tspan></tspan></text>
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3"
-       width="80.295792"
-       height="76.005852"
-       x="159.08669"
-       y="643.19617" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="186.8051"
-       y="682.94238"
-       id="text4138-6"><tspan
-         sodipodi:role="line"
-         id="tspan4140-7"
-         x="186.8051"
-         y="682.94238"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-5">A</tspan><tspan
-           style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan4142-3">13</tspan></tspan></text>
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3-02"
-       width="37.463467"
-       height="76.387421"
-       x="117.50156"
-       y="642.6123" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="123.9079"
-       y="682.94238"
-       id="text4138-6-3"><tspan
-         sodipodi:role="line"
-         id="tspan4140-7-7"
-         x="123.9079"
-         y="682.94238"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-5-5">A</tspan><tspan
-           style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan4142-3-9">12</tspan></tspan></text>
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726252;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3-02-8"
-       width="37.51091"
-       height="62.128437"
-       x="117.42772"
-       y="724.57483" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="123.9079"
-       y="759.87109"
-       id="text4138-6-3-9"><tspan
-         sodipodi:role="line"
-         id="tspan4140-7-7-7"
-         x="123.9079"
-         y="759.87109"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-5-5-3">A</tspan><tspan
-           style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan4142-3-9-6">22</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="12.184753"
-       y="720.41663"
+       x="51.559753"
+       y="752.29163"
        id="text4448"><tspan
          sodipodi:role="line"
          id="tspan4450"
-         x="12.184753"
-         y="720.41663"
+         x="51.559753"
+         y="752.29163"
          style="font-weight:bold;font-size:16px;line-height:1.25">A <tspan
    style="font-weight:normal"
    id="tspan4452">=</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="75.806396"
-       y="813.14716"
+       x="117.0564"
+       y="845.02216"
        id="text4210"><tspan
          sodipodi:role="line"
          id="tspan4212"
-         x="75.806396"
-         y="813.14716"
+         x="117.0564"
+         y="845.02216"
          style="font-size:16px;line-height:0">M<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4214">1</tspan></tspan></text>
+   id="tspan4214" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="125.70387"
-       y="813.14716"
-       id="text4216"><tspan
-         sodipodi:role="line"
-         id="tspan4218"
-         x="125.70387"
-         y="813.14716"
-         style="font-size:16px;line-height:0">M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4220">2</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="188.74672"
-       y="813.07355"
-       id="text4222"><tspan
-         sodipodi:role="line"
-         id="tspan4224"
-         x="188.74672"
-         y="813.07355"
-         style="font-size:16px;line-height:0">M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4226">3</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="253.66901"
-       y="685.43103"
+       x="167.41901"
+       y="717.30603"
        id="text4267"><tspan
          sodipodi:role="line"
          id="tspan4269"
-         x="253.66901"
-         y="685.43103"
+         x="167.41901"
+         y="717.30603"
          style="font-size:16px;line-height:0">N<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
    id="tspan4271">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="253.70963"
-       y="759.55164"
+       x="167.45963"
+       y="791.42664"
        id="text4273"><tspan
          sodipodi:role="line"
          id="tspan4275"
-         x="253.70963"
-         y="759.55164"
+         x="167.45963"
+         y="791.42664"
          style="font-size:16px;line-height:0">N<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
    id="tspan4277">2</tspan></tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM);marker-end:url(#StopM)"
-       d="m 59.40145,794.25708 53.65339,0"
+       d="m 98.77645,826.13208 h 53.65339"
        id="path5139"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-4);marker-end:url(#StopM-4)"
-       d="m 117.23405,794.25708 38.3569,0"
-       id="path5139-1"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-0);marker-end:url(#StopM-0)"
-       d="m 159.0328,794.25708 80.83493,0"
-       id="path5139-4"
-       inkscape:connector-curvature="0" />
-    <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-9);marker-end:url(#StopM-9)"
-       d="m 247.81829,642.74614 0,76.9099"
+       d="m 161.56829,674.62114 v 76.9099"
        id="path5139-5"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-9-3);marker-end:url(#StopM-9-3)"
-       d="m 247.81829,723.26892 0,64.11777"
+       d="m 161.56829,755.14392 v 64.11777"
        id="path5139-5-8"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="573.24414"
-       y="743.33356"
-       id="text5215"><tspan
-         sodipodi:role="line"
-         id="tspan5217"
-         x="573.24414"
-         y="743.33356"
-         style="font-size:12.5px;line-height:0">M = M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4999">1</tspan> + M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan5001">2</tspan> + M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan5003">3</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="592.68457"
-       y="706.12073"
+       x="564.55957"
+       y="730.49573"
        id="text5215-3"><tspan
          sodipodi:role="line"
          id="tspan5217-6"
-         x="592.68457"
-         y="706.12073"
+         x="564.55957"
+         y="730.49573"
          style="font-size:12.5px;line-height:0">N = N<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
    id="tspan4997">1</tspan> + N<tspan
@@ -1898,312 +1855,94 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="8.9238844"
-       y="729.52783"
+       x="48.298882"
+       y="761.40283"
        id="text4973"><tspan
          sodipodi:role="line"
          id="tspan4975"
-         x="8.9238844"
-         y="729.52783"
+         x="48.298882"
+         y="761.40283"
          style="font-size:7.5px;line-height:0">N x M</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="298.16418"
-       y="743.0376"
+       x="249.41418"
+       y="750.5376"
        id="text4448-4"><tspan
          sodipodi:role="line"
          id="tspan4450-3"
-         x="298.16418"
-         y="743.0376"
-         style="font-weight:bold;font-size:16px;line-height:1.25">B<tspan
+         x="249.41418"
+         y="750.5376"
+         style="font-weight:bold;font-size:16px;line-height:1.25">b<tspan
    style="font-weight:normal"
    id="tspan4800"> =</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="349.41931"
-       y="672.0752"
-       id="text4138-0"><tspan
-         sodipodi:role="line"
-         id="tspan4140-6"
-         x="349.41931"
-         y="672.0752"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-3">B</tspan><tspan
-           id="tspan4651"
-           style="font-size:64.99999762%;baseline-shift:sub">11</tspan><tspan
-           style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
-           id="tspan4657" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="432.14337"
-       y="784.89221"
-       id="text4138-0-6"><tspan
-         sodipodi:role="line"
-         id="tspan4140-6-8"
-         x="432.14337"
-         y="784.89221"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-3-8">B</tspan><tspan
-           id="tspan4651-4"
-           style="font-size:64.99999762%;baseline-shift:sub">32</tspan><tspan
-           style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
-           id="tspan4657-3" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="432.2475"
-       y="721.81891"
-       id="text4138-0-9"><tspan
-         sodipodi:role="line"
-         id="tspan4140-6-2"
-         x="432.2475"
-         y="721.81891"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-3-0">B</tspan><tspan
-           id="tspan4651-6"
-           style="font-size:64.99999762%;baseline-shift:sub">22</tspan><tspan
-           style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
-           id="tspan4657-8" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="349.45993"
-       y="721.86908"
-       id="text4138-0-66"><tspan
-         sodipodi:role="line"
-         id="tspan4140-6-4"
-         x="349.45993"
-         y="721.86908"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-3-9">B</tspan><tspan
-           id="tspan4651-5"
-           style="font-size:64.99999762%;baseline-shift:sub">21</tspan><tspan
-           style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
-           id="tspan4657-0" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="349.35583"
-       y="784.79669"
-       id="text4138-0-1"><tspan
-         sodipodi:role="line"
-         id="tspan4140-6-7"
-         x="349.35583"
-         y="784.79669"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-3-2">B</tspan><tspan
-           id="tspan4651-7"
-           style="font-size:64.99999762%;baseline-shift:sub">31</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="432.20685"
-       y="671.96204"
-       id="text4138-0-10"><tspan
-         sodipodi:role="line"
-         id="tspan4140-6-6"
-         x="432.20685"
-         y="671.96204"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-3-1">B</tspan><tspan
-           id="tspan4651-59"
-           style="font-size:64.99999762%;baseline-shift:sub">12</tspan><tspan
-           style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super"
-           id="tspan4657-4" /></tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-6-9"
-       width="52.224442"
-       height="113.98916"
-       x="640.79547"
-       y="387.57831"
-       transform="matrix(0,1,1,0,0,0)" />
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3-0-0"
-       width="79.971344"
-       height="113.48856"
-       x="739.32678"
-       y="387.82861"
-       transform="matrix(0,1,1,0,0,0)" />
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4136-9"
-       width="52.665241"
-       height="41.54105"
-       x="640.79547"
-       y="341.0148"
-       transform="matrix(0,1,1,0,0,0)" />
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3-1"
-       width="80.646347"
-       height="41.358616"
-       x="739.37213"
-       y="341.10602"
-       transform="matrix(0,1,1,0,0,0)" />
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3-02-7"
-       width="37.627026"
-       height="41.56625"
-       x="697.60553"
-       y="341.0022"
-       transform="matrix(0,1,1,0,0,0)" />
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-3-02-8-7"
-       width="37.312088"
-       height="114.05831"
-       x="697.84424"
-       y="387.54373"
+       width="54.558655"
+       height="5.4559116"
+       x="717.42621"
+       y="287.91125"
        transform="matrix(0,1,1,0,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="517.89398"
-       y="670.80328"
+       x="314.26437"
+       y="748.36108"
        id="text4210-3"><tspan
          sodipodi:role="line"
          id="tspan4212-6"
-         x="517.89398"
-         y="670.80328"
+         x="314.26437"
+         y="748.36108"
          style="font-size:16px;line-height:0">M<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4214-7">1</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="517.93463"
-       y="720.66016"
-       id="text4216-5"><tspan
-         sodipodi:role="line"
-         id="tspan4218-3"
-         x="517.93463"
-         y="720.66016"
-         style="font-size:16px;line-height:0">M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4220-5">2</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="517.83051"
-       y="783.7334"
-       id="text4222-6"><tspan
-         sodipodi:role="line"
-         id="tspan4224-2"
-         x="517.83051"
-         y="783.7334"
-         style="font-size:16px;line-height:0">M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4226-9">3</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="352.18729"
-       y="845.30939"
-       id="text4279"><tspan
-         sodipodi:role="line"
-         id="tspan4281"
-         x="352.18729"
-         y="845.30939"
-         style="font-size:16px;line-height:0">L<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4283">1</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="435.01544"
-       y="845.30939"
-       id="text4285"><tspan
-         sodipodi:role="line"
-         id="tspan4287"
-         x="435.01544"
-         y="845.30939"
-         style="font-size:16px;line-height:0">L<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4289">2</tspan></tspan></text>
-    <g
-       id="g6039"
-       transform="matrix(0,1,1,0,-367.11313,551.08685)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-3"
-         d="m 88.769485,878.08425 53.653385,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-5);marker-end:url(#StopM-5)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-1-0"
-         d="m 146.60208,878.08425 38.3569,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-4-5);marker-end:url(#StopM-4-5)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-4-7"
-         d="m 188.40083,878.08425 80.83493,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-0-7);marker-end:url(#StopM-0-7)" />
-    </g>
+   id="tspan4214-7" /></tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-0-86);marker-end:url(#StopM-0-86)"
-       d="m 388.3346,827.7273 112.46464,0"
-       id="path5139-4-8"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-0-43);marker-end:url(#StopM-0-43)"
-       d="m 341.69778,827.7273 40.9089,0"
-       id="path5139-4-2"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-5);marker-end:url(#StopM-5)"
+       d="M 307.34151,717.41412 V 771.0675"
+       id="path5139-3"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="596.27344"
-       y="778.30914"
+       x="585.68781"
+       y="757.68414"
        id="text5215-3-0"><tspan
          sodipodi:role="line"
          id="tspan5217-6-6"
-         x="596.27344"
-         y="778.30914"
-         style="font-size:12.5px;line-height:0">L = L<tspan
+         x="585.68781"
+         y="757.68414"
+         style="font-size:12.5px;line-height:0">L = 1<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4997-8">1</tspan> + L<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4995-9">2</tspan></tspan></text>
+   id="tspan4995-9" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="294.8624"
-       y="751.15924"
+       x="244.52463"
+       y="758.97681"
        id="text4973-2"><tspan
          sodipodi:role="line"
          id="tspan4975-6"
-         x="294.8624"
-         y="751.15924"
-         style="font-size:7.5px;line-height:0">M x L</tspan></text>
+         x="244.52463"
+         y="758.97681"
+         style="font-size:7.5px;line-height:0">M x 1</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect4136-64"
        width="52.436317"
        height="76.34111"
-       x="40.721474"
-       y="919.1106" />
+       x="91.346474"
+       y="920.9856" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="55.372803"
-       y="959.20898"
+       x="105.9978"
+       y="961.08398"
        id="text4138-9"><tspan
          sodipodi:role="line"
          id="tspan4140-5"
-         x="55.372803"
-         y="959.20898"
+         x="105.9978"
+         y="961.08398"
          style="font-size:16px;line-height:1.25"><tspan
            style="font-weight:bold"
            id="tspan4144-0">A</tspan><tspan
@@ -2212,448 +1951,49 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="184.65091"
+       x="216.52591"
        y="966.1167"
        id="text9627"><tspan
          sodipodi:role="line"
          id="tspan9629"
-         x="184.65091"
+         x="216.52591"
          y="966.1167"
-         style="font-size:16px;line-height:0">+</tspan></text>
+         style="font-size:16px;line-height:0">=</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="363.73257"
-       y="966.1167"
-       id="text9627-7"><tspan
-         sodipodi:role="line"
-         id="tspan9629-1"
-         x="363.73257"
-         y="966.1167"
-         style="font-size:16px;line-height:0">+</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="55.69046"
-       y="1023.0974"
+       x="108.19046"
+       y="1024.9724"
        id="text4210-9"><tspan
          sodipodi:role="line"
          id="tspan4212-3"
-         x="55.69046"
-         y="1023.0974"
+         x="108.19046"
+         y="1024.9724"
          style="font-size:16px;line-height:0">M<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4214-9">1</tspan></tspan></text>
+   id="tspan4214-9" /></tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker12169);marker-end:url(#marker10161)"
-       d="m 39.28551,1004.2074 53.65339,0"
+       d="M 89.91051,1006.0824 H 143.5639"
        id="path5139-0"
        inkscape:connector-curvature="0" />
-    <g
-       id="g17239"
-       transform="translate(-36,0)">
-      <text
-         id="text4138-0-8"
-         y="964.32794"
-         x="149.8912"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="964.32794"
-           x="149.8912"
-           id="tspan4140-6-71"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:1.25"><tspan
-             id="tspan4144-3-7"
-             style="font-weight:bold">B</tspan><tspan
-             style="font-size:64.99999762%;baseline-shift:sub"
-             id="tspan4651-2">11</tspan><tspan
-             id="tspan4657-7"
-             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super" /></tspan></text>
-      <rect
-         transform="matrix(0,1,1,0,0,0)"
-         y="141.48669"
-         x="933.04822"
-         height="41.54105"
-         width="52.665241"
-         id="rect4136-9-2"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text4279-5"
-         y="1012.1848"
-         x="151.1899"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="1012.1848"
-           x="151.1899"
-           id="tspan4281-0"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:0">L<tspan
-   id="tspan4283-9"
-   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-4-2-6"
-         d="m 140.70041,994.60266 40.9089,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker12930);marker-end:url(#marker13879)" />
-    </g>
-    <g
-       id="g17324"
-       transform="translate(26,0)">
-      <text
-         id="text4138-0-66-4"
-         y="965.09912"
-         x="268.97876"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="965.09912"
-           x="268.97876"
-           id="tspan4140-6-4-9"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:1.25"><tspan
-             id="tspan4144-3-9-0"
-             style="font-weight:bold">B</tspan><tspan
-             style="font-size:64.99999762%;baseline-shift:sub"
-             id="tspan4651-5-9">21</tspan><tspan
-             id="tspan4657-0-1"
-             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super" /></tspan></text>
-      <rect
-         transform="matrix(0,1,1,0,0,0)"
-         y="260.521"
-         x="940.83563"
-         height="41.56625"
-         width="37.627026"
-         id="rect4136-3-02-7-7"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text4279-1"
-         y="1005.2609"
-         x="271.3999"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="1005.2609"
-           x="271.3999"
-           id="tspan4281-5"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:0">L<tspan
-   id="tspan4283-98"
-   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-4-2-4"
-         d="m 260.91038,987.67878 40.9089,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker11363);marker-end:url(#marker13007)" />
-    </g>
-    <g
-       id="g17371"
-       transform="translate(92,-4)">
-      <text
-         id="text4138-0-1-6"
-         y="965.91931"
-         x="428.71143"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="965.91931"
-           x="428.71143"
-           id="tspan4140-6-7-5"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:1.25"><tspan
-             id="tspan4144-3-2-6"
-             style="font-weight:bold">B</tspan><tspan
-             style="font-size:64.99999762%;baseline-shift:sub"
-             id="tspan4651-7-3">31</tspan><tspan
-             id="tspan4657-2-9"
-             style="font-size:64.99999762%;letter-spacing:0px;baseline-shift:super" /></tspan></text>
-      <rect
-         transform="matrix(0,1,1,0,0,0)"
-         y="420.46161"
-         x="920.49475"
-         height="41.358616"
-         width="80.646347"
-         id="rect4136-3-1-4"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text4279-4"
-         y="1027.408"
-         x="430.97995"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="1027.408"
-           x="430.97995"
-           id="tspan4281-4"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:0">L<tspan
-   id="tspan4283-4"
-   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-4-2-47"
-         d="m 420.49043,1009.8258 40.9089,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker11763);marker-end:url(#marker13419)" />
-    </g>
-    <g
-       id="g17263"
-       transform="translate(24,-3.4772339)">
-      <rect
-         y="922.58783"
-         x="214.44817"
-         height="76.387421"
-         width="37.463467"
-         id="rect4136-3-02-0"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text4138-6-3-6"
-         y="962.91791"
-         x="220.85451"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="962.91791"
-           x="220.85451"
-           id="tspan4140-7-7-1"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:1.25"><tspan
-             id="tspan4144-5-5-5"
-             style="font-weight:bold">A</tspan><tspan
-             id="tspan4142-3-9-9"
-             style="font-size:64.99999762%;baseline-shift:sub">12</tspan></tspan></text>
-      <text
-         id="text4216-1"
-         y="1025.012"
-         x="221.83731"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="1025.012"
-           x="221.83731"
-           id="tspan4218-7"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:0">M<tspan
-   id="tspan4220-59"
-   style="font-size:64.99999762%;baseline-shift:sub">2</tspan></tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-1-6"
-         d="m 213.36748,1006.1219 38.3569,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker15787);marker-end:url(#marker16731)" />
-    </g>
-    <g
-       id="g17348"
-       transform="translate(92,-3.895813)">
-      <rect
-         y="923.00641"
-         x="328.73096"
-         height="76.005852"
-         width="80.295792"
-         id="rect4136-3-15"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text4138-6-97"
-         y="962.75262"
-         x="356.44937"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="962.75262"
-           x="356.44937"
-           id="tspan4140-7-76"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:1.25"><tspan
-             id="tspan4144-5-7"
-             style="font-weight:bold">A</tspan><tspan
-             id="tspan4142-3-3"
-             style="font-size:64.99999762%;baseline-shift:sub">13</tspan></tspan></text>
-      <text
-         id="text4222-8"
-         y="1024.9015"
-         x="358.32532"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="1024.9015"
-           x="358.32532"
-           id="tspan4224-5"
-           sodipodi:role="line"
-           style="font-size:16px;line-height:0">M<tspan
-   id="tspan4226-7"
-   style="font-size:64.99999762%;baseline-shift:sub">3</tspan></tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path5139-4-4"
-         d="m 328.61141,1006.0851 80.83493,0"
-         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker15333);marker-end:url(#marker16259)" />
-    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="597.49084"
-       y="966.10889"
-       id="text17383"><tspan
-         sodipodi:role="line"
-         id="tspan17385"
-         x="597.49084"
-         y="966.10889"
-         style="font-size:16px;line-height:0">=</tspan></text>
-    <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#008000;stroke-width:2.68021941;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4136-1"
-       width="41.67878"
-       height="76.660889"
-       x="629.20728"
-       y="920.59369" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="684.84344"
-       y="962.62915"
-       id="text4267-3"><tspan
-         sodipodi:role="line"
-         id="tspan4269-8"
-         x="684.84344"
-         y="962.62915"
-         style="font-size:16px;line-height:0">N<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4271-8">1</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17932);marker-end:url(#marker18440)"
-       d="m 678.99272,919.94427 0,76.9099"
-       id="path5139-5-3"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="640.37103"
-       y="1022.2582"
-       id="text4279-6"><tspan
-         sodipodi:role="line"
-         id="tspan4281-43"
-         x="640.37103"
-         y="1022.2582"
-         style="font-size:16px;line-height:0">L<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4283-3">1</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker19502);marker-end:url(#marker19502)"
-       d="m 629.88151,1004.6762 40.9089,0"
-       id="path5139-4-2-3"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="638.49487"
-       y="962.63123"
-       id="text4138-8"><tspan
-         sodipodi:role="line"
-         id="tspan4140-60"
-         x="638.49487"
-         y="962.63123"
-         style="font-size:16px;line-height:1.25"><tspan
-           style="font-weight:bold"
-           id="tspan4144-4">C</tspan><tspan
-           style="font-size:64.99999762%;baseline-shift:sub"
-           id="tspan4142-8">11</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="385.87381"
-       y="962.27942"
-       id="text4267-3-7"><tspan
-         sodipodi:role="line"
-         id="tspan4269-8-6"
-         x="385.87381"
-         y="962.27942"
-         style="font-size:16px;line-height:0">N<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4271-8-4">1</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker21138);marker-end:url(#marker21670)"
-       d="m 410.02306,919.59453 0,76.9099"
-       id="path5139-5-3-3"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="204.48798"
-       y="962.10425"
-       id="text4267-3-7-2"><tspan
-         sodipodi:role="line"
-         id="tspan4269-8-6-5"
-         x="204.48798"
-         y="962.10425"
-         style="font-size:16px;line-height:0">N<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4271-8-4-4">1</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker24038);marker-end:url(#marker24630)"
-       d="m 228.63724,919.41933 0,76.90993"
-       id="path5139-5-3-3-0"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="4.4880037"
-       y="961.05432"
+       x="55.113003"
+       y="962.92932"
        id="text4267-3-7-9"><tspan
          sodipodi:role="line"
          id="tspan4269-8-6-2"
-         x="4.4880037"
-         y="961.05432"
+         x="55.113003"
+         y="962.92932"
          style="font-size:16px;line-height:0">N<tspan
    style="font-size:64.99999762%;baseline-shift:sub"
    id="tspan4271-8-4-2">1</tspan></tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker23476);marker-end:url(#marker23476)"
-       d="m 28.637244,918.36946 0,76.9099"
+       d="m 79.262244,920.24446 v 76.9099"
        id="path5139-5-3-3-4"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="568.59827"
-       y="960.89966"
-       id="text4222-4"><tspan
-         sodipodi:role="line"
-         id="tspan4224-8"
-         x="568.59827"
-         y="960.89966"
-         style="font-size:16px;line-height:0">M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4226-1">3</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker28164);marker-end:url(#marker30050)"
-       d="m 564.30447,916.32378 0,80.83493"
-       id="path5139-4-28"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="341.42261"
-       y="964.15973"
-       id="text4216-2"><tspan
-         sodipodi:role="line"
-         id="tspan4218-1"
-         x="341.42261"
-         y="964.15973"
-         style="font-size:16px;line-height:0">M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4220-0">2</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker27138);marker-end:url(#marker28798)"
-       d="m 338.13123,940.74923 0,38.3569"
-       id="path5139-1-5"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="161.30725"
-       y="963.81995"
-       id="text4210-8"><tspan
-         sodipodi:role="line"
-         id="tspan4212-5"
-         x="161.30725"
-         y="963.81995"
-         style="font-size:16px;line-height:0">M<tspan
-   style="font-size:64.99999762%;baseline-shift:sub"
-   id="tspan4214-0">1</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker27548);marker-end:url(#marker27548)"
-       d="m 155.72901,932.76124 0,53.65339"
-       id="path5139-6"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
@@ -2666,5 +2006,328 @@
          x="228.34644"
          y="906.89948"
          style="stroke-width:0.93749994" /></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#008000;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4136-6-3"
+       width="5.6145706"
+       height="62.918068"
+       x="438.46732"
+       y="750.56866" />
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#008000;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4136-67"
+       width="5.6074696"
+       height="77.358269"
+       x="438.48297"
+       y="667.90173" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="480.79623"
+       y="711.05878"
+       id="text4267-37"><tspan
+         sodipodi:role="line"
+         id="tspan4269-5"
+         x="480.79623"
+         y="711.05878"
+         style="font-size:16.00000191px;line-height:0;stroke-width:1.00000012px">N<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000012px"
+   id="tspan4271-9">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="480.83685"
+       y="785.17938"
+       id="text4273-2"><tspan
+         sodipodi:role="line"
+         id="tspan4275-2"
+         x="480.83685"
+         y="785.17938"
+         style="font-size:16.00000191px;line-height:0;stroke-width:1.00000012px">N<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000012px"
+   id="tspan4277-8">2</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-9-87);marker-end:url(#StopM-9-87)"
+       d="m 474.94552,668.37395 v 76.90991"
+       id="path5139-5-9"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-9-3-6);marker-end:url(#StopM-9-3-6)"
+       d="m 474.94552,748.89674 v 64.11777"
+       id="path5139-5-8-7"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="400.06635"
+       y="745.0614"
+       id="text4448-4-3"><tspan
+         sodipodi:role="line"
+         id="tspan4450-3-6"
+         x="400.06635"
+         y="745.0614"
+         style="font-weight:bold;font-size:16.00000191px;line-height:1.25;stroke-width:1.00000012px">c<tspan
+   style="font-weight:normal;stroke-width:1.00000012px"
+   id="tspan4800-1"> =</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="395.17679"
+       y="754.5686"
+       id="text4973-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan4975-6-9"
+         x="395.17679"
+         y="754.5686"
+         style="font-size:7.50000048px;line-height:0;stroke-width:1.00000012px">N x 1</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4136-9-9"
+       width="54.558659"
+       height="5.4559116"
+       x="934.44592"
+       y="156.6093"
+       transform="matrix(0,1,1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="194.21243"
+       y="965.3808"
+       id="text4210-3-4"><tspan
+         sodipodi:role="line"
+         id="tspan4212-6-7"
+         x="194.21243"
+         y="965.3808"
+         style="font-size:16.00000191px;line-height:0;stroke-width:1.00000012px">M<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000012px"
+   id="tspan4214-7-8" /></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-5-3);marker-end:url(#StopM-5-3)"
+       d="m 187.28957,934.43385 v 53.65338"
+       id="path5139-3-4"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="168.51059"
+       y="967.69012"
+       id="text4448-4-5"><tspan
+         sodipodi:role="line"
+         id="tspan4450-3-0"
+         x="168.51059"
+         y="967.69012"
+         style="font-weight:bold;font-size:16.00000191px;line-height:1.25;stroke-width:1.00000012px">b<tspan
+   style="font-weight:normal;stroke-width:1.00000012px"
+   id="tspan4800-3" /></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#008000;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4136-67-0"
+       width="5.60747"
+       height="77.358269"
+       x="245.63504"
+       y="921.18365" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="287.94827"
+       y="964.3407"
+       id="text4267-37-6"><tspan
+         sodipodi:role="line"
+         id="tspan4269-5-3"
+         x="287.94827"
+         y="964.3407"
+         style="font-size:16.00000381px;line-height:0;stroke-width:1.00000024px">N<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000024px"
+   id="tspan4271-9-2">1</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-9-87-6);marker-end:url(#StopM-9-87-6)"
+       d="m 282.09759,921.65588 v 76.90991"
+       id="path5139-5-9-0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="450.92999"
+       y="709.46136"
+       id="text4448-4-5-6"><tspan
+         sodipodi:role="line"
+         id="tspan4450-3-0-1"
+         x="450.92999"
+         y="709.46136"
+         style="font-weight:bold;font-size:16.00000381px;line-height:1.25;stroke-width:1.00000024px">c<tspan
+   style="font-weight:normal;font-size:64.99999762%;baseline-shift:sub"
+   id="tspan11224">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000036px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="450.97061"
+       y="784.90814"
+       id="text4448-4-5-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan4450-3-0-1-4"
+         x="450.97061"
+         y="784.90814"
+         style="font-weight:bold;font-size:16.00000572px;line-height:1.25;stroke-width:1.00000036px">c<tspan
+   style="font-weight:normal;font-size:10.40000248px;baseline-shift:sub;stroke-width:1.00000036px"
+   id="tspan11224-7">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000036px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="258.37683"
+       y="962.74329"
+       id="text4448-4-5-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan4450-3-0-1-5"
+         x="258.37683"
+         y="962.74329"
+         style="font-weight:bold;font-size:16.00000572px;line-height:1.25;stroke-width:1.00000036px">c<tspan
+   style="font-weight:normal;font-size:10.40000248px;baseline-shift:sub;stroke-width:1.00000036px"
+   id="tspan11224-6">1</tspan></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0000ff;stroke-width:2.70726275;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4136-6-7"
+       width="52.502724"
+       height="62.090775"
+       x="419.05304"
+       y="926.32452" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="433.85077"
+       y="961.60199"
+       id="text4138-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan4140-9-4"
+         x="433.85077"
+         y="961.60199"
+         style="font-size:16.00000191px;line-height:1.25;stroke-width:1.00000012px"><tspan
+           style="font-weight:bold;stroke-width:1.00000012px"
+           id="tspan4144-1-3">A</tspan><tspan
+           style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000012px"
+           id="tspan4142-2-0">21</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="436.65948"
+       y="1015.0477"
+       id="text4210-7"><tspan
+         sodipodi:role="line"
+         id="tspan4212-8"
+         x="436.65948"
+         y="1015.0477"
+         style="font-size:16.00000191px;line-height:0;stroke-width:1.00000012px">M<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000012px"
+   id="tspan4214-6" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="385.81274"
+       y="961.45221"
+       id="text4273-8"><tspan
+         sodipodi:role="line"
+         id="tspan4275-8"
+         x="385.81274"
+         y="961.45221"
+         style="font-size:16.00000191px;line-height:0;stroke-width:1.00000012px">N<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000012px"
+   id="tspan4277-4">2</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-93);marker-end:url(#StopM-93)"
+       d="m 418.37953,996.1576 h 53.6534"
+       id="path5139-31"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-9-3-52);marker-end:url(#StopM-9-3-52)"
+       d="M 409.92138,925.16948 V 989.2873"
+       id="path5139-5-8-4"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="544.18347"
+       y="962.28052"
+       id="text9627-0"><tspan
+         sodipodi:role="line"
+         id="tspan9629-6"
+         x="544.18347"
+         y="962.28052"
+         style="font-size:16.00000191px;line-height:0;stroke-width:1.00000012px">=</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4136-9-9-8"
+       width="54.558662"
+       height="5.4559116"
+       x="930.60974"
+       y="484.26691"
+       transform="matrix(0,1,1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="521.87"
+       y="961.54462"
+       id="text4210-3-4-9"><tspan
+         sodipodi:role="line"
+         id="tspan4212-6-7-2"
+         x="521.87"
+         y="961.54462"
+         style="font-size:16.00000381px;line-height:0;stroke-width:1.00000024px">M<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000024px"
+   id="tspan4214-7-8-6" /></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-5-3-9);marker-end:url(#StopM-5-3-9)"
+       d="m 514.94717,930.59766 v 53.65338"
+       id="path5139-3-4-6"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="496.16818"
+       y="963.85394"
+       id="text4448-4-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan4450-3-0-9"
+         x="496.16818"
+         y="963.85394"
+         style="font-weight:bold;font-size:16.00000381px;line-height:1.25;stroke-width:1.00000024px">b<tspan
+   style="font-weight:normal;stroke-width:1.00000024px"
+   id="tspan4800-3-5" /></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#008000;stroke-width:2.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4136-6-3-8"
+       width="5.6145706"
+       height="62.918076"
+       x="569.61578"
+       y="924.9939" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="611.98535"
+       y="959.60461"
+       id="text4273-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan4275-2-1"
+         x="611.98535"
+         y="959.60461"
+         style="font-size:16.00000381px;line-height:0;stroke-width:1.00000024px">N<tspan
+   style="font-size:10.39999962px;baseline-shift:sub;stroke-width:1.00000024px"
+   id="tspan4277-8-7">2</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#StopM-9-3-6-0);marker-end:url(#StopM-9-3-6-0)"
+       d="m 606.094,923.32194 v 64.11778"
+       id="path5139-5-8-7-2"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:'TG Pagella Math';-inkscape-font-specification:'TG Pagella Math';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000048px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="582.11908"
+       y="959.33337"
+       id="text4448-4-5-6-5-7"><tspan
+         sodipodi:role="line"
+         id="tspan4450-3-0-1-4-2"
+         x="582.11908"
+         y="959.33337"
+         style="font-weight:bold;font-size:16.00000763px;line-height:1.25;stroke-width:1.00000048px">c<tspan
+   style="font-weight:normal;font-size:10.40000248px;baseline-shift:sub;stroke-width:1.00000048px"
+   id="tspan11224-7-2">2</tspan></tspan></text>
   </g>
 </svg>
