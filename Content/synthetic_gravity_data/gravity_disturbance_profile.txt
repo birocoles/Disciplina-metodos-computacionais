@@ -1,6 +1,6 @@
-# Noise-free gravity anomaly calculated at z = -100 m, 
+# Noise-free gravity disturbance calculated at z = -100 m, 
 #on the profile x = 0 m
-# x (m)    y (m)    z (m)    gravity anomaly (mGal)
+# x (m)    y (m)    z (m)    gravity disturbance (mGal)
 0.00000 -10000.00000 -100.00000 0.52004
 0.00000 -9166.66667 -100.00000 0.73489
 0.00000 -8333.33333 -100.00000 1.09728
