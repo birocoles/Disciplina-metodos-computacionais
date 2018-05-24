@@ -137,6 +137,7 @@ Rather, it gives the required background to follow the classes.
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
     - [x] Exercise: Interpolate gravity data on a regular profile
+    - [x] Exercise (extra): Interpolate gravity data on a regular grid
 
 * Biharmonic Splines ([`biharmonic_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic_splines.ipynb))
 
