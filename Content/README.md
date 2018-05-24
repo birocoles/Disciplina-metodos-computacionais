@@ -140,7 +140,7 @@ Rather, it gives the required background to follow the classes.
 
 * Biharmonic Splines ([`biharmonic_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic_splines.ipynb))
 
-    - [x] Exercise: Interpolate gravity data on a regular grid
+    - [x] Exercise (extra): Interpolate gravity data on a regular grid
 
 #### Numerical solution of differential equations
 
