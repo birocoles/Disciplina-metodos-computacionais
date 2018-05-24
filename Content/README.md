@@ -164,7 +164,7 @@ Rather, it gives the required background to follow the classes.
 
 * Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
 
-    - [ ] Exercise (extra): Implement the Fourier series for a periodic function
+    - [x] Exercise: Implement the Fourier series for a periodic function
 
 * Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
 
@@ -172,6 +172,6 @@ Rather, it gives the required background to follow the classes.
 
 * Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
 
-    - [ ] Exercise: Implement the Discrete Fourier Transform 1D
-    - [ ] Exercise: Calculate the horizontal derivative of a
+    - [x] Exercise: Implement the Discrete Fourier Transform 1D
+    - [x] Exercise: Calculate the horizontal derivative of a
     total-field anomaly on a profile
