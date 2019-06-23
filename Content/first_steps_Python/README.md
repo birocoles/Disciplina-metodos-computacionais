@@ -1,28 +1,34 @@
 # First steps in Python
 
-#### My first notebook
+## Software Carpentry lesson
 
-> The contents of this topic are located at the directory: `my_first_notebook`
+Access the lesson [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+at Software Carpentry. At [Setup](http://swcarpentry.github.io/python-novice-inflammation/setup/index.html):
 
-Short guide for creating a [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/).
+#### Install Python
 
-#### Software Carpentry Lessons
+> If you have already installed Python, go to the next topic.
 
-> The contents of this topic are located at the directory: `SC`
+#### Obtain lesson materials
 
-Simple notebook showing the lesson 
-[Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
-of the [Software Carpentry](http://software-carpentry.org/).
+> Create a directory called `swc-python`, download the file
+`python-novice-inflammation-data.zip` and unzip the directory `data`. We will
+not use the other file.
 
-#### Programming exercises
+Now, start a Jupyter Notebook at the directory `swc-python`. Use the name
+`topic-1.ipynb`. We will use this notebook to do the tasks of topic
+[`Analyzing Patient Data`](http://swcarpentry.github.io/python-novice-inflammation/01-numpy/index.html).
+After finishing this topic, start a new notebook at the
+directory `swc-python` with the name `topic-2.ipynb`. Use this notebook to
+do the tasks of topic [`Repeating Actions with Loops`](http://swcarpentry.github.io/python-novice-inflammation/02-loop/index.html)
+and so on. We will cover the topics 1 to 8. Topics 9 and 10 are bonus.
 
-> The contents of this topic are located at the directory: `programming_exercises`
 
-Present some simple programming exercises to be solved in Python by using the Jupyter Notebook.
+## Simple Moving Average (SMA)
 
-#### Simple Moving Average (SMA)
+After finishing the Software Carpentry lesson, you are ready to understand the
+application of a [SMA filter](https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average)
+to a synthetic data set. The key points are:
 
-> The contents of this topic are located at the directory: `SMA`
-
-Application of the [SMA filter](https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average) 
-to a synthetic data set.
+* Create functions at external files
+* Create tests with `pytest`
