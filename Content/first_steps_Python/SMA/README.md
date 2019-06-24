@@ -7,8 +7,9 @@ The main goal is:
 * [creating a 1D numpy array](http://docs.scipy.org/doc/numpy/reference/routines.array-creation.html);
 * [slicing and indexing](https://docs.scipy.org/doc/numpy-1.12.0/reference/arrays.indexing.html) numpy arrays;
 * practicing the concept of loops;
-* creating functions and
-* testing and documenting the code.
+* creating functions;
+* documenting the code;
+* testing the code.
 
 In this class, we use the following notebooks:
 

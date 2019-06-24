@@ -25,7 +25,10 @@ lista de links úteis sobre Git e GitHub:
 
 * [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 
-<img src='https://media.giphy.com/media/tvGOBZKNEX0ac/giphy.gif' width = 700>
+<img src = 'giphy-downsized-large.gif' width = 700>
+
+**fonte:** [GIPHY](https://media.giphy.com/media/tvGOBZKNEX0ac/giphy.gif)
+
 
 Beleza, é possível que as informações acima tenham sido completamente
 inúteis para este curso. Sendo assim, vamos agilizar um pouco as
@@ -139,6 +142,8 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
  ítens listados abaixo .
 
  * **First steps in Python**
+
+ * **Basic vector operations**
 
  * **Basic matrix operations**
 
