@@ -143,6 +143,8 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
 
  * **First steps in Python**
 
+ * **Basic vector operations**
+
  * **Basic matrix operations**
 
  * **Structured matrices**
