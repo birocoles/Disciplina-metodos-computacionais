@@ -1,6 +1,6 @@
 # Brief description of the topics to be studied along the course MCOM
 
-<img src='LU_decomposition_sketch.JPG' width = 500>
+<img src='LU_decomposition_sketch.JPG' width = 700>
 
 > All the content of this folder can be accessed at [nbviewer](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Content/)
 
@@ -10,7 +10,7 @@ The idea here is giving the required background to follow the course.
 
 Access the directory `first_steps_Python` and take a look at the instructions.
 
-#### Basic matrix operations
+#### Basic vector operations
 
 * scalar-vector product ([`scalar-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar-vetor.ipynb))
 
@@ -25,6 +25,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 * Outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
     - [ ] Exercise: Outer product
+
+#### Basic matrix operations
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 

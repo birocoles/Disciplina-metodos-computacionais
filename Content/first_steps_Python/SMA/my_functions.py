@@ -73,7 +73,7 @@ def sma1d(data, window_size):
     
     assert window_size%2 != 0, 'window_size must be odd'
 
-    assert window_size >= 3, 'increase the window_size'
+    assert window_size >= 3, 'window_size must be greater than or equal to 3'
 
     # lost points at the extremities
     i0 = window_size//2
