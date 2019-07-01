@@ -10,7 +10,7 @@ The idea here is giving the required background to follow the course.
 
 Access the directory `first_steps_Python` and take a look at the instructions.
 
-#### Basic vector operations
+#### Notation and basic vector operations
 
 * scalar-vector product ([`scalar-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar-vetor.ipynb))
 
@@ -26,7 +26,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
     - [ ] Exercise: Outer product
 
-#### Basic matrix operations
+#### Notation and basic matrix operations
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
