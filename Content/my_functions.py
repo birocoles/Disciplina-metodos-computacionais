@@ -1,29 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def dumb_vector_norm(x, p):
-    '''
-    Calculates the p-norm of a vector 'x'
-
-    input
-
-    x: numpy array - vector
-    p: int - class of vector norm
-
-    output
-
-    y: numpy array - product of 'a' and 'x'
-    '''
-
-    y = np.zeros_like(x)
-
-    for i in range(x.size):
-        y[i] = a*x[i]
-
-    return y
-
-
-def dumb_dot(x, y):
+def dot(x, y):
 
     '''
     Calculates the dot product of vectors 'x' and 'y'
@@ -37,7 +15,8 @@ def dumb_dot(x, y):
 
     c: float - dot product of 'x' and 'y'
     '''
-
+    x = np.asarray(x)
+    y = np.asarray(y)
     assert x.size == y.size, 'x and y need to have the same size'
 
     c = 0.0

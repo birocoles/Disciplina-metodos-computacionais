@@ -10,23 +10,29 @@ The idea here is giving the required background to follow the course.
 
 Access the directory `first_steps_Python` and take a look at the instructions.
 
-#### Notation and basic vector operations
+#### Basic vector operations
 
-* scalar-vector product ([`scalar-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar-vetor.ipynb))
+* notation ([`basics-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/basics-vector.ipynb))
 
 * dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-    - [ ] Exercise: Dot product
+    - [ ] Exercise: create a function for computing the dot product
 
-* Hadamard products of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
+* Hadamard product of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
 
-    - [ ] Exercise: Hadamard product
+    - [ ] Exercise: create a function for computing the Hadamard product
 
-* Outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
+* outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
-    - [ ] Exercise: Outer product
+    - [ ] Exercise: create a function for computing the outer product
 
-#### Notation and basic matrix operations
+* Vector norms
+([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
+
+    - [ ] Exercise: create a single function for computing the 2-, 1- and infinite-norm of a vector
+    - [ ] Exercise: use your function to verify some vector inequalities
+
+#### Basic matrix operations
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
