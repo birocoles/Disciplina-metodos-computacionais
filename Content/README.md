@@ -12,19 +12,24 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 #### Basic vector operations
 
-* scalar-vector product ([`scalar-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar-vetor.ipynb))
+* notation ([`basics-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/basics-vector.ipynb))
 
 * dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-    - [ ] Exercise: Dot product
+    - [x] Exercise: create a function for computing the dot product
 
-* Hadamard products of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
+* Hadamard product of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
 
-    - [ ] Exercise: Hadamard product
+    - [x] Exercise: create a function for computing the Hadamard product
 
-* Outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
+* outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
-    - [ ] Exercise: Outer product
+    - [x] Exercise: create a function for computing the outer product
+
+* Vector norms
+([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
+
+    - [x] Exercise: create a single function for computing the 2-, 1- and infinity-norm of a vector
 
 #### Basic matrix operations
 

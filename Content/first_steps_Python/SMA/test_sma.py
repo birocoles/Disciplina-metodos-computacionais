@@ -5,8 +5,8 @@ from pytest import raises
 
 def test_large_window():
     'Data size must be greater than window size'
-    data_test = np.arange(5)
-    window = 6
+    data_test = np.arange(15)
+    window = 3
     raises(AssertionError, mf.sma1d, data=data_test, window_size=window)
 
 
