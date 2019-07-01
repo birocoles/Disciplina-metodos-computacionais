@@ -16,21 +16,20 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-    - [ ] Exercise: create a function for computing the dot product
+    - [x] Exercise: create a function for computing the dot product
 
 * Hadamard product of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
 
-    - [ ] Exercise: create a function for computing the Hadamard product
+    - [x] Exercise: create a function for computing the Hadamard product
 
 * outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
-    - [ ] Exercise: create a function for computing the outer product
+    - [x] Exercise: create a function for computing the outer product
 
 * Vector norms
 ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
-    - [ ] Exercise: create a single function for computing the 2-, 1- and infinite-norm of a vector
-    - [ ] Exercise: use your function to verify some vector inequalities
+    - [x] Exercise: create a single function for computing the 2-, 1- and infinity-norm of a vector
 
 #### Basic matrix operations
 
