@@ -27,7 +27,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
     - [x] Exercise: create a function for computing the outer product
 
 * Vector norms
-([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
+([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/vector-norms.ipynb))
 
     - [x] Exercise: create a single function for computing the 2-, 1- and infinity-norm of a vector
 
