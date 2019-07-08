@@ -52,6 +52,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 #### Structured matrices
 
+* Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/permutation_matrices.ipynb))
+
 * Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
 
     - [ ] Exercise: products of diagonal and full matrices
@@ -60,8 +62,6 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
     - [ ] Exercise (extra): flops associated with the product of triangular matrices and vectors
     - [ ] Exercise: products of triangular matrices and vectors
-
-* Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/permutation_matrices.ipynb))
 
 * Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
