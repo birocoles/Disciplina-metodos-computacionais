@@ -35,14 +35,16 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
-    - [ ] Exercise: matrix-vector product functions
-    - [ ] Exercise: comparison with the moving average code developed in a previous class
-    - [ ] Exercise: computation of first derivative by using the central finite difference
+    - [x] Exercise: matrix-vector product functions
+    - [x] Exercise: comparison with the moving average code developed in a previous class
+    - [x] Exercise: computation of first derivative by using the central finite difference
 
 * matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
-    - [ ] Exercise: matrix-matrix product functions
-    - [ ] Exercise: rotation matrices
+    - [x] Exercise: matrix-matrix product functions
+    - [x] Exercise: rotation matrices
+
+#### How to determine the computational cost of a given operation?
 
 * Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
 
@@ -54,14 +56,12 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
     - [ ] Exercise: products of diagonal and full matrices
 
-* Triangular matrices - part 1 ([`triangular_matrices_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_1.ipynb))
+* Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices.ipynb))
 
     - [ ] Exercise (extra): flops associated with the product of triangular matrices and vectors
     - [ ] Exercise: products of triangular matrices and vectors
 
-* Triangular matrices - part 2 ([`triangular_matrices_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_2.ipynb))
-
-    - [ ] Exercise (extra): triangular matrices storage
+* Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/permutation_matrices.ipynb))
 
 * Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
