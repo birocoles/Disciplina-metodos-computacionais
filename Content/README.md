@@ -56,14 +56,12 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
     - [ ] Exercise: products of diagonal and full matrices
 
-* Triangular matrices - part 1 ([`triangular_matrices_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_1.ipynb))
+* Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices.ipynb))
 
     - [ ] Exercise (extra): flops associated with the product of triangular matrices and vectors
     - [ ] Exercise: products of triangular matrices and vectors
 
-* Triangular matrices - part 2 ([`triangular_matrices_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_2.ipynb))
-
-    - [ ] Exercise (extra): triangular matrices storage
+* Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/permutation_matrices.ipynb))
 
 * Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
