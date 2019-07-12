@@ -48,28 +48,58 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
 
-    - [ ] Exercise (extra): total number of flops required to perform simple matrix operations
+    - [x] Exercise (extra): total number of flops required to perform simple matrix operations
 
 #### Structured matrices
 
 * Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/permutation_matrices.ipynb))
 
-* Diagonal matrices ([`diagonal_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices.ipynb))
+* Diagonal matrices - part 1 ([`diagonal_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices_part1.ipynb))
 
-    - [ ] Exercise: products of diagonal and full matrices
+    - [x] Exercise: products of diagonal and full matrices
 
-* Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices.ipynb))
+* Diagonal matrices - part 2 ([`diagonal_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices_part2.ipynb))
+
+    - [x] Exercise: product of a diagonal matrix with offset and a vector
+
+* Triangular matrices - part 1 ([`triangular_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part1.ipynb))
 
     - [ ] Exercise (extra): flops associated with the product of triangular matrices and vectors
     - [ ] Exercise: products of triangular matrices and vectors
+
+* Triangular matrices - part 2 ([`triangular_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part2.ipynb))
+
+    - [ ] Exercise: products of triangular matrices and vectors by using efficient storage
+
+* Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
+
+    - [ ] Exercise: product of symmetric matrices and vectors with efficient storage
+
+* Band matrices
+([`band_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/band_matrices.ipynb))
+
+    - [ ] Exercise: product of band matrices and vectors with efficient storage
 
 * Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
     - [ ] Exercise: product of two complex matrices
 
-* Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
-    - [ ] Exercise (extra): product of symmetric matrices and vectors
+#### Discrete Fourier Transform
+
+* Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
+
+    - [ ] Exercise: Implement the Fourier series for a periodic function
+
+* Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
+
+* Fourier Transform 1D - part 3 ([`fourier_1D_3.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_3.ipynb))
+
+* Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
+
+    - [ ] Exercise: Implement the Discrete Fourier Transform 1D
+    - [ ] Exercise: Calculate the horizontal derivative of a total-field anomaly on a profile
+
 
 #### Numerical solution of linear systems
 
@@ -164,19 +194,3 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 * Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
     - [ ] Exercise: Simulate an abrupt temperature perturbation
-
-#### Transforms
-
-* Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
-
-    - [ ] Exercise: Implement the Fourier series for a periodic function
-
-* Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
-
-* Fourier Transform 1D - part 3 ([`fourier_1D_3.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_3.ipynb))
-
-* Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
-
-    - [ ] Exercise: Implement the Discrete Fourier Transform 1D
-    - [ ] Exercise: Calculate the horizontal derivative of a
-    total-field anomaly on a profile
