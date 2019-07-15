@@ -44,6 +44,10 @@ Access the directory `first_steps_Python` and take a look at the instructions.
     - [x] Exercise: matrix-matrix product functions
     - [x] Exercise: rotation matrices
 
+* Kronecker product
+([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/kronecker-product.ipynb))
+    - [ ] Exercise: Kronecker product function
+
 #### How to determine the computational cost of a given operation?
 
 * Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
@@ -64,21 +68,21 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Triangular matrices - part 1 ([`triangular_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part1.ipynb))
 
-    - [ ] Exercise (extra): flops associated with the product of triangular matrices and vectors
-    - [ ] Exercise: products of triangular matrices and vectors
+    - [x] Exercise (extra): flops associated with the product of triangular matrices and vectors
+    - [x] Exercise: products of triangular matrices and vectors
 
 * Triangular matrices - part 2 ([`triangular_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part2.ipynb))
 
-    - [ ] Exercise: products of triangular matrices and vectors by using efficient storage
+    - [x] Exercise: products of triangular matrices and vectors by using efficient storage
 
 * Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
-    - [ ] Exercise: product of symmetric matrices and vectors with efficient storage
+    - [x] Exercise: product of symmetric matrices and vectors with efficient storage
 
 * Band matrices
 ([`band_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/band_matrices.ipynb))
 
-    - [ ] Exercise: product of band matrices and vectors with efficient storage
+    - [x] Exercise: product of band matrices and vectors with efficient storage
 
 * Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
@@ -98,7 +102,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 * Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
 
     - [ ] Exercise: Implement the Discrete Fourier Transform 1D
-    - [ ] Exercise: Calculate the horizontal derivative of a total-field anomaly on a profile
+
+* Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
 
 
 #### Numerical solution of linear systems
