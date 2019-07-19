@@ -86,7 +86,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
-    - [ ] Exercise: product of two complex matrices
+    - [x] Exercise: product of two complex matrices
 
 
 #### Discrete Fourier Transform
