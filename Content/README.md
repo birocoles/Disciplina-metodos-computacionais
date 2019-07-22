@@ -86,14 +86,14 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
-    - [ ] Exercise: product of two complex matrices
+    - [x] Exercise: product of two complex matrices
 
 
 #### Discrete Fourier Transform
 
 * Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
 
-    - [ ] Exercise: Implement the Fourier series for a periodic function
+    - [x] Exercise: Implement the Fourier series for a periodic function
 
 * Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
 
@@ -101,10 +101,11 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
 
-    - [ ] Exercise: Implement the Discrete Fourier Transform 1D
+    - [x] Exercise: Implement the Discrete Fourier Transform 1D
 
 * Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
 
+    - [ ] Exercise: Implement the Discrete Fourier Transform 2D
 
 #### Numerical solution of linear systems
 
