@@ -105,7 +105,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
 
-    - [ ] Exercise: Implement the Discrete Fourier Transform 2D
+    - [x] Exercise: Implement the Discrete Fourier Transform 2D
 
 #### Numerical solution of linear systems
 
@@ -113,8 +113,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Triangular systems ([`triangular_systems.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_systems.ipynb))
 
-    - [ ] Exercise: upper triangular system
-    - [ ] Exercise: lower triangular system
+    - [x] Exercise: upper triangular system
+    - [x] Exercise: lower triangular system
     - [ ] Exercise: simple vertical seismic profiling
 
 * Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
