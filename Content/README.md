@@ -115,7 +115,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
     - [x] Exercise: upper triangular system
     - [x] Exercise: lower triangular system
-    - [ ] Exercise: simple vertical seismic profiling
+    - [x] Exercise: simple vertical seismic profiling
 
 * Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
 
@@ -123,8 +123,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-pivoting.ipynb))
 
-    - [ ] Exercise: Gaussian elimination with partial pivoting
-    - [ ] Exercise: Calculating inverse matrices
+    - [x] Exercise: Gaussian elimination with partial pivoting
+    - [x] Exercise: Calculating inverse matrices
 
 * LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_intro.ipynb))
 
