@@ -132,15 +132,15 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_pivoting.ipynb))
 
-    - [ ] Exercise: LU decomposition with partial pivoting
+    - [x] Exercise: LU decomposition with partial pivoting
 
 * LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
 
-    - [ ] Exercise: LDL<sup>T</sup> decomposition
+    - [x] Exercise: LDL<sup>T</sup> decomposition
 
 * Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
-    - [ ] Exercise: Cholesky decomposition
+    - [x] Exercise: Cholesky decomposition
 
 * Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
@@ -162,26 +162,16 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 #### Interpolation
 
-* Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
-
-    - [ ] Exercise: Interpolate a gravity anomaly on a regular profile
-
-* Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
-
-    - [ ] Exercise (extra): Interpolate gravity data on a regular profile
-
-* Cubic splines ([`cub_splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cub_splines.ipynb))
-
-    - [ ] Exercise (extra): Interpolate gravity data on a regular profile
-
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
     - [ ] Exercise: Interpolate gravity data on a regular profile
-    - [ ] Exercise (extra): Interpolate gravity data on a regular grid
+    - [ ] Exercise: Interpolate gravity data on a regular grid
 
 * Biharmonic Splines ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
 
-    - [ ] Exercise (extra): Interpolate gravity data on a regular grid
+    - [ ] Exercise: Interpolate gravity data on a regular grid
+
+* *Inverse distance interpolation*
 
 #### Numerical solution of differential equations
 
@@ -200,3 +190,5 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 * Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
     - [ ] Exercise: Simulate an abrupt temperature perturbation
+
+* *Gaussian Quadrature*
