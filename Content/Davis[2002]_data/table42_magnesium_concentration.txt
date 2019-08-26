@@ -1,4 +1,4 @@
-# Davis, J.C., 2002. Statistics and Data Analysis in Geology. 2nd ed
+# Davis, J.C., 2002. Statistics and Data Analysis in Geology. 3rd ed
 # Table 4-2, p. 164. Measurements of magnesium concentration in stream water at
 # 20 locations; distances are from stream mouth to sample locations.
 # column 1: Distance (m)
