@@ -156,22 +156,25 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
-    - [ ] Exercise: Compute the Jacobian and Hessian matrices
-    - [ ] Exercise: Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and
-    Levenberg-Marquardt methods
+    - [x] Exercise: Compute the Jacobian and Hessian matrices
+    - [x] Exercise: Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and Levenberg-Marquardt methods
 
 #### Interpolation
 
+* Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
+
+* Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
+
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
-    - [ ] Exercise: Interpolate gravity data on a regular profile
-    - [ ] Exercise: Interpolate gravity data on a regular grid
+    - [ ] Exercise: 1D polynomial fitting
+    - [ ] Exercise: 2D polynomial fitting
 
 * Biharmonic Splines ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
 
-    - [ ] Exercise: Interpolate gravity data on a regular grid
-
-* *Inverse distance interpolation*
+    - [ ] Exercise: 1D splines
+    - [ ] Exercise: 2D splines
+    - [ ] Exercise: 3D splines
 
 #### Numerical solution of differential equations
 
