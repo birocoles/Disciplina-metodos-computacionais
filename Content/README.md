@@ -167,10 +167,10 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
-    - [ ] Exercise: 1D polynomial fitting
-    - [ ] Exercise: 2D polynomial fitting
+    - [x] Exercise: 1D polynomial fitting
+    - [x] Exercise: 2D polynomial fitting
 
-* Biharmonic Splines ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
+* Biharmonic Splines (extra) ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
 
     - [ ] Exercise: 1D splines
     - [ ] Exercise: 2D splines
@@ -186,12 +186,14 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
     - [ ] Exercise: Generalize the previous code
 
-* *Finite differences - part 3*
+* Finite differences (extra)
+([12 Steps to Navier-Stokes](https://github.com/barbagroup/CFDPython))
+
+    - [ ] Exercise - Complete this amazing practical module for learning the foundations of Computational Fluid Dynamics (CFD) developed by [Prof. Lorena Barba](http://lorenabarba.com/).
+    Create a new Jupyter Notebook for each lesson and follow the instructions.
 
 #### Numerical integration
 
 * Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
     - [ ] Exercise: Simulate an abrupt temperature perturbation
-
-* *Gaussian Quadrature*
