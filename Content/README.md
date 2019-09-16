@@ -156,39 +156,43 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
-    - [ ] Exercise: Compute the Jacobian and Hessian matrices
-    - [ ] Exercise: Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and
-    Levenberg-Marquardt methods
+    - [x] Exercise: Compute the Jacobian and Hessian matrices
+    - [x] Exercise: Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and Levenberg-Marquardt methods
 
 #### Interpolation
 
+* Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
+
+* Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
+
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
-    - [ ] Exercise: Interpolate gravity data on a regular profile
-    - [ ] Exercise: Interpolate gravity data on a regular grid
+    - [x] Exercise: 1D polynomial fitting
+    - [x] Exercise: 2D polynomial fitting
 
-* Biharmonic Splines ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
+* Biharmonic Splines (extra) ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
 
-    - [ ] Exercise: Interpolate gravity data on a regular grid
-
-* *Inverse distance interpolation*
+    - [x] Exercise: 1D splines
+    - [x] Exercise: 2D splines
 
 #### Numerical solution of differential equations
 
-* Finite differences - part 1 ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
+* Finite differences - part 1 (extra) ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
 
-    - [ ] Exercise: Solve the exponential decay equation
+    - [x] Exercise: Solve the exponential decay equation
 
-* Finite differences - part 2 ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
+* Finite differences - part 2 (extra) ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
-    - [ ] Exercise: Generalize the previous code
+    - [x] Exercise: Generalize the previous code
 
-* *Finite differences - part 3*
+* Finite differences (extra)
+([12 Steps to Navier-Stokes](https://github.com/barbagroup/CFDPython))
+
+    - [x] Exercise - Complete this amazing practical module for learning the foundations of Computational Fluid Dynamics (CFD) developed by [Prof. Lorena Barba](http://lorenabarba.com/).
+    Create a new Jupyter Notebook for each lesson and follow the instructions.
 
 #### Numerical integration
 
-* Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
+* Newton-Cotes formulas (extra) ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
-    - [ ] Exercise: Simulate an abrupt temperature perturbation
-
-* *Gaussian Quadrature*
+    - [x] Exercise: Simulate an abrupt temperature perturbation

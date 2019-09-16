@@ -1,0 +1,25 @@
+# Davis, J.C., 2002. Statistics and Data Analysis in Geology. 3rd ed
+# Table 4-2, p. 164. Measurements of magnesium concentration in stream water at
+# 20 locations; distances are from stream mouth to sample locations.
+# column 1: Distance (m)
+# column 2: Magnesium concentration (ppm)
+0.0 6.44
+1820 8.61
+2542 5.24
+2889 5.73
+3460 3.81
+4586 4.05
+6020 2.95
+6841 2.57
+7232 3.37
+10903 3.84
+11098 2.86
+11922 1.22
+12530 1.09
+14065 2.36
+14937 2.24
+16244 2.05
+17632 2.23
+19002 0.42
+20860 0.87
+22471 1.26
