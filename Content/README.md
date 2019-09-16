@@ -172,28 +172,27 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Biharmonic Splines (extra) ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
 
-    - [ ] Exercise: 1D splines
-    - [ ] Exercise: 2D splines
-    - [ ] Exercise: 3D splines
+    - [x] Exercise: 1D splines
+    - [x] Exercise: 2D splines
 
 #### Numerical solution of differential equations
 
-* Finite differences - part 1 ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
+* Finite differences - part 1 (extra) ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
 
-    - [ ] Exercise: Solve the exponential decay equation
+    - [x] Exercise: Solve the exponential decay equation
 
-* Finite differences - part 2 ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
+* Finite differences - part 2 (extra) ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
-    - [ ] Exercise: Generalize the previous code
+    - [x] Exercise: Generalize the previous code
 
 * Finite differences (extra)
 ([12 Steps to Navier-Stokes](https://github.com/barbagroup/CFDPython))
 
-    - [ ] Exercise - Complete this amazing practical module for learning the foundations of Computational Fluid Dynamics (CFD) developed by [Prof. Lorena Barba](http://lorenabarba.com/).
+    - [x] Exercise - Complete this amazing practical module for learning the foundations of Computational Fluid Dynamics (CFD) developed by [Prof. Lorena Barba](http://lorenabarba.com/).
     Create a new Jupyter Notebook for each lesson and follow the instructions.
 
 #### Numerical integration
 
-* Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
+* Newton-Cotes formulas (extra) ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
-    - [ ] Exercise: Simulate an abrupt temperature perturbation
+    - [x] Exercise: Simulate an abrupt temperature perturbation
