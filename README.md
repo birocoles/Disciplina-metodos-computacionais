@@ -190,7 +190,7 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
 
  * [Generic Mapping Tools (GMT)](http://gmt.soest.hawaii.edu/projects/gmt/wiki)
 
- * [CFD Python: 12 steps to Navier-Stokes :: Lorena A. Barba group](http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/)
+ * [CFD Python: 12 steps to Navier-Stokes :: Lorena A. Barba group](https://github.com/barbagroup/CFDPython)
 
  * [Software Carpentry](http://software-carpentry.org/index.html)
 
