@@ -25,7 +25,7 @@ lista de links úteis sobre Git e GitHub:
 
 * [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 
-<img src = 'giphy-downsized-large.gif' width = 700>
+<img src = 'https://media.giphy.com/media/tvGOBZKNEX0ac/source.gif' width = 700>
 
 **fonte:** [GIPHY](https://media.giphy.com/media/tvGOBZKNEX0ac/giphy.gif)
 
@@ -119,9 +119,7 @@ os programas necessários de acordo com a seção
 
 ## Instalação do Python e de suas dependências
 
-Para instalar o Python Anaconda, sugiro
-seguir as [instruções do Software Carpentry](https://carpentries.github.io/workshop-template/#python).
-Outra opção é acessar diretamente o [site o Python Anaconda](https://www.anaconda.com/distribution/#download-section).
+Para instalar o Python Anaconda, sugiro acessar diretamente o [site do Python Anaconda](https://docs.anaconda.com/anaconda/install/).
 
 **IMPORTANTE**: Usaremos o Python 3.x!
 
@@ -190,7 +188,7 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
 
  * [Generic Mapping Tools (GMT)](http://gmt.soest.hawaii.edu/projects/gmt/wiki)
 
- * [CFD Python: 12 steps to Navier-Stokes :: Lorena A. Barba group](http://lorenabarba.com/blog/cfd-python-12-steps-to-navier-stokes/)
+ * [CFD Python: 12 steps to Navier-Stokes :: Lorena A. Barba group](https://github.com/barbagroup/CFDPython)
 
  * [Software Carpentry](http://software-carpentry.org/index.html)
 
