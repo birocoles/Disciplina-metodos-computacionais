@@ -25,7 +25,7 @@ lista de links úteis sobre Git e GitHub:
 
 * [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 
-<a href='https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif'><img src='https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif' width = 700></a>
+<img src='https://miro.medium.com/max/1400/1*VX6u2-1DdufXt3Q4Nuanww.jpeg'>
 
 Beleza, é possível que as informações acima tenham sido completamente
 inúteis para este curso. Sendo assim, vamos agilizar um pouco as
