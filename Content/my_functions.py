@@ -1,30 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def dot(x, y):
-
-    '''
-    Calculates the dot product of vectors 'x' and 'y'
-
-    input
-
-    x: numpy array - vector
-    y: numpy array - vector
-
-    output
-
-    c: float - dot product of 'x' and 'y'
-    '''
-    x = np.asarray(x)
-    y = np.asarray(y)
-    assert x.size == y.size, 'x and y need to have the same size'
-
-    c = 0.0
-
-    for i in range(x.size):
-        c += x[i]*y[i]
-
-    return c
 
 def sine_cosine(x_min, x_max, npoints = 100, sizex = 10., sizey = 6.):
     '''
@@ -80,6 +56,7 @@ def sine_cosine(x_min, x_max, npoints = 100, sizex = 10., sizey = 6.):
 
     plt.show()
 
+
 def sine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     '''
     Plot sine function with different periods.
@@ -131,6 +108,7 @@ def sine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
 
     plt.show()
 
+
 def cosine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     '''
     Plot cosine function with different periods.
@@ -181,6 +159,7 @@ def cosine(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 
     plt.show()
+
 
 def sine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     '''
@@ -250,6 +229,7 @@ def sine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
 
     return x, sine
 
+
 def cosine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
     '''
     Plot a function obtained by stacking cosine functions
@@ -318,6 +298,7 @@ def cosine_stack(x_min, x_max, k, npoints = 100, sizex = 10., sizey = 6.):
 
     return x, cosine
 
+
 def euler_formula(theta, sizex = 10., sizey = 6.):
     '''
     Plot the imaginary and real parts of
@@ -366,6 +347,7 @@ def euler_formula(theta, sizex = 10., sizey = 6.):
     plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 
     plt.show()
+
 
 def g_T0(x, g, T0, sizex = 10., sizey = 6.):
     '''
@@ -418,3 +400,219 @@ def g_T0(x, g, T0, sizex = 10., sizey = 6.):
     plt.ylim(g_min - 0.05*(g_max - g_min), g_max + 0.05*(g_max - g_min))
 
     plt.show()
+
+
+def fourier_series_real(x, a0, an, bn):
+    '''
+    Compute the Fourier series expansion (in the sine-cosine form)
+    of a given function.
+
+    Parameters
+    ----------
+    x : 1D array
+        Coordinates where the Fourier expansion will be computed.
+    a0 : scalar
+        Coefficient a0 of the expansion.
+    an, bn : 1D arrays or None
+        Cosine and sine coefficients of the expansion. If not None, must
+        have n-1 elements, where n is the maximum degree of the expansion.
+        If an and bn are not None, they must have the same number of elements.
+
+    Returns
+    -------
+    fourier_series : 1D array
+        Fourier expansion computed at the points x up to degree n.
+    '''
+    assert isinstance(x, np.ndarray), 'x must be an array'
+    assert x.ndim == 1, 'x must be an 1D array'
+    assert np.isscalar(a0), 'a0 must be a scalar'
+    if an is not None:
+        assert isinstance(an, np.ndarray), 'an must be an array'
+        assert an.ndim == 1, 'an must be a 1D array'
+    if bn is not None:
+        assert isinstance(bn, np.ndarray), 'bn must be an array'
+        assert bn.ndim == 1, 'bn must be a 1D array'
+    if (an is not None) and (bn is not None):
+        assert an.size == bn.size, 'an and bn must have the same number of elements'
+
+    fourier_series = np.zeros_like(x) + a0/2
+
+    if an is not None:
+        for ni, ani in enumerate(an):
+            fourier_series += ani*np.cos((ni+1)*x)
+    if bn is not None:
+        for ni, bni in enumerate(bn):
+            fourier_series += bni*np.sin((ni+1)*x)
+
+    return fourier_series
+
+
+def fourier_series_complex(x, c0, cn):
+    '''
+    Compute the Fourier series expansion (in the complex exponential
+    form) of a given function.
+
+    Parameters
+    ----------
+    x : 1D array
+        Coordinates where the Fourier expansion will be computed.
+    c0 : scalar
+        Coefficient c0 of the expansion.
+    cn : 1D array
+        Complex exponential coefficients of the expansion related to
+        positive degrees. It must have n elements, where n is the
+        maximum degree of the expansion.
+
+    Returns
+    -------
+    fourier_series : 1D array
+        Fourier expansion computed at the points x up to degree n.
+    '''
+    assert isinstance(x, np.ndarray), 'x must be an array'
+    assert x.ndim == 1, 'x must be an 1D array'
+    assert np.isscalar(c0), 'c0 must be a scalar'
+    if cn is not None:
+        assert isinstance(cn, np.ndarray), 'cn must be an array'
+        assert cn.ndim == 1, 'cn must be a 1D array'
+
+    fourier_series = np.zeros(x.size, dtype='complex128') + c0
+
+    cn_conj = np.conj(cn)
+
+    for ni, (cni, cni_conj) in enumerate(zip(cn, cn_conj)):
+        fourier_series += cni*np.exp(1j*(ni+1)*x)
+        fourier_series += cni_conj*np.exp(-1j*(ni+1)*x)
+
+    return fourier_series
+
+
+def complex_coefficients(a0, an, bn):
+    '''
+    Compute the coefficients of the complex exponential
+    by using the coefficients a0, an and bn as follows:
+
+    c0 = a0/2
+
+    cn = (an - 1j*bn)/2
+
+    Parameters
+    ----------
+    a0 : scalar
+        Coefficient a0 of the expansion.
+    an, bn : 1D arrays or None
+        Cosine and sine coefficients of the expansion. If not None, must
+        have n-1 elements, where n is the maximum degree of the expansion.
+        If an and bn are not None, they must have the same number of elements.
+
+    Returns
+    -------
+    c0 : scalar
+        Complex coefficient of degree 0
+    cn : 1D array
+        Complex exponential coefficients of the expansion.
+    '''
+    assert np.isscalar(a0), 'a0 must be a scalar'
+    if an is not None:
+        assert isinstance(an, np.ndarray), 'an must be an array'
+        assert an.ndim == 1, 'an must be a 1D array'
+        n = an.size
+    if bn is not None:
+        assert isinstance(bn, np.ndarray), 'bn must be an array'
+        assert bn.ndim == 1, 'bn must be a 1D array'
+        n = bn.size
+    if (an is not None) and (bn is not None):
+        assert an.size == bn.size, 'an and bn must have the same number of elements'
+
+    c0 = a0/2
+
+    cn = np.zeros(n, dtype='complex128')
+    if an is not None:
+        cn.real += an
+    if bn is not None:
+        cn.imag -= bn
+    cn *= 0.5
+
+    return c0, cn
+
+
+def upward_sawtooth_bn(n):
+    '''
+    Compute the sine coefficient bn up to degree n
+    of the upward sawtooth function:
+
+    s(x) = x/pi for -pi < x < pi
+    s(x + 2pi*k) for k integer
+
+    Parameters
+    ----------
+    n : int
+        Degree.
+
+    Returns
+    -------
+    bn : 1D array
+        Sine coefficients up to degree n.
+    '''
+    assert isinstance(n, int), 'n must be an integer'
+    assert n >= 1, 'n must be greater than or equal to 1'
+
+    N = np.arange(1, n+1)
+    bn = (2*(-1)**(N + 1))/(np.pi*N)
+
+    return bn
+
+
+def odd_square_bn(n):
+    '''
+    Compute the sine coefficients bn up to degree n
+    of the odd square function:
+
+    s(x) = 0 for -pi < x < 0
+    s(x) = 1 for 0 < x < pi
+    s(x + 2pi*k) for k integer
+
+    Parameters
+    ----------
+    n : int
+        Degree.
+
+    Returns
+    -------
+    bn : 1D array
+        Sine coefficients up to degree n.
+    '''
+    assert isinstance(n, int), 'n must be an integer'
+    assert n >= 1, 'n must be greater than or equal to 1'
+
+    N = np.arange(1, n+1)
+    bn = (1 - (-1)**N)/(np.pi*N)
+
+    return bn
+
+
+def even_triangle_an(n):
+    '''
+    Compute the sine coefficients bn up to degree n
+    of the even triangle function:
+
+    t(x) = x/pi for -pi < x < 0
+    t(x) = -x/pi for 0 < x < pi
+    t(x + 2pi*k) for k integer
+
+    Parameters
+    ----------
+    n : int
+        Degree.
+
+    Returns
+    -------
+    an : 1D array
+        Cosine coefficients up to degree n.
+    '''
+    assert isinstance(n, int), 'n must be an integer'
+    assert n >= 1, 'n must be greater than or equal to 1'
+
+    N = np.arange(1, n+1)
+    an = (4/((np.pi*N)**2))*(1 - (-1)**N)
+
+    return an
