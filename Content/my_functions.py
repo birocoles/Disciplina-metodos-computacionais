@@ -402,10 +402,12 @@ def g_T0(x, g, T0, sizex = 10., sizey = 6.):
     plt.show()
 
 
+#def fourier_series_real(y, T0, a0, an, bn):
+
 def fourier_series_real(x, a0, an, bn):
     '''
     Compute the Fourier series expansion (in the sine-cosine form)
-    of a given function.
+    of a given function with period 2pi.
 
     Parameters
     ----------
@@ -438,8 +440,12 @@ def fourier_series_real(x, a0, an, bn):
     fourier_series = np.zeros_like(x) + a0/2
 
     if an is not None:
+        #for ani in an:
+        # for ni in range(an.size):
+        #     ani = an[ni]
         for ni, ani in enumerate(an):
             fourier_series += ani*np.cos((ni+1)*x)
+            #fourier_series += ani*np.cos(2*np.pi*(ni+1)*f0*y)
     if bn is not None:
         for ni, bni in enumerate(bn):
             fourier_series += bni*np.sin((ni+1)*x)
@@ -450,7 +456,7 @@ def fourier_series_real(x, a0, an, bn):
 def fourier_series_complex(x, c0, cn):
     '''
     Compute the Fourier series expansion (in the complex exponential
-    form) of a given function.
+    form) of a given function with period 2pi.
 
     Parameters
     ----------
@@ -478,7 +484,6 @@ def fourier_series_complex(x, c0, cn):
     fourier_series = np.zeros(x.size, dtype='complex128') + c0
 
     cn_conj = np.conj(cn)
-
     for ni, (cni, cni_conj) in enumerate(zip(cn, cn_conj)):
         fourier_series += cni*np.exp(1j*(ni+1)*x)
         fourier_series += cni_conj*np.exp(-1j*(ni+1)*x)
@@ -534,7 +539,7 @@ def complex_coefficients(a0, an, bn):
 
     return c0, cn
 
-
+#def upward_sawtooth_bn(n, T0):
 def upward_sawtooth_bn(n):
     '''
     Compute the sine coefficient bn up to degree n
