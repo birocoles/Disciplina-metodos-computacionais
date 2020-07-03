@@ -1,4 +1,5 @@
 import numpy as np
+from scipy.linalg import toeplitz, circulant
 import matplotlib.pyplot as plt
 
 
@@ -621,3 +622,128 @@ def even_triangle_an(n):
     an = (4/((np.pi*N)**2))*(1 - (-1)**N)
 
     return an
+
+
+def linear_convolution_scheme(Na, Nb, embedding=True):
+    '''
+    Print the linear convolution equations.
+    '''
+
+    print('Linear convolution:')
+    N = Na + Nb - 1
+    for i in range(N+1):
+        if i == N:
+            line_i = '  0 = '
+        else:
+            line_i = 'w_{:d} = '.format(i)
+        for j in range(N+1):
+            if ((i-j) >= Nb) or ((i-j) < 0):
+                b_element = '(  0 '
+            else:
+                b_element = '(b_{:d} '.format(i-j)
+            if j >= Na:
+                a_element = '*  0)'
+            else:
+                a_element = '* a_{:d})'.format(j)
+            term_ab = b_element+a_element+' + '
+            line_i += term_ab
+        print(line_i[:-3])
+
+    w = []
+    for i in range(N):
+        w.append('w_{:d}'.format(i))
+    w.append('0')
+
+    a = []
+    for i in range(Na):
+        a.append('a_{:d}'.format(i))
+
+    zeros_Nb = []
+    for i in range(Nb):
+        zeros_Nb.append('0')
+    a_padd = a + zeros_Nb
+
+    b = []
+    for i in range(Nb):
+        b.append('b_{:d}'.format(i))
+
+    zeros_Na = []
+    for i in range(Na):
+        zeros_Na.append('0')
+
+    b_padd = b + zeros_Na
+
+    zeros_N = []
+    for i in range(N+1):
+        zeros_N.append('0')
+
+    B = toeplitz(b_padd, zeros_N)
+
+    print('\n')
+    print('Toeplitz system:')
+    for i in range(B.shape[0]):
+        row = '{:>4s} = | '.format(w[i])
+        for j in range(B.shape[1]):
+            row += '{:>4s} '.format(B[i,j])
+        row += '| {:>4s}'.format(a_padd[i])
+        print(row)
+
+    if embedding is True:
+
+        w_embedding = w.copy()
+        for i in range(N+1):
+            w_embedding.append('0')
+
+        a_embedding = a_padd.copy()
+        for i in range(N+1):
+            a_embedding.append('0')
+
+        C = circulant(np.hstack([B[:,0], '0', B[0,-1:0:-1]]))
+
+        print('\n')
+        print('Embedding circulant system:')
+        for i in range(C.shape[0]):
+            row = '{:>4s} = | '.format(w_embedding[i])
+            for j in range(C.shape[1]):
+                row += '{:>4s} '.format(C[i,j])
+            row += '| {:>4s}'.format(a_embedding[i])
+            print(row)
+
+
+def circular_convolution_scheme(N):
+    '''
+    Print the circular convolution equations.
+    '''
+
+    print('Circular convolution:')
+    for i in range(N):
+        line_i = 'w_{:d} = '.format(i)
+        for j in range(N):
+            b_element = '(b_{:d} '.format(np.mod(i-j, N))
+            a_element = '* a_{:d})'.format(j)
+            term_ab = b_element+a_element+' + '
+            line_i += term_ab
+        print(line_i[:-3])
+
+    w = []
+    for i in range(N):
+        w.append('w_{:d}'.format(i))
+
+    a = []
+    for i in range(N):
+        a.append('a_{:d}'.format(i))
+
+    b = []
+    for i in range(N):
+        b.append('b_{:d}'.format(i))
+
+    B = circulant(b)
+
+    print('\n')
+    print('Circulant system:')
+    for i in range(B.shape[0]):
+        row = '{:>4s} = | '.format(w[i])
+        for j in range(B.shape[1]):
+            row += '{:>4s} '.format(B[i,j])
+        row += '| {:>4s}'.format(a[i])
+        print(row)
