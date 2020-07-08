@@ -133,35 +133,21 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
 
  ## Tópicos abordados durante a disciplina
 
- No diretório `Content` há uma descrição breve sobre os
- ítens listados abaixo .
+ O diretório `Content` contem os tópicos abordados durante o curso.
 
- * **First steps in Python**
-
- * **Basic vector operations**
-
- * **Basic matrix operations**
-
- * **Structured matrices**
-
- * **Numerical solution of linear systems**
-
- * **Numerical solution of non-linear systems**
-
- * **Interpolation**
-
- * **Numerical solution of differential equations**
-
- * **Numerical integration**
-
- * **Transformations**
 
  ## Recommended bibliography
 
+ * Graham, L., D. E. Knuth, and O. Patashnik (1994). Concrete mathematics: a foundation for computer science, 2 ed.: Addison-Wesley Publishing Company. ISBN 0-201-55802-5
+
   * Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
+
+  * Yilmaz, Öz (2001). Seismic Data Analysis: Processing, Inversion, and Interpretation of Seismic Data, 2 ed.: Society of Exploration Geophysicists. ISBN 1-56080-098-4
 
   * Press, W. H., Teukolsky, S. A, Vetterling, W. T. e Flannery, B. P. Numerical recipes in C: The art of scientific computing, 3rd edition, Cambridge University Press, 2007, ISBN 978-0-511-33555-6,
   url: http://numerical.recipes/
+
+  * Oppenheim, A. V., and Schafer, R., W. (2010). Discrete-Time Signal Processing, 3 ed.: Pearson. ISBN 0-13-198842-5
 
  * Kiusalaas, J. Numerical methods in engineering with Python 3, 3rd edition, Cambridge University Press, 2013, ISBN 978-1-107-03385-6
 
@@ -172,8 +158,6 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
  * Menke, W. Geophysical Data Analysis: Discrete inverse theory, 4th edition, Academic Press, 2018, ISBN 978-0-12-813555-6
 
  * Aster, R. C., Borchers, B., and Thurber, C. H. Parameter Estimation and Inverse Problems, 3rd edition Elsevier Academic Press, 2019, ISBN: 978-0-12-804651-7
-
- * Papers
 
  **P.S.**: This list may be updated along the course.
 
