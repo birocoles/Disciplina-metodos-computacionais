@@ -19,8 +19,8 @@ In this class, we use the following notebooks:
 
 and the following files:
 
-* [`my_functions.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2017-2/Content/first_steps_Python/SMA/my_functions.py)
+* [`my_functions.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SMA/my_functions.py)
 
-* [`test_sma.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2017-2/Content/first_steps_Python/SMA/test_sma.py)
+* [`test_sma.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/master/Content/first_steps_Python/SMA/test_sma.py)
 
-Compare our implementation with the routine [`numpy.convolve`](https://docs.scipy.org/doc/numpy-1.12.0/reference/generated/numpy.convolve.html).
+Compare our implementation with the routine [`numpy.convolve`](https://numpy.org/doc/stable/reference/generated/numpy.convolve.html).

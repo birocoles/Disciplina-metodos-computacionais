@@ -12,100 +12,69 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 #### Basic vector operations
 
-* notation ([`basics-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/basics-vector.ipynb))
+- [x] notation ([`basics-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/basics-vector.ipynb))
 
-* dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
+- [x] dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
-    - [x] Exercise: create a function for computing the dot product
+- [x] Hadamard product ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
 
-* Hadamard product of vectors ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
+- [x] outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
-    - [x] Exercise: create a function for computing the Hadamard product
-
-* outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
-
-    - [x] Exercise: create a function for computing the outer product
-
-* Vector norms
-([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/vector-norms.ipynb))
-
-    - [x] Exercise: create a single function for computing the 2-, 1- and infinity-norm of a vector
+- [ ] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/vector-norms.ipynb))
 
 #### Basic matrix operations
 
-* matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
+- [x] matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-vector.ipynb))
 
-    - [x] Exercise: matrix-vector product functions
-    - [x] Exercise: comparison with the moving average code developed in a previous class
-    - [x] Exercise: computation of first derivative by using the central finite difference
+- [x] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
-* matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
-
-    - [x] Exercise: matrix-matrix product functions
-    - [x] Exercise: rotation matrices
-
-* Kronecker product
-([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/kronecker-product.ipynb))
-    - [ ] Exercise: Kronecker product function
+- [ ] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/kronecker-product.ipynb))
 
 #### How to determine the computational cost of a given operation?
 
-* Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
+- [ ] Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
 
-    - [x] Exercise (extra): total number of flops required to perform simple matrix operations
 
 #### Structured matrices
 
-* Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/permutation_matrices.ipynb))
+- [ ] Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/permutation_matrices.ipynb))
 
-* Diagonal matrices - part 1 ([`diagonal_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices_part1.ipynb))
+- [x] Diagonal matrices - part 1 ([`diagonal_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices_part1.ipynb))
 
-    - [x] Exercise: products of diagonal and full matrices
+- [ ] Diagonal matrices - part 2 ([`diagonal_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices_part2.ipynb))
 
-* Diagonal matrices - part 2 ([`diagonal_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/diagonal_matrices_part2.ipynb))
+- [x] Triangular matrices - part 1 ([`triangular_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part1.ipynb))
 
-    - [x] Exercise: product of a diagonal matrix with offset and a vector
+- [ ] Triangular matrices - part 2 ([`triangular_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part2.ipynb))
 
-* Triangular matrices - part 1 ([`triangular_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part1.ipynb))
+- [ ] Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
 
-    - [x] Exercise (extra): flops associated with the product of triangular matrices and vectors
-    - [x] Exercise: products of triangular matrices and vectors
+- [ ] Band matrices ([`band_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/band_matrices.ipynb))
 
-* Triangular matrices - part 2 ([`triangular_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_matrices_part2.ipynb))
+- [ ] Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
-    - [x] Exercise: products of triangular matrices and vectors by using efficient storage
-
-* Symmetric matrices ([`symmetric_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/symmetric_matrices.ipynb))
-
-    - [x] Exercise: product of symmetric matrices and vectors with efficient storage
-
-* Band matrices
-([`band_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/band_matrices.ipynb))
-
-    - [x] Exercise: product of band matrices and vectors with efficient storage
-
-* Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
-
-    - [x] Exercise: product of two complex matrices
-
+- [x] Toeplitz and Circulant matrices ([`Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Toeplitz_circulant_matrices.ipynb))
 
 #### Discrete Fourier Transform
 
-* Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
+- [x] Fourier Transform 1D - intro ([`fourier_1D_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_intro.ipynb))
 
-    - [x] Exercise: Implement the Fourier series for a periodic function
+- [x] Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
 
-* Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
+- [x] Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
 
-* Fourier Transform 1D - part 3 ([`fourier_1D_3.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_3.ipynb))
+- [x] Fourier Transform 1D - part 3 ([`fourier_1D_3.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_3.ipynb))
 
-* Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
+- [x] Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
 
-    - [x] Exercise: Implement the Discrete Fourier Transform 1D
+- [x] Fourier Transform 1D - part 5 ([`fourier_1D_5.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_5.ipynb))
 
-* Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
+- [x] Fourier Transform 1D - part 6 ([`fourier_1D_6.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_6.ipynb))
 
-    - [x] Exercise: Implement the Discrete Fourier Transform 2D
+- [x] Convolution and Correlation 1D - part 1 ([`convolution_correlation_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_correlation_1D_1.ipynb))
+
+- [ ] Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
+
 
 #### Numerical solution of linear systems
 
