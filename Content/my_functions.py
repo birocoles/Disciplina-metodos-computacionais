@@ -632,28 +632,11 @@ def linear_convolution_scheme(Na, Nb):
     print('Linear convolution:')
     Nw = Na + Nb - 1
     N = Na + Nb
-    for i in range(N):
-        if i == Nw:
-            line_i = '  0 = '
-        else:
-            line_i = 'w_{:d} = '.format(i)
-        for j in range(N+1):
-            if ((i-j) >= Nb) or ((i-j) < 0):
-                b_element = '(  0 '
-            else:
-                b_element = '(b_{:d} '.format(i-j)
-            if j >= Na:
-                a_element = '*  0)'
-            else:
-                a_element = '* a_{:d})'.format(j)
-            term_ab = b_element+a_element+' + '
-            line_i += term_ab
-        print(line_i[:-3])
 
-    w = []
+    w_pad = []
     for i in range(Nw):
-        w.append('w_{:d}'.format(i))
-    w.append('0')
+        w_pad.append('w_{:d}'.format(i))
+    w_pad.append('0')
 
     a = []
     for i in range(Na):
@@ -680,13 +663,22 @@ def linear_convolution_scheme(Na, Nb):
 
     B = toeplitz(b_padd, zeros_N)
 
+    for i in range(B.shape[0]):
+        row = '{:>3s} = '.format(w_pad[i])
+        for j in range(B.shape[1]):
+            row += '({:>3s} * {:>3s}) + '.format(B[i,j],a_padd[j])
+        print(row[:-3])
+
     print('\n')
     print('Toeplitz system:')
     for i in range(B.shape[0]):
-        row = '{:>4s} = | '.format(w[i])
+        if i == B.shape[0]//2:
+            row = '|{:>3s}| = | '.format(w_pad[i])
+        else:
+            row = '|{:>3s}|   | '.format(w_pad[i])
         for j in range(B.shape[1]):
             row += '{:>4s} '.format(B[i,j])
-        row += '| {:>4s}'.format(a_padd[i])
+        row += '|  |{:>3s}|'.format(a_padd[i])
         print(row)
 
 
@@ -696,15 +688,6 @@ def circular_convolution_scheme(N):
     '''
 
     print('Circular convolution:')
-    for i in range(N):
-        line_i = 'w_{:d} = '.format(i)
-        for j in range(N):
-            b_element = '(b_{:d} '.format(np.mod(i-j, N))
-            a_element = '* a_{:d})'.format(j)
-            term_ab = b_element+a_element+' + '
-            line_i += term_ab
-        print(line_i[:-3])
-
     w = []
     for i in range(N):
         w.append('w_{:d}'.format(i))
@@ -717,15 +700,24 @@ def circular_convolution_scheme(N):
     for i in range(N):
         b.append('b_{:d}'.format(i))
 
-    B = circulant(b)
+    C = circulant(b)
+
+    for i in range(C.shape[0]):
+        row = '{:>3s} = '.format(w[i])
+        for j in range(C.shape[1]):
+            row += '({:>3s} * {:>3s}) + '.format(C[i,j],a[j])
+        print(row[:-3])
 
     print('\n')
     print('Circulant system:')
-    for i in range(B.shape[0]):
-        row = '{:>4s} = | '.format(w[i])
-        for j in range(B.shape[1]):
-            row += '{:>4s} '.format(B[i,j])
-        row += '| {:>4s}'.format(a[i])
+    for i in range(C.shape[0]):
+        if i == C.shape[0]//2:
+            row = '|{:>3s}| = | '.format(w[i])
+        else:
+            row = '|{:>3s}|   | '.format(w[i])
+        for j in range(C.shape[1]):
+            row += '{:>4s} '.format(C[i,j])
+        row += '|  |{:>3s}|'.format(a[i])
         print(row)
 
 
@@ -737,24 +729,11 @@ def crosscorrelation_scheme(Na, Nb):
     print('Crosscorrelation:')
     Nw = Na + Nb - 1
     N = Na + Nb
-    for i in range(N):
-        line_i = 'w_{:>2d} = '.format(i-Nb+1)
-        for j in range(N+1):
-            if ((j-i+Nb-1) >= Nb) or ((j-i+Nb-1) < 0):
-                b_element = '(  0 '
-            else:
-                b_element = '(b_{:d} '.format(j-i+Nb-1)
-            if j >= Na:
-                a_element = '*  0)'
-            else:
-                a_element = '* a_{:d})'.format(j)
-            term_ab = b_element+a_element+' + '
-            line_i += term_ab
-        print(line_i[:-3])
 
-    w = []
-    for i in range(Nw):
-        w.append('w_{:d}'.format(i-Nb+1))
+    w_pad = []
+    for i in range(-Nb+1,Na):
+        w_pad.append('w_{:d}'.format(i))
+    w_pad.append('0')
 
     a = []
     for i in range(Na):
@@ -781,13 +760,22 @@ def crosscorrelation_scheme(Na, Nb):
 
     B = toeplitz(b_padd, zeros_N)
 
+    for i in range(B.shape[0]):
+        row = '{:>4s} = '.format(w_pad[i])
+        for j in range(B.shape[1]):
+            row += '({:>3s} * {:>3s}) + '.format(B[i,j],a_padd[j])
+        print(row[:-3])
+
     print('\n')
     print('Toeplitz system:')
     for i in range(B.shape[0]):
-        row = '{:>4s} = | '.format(w[i])
+        if i == B.shape[0]//2:
+            row = '|{:>4s}| = | '.format(w_pad[i])
+        else:
+            row = '|{:>4s}|   | '.format(w_pad[i])
         for j in range(B.shape[1]):
             row += '{:>4s} '.format(B[i,j])
-        row += '| {:>4s}'.format(a_padd[i])
+        row += '|  |{:>3s}|'.format(a_padd[i])
         print(row)
 
 
@@ -797,24 +785,10 @@ def autocorrelation_scheme(N):
     '''
 
     print('Autocorrelation:')
-    for i in range(2*N):
-        line_i = 'w_{:>2d} = '.format(i-N+1)
-        for j in range(2*N):
-            if ((j-i+N-1) >= N) or ((j-i+N-1) < 0):
-                b_element = '(  0 '
-            else:
-                b_element = '(a_{:d} '.format(j-i+N-1)
-            if j >= N:
-                a_element = '*  0)'
-            else:
-                a_element = '* a_{:d})'.format(j)
-            term_ab = b_element+a_element+' + '
-            line_i += term_ab
-        print(line_i[:-3])
-
-    w = []
-    for i in range(2*N):
-        w.append('w_{:d}'.format(i-N+1))
+    w_pad = []
+    for i in range(2*N-1):
+        w_pad.append('w_{:d}'.format(i-N+1))
+    w_pad.append('0')
 
     a = []
     for i in range(N):
@@ -841,65 +815,74 @@ def autocorrelation_scheme(N):
 
     B = toeplitz(b_padd, zeros_N)
 
+    for i in range(B.shape[0]):
+        row = '{:>4s} = '.format(w_pad[i])
+        for j in range(B.shape[1]):
+            row += '({:>3s} * {:>3s}) + '.format(B[i,j],a_padd[j])
+        print(row[:-3])
+
     print('\n')
     print('Toeplitz system:')
     for i in range(B.shape[0]):
-        row = '{:>4s} = | '.format(w[i])
+        if i == B.shape[0]//2:
+            row = '|{:>4s}| = | '.format(w_pad[i])
+        else:
+            row = '|{:>4s}|   | '.format(w_pad[i])
         for j in range(B.shape[1]):
             row += '{:>4s} '.format(B[i,j])
-        row += '| {:>4s}'.format(a_padd[i])
+        row += '|  |{:>3s}|'.format(a_padd[i])
         print(row)
 
 
-def seismic_wiggle(section, dt, ranges=None, scale=1., color='k',
-                   normalize=False):
-    """
-    Plot numpy 2D arrays as seismic traces (wiggles).
-
-    Parameters:
-
-    * section :  2D array
-        matrix of traces (first dimension time, second dimension traces)
-    * dt : float
-        sample rate in seconds
-    * ranges : (x1, x2)
-        min and max horizontal values (default trace number)
-    * scale : float
-        scale factor multiplied by the section values before plotting
-    * color : tuple of strings
-        Color for filling the wiggle, positive  and negative lobes.
-    * normalize :
-        True to normalizes all trace in the section using global max/min
-        data will be in the range (-0.5, 0.5) zero centered
-
-    .. warning::
-        Slow for more than 200 traces, in this case decimate your
-        data or use ``seismic_image``.
-
-    """
-    npts, ntraces = section.shape  # time/traces
-    if ntraces < 1:
-        raise IndexError("Nothing to plot")
-    if npts < 1:
-        raise IndexError("Nothing to plot")
-    t = np.linspace(0, dt*npts, npts)
-    amp = 1.  # normalization factor
-    gmin = 0.  # global minimum
-    toffset = 0.  # offset in time to make 0 centered
-    if normalize:
-        gmax = section.max()
-        gmin = section.min()
-        amp = (gmax - gmin)
-        toffset = 0.5
-    plt.ylim(max(t), 0)
-    if ranges is None:
-        ranges = (0, ntraces)
-    x0, x1 = ranges
-    # horizontal increment
-    dx = (x1 - x0)/ntraces
-    plt.xlim(x0, x1)
-    for i, trace in enumerate(section.transpose()):
-        tr = (((trace - gmin)/amp) - toffset)*scale*dx
-        x = x0 + i*dx  # x positon for this trace
-        plt.plot(x + tr, t, 'k')
-        plt.fill_betweenx(t, x + tr, x, tr > 0, color=color)
+# def seismic_wiggle(section, dt, ranges=None, scale=1., color='k',
+#                    normalize=False):
+#     """
+#     Plot numpy 2D arrays as seismic traces (wiggles).
+#
+#     Parameters:
+#
+#     * section :  2D array
+#         matrix of traces (first dimension time, second dimension traces)
+#     * dt : float
+#         sample rate in seconds
+#     * ranges : (x1, x2)
+#         min and max horizontal values (default trace number)
+#     * scale : float
+#         scale factor multiplied by the section values before plotting
+#     * color : tuple of strings
+#         Color for filling the wiggle, positive  and negative lobes.
+#     * normalize :
+#         True to normalizes all trace in the section using global max/min
+#         data will be in the range (-0.5, 0.5) zero centered
+#
+#     .. warning::
+#         Slow for more than 200 traces, in this case decimate your
+#         data or use ``seismic_image``.
+#
+#     """
+#     npts, ntraces = section.shape  # time/traces
+#     if ntraces < 1:
+#         raise IndexError("Nothing to plot")
+#     if npts < 1:
+#         raise IndexError("Nothing to plot")
+#     t = np.linspace(0, dt*npts, npts)
+#     amp = 1.  # normalization factor
+#     gmin = 0.  # global minimum
+#     toffset = 0.  # offset in time to make 0 centered
+#     if normalize:
+#         gmax = section.max()
+#         gmin = section.min()
+#         amp = (gmax - gmin)
+#         toffset = 0.5
+#     plt.ylim(max(t), 0)
+#     if ranges is None:
+#         ranges = (0, ntraces)
+#     x0, x1 = ranges
+#     # horizontal increment
+#     dx = (x1 - x0)/ntraces
+#     plt.xlim(x0, x1)
+#     for i, trace in enumerate(section.transpose()):
+#         tr = (((trace - gmin)/amp) - toffset)*scale*dx
+#         x = x0 + i*dx  # x positon for this trace
+#         plt.plot(x + tr, t, 'k')
+#         plt.fill_betweenx(t, x + tr, x, tr > 0, color=color)
