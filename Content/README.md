@@ -53,8 +53,6 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [ ] Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
-- [x] Toeplitz and Circulant matrices ([`Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Toeplitz_circulant_matrices.ipynb))
-
 #### Discrete Fourier Transform
 
 - [x] Fourier Transform 1D - intro ([`fourier_1D_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_intro.ipynb))
