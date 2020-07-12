@@ -53,17 +53,19 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [ ] Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/block_matrices.ipynb))
 
-- [x] Toeplitz and Circulant matrices ([`Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Toeplitz_circulant_matrices.ipynb))
-
 #### Discrete Fourier Transform
 
 - [x] Fourier Transform 1D - intro ([`fourier_1D_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_intro.ipynb))
 
 - [x] Fourier Transform 1D - part 1 ([`fourier_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_1.ipynb))
 
+  - [x] Fourier Series - functions with period 2pi ([`fourier_series_2pi.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_series_2pi.ipynb))
+
 - [x] Fourier Transform 1D - part 2 ([`fourier_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_2.ipynb))
 
 - [x] Fourier Transform 1D - part 3 ([`fourier_1D_3.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_3.ipynb))
+
+  - [x] Fourier Series - functions with arbitrary period ([`fourier_series_T0.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_series_T0.ipynb))
 
 - [x] Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_4.ipynb))
 
@@ -72,6 +74,10 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 - [x] Fourier Transform 1D - part 6 ([`fourier_1D_6.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_1D_6.ipynb))
 
 - [x] Convolution and Correlation 1D - part 1 ([`convolution_correlation_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_correlation_1D_1.ipynb))
+
+  - [x] Toeplitz and circulant matrices ([`Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Toeplitz_circulant_matrices.ipynb))
+
+- [ ] Convolution and Correlation 1D - part 2 ([`convolution_correlation_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_correlation_1D_2.ipynb))
 
 - [ ] Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
 
