@@ -28,8 +28,6 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [x] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
-- [ ] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/kronecker-product.ipynb))
-
 #### How to determine the computational cost of a given operation?
 
 - [ ] Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
@@ -77,10 +75,17 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
   - [x] Toeplitz and circulant matrices ([`Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Toeplitz_circulant_matrices.ipynb))
 
-- [ ] Convolution and Correlation 1D - part 2 ([`convolution_correlation_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_correlation_1D_2.ipynb))
+- [x] Convolution and Correlation 1D - part 2 ([`convolution_correlation_1D_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_correlation_1D_2.ipynb))
 
-- [ ] Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
+- [x] Fourier Transform 2D - intro ([`fourier_2D_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D_intro.ipynb))
 
+- [x] Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
+
+- [ ] Convolution 2D - part 1 ([`convolution_2D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_2D_1.ipynb))
+
+  - [ ] Block Toeplitz and circulant matrices ([`Block_Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Block_Toeplitz_circulant_matrices.ipynb))
+
+  - [ ] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/kronecker-product.ipynb))
 
 #### Numerical solution of linear systems
 
