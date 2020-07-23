@@ -81,7 +81,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [x] Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fourier_2D.ipynb))
 
-- [ ] Convolution 2D - part 1 ([`convolution_2D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_2D_1.ipynb))
+- [x] Convolution 2D - part 1 ([`convolution_2D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_2D_1.ipynb))
 
   - [ ] Block Toeplitz and circulant matrices ([`Block_Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Block_Toeplitz_circulant_matrices.ipynb))
 

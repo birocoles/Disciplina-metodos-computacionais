@@ -403,8 +403,6 @@ def g_T0(x, g, T0, sizex = 10., sizey = 6.):
     plt.show()
 
 
-#def fourier_series_real(y, T0, a0, an, bn):
-
 def fourier_series_real(x, a0, an, bn):
     '''
     Compute the Fourier series expansion (in the sine-cosine form)
@@ -540,7 +538,7 @@ def complex_coefficients(a0, an, bn):
 
     return c0, cn
 
-#def upward_sawtooth_bn(n, T0):
+
 def upward_sawtooth_bn(n):
     '''
     Compute the sine coefficient bn up to degree n
@@ -832,57 +830,3 @@ def autocorrelation_scheme(N):
             row += '{:>4s} '.format(B[i,j])
         row += '|  |{:>3s}|'.format(a_padd[i])
         print(row)
-
-
-# def seismic_wiggle(section, dt, ranges=None, scale=1., color='k',
-#                    normalize=False):
-#     """
-#     Plot numpy 2D arrays as seismic traces (wiggles).
-#
-#     Parameters:
-#
-#     * section :  2D array
-#         matrix of traces (first dimension time, second dimension traces)
-#     * dt : float
-#         sample rate in seconds
-#     * ranges : (x1, x2)
-#         min and max horizontal values (default trace number)
-#     * scale : float
-#         scale factor multiplied by the section values before plotting
-#     * color : tuple of strings
-#         Color for filling the wiggle, positive  and negative lobes.
-#     * normalize :
-#         True to normalizes all trace in the section using global max/min
-#         data will be in the range (-0.5, 0.5) zero centered
-#
-#     .. warning::
-#         Slow for more than 200 traces, in this case decimate your
-#         data or use ``seismic_image``.
-#
-#     """
-#     npts, ntraces = section.shape  # time/traces
-#     if ntraces < 1:
-#         raise IndexError("Nothing to plot")
-#     if npts < 1:
-#         raise IndexError("Nothing to plot")
-#     t = np.linspace(0, dt*npts, npts)
-#     amp = 1.  # normalization factor
-#     gmin = 0.  # global minimum
-#     toffset = 0.  # offset in time to make 0 centered
-#     if normalize:
-#         gmax = section.max()
-#         gmin = section.min()
-#         amp = (gmax - gmin)
-#         toffset = 0.5
-#     plt.ylim(max(t), 0)
-#     if ranges is None:
-#         ranges = (0, ntraces)
-#     x0, x1 = ranges
-#     # horizontal increment
-#     dx = (x1 - x0)/ntraces
-#     plt.xlim(x0, x1)
-#     for i, trace in enumerate(section.transpose()):
-#         tr = (((trace - gmin)/amp) - toffset)*scale*dx
-#         x = x0 + i*dx  # x positon for this trace
-#         plt.plot(x + tr, t, 'k')
-#         plt.fill_betweenx(t, x + tr, x, tr > 0, color=color)
