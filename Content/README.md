@@ -83,9 +83,9 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [x] Convolution 2D - part 1 ([`convolution_2D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/convolution_2D_1.ipynb))
 
-  - [ ] Block Toeplitz and circulant matrices ([`Block_Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Block_Toeplitz_circulant_matrices.ipynb))
+  - [x] Block Toeplitz and circulant matrices ([`Block_Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Block_Toeplitz_circulant_matrices.ipynb))
 
-  - [ ] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/kronecker-product.ipynb))
+  - [x] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/kronecker-product.ipynb))
 
 #### Numerical solution of linear systems
 
