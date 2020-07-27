@@ -25,7 +25,10 @@ lista de links úteis sobre Git e GitHub:
 
 * [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 
-<img src='https://miro.medium.com/max/1400/1*VX6u2-1DdufXt3Q4Nuanww.jpeg'>
+<img src='https://bestwebsoft.com/wp-content/uploads/2019/02/programming-languages.jpg'>
+
+*Image source*: [BestWebSoft](https://bestwebsoft.com/the-best-programming-languages-to-learn-in-2019/)
+
 
 Beleza, é possível que as informações acima tenham sido completamente
 inúteis para este curso. Sendo assim, vamos agilizar um pouco as
