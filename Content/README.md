@@ -103,32 +103,32 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-pivoting.ipynb))
 
-    - [x] Exercise: Gaussian elimination with partial pivoting
-    - [x] Exercise: Calculating inverse matrices
+    - [ ] Exercise: Gaussian elimination with partial pivoting
+    - [ ] Exercise: Calculating inverse matrices
 
 * LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_intro.ipynb))
 
-    - [x] Exercise: LU decomposition without pivoting
+    - [ ] Exercise: LU decomposition without pivoting
 
 * LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lu_decomp_pivoting.ipynb))
 
-    - [x] Exercise: LU decomposition with partial pivoting
+    - [ ] Exercise: LU decomposition with partial pivoting
 
 * LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/ldlt_decomp.ipynb))
 
-    - [x] Exercise: LDL<sup>T</sup> decomposition
+    - [ ] Exercise: LDL<sup>T</sup> decomposition
 
 * Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
-    - [x] Exercise: Cholesky decomposition
+    - [ ] Exercise: Cholesky decomposition
 
 * Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
-    - [x] Exercise: Fitting a straight line
+    - [ ] Exercise: Fitting a straight line
 
 * Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
 
-    - [x] Exercise: Calculating absolute gravity values from measurements of gravity differences
+    - [ ] Exercise: Calculating absolute gravity values from measurements of gravity differences
 
 #### Numerical solution of nonlinear systems
 
@@ -136,8 +136,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
-    - [x] Exercise: Compute the Jacobian and Hessian matrices
-    - [x] Exercise: Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and Levenberg-Marquardt methods
+    - [ ] Exercise: Compute the Jacobian and Hessian matrices
+    - [ ] Exercise: Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and Levenberg-Marquardt methods
 
 #### Interpolation
 
@@ -147,32 +147,32 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
-    - [x] Exercise: 1D polynomial fitting
-    - [x] Exercise: 2D polynomial fitting
+    - [ ] Exercise: 1D polynomial fitting
+    - [ ] Exercise: 2D polynomial fitting
 
 * Biharmonic Splines (extra) ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
 
-    - [x] Exercise: 1D splines
-    - [x] Exercise: 2D splines
+    - [ ] Exercise: 1D splines
+    - [ ] Exercise: 2D splines
 
 #### Numerical solution of differential equations
 
 * Finite differences - part 1 (extra) ([`fd_intro1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro1.ipynb))
 
-    - [x] Exercise: Solve the exponential decay equation
+    - [ ] Exercise: Solve the exponential decay equation
 
 * Finite differences - part 2 (extra) ([`fd_intro2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/fd_intro2.ipynb))
 
-    - [x] Exercise: Generalize the previous code
+    - [ ] Exercise: Generalize the previous code
 
 * Finite differences (extra)
 ([12 Steps to Navier-Stokes](https://github.com/barbagroup/CFDPython))
 
-    - [x] Exercise - Complete this amazing practical module for learning the foundations of Computational Fluid Dynamics (CFD) developed by [Prof. Lorena Barba](http://lorenabarba.com/).
+    - [ ] Exercise - Complete this amazing practical module for learning the foundations of Computational Fluid Dynamics (CFD) developed by [Prof. Lorena Barba](http://lorenabarba.com/).
     Create a new Jupyter Notebook for each lesson and follow the instructions.
 
 #### Numerical integration
 
 * Newton-Cotes formulas (extra) ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/newton-cotes.ipynb))
 
-    - [x] Exercise: Simulate an abrupt temperature perturbation
+    - [ ] Exercise: Simulate an abrupt temperature perturbation
