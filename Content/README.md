@@ -93,9 +93,9 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 * Triangular systems ([`triangular_systems.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/triangular_systems.ipynb))
 
-    - [x] Exercise: upper triangular system
-    - [x] Exercise: lower triangular system
-    - [x] Exercise: simple vertical seismic profiling
+    - [ ] Exercise: upper triangular system
+    - [ ] Exercise: lower triangular system
+    - [ ] Exercise: simple vertical seismic profiling
 
 * Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/gauss-elim-intro.ipynb))
 
