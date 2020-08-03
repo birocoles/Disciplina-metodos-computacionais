@@ -115,10 +115,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 > This topic is given in class and part of it can be found in the files `Nonlinear_methods.odp` and `Nonlinear_methods.pdf`
 
-* Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
-
-    - [ ] Exercise: Compute the Jacobian and Hessian matrices
-    - [ ] Exercise: Estimate the horizontal coordinates of an epicenter by using the Newton's, Gauss-Newton, Steepest decent and Levenberg-Marquardt methods
+- [ ] Simple epicenter problem ([`epicenter.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/epicenter.ipynb))
 
 #### Interpolation
 
