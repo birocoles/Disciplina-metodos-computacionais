@@ -121,7 +121,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 - [ ] L1 regression
 ([`l1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/l1_regression.ipynb))
 
-  - [ ] Fitting a parabola
+  - [ ] Fitting a parabola with outliers
   ([`parabola.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/parabola.ipynb))
 
 - [ ] Conjugate Gradient Method
