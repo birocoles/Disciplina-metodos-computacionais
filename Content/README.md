@@ -136,21 +136,19 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
   - [x] Review 2 ([`review_math_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/review_math_2.ipynb))
 
-#### Interpolation
+#### Interpolation and curve fitting
 
-* Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
+- [ ] Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
 
-* Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
+- [ ] Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
 
-* Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
+- [ ] Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
-    - [ ] Exercise: 1D polynomial fitting
-    - [ ] Exercise: 2D polynomial fitting
+- [ ] Spline interpolation with Green's functions ([`greens_interp_theory.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_theory.ipynb))
 
-* Biharmonic Splines (extra) ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
+  - [ ] 1D case ([`greens_interp_1D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_1D.ipynb))
 
-    - [ ] Exercise: 1D splines
-    - [ ] Exercise: 2D splines
+  - [ ] 2D case ([`greens_interp_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_2D.ipynb))
 
 #### Numerical solution of differential equations
 
