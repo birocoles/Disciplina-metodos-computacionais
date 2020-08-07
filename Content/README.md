@@ -107,11 +107,26 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [x] Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/chol_decomp.ipynb))
 
-- [x] Least squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
+- [x] Least Squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/least_squares.ipynb))
 
   - [x] Review 1 ([`review_math_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/review_math_1.ipynb))
 
-- [x] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
+  - [x] Fitting a straight line
+  ([`straight_line.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/straight_line.ipynb))
+
+- [x] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/weighted_least_squares.ipynb))
+
+  - [x] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
+
+- [ ] L1 regression
+([`l1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/l1_regression.ipynb))
+
+  - [ ] Fitting a parabola with outliers
+  ([`parabola.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/parabola.ipynb))
+
+- [ ] Conjugate Gradient Method
+([`cg_method.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cg_method.ipynb))
+
 
 #### Numerical solution of nonlinear systems
 
@@ -121,21 +136,19 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
   - [x] Review 2 ([`review_math_2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/review_math_2.ipynb))
 
-#### Interpolation
+#### Interpolation and curve fitting
 
-* Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
+- [ ] Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
 
-* Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
+- [ ] Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
 
-* Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
+- [ ] Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
-    - [ ] Exercise: 1D polynomial fitting
-    - [ ] Exercise: 2D polynomial fitting
+- [ ] Spline interpolation with Green's functions ([`greens_interp_theory.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_theory.ipynb))
 
-* Biharmonic Splines (extra) ([`biharmonic-splines.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/biharmonic-splines.ipynb))
+  - [ ] 1D case ([`greens_interp_1D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_1D.ipynb))
 
-    - [ ] Exercise: 1D splines
-    - [ ] Exercise: 2D splines
+  - [ ] 2D case ([`greens_interp_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_2D.ipynb))
 
 #### Numerical solution of differential equations
 
