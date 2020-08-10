@@ -118,11 +118,14 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
   - [x] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/grav_net.ipynb))
 
-- [ ] L1 regression
-([`l1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/l1_regression.ipynb))
+- [x] L1 regression
+([`L1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/L1_regression.ipynb))
 
-  - [ ] Fitting a parabola with outliers
+  - [x] Fitting a parabola with outliers
   ([`parabola.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/parabola.ipynb))
+
+- [ ] Steepest decent with exact Line Search
+([`sd_exact_lsearch.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/sd_exact_lsearch.ipynb))
 
 - [ ] Conjugate Gradient Method
 ([`cg_method.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cg_method.ipynb))
@@ -138,17 +141,17 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 #### Interpolation and curve fitting
 
-- [ ] Lagrange's method ([`lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/lagrange.ipynb))
+- [x] Lagrange's method ([`Lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Lagrange.ipynb))
 
-- [ ] Neville's method ([`neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/neville.ipynb))
+- [x] Neville's method ([`Neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/Neville.ipynb))
 
-- [ ] Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
+- [x] Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/polynomial.ipynb))
 
-- [ ] Spline interpolation with Green's functions ([`greens_interp_theory.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_theory.ipynb))
+- [x] Spline interpolation with Green's functions ([`greens_interp_theory.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_theory.ipynb))
 
-  - [ ] 1D case ([`greens_interp_1D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_1D.ipynb))
+  - [x] 1D case ([`greens_interp_1D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_1D.ipynb))
 
-  - [ ] 2D case ([`greens_interp_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_2D.ipynb))
+  - [x] 2D case ([`greens_interp_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/greens_interp_2D.ipynb))
 
 #### Numerical solution of differential equations
 
