@@ -146,6 +146,8 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
  * Shewchuk, J. R. (1994). An introduction to the Conjugate Gradient Method without the agonizing
  pain, 1 1/4 ed.: School of Computer Science Carnegie Mellon, University Pittsburgh, [versão pdf](https://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf)
 
+ * Lawson, C. L,. and Hanson, R. J. (1995). Solving least squares problems. SIAM, ISBN 0-89871-356-0
+
   * Kelley, C. T. Iterative methods for optimization, SIAM, 1999, [versão pdf](http://www.siam.org/books/kelley/fr18/)
 
   * Yilmaz, Öz (2001). Seismic Data Analysis: Processing, Inversion, and Interpretation of Seismic Data, 2 ed.: Society of Exploration Geophysicists. ISBN 1-56080-098-4
