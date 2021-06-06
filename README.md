@@ -200,3 +200,5 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
  * [Pandas](http://pandas.pydata.org/)
 
  * [SciPy](https://scipy.org/about.html)
+
+ * [Real Python](https://realpython.com/start-here/)
