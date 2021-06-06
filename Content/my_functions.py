@@ -1,6 +1,170 @@
 import numpy as np
 from scipy.linalg import toeplitz, circulant
 import matplotlib.pyplot as plt
+from numba import njit
+
+
+# scalar-vector product
+
+def scalar_vec_real_dumb(a, x, check_input=True):
+    '''
+    Compute the product of a scalar a and vector x, where
+    a is real and x is in R^N. The imaginary parts are ignored.
+
+    The code uses a simple "for" to iterate on the array.
+
+    Parameters
+    ----------
+    a : scalar
+        Real number.
+
+    x : array 1D
+        Vector with N elements.
+
+    check_input : boolean
+        If True, verify if the input is valid. Default is True.
+
+    Returns
+    -------
+    result : array
+        Product of a and x.
+    '''
+    a = np.asarray(a)
+    x = np.asarray(x)
+    if check_input is True:
+        assert a.ndim == 0, 'a must be a scalar'
+        assert x.ndim == 1, 'x must be a 1D'
+
+    result = np.empty_like(x)
+    for i in range(x.size):
+        # the '.real' forces the code to use
+        # only the real part of the arrays
+        result[i] = a.real*x.real[i]
+
+    return result
+
+
+def scalar_vec_real_numpy(a, x, check_input=True):
+    '''
+    Compute the product of a scalar a and vector x, where
+    a is real and x is in R^N. The imaginary parts are ignored.
+
+    The code uses numpy.
+
+    Parameters
+    ----------
+    a : scalar
+        Real number.
+
+    x : array 1D
+        Vector with N elements.
+
+    check_input : boolean
+        If True, verify if the input is valid. Default is True.
+
+    Returns
+    -------
+    result : array
+        Product of a and x.
+    '''
+    a = np.asarray(a)
+    x = np.asarray(x)
+    if check_input is True:
+        assert a.ndim == 0, 'a must be a scalar'
+        assert x.ndim == 1, 'x must be a 1D'
+
+    result = a.real*x.real
+
+    return result
+
+
+@njit
+def scalar_vec_real_numba(a, x, check_input=True):
+    '''
+    Compute the product of a scalar a and vector x, where
+    a is real and x is in R^N. The imaginary parts are ignored.
+
+    The code uses numba.
+
+    Parameters
+    ----------
+    a : scalar
+        Real number.
+
+    x : array 1D
+        Vector with N elements.
+
+    check_input : boolean
+        If True, verify if the input is valid. Default is True.
+
+    Returns
+    -------
+    result : array
+        Product of a and x.
+    '''
+    a = np.asarray(a)
+    x = np.asarray(x)
+    if check_input is True:
+        assert a.ndim == 0, 'a must be a scalar'
+        assert x.ndim == 1, 'x must be a 1D'
+
+    result = np.empty_like(x)
+    for i in range(x.size):
+        # the '.real' forces the code to use
+        # only the real part of the arrays
+        result[i] = a.real*x.real[i]
+
+    return result
+
+
+def scalar_vec_complex(a, x, check_input=True, function='numba'):
+    '''
+    Compute the dot product of a is a complex number and x
+    is a complex vector.
+
+    Parameters
+    ----------
+    a : scalar
+        Complex number.
+
+    x : array 1D
+        Complex vector with N elements.
+
+    check_input : boolean
+        If True, verify if the input is valid. Default is True.
+
+    function : string
+        Function to be used for computing the real scalar-vector product.
+        The function name must be 'dumb', 'numpy' or 'numba'.
+        Default is 'numba'.
+
+    Returns
+    -------
+    result : scalar
+        Product of a and x.
+    '''
+    a = np.asarray(a)
+    x = np.asarray(x)
+    if check_input is True:
+        assert a.ndim == 0, 'a must be a scalar'
+        assert x.ndim == 1, 'x must be a 1D'
+
+    scalar_vec_real = {
+        'dumb': scalar_vec_real_dumb,
+        'numpy': scalar_vec_real_numpy,
+        'numba': scalar_vec_real_numba
+    }
+    if function not in scalar_vec_real:
+        raise ValueError("Function {} not recognized".format(function))
+
+    result_real = scalar_vec_real[function](a.real, x.real, check_input=False)
+    result_real -= scalar_vec_real[function](a.imag, x.imag, check_input=False)
+    result_imag = scalar_vec_real[function](a.real, x.imag, check_input=False)
+    result_imag += scalar_vec_real[function](a.imag, x.real, check_input=False)
+
+    result = result_real + 1j*result_imag
+
+    return result
 
 
 def sine_cosine(x_min, x_max, npoints = 100, sizex = 10., sizey = 6.):
