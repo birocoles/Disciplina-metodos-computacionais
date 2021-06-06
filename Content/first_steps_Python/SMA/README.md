@@ -2,10 +2,13 @@
 
 After learning some Python stuff, let us create our first code. Our code is an
 implementation of the [SMA filter](https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average).
+
+<img src='SMA_scheme.png' width = 700>
+
 The main goal is:
 
 * [creating a 1D numpy array](http://docs.scipy.org/doc/numpy/reference/routines.array-creation.html);
-* [slicing and indexing](https://docs.scipy.org/doc/numpy-1.12.0/reference/arrays.indexing.html) numpy arrays;
+* [slicing and indexing](https://numpy.org/doc/stable/reference/arrays.indexing.html) numpy arrays;
 * practicing the concept of loops;
 * creating functions;
 * documenting the code;
