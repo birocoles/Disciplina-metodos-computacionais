@@ -12,6 +12,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 #### Basic vector operations
 
+- [ ] scalar-vector product ([`scalar_vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar_vector.ipynb))
+
 - [ ] dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
 - [ ] Hadamard product ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/hadamard.ipynb))
