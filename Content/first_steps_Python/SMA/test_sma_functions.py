@@ -13,7 +13,7 @@ def test_large_window():
 def test_small_window():
     'Window size must be greater than 3'
     data_test = np.arange(15)
-    window = 2
+    window = 1
     raises(AssertionError, sf.sma1d, data=data_test, window_size=window)
 
 
