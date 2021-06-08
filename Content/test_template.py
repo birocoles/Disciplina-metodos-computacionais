@@ -1,8 +1,10 @@
 import numpy as np
 from numpy.testing import assert_almost_equal as aae
 import pytest
-import functions as fcs
 from scipy.linalg import dft
+
+#
+import functions as fcs
 
 ### scalar-vector product
 
@@ -154,36 +156,26 @@ def test_dot_real_scalar_multiplication():
     b = np.random.rand(15)
     c1 = 5.6
     c2 = 9.1
+
+    # c1 a
+    c1a = fcs.scalar_vec_real_numba(c1, a)
+    # c2 b
+    c2b = fcs.scalar_vec_real_numba(c2, b)
+
     # (c1 a) dot (c2 b) = c1c2 (a dot b)
-    output_c1a_c2b_dumb = fcs.dot_real_dumb(c1*a, c2*b)
+    output_c1a_c2b_dumb = fcs.dot_real_dumb(c1a, c2b)
     output_c1c2_ab_dumb = c1*c2*fcs.dot_real_dumb(a, b)
-    output_c1a_c2b_numpy = fcs.dot_real_numpy(c1*a, c2*b)
+    output_c1a_c2b_numpy = fcs.dot_real_numpy(c1a, c2b)
     output_c1c2_ab_numpy = c1*c2*fcs.dot_real_numpy(a, b)
-    output_c1a_c2b_numba = fcs.dot_real_numba(c1*a, c2*b)
+    output_c1a_c2b_numba = fcs.dot_real_numba(c1a, c2b)
     output_c1c2_ab_numba = c1*c2*fcs.dot_real_numba(a, b)
     aae(output_c1a_c2b_dumb, output_c1c2_ab_dumb, decimal=10)
     aae(output_c1a_c2b_numpy, output_c1c2_ab_numpy, decimal=10)
     aae(output_c1a_c2b_numba, output_c1c2_ab_numba, decimal=10)
 
 
-def test_dot_complex_functions_compare_numpy_dot():
-    'compare dot_complex_dumb, numpy and numba with numpy.dot'
-    # first input complex
-    np.random.seed = 3
-    vector_1 = np.random.rand(13) + np.random.rand(13)*1j
-    vector_2 = np.random.rand(13) + np.random.rand(13)*1j
-    output_dumb = fcs.dot_complex_dumb(vector_1, vector_2)
-    output_numpy = fcs.dot_complex_numpy(vector_1, vector_2)
-    output_numba = fcs.dot_complex_numba(vector_1, vector_2)
-    output_numpy_dot = np.dot(vector_1, vector_2)
-    aae(output_dumb, output_numpy_dot, decimal=10)
-    aae(output_numpy, output_numpy_dot, decimal=10)
-    aae(output_numba, output_numpy_dot, decimal=10)
-
-
 def test_dot_complex_compare_numpy_dot():
     'compare dot_complex with numpy.dot'
-    # first input complex
     np.random.seed = 78
     vector_1 = np.random.rand(10) + np.random.rand(10)*1j
     vector_2 = np.random.rand(10) + np.random.rand(10)*1j
@@ -198,7 +190,6 @@ def test_dot_complex_compare_numpy_dot():
 
 def test_dot_complex_compare_numpy_vdot():
     'compare dot_complex with numpy.vdot'
-    # first input complex
     np.random.seed = 78
     vector_1 = np.random.rand(10) + np.random.rand(10)*1j
     vector_2 = np.random.rand(10) + np.random.rand(10)*1j
