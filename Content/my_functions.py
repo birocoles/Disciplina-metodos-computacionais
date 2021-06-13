@@ -994,3 +994,87 @@ def autocorrelation_scheme(N):
             row += '{:>4s} '.format(B[i,j])
         row += '|  |{:>3s}|'.format(a_padd[i])
         print(row)
+
+
+def R1(angle):
+    '''
+    Orthogonal matrix performing a rotation around
+    the x-axis of a Cartesian coordinate system.
+
+    Parameters:
+    * angle : float
+        Rotation angle (in degrees).
+
+    Returns:
+    * R : 2D numpy array
+        Rotation matrix.
+    '''
+
+    assert np.isscalar(angle), 'angle must be a scalar'
+
+    ang = np.deg2rad(angle)
+
+    cos_angle = np.cos(ang)
+    sin_angle = np.sin(ang)
+
+    R = np.array([[1, 0, 0],
+                  [0, cos_angle, sin_angle],
+                  [0, -sin_angle, cos_angle]])
+
+    return R
+
+
+def R2(angle):
+    '''
+    Orthogonal matrix performing a rotation around
+    the y-axis of a Cartesian coordinate system.
+
+    Parameters:
+    * angle : float
+        Rotation angle (in degrees).
+
+    Returns:
+    * R : 2D numpy array
+        Rotation matrix.
+    '''
+
+    assert np.isscalar(angle), 'angle must be a scalar'
+
+    ang = np.deg2rad(angle)
+
+    cos_angle = np.cos(ang)
+    sin_angle = np.sin(ang)
+
+    R = np.array([[cos_angle, 0, -sin_angle],
+                  [0, 1, 0],
+                  [sin_angle, 0, cos_angle]])
+
+    return R
+
+
+def R3(angle):
+    '''
+    Orthogonal matrix performing a rotation around
+    the z-axis of a Cartesian coordinate system.
+
+    Parameters:
+    * angle : float
+        Rotation angle (in degrees).
+
+    Returns:
+    * R : 2D numpy array
+        Rotation matrix.
+    '''
+
+    assert np.isscalar(angle), 'angle must be a scalar'
+
+    ang = np.deg2rad(angle)
+
+    cos_angle = np.cos(ang)
+    sin_angle = np.sin(ang)
+
+    R = np.array([[cos_angle, sin_angle, 0],
+                  [-sin_angle, cos_angle, 0],
+                  [0, 0, 1]])
+
+    return R
