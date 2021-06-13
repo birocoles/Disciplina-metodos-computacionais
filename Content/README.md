@@ -28,6 +28,8 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [ ] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-matrix.ipynb))
 
+- [ ] Matrix norms ([`matrix-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/matrix-norms.ipynb))
+
 #### How to determine the computational cost of a given operation?
 
 - [ ] Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/flops.ipynb))
