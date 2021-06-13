@@ -60,3 +60,49 @@ def test_scalar_vec_complex_functions_compare_numpy():
     aae(output_dumb, reference, decimal=10)
     aae(output_numpy, reference, decimal=10)
     aae(output_numba, reference, decimal=10)
+
+
+def test_R1_R2_R3_orthonal():
+    'Rotation matrices must be orthogonal'
+    A = mf.R1(-19)
+    B = mf.R2(34.71)
+    C = mf.R3(28)
+
+    aae(np.dot(A, A.T), np.dot(A.T, A), decimal=15)
+    aae(np.dot(A, A.T), np.identity(3), decimal=15)
+    aae(np.dot(A.T, A), np.identity(3), decimal=15)
+
+    aae(np.dot(B, B.T), np.dot(B.T, B), decimal=15)
+    aae(np.dot(B, B.T), np.identity(3), decimal=15)
+    aae(np.dot(B.T, B), np.identity(3), decimal=15)
+
+    aae(np.dot(C, C.T), np.dot(C.T, C), decimal=15)
+    aae(np.dot(C, C.T), np.identity(3), decimal=15)
+    aae(np.dot(C.T, C), np.identity(3), decimal=15)
+
+
+def test_R1_R2_R3_transposition():
+    'R(-alpha) must be equal to transposed R(alpha)'
+    A1 = mf.R1(-67)
+    A2 = mf.R1(67).T
+    aae(A1, A2, decimal=15)
+
+    A1 = mf.R2(-17)
+    A2 = mf.R2(17).T
+    aae(A1, A2, decimal=15)
+
+    A1 = mf.R3(-39)
+    A2 = mf.R3(39).T
+    aae(A1, A2, decimal=15)
+
+    A1 = mf.R1(13)
+    A2 = mf.R1(-13).T
+    aae(A1, A2, decimal=15)
+
+    A1 = mf.R2(8)
+    A2 = mf.R2(-8).T
+    aae(A1, A2, decimal=15)
+
+    A1 = mf.R3(40)
+    A2 = mf.R3(-40).T
+    aae(A1, A2, decimal=15)
