@@ -14,7 +14,7 @@ Access the directory `first_steps_Python` and take a look at the instructions.
 
 - [x] scalar-vector product ([`scalar_vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/scalar_vector.ipynb))
 
-  - [x] timing the scalar vector product ([`timing_scalar_vector_product`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/timing_scalar_vector_product.ipynb)
+  - [x] timing the scalar vector product ([`timing_scalar_vector_product`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/timing_scalar_vector_product.ipynb))
 
 - [x] dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/dot.ipynb))
 
