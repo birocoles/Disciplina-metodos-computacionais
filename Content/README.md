@@ -8,7 +8,11 @@
 
 The idea here is giving the required background to follow the course.
 
-Access the directory `first_steps_Python` and take a look at the instructions.
+Access the directory [`first_steps_Python`](https://github.com/birocoles/Disciplina-metodos-computacionais/tree/master/Content/first_steps_Python) and take a look at the instructions.
+
+#### Exercises
+
+A list of all exercises given along the course can be found in [`exercises.md`](https://github.com/birocoles/Disciplina-metodos-computacionais/tree/master/Content/exercises.md).
 
 #### Basic vector operations
 
