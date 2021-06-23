@@ -26,6 +26,8 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/outer.ipynb))
 
+- [ ] cross product ([`cross.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/cross.ipynb))
+
 - [ ] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/master/Content/vector-norms.ipynb))
 
 #### Basic matrix operations
