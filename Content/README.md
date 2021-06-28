@@ -41,18 +41,18 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### How to determine the computational cost of a given operation?
 
-- [ ] Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/flops.ipynb))
+- [x] Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/flops.ipynb))
 
 
 #### Structured matrices
 
-- [ ] Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/permutation_matrices.ipynb))
+- [x] Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/permutation_matrices.ipynb))
 
-- [ ] Diagonal matrices - part 1 ([`diagonal_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part1.ipynb))
+- [x] Diagonal matrices - part 1 ([`diagonal_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part1.ipynb))
 
 - [ ] Diagonal matrices - part 2 ([`diagonal_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part2.ipynb))
 
-- [ ] Triangular matrices - part 1 ([`triangular_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb))
+- [x] Triangular matrices - part 1 ([`triangular_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb))
 
 - [ ] Triangular matrices - part 2 ([`triangular_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part2.ipynb))
 
