@@ -31,12 +31,12 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 
 #### How to determine the computational cost of a given operation?
 
-- [ ] [flops](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/flops.ipynb#Exercise) count
+- [x] [flops](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/flops.ipynb#Exercise) count
 
 #### Structured matrices
 
-- [ ] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
+- [x] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
 
-- [ ] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-1) flops count
+- [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-1) flops count
 
-- [ ] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-2) functions implementation
+- [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-2) functions implementation
