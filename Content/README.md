@@ -30,6 +30,7 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [ ] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/vector-norms.ipynb))
 
+
 #### Basic matrix operations
 
 - [x] matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-vector.ipynb))
