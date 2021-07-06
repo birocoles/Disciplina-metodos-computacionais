@@ -76,7 +76,9 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
   - [x] Fourier Series - functions with arbitrary period ([`fourier_series_T0.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_series_T0.ipynb))
 
-- [ ] Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb))
+- [x] Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb))
+
+  - [ ] Example DFT for N = 6 ([`fourier_1D_4_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4_example.pdf))
 
 - [ ] Fourier Transform 1D - part 5 ([`fourier_1D_5.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_5.ipynb))
 
