@@ -40,3 +40,7 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 - [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-1) flops count
 
 - [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-2) functions implementation
+
+#### Discrete Fourier Transform
+
+- [x] [`DFT matrix`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb) implementation
