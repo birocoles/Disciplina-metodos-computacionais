@@ -43,4 +43,8 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 
 #### Discrete Fourier Transform
 
-- [x] [`DFT matrix`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb) implementation
+- [x] [DFT matrix](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-1) implementation
+
+- [ ] [DFT](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-2) implementation
+
+- [ ] [IDFT](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-3) implementation
