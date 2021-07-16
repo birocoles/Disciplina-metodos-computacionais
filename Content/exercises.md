@@ -37,10 +37,18 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 
 - [x] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
 
-- [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-1) flops count
-
 - [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-2) functions implementation
 
 #### Discrete Fourier Transform
 
-- [x] [`DFT matrix`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb) implementation
+- [x] [DFT matrix](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-1) implementation
+
+- [x] [DFT](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-2) implementation
+
+- [x] [IDFT](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-3) implementation
+
+- [ ] [Circular convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-1) implementation
+
+- [ ] [Linear convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-2) implementation
+
+- [ ] [Crosscorrelation and Autocorrelation](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
