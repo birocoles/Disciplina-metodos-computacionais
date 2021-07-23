@@ -883,7 +883,7 @@ def circular_convolution_scheme(N):
         print(row)
 
 
-def crosscorrelation_scheme(Na, Nb):
+def crosscorrelation_scheme(Na, Nb, lag=True):
     '''
     Print the crossccorrelation equations.
     '''
@@ -892,10 +892,16 @@ def crosscorrelation_scheme(Na, Nb):
     Nw = Na + Nb - 1
     N = Na + Nb
 
-    w_pad = []
-    for i in range(-Nb+1,Na):
-        w_pad.append('w_{:d}'.format(i))
-    w_pad.append('0')
+    if lag is True:
+        w_pad = []
+        for i in range(-Nb+1,Na):
+            w_pad.append('w_{:d}'.format(i))
+        w_pad.append('0')
+    else:
+        w_pad = []
+        for i in range(Nw):
+            w_pad.append('w_{:d}'.format(i))
+        w_pad.append('0')
 
     a = []
     for i in range(Na):
@@ -920,37 +926,44 @@ def crosscorrelation_scheme(Na, Nb):
     for i in range(N):
         zeros_N.append('0')
 
-    B = toeplitz(b_padd, zeros_N)
+    T = toeplitz(b_padd, zeros_N)
 
-    for i in range(B.shape[0]):
+    for i in range(T.shape[0]):
         row = '{:>4s} = '.format(w_pad[i])
-        for j in range(B.shape[1]):
-            row += '({:>3s} * {:>3s}) + '.format(B[i,j],a_padd[j])
+        for j in range(T.shape[1]):
+            row += '({:>3s} * {:>3s}) + '.format(T[i,j],a_padd[j])
         print(row[:-3])
 
     print('\n')
     print('Toeplitz system:')
-    for i in range(B.shape[0]):
-        if i == B.shape[0]//2:
+    for i in range(T.shape[0]):
+        if i == T.shape[0]//2:
             row = '|{:>4s}| = | '.format(w_pad[i])
         else:
             row = '|{:>4s}|   | '.format(w_pad[i])
-        for j in range(B.shape[1]):
-            row += '{:>4s} '.format(B[i,j])
+        for j in range(T.shape[1]):
+            row += '{:>4s} '.format(T[i,j])
         row += '|  |{:>3s}|'.format(a_padd[i])
         print(row)
 
 
-def autocorrelation_scheme(N):
+def autocorrelation_scheme(N, lag=True):
     '''
     Print the autoccorrelation equations.
     '''
 
     print('Autocorrelation:')
-    w_pad = []
-    for i in range(2*N-1):
-        w_pad.append('w_{:d}'.format(i-N+1))
-    w_pad.append('0')
+
+    if lag is True:
+        w_pad = []
+        for i in range(2*N-1):
+            w_pad.append('w_{:d}'.format(i-N+1))
+        w_pad.append('0')
+    else:
+        w_pad = []
+        for i in range(2*N-1):
+            w_pad.append('w_{:d}'.format(i))
+        w_pad.append('0')
 
     a = []
     for i in range(N):
@@ -975,23 +988,23 @@ def autocorrelation_scheme(N):
     for i in range(2*N):
         zeros_N.append('0')
 
-    B = toeplitz(b_padd, zeros_N)
+    T = toeplitz(b_padd, zeros_N)
 
-    for i in range(B.shape[0]):
+    for i in range(T.shape[0]):
         row = '{:>4s} = '.format(w_pad[i])
-        for j in range(B.shape[1]):
-            row += '({:>3s} * {:>3s}) + '.format(B[i,j],a_padd[j])
+        for j in range(T.shape[1]):
+            row += '({:>3s} * {:>3s}) + '.format(T[i,j],a_padd[j])
         print(row[:-3])
 
     print('\n')
     print('Toeplitz system:')
-    for i in range(B.shape[0]):
-        if i == B.shape[0]//2:
+    for i in range(T.shape[0]):
+        if i == T.shape[0]//2:
             row = '|{:>4s}| = | '.format(w_pad[i])
         else:
             row = '|{:>4s}|   | '.format(w_pad[i])
-        for j in range(B.shape[1]):
-            row += '{:>4s} '.format(B[i,j])
+        for j in range(T.shape[1]):
+            row += '{:>4s} '.format(T[i,j])
         row += '|  |{:>3s}|'.format(a_padd[i])
         print(row)
 
