@@ -47,8 +47,8 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 
 - [x] [IDFT](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-3) implementation
 
-- [ ] [Circular convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-1) implementation
+- [x] [Circular convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-1) implementation
 
-- [ ] [Linear convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-2) implementation
+- [x] [Linear convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-2) implementation
 
-- [ ] [Crosscorrelation and Autocorrelation](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
+- [x] [Crosscorrelation and Autocorrelation](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
