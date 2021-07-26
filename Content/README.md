@@ -78,13 +78,15 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb))
 
-  - [x] Example DFT for N = 6 ([`fourier_1D_4_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4_example.pdf))
+  - [x] Example DFT 1D for N = 6 ([`fourier_1D_4_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4_example.pdf))
 
-- [ ] Fourier Transform 1D - part 5 ([`fourier_1D_5.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_5.ipynb))
+- [x] Fourier Transform 1D - part 5 ([`fourier_1D_5.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_5.ipynb))
 
-- [ ] Fourier Transform 1D - part 6 ([`fourier_1D_6.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_6.ipynb))
+- [x] Fourier Transform 1D - part 6 ([`fourier_1D_6.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_6.ipynb))
 
-- [ ] Convolution and Correlation 1D - part 1 ([`convolution_correlation_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb))
+- [x] Convolution and Correlation 1D - part 1 ([`convolution_correlation_1D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb))
+
+  - [ ] Example 1D Convolution ([`conv_1D.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/conv_1D2D/conv_1D.pdf))
 
   - [ ] Toeplitz and circulant matrices ([`Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/Toeplitz_circulant_matrices.ipynb))
 
@@ -93,6 +95,8 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 - [ ] Fourier Transform 2D - intro ([`fourier_2D_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D_intro.ipynb))
 
 - [ ] Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb))
+
+  - [ ] Example DFT 2D for N = 4, M = 4 ([`fourier_2D_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D_example.pdf))
 
 - [ ] Convolution 2D - part 1 ([`convolution_2D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_2D_1.ipynb))
 

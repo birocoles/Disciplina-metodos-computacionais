@@ -43,12 +43,16 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 
 - [x] [DFT matrix](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-1) implementation
 
-- [x] [DFT](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-2) implementation
+- [x] [DFT 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-2) implementation
 
-- [x] [IDFT](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-3) implementation
+- [x] [IDFT 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-3) implementation
 
-- [ ] [Circular convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-1) implementation
+- [x] [Circular convolution 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-1) implementation
 
-- [ ] [Linear convolution](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-2) implementation
+- [x] [Linear convolution 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-2) implementation
 
-- [ ] [Crosscorrelation and Autocorrelation](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
+- [x] [Crosscorrelation and Autocorrelation 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
+
+- [ ] [DFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-1) implementation
+
+- [ ] [IDFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-2) implementation
