@@ -78,7 +78,7 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] Fourier Transform 1D - part 4 ([`fourier_1D_4.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb))
 
-  - [x] Example DFT for N = 6 ([`fourier_1D_4_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4_example.pdf))
+  - [x] Example DFT 1D for N = 6 ([`fourier_1D_4_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4_example.pdf))
 
 - [x] Fourier Transform 1D - part 5 ([`fourier_1D_5.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_5.ipynb))
 
@@ -95,6 +95,8 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 - [ ] Fourier Transform 2D - intro ([`fourier_2D_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D_intro.ipynb))
 
 - [ ] Fourier Transform 2D ([`fourier_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb))
+
+  - [ ] Example DFT 2D for N = 4, M = 4 ([`fourier_2D_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D_example.pdf))
 
 - [ ] Convolution 2D - part 1 ([`convolution_2D_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_2D_1.ipynb))
 
