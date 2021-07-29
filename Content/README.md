@@ -98,11 +98,11 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
   - [x] Example DFT 2D for N = 4, M = 4 ([`fourier_2D_example.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D_example.pdf))
 
-- [ ] Convolution 2D ([`convolution_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_2D.ipynb))
+- [x] Convolution 2D ([`convolution_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_2D.ipynb))
 
-  - [ ] Block Toeplitz and circulant matrices ([`Block_Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/Block_Toeplitz_circulant_matrices.ipynb))
+  - [x] Block Toeplitz and circulant matrices ([`Block_Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/Block_Toeplitz_circulant_matrices.ipynb))
 
-  - [ ] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/kronecker-product.ipynb))
+  - [x] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/kronecker-product.ipynb))
 
 #### Numerical solution of linear systems
 
