@@ -53,6 +53,6 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 
 - [x] [Crosscorrelation and Autocorrelation 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
 
-- [ ] [DFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-1) implementation
+- [x] [DFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-1) implementation
 
-- [ ] [IDFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-2) implementation
+- [x] [IDFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-2) implementation
