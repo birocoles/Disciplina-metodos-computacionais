@@ -60,7 +60,7 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [ ] Band matrices ([`band_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/band_matrices.ipynb))
 
-- [ ] Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/block_matrices.ipynb))
+- [x] Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/block_matrices.ipynb))
 
 #### Discrete Fourier Transform
 
