@@ -100,6 +100,8 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] Convolution 2D ([`convolution_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_2D.ipynb))
 
+  - [x] Example 2D Convolution ([`conv_2D.pdf`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/conv_1D2D/conv_2D.pdf))
+
   - [x] Block Toeplitz and circulant matrices ([`Block_Toeplitz_circulant_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/Block_Toeplitz_circulant_matrices.ipynb))
 
   - [x] Kronecker product ([`kronecker-product.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/kronecker-product.ipynb))
