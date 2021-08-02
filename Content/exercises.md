@@ -56,3 +56,12 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 - [x] [DFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-1) implementation
 
 - [x] [IDFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-2) implementation
+
+
+#### Numerical solution of linear systems
+
+- [x] [Upper triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_systems.ipynb#Exercise-1) implementation
+
+- [x] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_systems.ipynb#Exercise-2) implementation
+
+- [x] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
