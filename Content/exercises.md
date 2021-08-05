@@ -65,3 +65,9 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 - [x] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_systems.ipynb#Exercise-2) implementation
 
 - [x] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
+
+- [ ] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
+
+- [ ] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_intro.ipynb#Exercise) implementation
+
+- [ ] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_pivoting.ipynb#Exercise) implementation 
