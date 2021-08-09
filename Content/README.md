@@ -122,15 +122,15 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] LU decomposition - Pivoting ([`lu_decomp_pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_pivoting.ipynb))
 
-- [ ] LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/ldlt_decomp.ipynb))
+- [x] LDL<sup>T</sup> decomposition - Symmetric matrices ([`ldlt_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/ldlt_decomp.ipynb))
 
-- [ ] Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/chol_decomp.ipynb))
+- [x] Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/chol_decomp.ipynb))
 
-- [ ] Least Squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/least_squares.ipynb))
+- [x] Least Squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/least_squares.ipynb))
 
-  - [ ] Review 1 ([`review_math_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/review_math_1.ipynb))
+  - [x] Review 1 ([`review_math_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/review_math_1.ipynb))
 
-  - [ ] Fitting a straight line
+  - [x] Fitting a straight line
   ([`straight_line.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/straight_line.ipynb))
 
 - [ ] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/weighted_least_squares.ipynb))
