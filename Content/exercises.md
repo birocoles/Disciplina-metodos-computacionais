@@ -72,6 +72,8 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 
 - [x] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_pivoting.ipynb#Exercise) implementation
 
-- [ ] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/ldlt_decomp.ipynb#Exercise-1) implementation
+- [x] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/ldlt_decomp.ipynb#Exercise-1) implementation
 
-- [ ] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/chol_decomp.ipynb#Exercise-1) implementation
+- [x] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/chol_decomp.ipynb#Exercise-1) implementation
+
+- [x] [Fitting a straight line](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/straight_line.ipynb#Exercise)
