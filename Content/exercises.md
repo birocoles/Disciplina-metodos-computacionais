@@ -77,3 +77,5 @@ Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina
 - [x] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/chol_decomp.ipynb#Exercise-1) implementation
 
 - [x] [Fitting a straight line](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/straight_line.ipynb#Exercise)
+
+- [x] [Simple gravity network](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/grav_net.ipynb)
