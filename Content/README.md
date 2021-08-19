@@ -133,20 +133,19 @@ A list of all exercises given along the course can be found in [`exercises.md`](
   - [x] Fitting a straight line
   ([`straight_line.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/straight_line.ipynb))
 
-- [ ] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/weighted_least_squares.ipynb))
+- [x] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/weighted_least_squares.ipynb))
 
-  - [ ] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/grav_net.ipynb))
+  - [x] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/grav_net.ipynb))
 
-- [ ] L1 regression
-([`L1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/L1_regression.ipynb))
+- [x] L1 regression ([`L1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/L1_regression.ipynb))
 
-  - [ ] Fitting a parabola with outliers
+  - [x] Fitting a parabola with outliers
   ([`parabola.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/parabola.ipynb))
 
-- [ ] Steepest decent with exact Line Search
+- [x] Steepest decent with exact Line Search
 ([`sd_exact_lsearch.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/sd_exact_lsearch.ipynb))
 
-- [ ] Conjugate Gradient Method
+- [x] Conjugate Gradient Method
 ([`cg_method.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/cg_method.ipynb))
 
 
