@@ -98,7 +98,7 @@ Os Jupyter Notebooks estão armazenados dentro do diretório `Content` e podem
 ser visualizados como páginas estáticas no nbviewer. Para tanto, acesse o link
 abaixo:
 
-### [Contéudo da pasta `Content` no nbviewer](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/master/Content/)
+### [Contéudo da pasta `Content` no nbviewer](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/main/Content/)
 
 Neste link, é possível visualizar um determinado Jupyter Notebook apenas
 clicando sobre ele, sem segredo. Por exemplo, para visualizar o Jupyter
@@ -106,10 +106,10 @@ Notebook `dot.ipynb`, dentro da pasta `Content`, acesse o link acima e,
 em seguida, clique no arquivo.
 
 Para quem leu alguma coisa sobre GitHub, note que o conteúdo do link acima
-reflete o branch master. Ao longo do curso, eu costumo trabalhar em um branch
+reflete o branch main. Ao longo do curso, eu costumo trabalhar em um branch
 separado. Geralmente, o nome deste branch é o ano em que a disciplina está sendo
 ministrada porque eu sou muito criativo. O conteúdo deste branch é incorporado
-ao master ao longo do curso.
+ao main ao longo do curso.
 
 Note que, desta forma, os Jupyter Notebooks são vistos como páginas estáticas.
 Para executar um determinado Jupyter Notebook, é necessário baixa-lo e instalar
@@ -187,7 +187,7 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
 
  * [Notebook Gallery - Links to the best IPython and Jupyter Notebooks](http://nb.bianp.net/sort/views/)
 
- * [matplotlib - 2D and 3D plotting in Python](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
+ * [matplotlib - 2D and 3D plotting in Python](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/main/Lecture-4-Matplotlib.ipynb)
 
  * [WolframMathWorld](http://mathworld.wolfram.com/)
 
