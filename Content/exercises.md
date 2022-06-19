@@ -4,78 +4,75 @@
 
 - [x] [Software Carpentry Lessons](https://github.com/birocoles/Disciplina-metodos-computacionais/tree/main/Content/first_steps_Python#software-carpentry-lesson) (Optional)
 
-Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/main/Content/template.py) and [`test_template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/main/Content/test_template.py).
+- [x] Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/main/Content/template.py) and [`test_template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/main/Content/test_template.py).
 
 #### Basic vector operations
 
-- [x] [dot product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/dot.ipynb#Exercise) functions implementation
+- [ ] [dot product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/dot.ipynb#Exercise) functions implementation
 
-- [x] [Hadamard product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/hadamard.ipynb#Exercise) functions implementation
+- [ ] [Hadamard product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/hadamard.ipynb#Exercise) functions implementation
 
-- [x] [outer product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/outer.ipynb#Exercise) functions implementation
-
-- [x] [cross product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/cross.ipynb#Exercise) functions implementation
+- [ ] [outer product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/outer.ipynb#Exercise) functions implementation
 
 #### Basic matrix operations
 
-- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-vector.ipynb#Exercise-1) functions implementation
+- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-vector.ipynb#Exercise-1) functions implementation
 
-- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-vector.ipynb#Exercise-2) SMA in matrix notation
+- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-vector.ipynb#Exercise-2) SMA in matrix notation
 
-- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-vector.ipynb#Exercise-3) central finite differences
+- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-vector.ipynb#Exercise-3) central finite differences
 
+- [ ] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-matrix.ipynb) functions simulation
 
-- [x] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-matrix.ipynb) functions simulation
-
-- [x] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-matrix.ipynb#Exercise) functions implementation
+- [ ] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/matrix-matrix.ipynb#Exercise) functions implementation
 
 #### How to determine the computational cost of a given operation?
 
-- [x] [flops](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/flops.ipynb#Exercise) count
+- [ ] [flops](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/flops.ipynb#Exercise) count
 
 #### Structured matrices
 
-- [x] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
+- [ ] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
 
-- [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-2) functions implementation
+- [ ] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_matrices_part1.ipynb#Exercise-2) functions implementation
 
 #### Discrete Fourier Transform
 
-- [x] [DFT matrix](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-1) implementation
+- [ ] [DFT matrix](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-1) implementation
 
-- [x] [DFT 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-2) implementation
+- [ ] [DFT 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-2) implementation
 
-- [x] [IDFT 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-3) implementation
+- [ ] [IDFT 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_1D_4.ipynb#Exercise-3) implementation
 
-- [x] [Circular convolution 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-1) implementation
+- [ ] [Circular convolution 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-1) implementation
 
-- [x] [Linear convolution 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-2) implementation
+- [ ] [Linear convolution 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-2) implementation
 
-- [x] [Crosscorrelation and Autocorrelation 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
+- [ ] [Crosscorrelation and Autocorrelation 1D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/convolution_correlation_1D_1.ipynb#Exercise-3) implementation
 
-- [x] [DFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-1) implementation
+- [ ] [DFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-1) implementation
 
-- [x] [IDFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-2) implementation
+- [ ] [IDFT 2D](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/fourier_2D.ipynb#Exercise-2) implementation
 
 
 #### Numerical solution of linear systems
 
-- [x] [Upper triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_systems.ipynb#Exercise-1) implementation
+- [ ] [Upper triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_systems.ipynb#Exercise-1) implementation
 
-- [x] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_systems.ipynb#Exercise-2) implementation
+- [ ] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/triangular_systems.ipynb#Exercise-2) implementation
 
-- [x] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
+- [ ] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
 
-- [x] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
+- [ ] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
 
-- [x] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_intro.ipynb#Exercise) implementation
+- [ ] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_intro.ipynb#Exercise) implementation
 
-- [x] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_pivoting.ipynb#Exercise) implementation
+- [ ] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/lu_decomp_pivoting.ipynb#Exercise) implementation
 
-- [x] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/ldlt_decomp.ipynb#Exercise-1) implementation
+- [ ] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/ldlt_decomp.ipynb#Exercise-1) implementation
 
-- [x] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/chol_decomp.ipynb#Exercise-1) implementation
+- [ ] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/chol_decomp.ipynb#Exercise-1) implementation
 
-- [x] [Fitting a straight line](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/straight_line.ipynb#Exercise)
+- [ ] [Fitting a straight line](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/straight_line.ipynb#Exercise)
 
-- [x] [Simple gravity network](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/grav_net.ipynb)
+- [ ] [Simple gravity network](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/main/Content/grav_net.ipynb)

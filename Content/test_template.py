@@ -1,13 +1,12 @@
 import numpy as np
+import scipy as sp
 from numpy.testing import assert_almost_equal as aae
 import pytest
-
-#
 import template as temp
 
 ### scalar-vector product
 
-def test_scalar_vec_real_a_not_scalar():
+def test_scalar_vec_real_dumb_a_not_scalar():
     'fail if a is not a scalar'
     # 2d array
     a1 = np.ones((3,2))
@@ -19,7 +18,33 @@ def test_scalar_vec_real_a_not_scalar():
     for ai in [a1, a2, a3]:
         with pytest.raises(AssertionError):
             temp.scalar_vec_real_dumb(ai, vector)
+
+
+def test_scalar_vec_real_numpy_a_not_scalar():
+    'fail if a is not a scalar'
+    # 2d array
+    a1 = np.ones((3,2))
+    # list
+    a2 = [7.]
+    # tuple
+    a3 = (4, 8.2)
+    vector = np.arange(4)
+    for ai in [a1, a2, a3]:
+        with pytest.raises(AssertionError):
             temp.scalar_vec_real_numpy(ai, vector)
+
+
+def test_scalar_vec_real_numba_a_not_scalar():
+    'fail if a is not a scalar'
+    # 2d array
+    a1 = np.ones((3,2))
+    # list
+    a2 = [7.]
+    # tuple
+    a3 = (4, 8.2)
+    vector = np.arange(4)
+    for ai in [a1, a2, a3]:
+        with pytest.raises(AssertionError):
             temp.scalar_vec_real_numba(ai, vector)
 
 
@@ -33,7 +58,11 @@ def test_scalar_vec_real_x_not_1darray():
     for xi in [x1, x2]:
         with pytest.raises(AssertionError):
             temp.scalar_vec_real_dumb(a, xi)
+    for xi in [x1, x2]:
+        with pytest.raises(AssertionError):
             temp.scalar_vec_real_numpy(a, xi)
+    for xi in [x1, x2]:
+        with pytest.raises(AssertionError):
             temp.scalar_vec_real_numba(a, xi)
 
 
@@ -52,7 +81,7 @@ def test_scalar_vec_real_known_values():
 
 def test_scalar_vec_complex_functions_compare_numpy():
     'compare scalar_vec_complex dumb, numpy and numba with numpy'
-    np.random.seed = 3
+    np.random.seed(3)
     scalar = np.random.rand() + 1j*np.random.rand()
     vector = np.random.rand(13) + np.random.rand(13)*1j
     output_dumb = temp.scalar_vec_complex(scalar, vector, function='dumb')
@@ -72,7 +101,9 @@ def test_dot_real_not_1D_arrays():
     vector_2 = np.arange(4)
     with pytest.raises(AssertionError):
         temp.dot_real_dumb(vector_1, vector_2)
+    with pytest.raises(AssertionError):
         temp.dot_real_numpy(vector_1, vector_2)
+    with pytest.raises(AssertionError):
         temp.dot_real_numba(vector_1, vector_2)
 
 
@@ -82,7 +113,9 @@ def test_dot_real_different_sizes():
     vector_2 = np.arange(4)
     with pytest.raises(AssertionError):
         temp.dot_real_dumb(vector_1, vector_2)
+    with pytest.raises(AssertionError):
         temp.dot_real_numpy(vector_1, vector_2)
+    with pytest.raises(AssertionError):
         temp.dot_real_numba(vector_1, vector_2)
 
 
@@ -101,7 +134,7 @@ def test_dot_real_known_values():
 
 def test_dot_real_compare_numpy_dot():
     'compare with numpy.dot'
-    np.random.seed = 41
+    np.random.seed(41)
     vector_1 = np.random.rand(13)
     vector_2 = np.random.rand(13)
     reference_output_numpy = np.dot(vector_1, vector_2)
@@ -115,7 +148,7 @@ def test_dot_real_compare_numpy_dot():
 
 def test_dot_real_commutativity():
     'verify commutativity'
-    np.random.seed = 19
+    np.random.seed(19)
     a = np.random.rand(15)
     b = np.random.rand(15)
     # a dot b = b dot a
@@ -132,7 +165,7 @@ def test_dot_real_commutativity():
 
 def test_dot_real_distributivity():
     'verify distributivity over sum'
-    np.random.seed = 19
+    np.random.seed(5)
     a = np.random.rand(15)
     b = np.random.rand(15)
     c = np.random.rand(15)
@@ -150,32 +183,42 @@ def test_dot_real_distributivity():
 
 def test_dot_real_scalar_multiplication():
     'verify scalar multiplication property'
-    np.random.seed = 8
+    np.random.seed(8)
     a = np.random.rand(15)
     b = np.random.rand(15)
     c1 = 5.6
     c2 = 9.1
-
-    # c1 a
-    c1a = temp.scalar_vec_real_numba(c1, a)
-    # c2 b
-    c2b = temp.scalar_vec_real_numba(c2, b)
-
     # (c1 a) dot (c2 b) = c1c2 (a dot b)
-    output_c1a_c2b_dumb = temp.dot_real_dumb(c1a, c2b)
+    output_c1a_c2b_dumb = temp.dot_real_dumb(c1*a, c2*b)
     output_c1c2_ab_dumb = c1*c2*temp.dot_real_dumb(a, b)
-    output_c1a_c2b_numpy = temp.dot_real_numpy(c1a, c2b)
+    output_c1a_c2b_numpy = temp.dot_real_numpy(c1*a, c2*b)
     output_c1c2_ab_numpy = c1*c2*temp.dot_real_numpy(a, b)
-    output_c1a_c2b_numba = temp.dot_real_numba(c1a, c2b)
+    output_c1a_c2b_numba = temp.dot_real_numba(c1*a, c2*b)
     output_c1c2_ab_numba = c1*c2*temp.dot_real_numba(a, b)
     aae(output_c1a_c2b_dumb, output_c1c2_ab_dumb, decimal=10)
     aae(output_c1a_c2b_numpy, output_c1c2_ab_numpy, decimal=10)
     aae(output_c1a_c2b_numba, output_c1c2_ab_numba, decimal=10)
 
 
+def test_dot_complex_functions_compare_numpy_dot():
+    'compare dot_complex_dumb, numpy and numba with numpy.dot'
+    # first input complex
+    np.random.seed(3)
+    vector_1 = np.random.rand(13) + np.random.rand(13)*1j
+    vector_2 = np.random.rand(13) + np.random.rand(13)*1j
+    output_dumb = temp.dot_complex_dumb(vector_1, vector_2)
+    output_numpy = temp.dot_complex_numpy(vector_1, vector_2)
+    output_numba = temp.dot_complex_numba(vector_1, vector_2)
+    output_numpy_dot = np.dot(vector_1, vector_2)
+    aae(output_dumb, output_numpy_dot, decimal=10)
+    aae(output_numpy, output_numpy_dot, decimal=10)
+    aae(output_numba, output_numpy_dot, decimal=10)
+
+
 def test_dot_complex_compare_numpy_dot():
     'compare dot_complex with numpy.dot'
-    np.random.seed = 78
+    # first input complex
+    np.random.seed(78)
     vector_1 = np.random.rand(10) + np.random.rand(10)*1j
     vector_2 = np.random.rand(10) + np.random.rand(10)*1j
     output_dumb = temp.dot_complex(vector_1, vector_2, function='dumb')
@@ -189,7 +232,8 @@ def test_dot_complex_compare_numpy_dot():
 
 def test_dot_complex_compare_numpy_vdot():
     'compare dot_complex with numpy.vdot'
-    np.random.seed = 78
+    # first input complex
+    np.random.seed(8)
     vector_1 = np.random.rand(10) + np.random.rand(10)*1j
     vector_2 = np.random.rand(10) + np.random.rand(10)*1j
     output_dumb = temp.dot_complex(vector_1, vector_2,
@@ -220,14 +264,16 @@ def test_hadamard_real_different_shapes():
     B = np.ones((4,4))
     with pytest.raises(AssertionError):
         temp.hadamard_real_dumb(a, B)
+    with pytest.raises(AssertionError):
         temp.hadamard_real_numpy(a, B)
+    with pytest.raises(AssertionError):
         temp.hadamard_real_numba(a, B)
 
 
 def test_hadamard_real_compare_asterisk():
     'compare hadamard_real function with * operator'
     # for vectors
-    np.random.seed = 7
+    np.random.seed(7)
     input1 = np.random.rand(10)
     input2 = np.random.rand(10)
     output_dumb = temp.hadamard_real_dumb(input1, input2)
@@ -238,7 +284,7 @@ def test_hadamard_real_compare_asterisk():
     aae(output_numpy, output_asterisk, decimal=10)
     aae(output_numba, output_asterisk, decimal=10)
     # for matrices
-    np.random.seed = 9
+    np.random.seed(9)
     input1 = np.random.rand(5, 7)
     input2 = np.random.rand(5, 7)
     output_dumb = temp.hadamard_real_dumb(input1, input2)
@@ -253,7 +299,7 @@ def test_hadamard_real_compare_asterisk():
 def test_hadamard_complex_compare_asterisk():
     'compare hadamard_complex function with * operator'
     # for matrices
-    np.random.seed = 34
+    np.random.seed(34)
     input1 = np.random.rand(4, 3)
     input2 = np.random.rand(4, 3)
     output_dumb = temp.hadamard_complex(input1, input2, function='dumb')
@@ -280,13 +326,15 @@ def test_outer_real_input_not_vector():
     B = np.ones((4,4))
     with pytest.raises(AssertionError):
         temp.outer_real_dumb(a, B)
+    with pytest.raises(AssertionError):
         temp.outer_real_numpy(a, B)
+    with pytest.raises(AssertionError):
         temp.outer_real_numba(a, B)
 
 
 def test_outer_real_compare_numpy_outer():
     'compare with numpy.outer'
-    np.random.seed = 301
+    np.random.seed(301)
     vector_1 = np.random.rand(13)
     vector_2 = np.random.rand(13)
     reference_output_numpy = np.outer(vector_1, vector_2)
@@ -313,7 +361,7 @@ def test_outer_real_known_values():
 
 def test_outer_real_transposition():
     'verify the transposition property'
-    np.random.seed = 72
+    np.random.seed(72)
     a = np.random.rand(8)
     b = np.random.rand(5)
     a_outer_b_T_dumb = temp.outer_real_dumb(a, b).T
@@ -329,7 +377,7 @@ def test_outer_real_transposition():
 
 def test_outer_real_distributivity():
     'verify the distributivity property'
-    np.random.seed = 72
+    np.random.seed(2)
     a = np.random.rand(5)
     b = np.random.rand(5)
     c = np.random.rand(4)
@@ -349,7 +397,7 @@ def test_outer_real_distributivity():
 
 def test_outer_real_scalar_multiplication():
     'verify scalar multiplication property'
-    np.random.seed = 2
+    np.random.seed(23)
     a = np.random.rand(3)
     b = np.random.rand(6)
     c = 3.4
@@ -375,7 +423,7 @@ def test_outer_complex_invalid_function():
 def test_outer_complex_compare_numpy_outer():
     'compare hadamard_complex function with * operator'
     # for matrices
-    np.random.seed = 21
+    np.random.seed(21)
     input1 = np.random.rand(7) + 1j*np.random.rand(7)
     input2 = np.random.rand(7) + 1j*np.random.rand(7)
     output_dumb = temp.outer_complex(input1, input2, function='dumb')
@@ -395,14 +443,17 @@ def test_matvec_real_input_doesnt_match():
     x = np.ones(3)
     with pytest.raises(AssertionError):
         temp.matvec_real_dumb(A, x)
+    with pytest.raises(AssertionError):
         temp.matvec_real_numba(A, x)
+    with pytest.raises(AssertionError):
         temp.matvec_real_dot(A, x)
+    with pytest.raises(AssertionError):
         temp.matvec_real_columns(A, x)
 
 
 def test_matvec_real_functions_compare_numpy_dot():
     'compare matvec_real_XXXX with numpy.dot'
-    np.random.seed = 24
+    np.random.seed(24)
     matrix = np.random.rand(3,4)
     vector = np.random.rand(4)
     output_dumb = temp.matvec_real_dumb(matrix, vector)
@@ -418,7 +469,7 @@ def test_matvec_real_functions_compare_numpy_dot():
 
 def test_matvec_complex_compare_numpy_dot():
     'compare matvec_complex with numpy.dot'
-    np.random.seed = 98
+    np.random.seed(98)
     matrix = np.random.rand(3,4) + 1j*np.random.rand(3,4)
     vector = np.random.rand(4) + 1j*np.random.rand(4)
     output_dumb = temp.matvec_complex(matrix, vector, function='dumb')
@@ -432,24 +483,59 @@ def test_matvec_complex_compare_numpy_dot():
     aae(output_columns, output_numpy_dot, decimal=10)
 
 
+### diagonal matrix-vector product
+
+# def test_matvec_diag_real_invalid_input():
+#     'stop for invalid input'
+#     # a does not have ndim==1
+#     a = np.ones((5,4))
+#     x = np.ones(3)
+#     k = 0
+#     with pytest.raises(AssertionError):
+#         temp.matvec_diag_real(a, x, k)
+#     # x does not have ndim==1
+#     a = np.ones(5)
+#     x = np.ones((3,3))
+#     k = 0
+#     with pytest.raises(AssertionError):
+#         temp.matvec_diag_real(a, x, k)
+#     # k is negative
+#     a = np.ones(3)
+#     x = np.ones(3)
+#     k = -3
+#     with pytest.raises(AssertionError):
+#         temp.matvec_diag_real(a, x, k)
+#     # |k| > N-1
+#     a = np.ones(3)
+#     x = np.ones(3)
+#     k = 5
+#     with pytest.raises(AssertionError):
+#         temp.matvec_diag_real(a, x, k)
+
+
 ### matrix-matrix product
 
 def test_matmat_real_input_dont_match():
     'fail when matrices dont match to compute the product'
-    A = np.ones((3,4))
+    A = np.ones((3,3))
     B = np.ones((4,5))
     with pytest.raises(AssertionError):
-        temp.matmat_real_dumb(A, B)
-        temp.matmat_real_numba(A, B)
-        temp.matmat_real_dot(A, B)
-        temp.matvec_real_columns(A, B)
-        temp.matmat_real_outer(A, B)
-        temp.matmat_real_matvec(A, B)
+        temp.matmat_real_dumb(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_numba(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_dot(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_columns(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_outer(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_matvec(A, B, check_input=True)
 
 
 def test_matmat_real_functions_compare_numpy_dot():
     'compare matmat_real_XXXX with numpy.dot'
-    np.random.seed = 35
+    np.random.seed(35)
     matrix_1 = np.random.rand(5,3)
     matrix_2 = np.random.rand(3,3)
     output_dumb = temp.matmat_real_dumb(matrix_1, matrix_2)
@@ -469,7 +555,7 @@ def test_matmat_real_functions_compare_numpy_dot():
 
 def test_matmat_complex_compare_numpy_dot():
     'compare matmat_complex with numpy.dot'
-    np.random.seed = 13
+    np.random.seed(13)
     matrix_1 = np.random.rand(5,3) + 1j*np.random.rand(5,3)
     matrix_2 = np.random.rand(3,3) + 1j*np.random.rand(3,3)
     output_dumb = temp.matmat_complex(matrix_1, matrix_2, function='dumb')

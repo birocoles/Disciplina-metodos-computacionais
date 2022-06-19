@@ -1,5 +1,7 @@
 import numpy as np
 from numba import njit
+from scipy.linalg import dft
+
 
 # scalar-vector product
 
@@ -30,7 +32,7 @@ def scalar_vec_real_dumb(a, x, check_input=True):
     x = np.asarray(x)
     if check_input is True:
         assert a.ndim == 0, 'a must be a scalar'
-        assert x.ndim == 1, 'x must be a 1D'
+        assert x.ndim == 1, 'x must be a 1D array'
 
     result = np.empty_like(x)
     for i in range(x.size):
@@ -68,7 +70,7 @@ def scalar_vec_real_numpy(a, x, check_input=True):
     x = np.asarray(x)
     if check_input is True:
         assert a.ndim == 0, 'a must be a scalar'
-        assert x.ndim == 1, 'x must be a 1D'
+        assert x.ndim == 1, 'x must be a 1D array'
 
     result = a.real*x.real
 
@@ -103,7 +105,7 @@ def scalar_vec_real_numba(a, x, check_input=True):
     x = np.asarray(x)
     if check_input is True:
         assert a.ndim == 0, 'a must be a scalar'
-        assert x.ndim == 1, 'x must be a 1D'
+        assert x.ndim == 1, 'x must be a 1D array'
 
     result = np.empty_like(x)
     for i in range(x.size):
@@ -144,7 +146,7 @@ def scalar_vec_complex(a, x, check_input=True, function='numba'):
     x = np.asarray(x)
     if check_input is True:
         assert a.ndim == 0, 'a must be a scalar'
-        assert x.ndim == 1, 'x must be a 1D'
+        assert x.ndim == 1, 'x must be a 1D array'
 
     scalar_vec_real = {
         'dumb': scalar_vec_real_dumb,
@@ -186,7 +188,6 @@ def dot_real_dumb(x, y, check_input=True):
     result : scalar
         Dot product of x and y.
     '''
-
 
     return result
 
@@ -238,6 +239,72 @@ def dot_real_numba(x, y, check_input=True):
         Dot product of x and y.
     '''
 
+    return result
+
+
+def dot_complex_dumb(x, y, check_input=True):
+    '''
+    Compute the dot product of x and y, where
+    x, y are elements of C^N.
+
+    The code uses a simple "for" to iterate on the arrays.
+
+    Parameters
+    ----------
+    x, y : arrays 1D
+        Vectors with N elements.
+
+    check_input : boolean
+        If True, verify if the input is valid. Default is True.
+
+    Returns
+    -------
+    result : scalar
+        Dot product of x and y.
+    '''
+
+    return result
+
+
+def dot_complex_numpy(x, y):
+    '''
+    Compute the dot product of x and y, where
+    x, y are elements of C^N.
+
+    The code uses numpy.sum.
+
+    Parameters
+    ----------
+    x, y : arrays 1D
+        Vectors with N elements.
+
+    Returns
+    -------
+    result : scalar
+        Dot product of x and y.
+    '''
+
+    return result
+
+
+def dot_complex_numba(x, y):
+    '''
+    Compute the dot product of x and y, where
+    x, y are elements of C^N.
+
+    The code uses numba.
+
+    Parameters
+    ----------
+    x, y : arrays 1D
+        Vectors with N elements.
+
+    Returns
+    -------
+    result : scalar
+        Dot product of x and y.
+    '''
+
 
     return result
 
@@ -253,7 +320,7 @@ def dot_complex(x, y, conjugate=False, check_input=True, function='numba'):
         Vectors with N elements.
 
     conjugate : boolean
-        If True, uses the complex conjugate of y. Default is False.
+        If True, uses the complex conjugate of x. Default is False.
 
     check_input : boolean
         If True, verify if the input is valid. Default is True.
@@ -644,7 +711,6 @@ def matvec_complex(A, x, check_input=True, function='numba'):
 
 
     return result
-
 
 # matrix-matrix product
 
