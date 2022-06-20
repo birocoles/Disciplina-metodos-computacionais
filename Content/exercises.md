@@ -8,11 +8,11 @@
 
 #### Basic vector operations
 
-- [ ] [dot product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/dot.ipynb#Exercise) functions implementation
+- [x] [dot product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/dot.ipynb#Exercise) functions implementation
 
-- [ ] [Hadamard product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/hadamard.ipynb#Exercise) functions implementation
+- [x] [Hadamard product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/hadamard.ipynb#Exercise) functions implementation
 
-- [ ] [outer product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/outer.ipynb#Exercise) functions implementation
+- [x] [outer product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/outer.ipynb#Exercise) functions implementation
 
 #### Basic matrix operations
 

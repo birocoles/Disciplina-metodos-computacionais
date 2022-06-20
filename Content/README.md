@@ -16,19 +16,19 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### Basic vector operations
 
-- [ ] scalar-vector product ([`scalar_vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/scalar_vector.ipynb))
+- [x] scalar-vector product ([`scalar_vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/scalar_vector.ipynb))
 
-  - [ ] timing the scalar vector product ([`timing_scalar_vector_product`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/timing_scalar_vector_product.ipynb))
+  - [x] timing the scalar vector product ([`timing_scalar_vector_product`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/timing_scalar_vector_product.ipynb))
 
-- [ ] dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/dot.ipynb))
+- [x] dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/dot.ipynb))
 
-- [ ] Hadamard product ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/hadamard.ipynb))
+- [x] Hadamard product ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/hadamard.ipynb))
 
-- [ ] outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/outer.ipynb))
+- [x] outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/outer.ipynb))
 
-- [ ] cross product ([`cross.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/cross.ipynb))
+- [x] cross product ([`cross.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/cross.ipynb))
 
-- [ ] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/vector-norms.ipynb))
+- [x] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/vector-norms.ipynb))
 
 
 #### Basic matrix operations
