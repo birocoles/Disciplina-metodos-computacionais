@@ -1,0 +1,1414 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.7, pytest-7.1.2, pluggy-1.0.0
+rootdir: /home/vanderlei/Documents/Disciplina-metodos-computacionais/Content
+plugins: mock-3.6.1, cov-3.0.0, arraydiff-0.3, anyio-3.5.0, doctestplus-0.11.1, remotedata-0.3.2, openfiles-0.5.0, hypothesis-6.29.3, filter-subpackage-0.1.1, astropy-header-0.1.2
+collected 35 items
+
+test_template.py ......FFFFFFFFFFFFFFFFFFFFFFFFFFFFF                     [100%]
+
+=================================== FAILURES ===================================
+_________________________ test_dot_real_not_1D_arrays __________________________
+
+    def test_dot_real_not_1D_arrays():
+        'fail due to input that is not 1D array'
+        vector_1 = np.ones((3,2))
+        vector_2 = np.arange(4)
+        with pytest.raises(AssertionError):
+>           temp.dot_real_dumb(vector_1, vector_2)
+
+test_template.py:103: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([[1., 1.],
+       [1., 1.],
+       [1., 1.]]), y = array([0, 1, 2, 3])
+check_input = True
+
+    def dot_real_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of R^N. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:192: NameError
+________________________ test_dot_real_different_sizes _________________________
+
+    def test_dot_real_different_sizes():
+        'fail due to inputs having different sizes'
+        vector_1 = np.linspace(5,6,7)
+        vector_2 = np.arange(4)
+        with pytest.raises(AssertionError):
+>           temp.dot_real_dumb(vector_1, vector_2)
+
+test_template.py:115: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([5.        , 5.16666667, 5.33333333, 5.5       , 5.66666667,
+       5.83333333, 6.        ])
+y = array([0, 1, 2, 3]), check_input = True
+
+    def dot_real_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of R^N. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:192: NameError
+__________________________ test_dot_real_known_values __________________________
+
+    def test_dot_real_known_values():
+        'check output produced by specific input'
+        vector_1 = 0.1*np.ones(10)
+        vector_2 = np.linspace(23.1, 52, 10)
+        reference_output = np.mean(vector_2)
+>       computed_output_dumb = temp.dot_real_dumb(vector_1, vector_2)
+
+test_template.py:127: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1])
+y = array([23.1       , 26.31111111, 29.52222222, 32.73333333, 35.94444444,
+       39.15555556, 42.36666667, 45.57777778, 48.78888889, 52.        ])
+check_input = True
+
+    def dot_real_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of R^N. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:192: NameError
+_______________________ test_dot_real_compare_numpy_dot ________________________
+
+    def test_dot_real_compare_numpy_dot():
+        'compare with numpy.dot'
+        np.random.seed(41)
+        vector_1 = np.random.rand(13)
+        vector_2 = np.random.rand(13)
+        reference_output_numpy = np.dot(vector_1, vector_2)
+>       computed_output_dumb = temp.dot_real_dumb(vector_1, vector_2)
+
+test_template.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.25092362, 0.04609582, 0.67681624, 0.04346949, 0.1164237 ,
+       0.60386569, 0.19093066, 0.66851572, 0.91744785, 0.41878009,
+       0.33225985, 0.28303364, 0.18628227])
+y = array([0.31711047, 0.48116867, 0.06952047, 0.70498257, 0.31467693,
+       0.74528235, 0.3982128 , 0.60822646, 0.72845649, 0.42175804,
+       0.39390821, 0.23222257, 0.4416646 ])
+check_input = True
+
+    def dot_real_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of R^N. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:192: NameError
+_________________________ test_dot_real_commutativity __________________________
+
+    def test_dot_real_commutativity():
+        'verify commutativity'
+        np.random.seed(19)
+        a = np.random.rand(15)
+        b = np.random.rand(15)
+        # a dot b = b dot a
+>       output_ab_dumb = temp.dot_real_dumb(a, b)
+
+test_template.py:155: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.0975336 , 0.76124972, 0.24693797, 0.13813169, 0.33144656,
+       0.08299957, 0.67197708, 0.8065938 , 0.98274191, 0.63566073,
+       0.21592326, 0.54902743, 0.54555996, 0.23407607, 0.11372584])
+y = array([0.49965927, 0.15210842, 0.53268608, 0.38700677, 0.68832738,
+       0.37292716, 0.94616004, 0.77735792, 0.6080343 , 0.61523204,
+       0.6429876 , 0.26848351, 0.75015615, 0.28683049, 0.70937606])
+check_input = True
+
+    def dot_real_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of R^N. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:192: NameError
+_________________________ test_dot_real_distributivity _________________________
+
+    def test_dot_real_distributivity():
+        'verify distributivity over sum'
+        np.random.seed(5)
+        a = np.random.rand(15)
+        b = np.random.rand(15)
+        c = np.random.rand(15)
+        # a dot (b + c) = (a dot b) + (a dot c)
+>       output_a_bc_dumb = temp.dot_real_dumb(a, b + c)
+
+test_template.py:173: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.22199317, 0.87073231, 0.20671916, 0.91861091, 0.48841119,
+       0.61174386, 0.76590786, 0.51841799, 0.2968005 , 0.18772123,
+       0.08074127, 0.7384403 , 0.44130922, 0.15830987, 0.87993703])
+y = array([0.29839302, 0.61879057, 0.99592355, 1.40830249, 0.6027709 ,
+       1.17759205, 0.26746129, 0.80015849, 0.89338338, 1.31318835,
+       0.4032619 , 0.96810975, 1.83441362, 1.88297633, 0.19062887])
+check_input = True
+
+    def dot_real_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of R^N. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:192: NameError
+_____________________ test_dot_real_scalar_multiplication ______________________
+
+    def test_dot_real_scalar_multiplication():
+        'verify scalar multiplication property'
+        np.random.seed(8)
+        a = np.random.rand(15)
+        b = np.random.rand(15)
+        c1 = 5.6
+        c2 = 9.1
+        # (c1 a) dot (c2 b) = c1c2 (a dot b)
+>       output_c1a_c2b_dumb = temp.dot_real_dumb(c1*a, c2*b)
+
+test_template.py:192: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([4.89120466, 5.42382771, 4.86748943, 2.97279187, 1.30327864,
+       0.0638333 , 2.41062538, 2.25316762, 2.92697816, 2.67899406,
+       3.10999625, 3.0429617 , 4.26101522, 3.98929761, 3.47021974])
+y = array([3.87743511, 2.63058275, 8.86208269, 3.03734381, 1.99108965,
+       0.59885633, 8.94412197, 1.16348699, 2.93139022, 0.64557989,
+       2.04540644, 3.58207773, 8.15491954, 3.14370067, 8.96121988])
+check_input = True
+
+    def dot_real_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of R^N. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:192: NameError
+_________________ test_dot_complex_functions_compare_numpy_dot _________________
+
+    def test_dot_complex_functions_compare_numpy_dot():
+        'compare dot_complex_dumb, numpy and numba with numpy.dot'
+        # first input complex
+        np.random.seed(3)
+        vector_1 = np.random.rand(13) + np.random.rand(13)*1j
+        vector_2 = np.random.rand(13) + np.random.rand(13)*1j
+>       output_dumb = temp.dot_complex_dumb(vector_1, vector_2)
+
+test_template.py:209: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.5507979 +0.27848728j, 0.70814782+0.6762549j ,
+       0.29090474+0.59086282j, 0.51082761+0.02398188j,
+       0...313792j, 0.44080984+0.44045372j,
+       0.02987621+0.15686774j, 0.45683322+0.54464902j,
+       0.64914405+0.78031476j])
+y = array([0.30636353+0.2250545j , 0.22195788+0.40651992j,
+       0.38797126+0.46894025j, 0.93638365+0.26923558j,
+       0...348786j, 0.09221701+0.27797751j,
+       0.6534109 +0.45462208j, 0.55784076+0.20541034j,
+       0.36156476+0.20137871j])
+check_input = True
+
+    def dot_complex_dumb(x, y, check_input=True):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of C^N.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:266: NameError
+______________________ test_dot_complex_compare_numpy_dot ______________________
+
+    def test_dot_complex_compare_numpy_dot():
+        'compare dot_complex with numpy.dot'
+        # first input complex
+        np.random.seed(78)
+        vector_1 = np.random.rand(10) + np.random.rand(10)*1j
+        vector_2 = np.random.rand(10) + np.random.rand(10)*1j
+>       output_dumb = temp.dot_complex(vector_1, vector_2, function='dumb')
+
+test_template.py:224: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.04818123+0.65023775j, 0.68096301+0.92097879j,
+       0.79869607+0.73873403j, 0.80010859+0.24742207j,
+       0...408386j,
+       0.83123488+0.29279831j, 0.24656763+0.87350276j,
+       0.05027788+0.88306855j, 0.48743178+0.55977801j])
+y = array([0.22419175+0.57048358j, 0.9334009 +0.60907043j,
+       0.38984163+0.96423255j, 0.15067913+0.41138581j,
+       0...507423j,
+       0.89875296+0.11392945j, 0.01092088+0.94497225j,
+       0.20664736+0.6863908j , 0.80431778+0.08229016j])
+conjugate = False, check_input = True, function = 'dumb'
+
+    def dot_complex(x, y, conjugate=False, check_input=True, function='numba'):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of C^N.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        conjugate : boolean
+            If True, uses the complex conjugate of x. Default is False.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real dot product.
+            The function name must be 'dumb', 'numpy' or 'numba'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:340: NameError
+_____________________ test_dot_complex_compare_numpy_vdot ______________________
+
+    def test_dot_complex_compare_numpy_vdot():
+        'compare dot_complex with numpy.vdot'
+        # first input complex
+        np.random.seed(8)
+        vector_1 = np.random.rand(10) + np.random.rand(10)*1j
+        vector_2 = np.random.rand(10) + np.random.rand(10)*1j
+        output_dumb = temp.dot_complex(vector_1, vector_2,
+>                                     conjugate=True, function='dumb')
+
+test_template.py:240: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.8734294 +0.55535647j, 0.96854066+0.54338602j,
+       0.86919454+0.76089558j, 0.53085569+0.71237457j,
+       0...609177j,
+       0.43046882+0.28907503j, 0.40235136+0.97385524j,
+       0.52267467+0.33377405j, 0.4783918 +0.21880106j])
+y = array([0.06580839+0.02873205j, 0.98287055+0.35168474j,
+       0.12785571+0.38095889j, 0.32213079+0.76416013j,
+       0...96898j ,
+       0.39363491+0.43247593j, 0.896145  +0.27014574j,
+       0.34546161+0.80105589j, 0.98474944+0.63823881j])
+conjugate = True, check_input = True, function = 'dumb'
+
+    def dot_complex(x, y, conjugate=False, check_input=True, function='numba'):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of C^N.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        conjugate : boolean
+            If True, uses the complex conjugate of x. Default is False.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real dot product.
+            The function name must be 'dumb', 'numpy' or 'numba'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:340: NameError
+______________________ test_dot_complex_invalid_function _______________________
+
+    def test_dot_complex_invalid_function():
+        'fail due to invalid function'
+        vector_1 = np.ones(10)
+        vector_2 = np.arange(10)+1.5
+        with pytest.raises(ValueError):
+>           temp.dot_complex(vector_1, vector_2, function='not_valid_function')
+
+test_template.py:256: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.])
+y = array([ 1.5,  2.5,  3.5,  4.5,  5.5,  6.5,  7.5,  8.5,  9.5, 10.5])
+conjugate = False, check_input = True, function = 'not_valid_function'
+
+    def dot_complex(x, y, conjugate=False, check_input=True, function='numba'):
+        '''
+        Compute the dot product of x and y, where
+        x, y are elements of C^N.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with N elements.
+    
+        conjugate : boolean
+            If True, uses the complex conjugate of x. Default is False.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real dot product.
+            The function name must be 'dumb', 'numpy' or 'numba'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : scalar
+            Dot product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:340: NameError
+_____________________ test_hadamard_real_different_shapes ______________________
+
+    def test_hadamard_real_different_shapes():
+        'fail due to inputs having different sizes'
+        a = np.linspace(5,10,8)
+        B = np.ones((4,4))
+        with pytest.raises(AssertionError):
+>           temp.hadamard_real_dumb(a, B)
+
+test_template.py:266: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([ 5.        ,  5.71428571,  6.42857143,  7.14285714,  7.85714286,
+        8.57142857,  9.28571429, 10.        ])
+y = array([[1., 1., 1., 1.],
+       [1., 1., 1., 1.],
+       [1., 1., 1., 1.],
+       [1., 1., 1., 1.]])
+check_input = True
+
+    def hadamard_real_dumb(x, y, check_input=True):
+        '''
+        Compute the Hadamard (or entrywise) product of x and y, where
+        x and y may be real vectors or matrices having the same shape.
+        The imaginary parts are ignored.
+    
+        The code uses a simple doubly nested loop to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays
+            Real vectors or matrices having the same shape.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array
+            Hadamard product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:368: NameError
+_____________________ test_hadamard_real_compare_asterisk ______________________
+
+    def test_hadamard_real_compare_asterisk():
+        'compare hadamard_real function with * operator'
+        # for vectors
+        np.random.seed(7)
+        input1 = np.random.rand(10)
+        input2 = np.random.rand(10)
+>       output_dumb = temp.hadamard_real_dumb(input1, input2)
+
+test_template.py:279: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.07630829, 0.77991879, 0.43840923, 0.72346518, 0.97798951,
+       0.53849587, 0.50112046, 0.07205113, 0.26843898, 0.4998825 ])
+y = array([0.67923   , 0.80373904, 0.38094113, 0.06593635, 0.2881456 ,
+       0.90959353, 0.21338535, 0.45212396, 0.93120602, 0.02489923])
+check_input = True
+
+    def hadamard_real_dumb(x, y, check_input=True):
+        '''
+        Compute the Hadamard (or entrywise) product of x and y, where
+        x and y may be real vectors or matrices having the same shape.
+        The imaginary parts are ignored.
+    
+        The code uses a simple doubly nested loop to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays
+            Real vectors or matrices having the same shape.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array
+            Hadamard product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:368: NameError
+____________________ test_hadamard_complex_compare_asterisk ____________________
+
+    def test_hadamard_complex_compare_asterisk():
+        'compare hadamard_complex function with * operator'
+        # for matrices
+        np.random.seed(34)
+        input1 = np.random.rand(4, 3)
+        input2 = np.random.rand(4, 3)
+>       output_dumb = temp.hadamard_complex(input1, input2, function='dumb')
+
+test_template.py:305: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([[0.03856168, 0.78010046, 0.09270376],
+       [0.63289269, 0.01389085, 0.93615854],
+       [0.42657438, 0.25308645, 0.18996531],
+       [0.41482463, 0.01342061, 0.64847278]])
+y = array([[0.86936875, 0.6090357 , 0.80799282],
+       [0.82651133, 0.27168333, 0.83647644],
+       [0.28254136, 0.1383086 , 0.71472027],
+       [0.47253661, 0.55658848, 0.38557557]])
+check_input = True, function = 'dumb'
+
+    def hadamard_complex(x, y, check_input=True, function='numba'):
+        '''
+        Compute the Hadamard (or entrywise) product of x and y, where
+        x and y may be complex vectors or matrices having the same shape.
+    
+        Parameters
+        ----------
+        x, y : arrays
+            Complex vectors or matrices having the same shape.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real Hadamard product.
+            The function name must be 'dumb', 'numpy' or 'numba'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : array
+            Hadamard product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:450: NameError
+____________________ test_hadamard_complex_invalid_function ____________________
+
+    def test_hadamard_complex_invalid_function():
+        'fail due to invalid function'
+        vector_1 = np.ones(8)
+        vector_2 = np.arange(8)+1.5
+        with pytest.raises(ValueError):
+>           temp.hadamard_complex(vector_1, vector_2, function='not_valid_function')
+
+test_template.py:319: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([1., 1., 1., 1., 1., 1., 1., 1.])
+y = array([1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5]), check_input = True
+function = 'not_valid_function'
+
+    def hadamard_complex(x, y, check_input=True, function='numba'):
+        '''
+        Compute the Hadamard (or entrywise) product of x and y, where
+        x and y may be complex vectors or matrices having the same shape.
+    
+        Parameters
+        ----------
+        x, y : arrays
+            Complex vectors or matrices having the same shape.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real Hadamard product.
+            The function name must be 'dumb', 'numpy' or 'numba'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : array
+            Hadamard product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:450: NameError
+_______________________ test_outer_real_input_not_vector _______________________
+
+    def test_outer_real_input_not_vector():
+        'fail with non-vector inputs'
+        a = np.linspace(5,10,8)
+        B = np.ones((4,4))
+        with pytest.raises(AssertionError):
+>           temp.outer_real_dumb(a, B)
+
+test_template.py:328: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([ 5.        ,  5.71428571,  6.42857143,  7.14285714,  7.85714286,
+        8.57142857,  9.28571429, 10.        ])
+y = array([[1., 1., 1., 1.],
+       [1., 1., 1., 1.],
+       [1., 1., 1., 1.],
+       [1., 1., 1., 1.]])
+check_input = True
+
+    def outer_real_dumb(x, y, check_input=True):
+        '''
+        Compute the outer product of x and y, where
+        x in R^N and y in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with real elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 2d
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:477: NameError
+_____________________ test_outer_real_compare_numpy_outer ______________________
+
+    def test_outer_real_compare_numpy_outer():
+        'compare with numpy.outer'
+        np.random.seed(301)
+        vector_1 = np.random.rand(13)
+        vector_2 = np.random.rand(13)
+        reference_output_numpy = np.outer(vector_1, vector_2)
+>       computed_output_dumb = temp.outer_real_dumb(vector_1, vector_2)
+
+test_template.py:341: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.33728   , 0.59357748, 0.67443172, 0.53053338, 0.71765538,
+       0.45118688, 0.89521935, 0.93014811, 0.75177375, 0.71593056,
+       0.37568282, 0.70977272, 0.19193565])
+y = array([9.80625309e-03, 6.65396306e-01, 2.18433239e-01, 7.86324216e-01,
+       4.77766699e-05, 7.73893937e-01, 9.69997453e-01, 9.05865437e-01,
+       9.95016560e-01, 5.37669228e-01, 3.92753134e-01, 7.05748016e-01,
+       8.14891038e-01])
+check_input = True
+
+    def outer_real_dumb(x, y, check_input=True):
+        '''
+        Compute the outer product of x and y, where
+        x in R^N and y in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with real elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 2d
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:477: NameError
+_________________________ test_outer_real_known_values _________________________
+
+    def test_outer_real_known_values():
+        'check output produced by specific input'
+        vector_1 = np.ones(5)
+        vector_2 = np.arange(1,11)
+        reference_output = np.resize(vector_2, (vector_1.size, vector_2.size))
+>       computed_output_dumb = temp.outer_real_dumb(vector_1, vector_2)
+
+test_template.py:354: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([1., 1., 1., 1., 1.])
+y = array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), check_input = True
+
+    def outer_real_dumb(x, y, check_input=True):
+        '''
+        Compute the outer product of x and y, where
+        x in R^N and y in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with real elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 2d
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:477: NameError
+________________________ test_outer_real_transposition _________________________
+
+    def test_outer_real_transposition():
+        'verify the transposition property'
+        np.random.seed(72)
+        a = np.random.rand(8)
+        b = np.random.rand(5)
+>       a_outer_b_T_dumb = temp.outer_real_dumb(a, b).T
+
+test_template.py:367: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.1067382 , 0.68434263, 0.53496262, 0.36918708, 0.41261464,
+       0.58784748, 0.71607379, 0.17333404])
+y = array([0.06674229, 0.50067887, 0.4321472 , 0.94667592, 0.41625987])
+check_input = True
+
+    def outer_real_dumb(x, y, check_input=True):
+        '''
+        Compute the outer product of x and y, where
+        x in R^N and y in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with real elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 2d
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:477: NameError
+________________________ test_outer_real_distributivity ________________________
+
+    def test_outer_real_distributivity():
+        'verify the distributivity property'
+        np.random.seed(2)
+        a = np.random.rand(5)
+        b = np.random.rand(5)
+        c = np.random.rand(4)
+>       a_plus_b_outer_c_dumb = temp.outer_real_dumb(a+b, c)
+
+test_template.py:384: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.76632972, 0.23057487, 1.16893344, 0.73497707, 0.68719508])
+y = array([0.62113383, 0.52914209, 0.13457995, 0.51357812]), check_input = True
+
+    def outer_real_dumb(x, y, check_input=True):
+        '''
+        Compute the outer product of x and y, where
+        x in R^N and y in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with real elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 2d
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:477: NameError
+____________________ test_outer_real_scalar_multiplication _____________________
+
+    def test_outer_real_scalar_multiplication():
+        'verify scalar multiplication property'
+        np.random.seed(23)
+        a = np.random.rand(3)
+        b = np.random.rand(6)
+        c = 3.4
+>       ca_outer_b_dumb = temp.outer_real_dumb(c*a, b)
+
+test_template.py:404: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([1.75881281, 3.21967285, 2.60256318])
+y = array([0.28239584, 0.22104536, 0.68622209, 0.1671392 , 0.39244247,
+       0.61805235])
+check_input = True
+
+    def outer_real_dumb(x, y, check_input=True):
+        '''
+        Compute the outer product of x and y, where
+        x in R^N and y in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        x, y : arrays 1D
+            Vectors with real elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 2d
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:477: NameError
+_____________________ test_outer_complex_invalid_function ______________________
+
+    def test_outer_complex_invalid_function():
+        'fail due to invalid function'
+        vector_1 = np.ones(3)
+        vector_2 = np.arange(4)
+        with pytest.raises(ValueError):
+>           temp.outer_complex(vector_1, vector_2, function='not_valid_function')
+
+test_template.py:420: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([1., 1., 1.]), y = array([0, 1, 2, 3]), check_input = True
+function = 'not_valid_function'
+
+    def outer_complex(x, y, check_input=True, function='numba'):
+        '''
+        Compute the outer product of x and y, where x and y are complex vectors.
+    
+        Parameters
+        ----------
+        x, y : 1D arrays
+            Complex vectors.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real outer product.
+            The function name must be 'dumb', 'numpy' or 'numba'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : 2D array
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:557: NameError
+____________________ test_outer_complex_compare_numpy_outer ____________________
+
+    def test_outer_complex_compare_numpy_outer():
+        'compare hadamard_complex function with * operator'
+        # for matrices
+        np.random.seed(21)
+        input1 = np.random.rand(7) + 1j*np.random.rand(7)
+        input2 = np.random.rand(7) + 1j*np.random.rand(7)
+>       output_dumb = temp.outer_complex(input1, input2, function='dumb')
+
+test_template.py:429: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = array([0.04872488+0.66391029j, 0.28910966+0.30811439j,
+       0.72096635+0.58359128j, 0.02161625+0.06957095j,
+       0.20592277+0.86740448j, 0.05077326+0.13324052j,
+       0.30227189+0.17812466j])
+y = array([0.49592955+0.71336043j, 0.86369964+0.27066977j,
+       0.75894384+0.85410287j, 0.97048513+0.91316397j,
+       0.75930255+0.76075607j, 0.38425003+0.51666854j,
+       0.40871833+0.16783577j])
+check_input = True, function = 'dumb'
+
+    def outer_complex(x, y, check_input=True, function='numba'):
+        '''
+        Compute the outer product of x and y, where x and y are complex vectors.
+    
+        Parameters
+        ----------
+        x, y : 1D arrays
+            Complex vectors.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real outer product.
+            The function name must be 'dumb', 'numpy' or 'numba'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : 2D array
+            Outer product of x and y.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:557: NameError
+_____________________ test_matvec_real_input_doesnt_match ______________________
+
+    def test_matvec_real_input_doesnt_match():
+        'fail when matrix columns doesnt match vector size'
+        A = np.ones((5,4))
+        x = np.ones(3)
+        with pytest.raises(AssertionError):
+>           temp.matvec_real_dumb(A, x)
+
+test_template.py:445: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = array([[1., 1., 1., 1.],
+       [1., 1., 1., 1.],
+       [1., 1., 1., 1.],
+       [1., 1., 1., 1.],
+       [1., 1., 1., 1.]])
+x = array([1., 1., 1.]), check_input = True
+
+    def matvec_real_dumb(A, x, check_input=True):
+        '''
+        Compute the matrix-vector product of A and x, where
+        A in R^NxM and x in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple doubly nested "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        A : array 2D
+            NxM matrix with real elements.
+    
+        x : array 1D
+            Real vector witn M elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 1D
+            Product of A and x.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:587: NameError
+_________________ test_matvec_real_functions_compare_numpy_dot _________________
+
+    def test_matvec_real_functions_compare_numpy_dot():
+        'compare matvec_real_XXXX with numpy.dot'
+        np.random.seed(24)
+        matrix = np.random.rand(3,4)
+        vector = np.random.rand(4)
+>       output_dumb = temp.matvec_real_dumb(matrix, vector)
+
+test_template.py:459: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = array([[0.9600173 , 0.69951205, 0.99986729, 0.2200673 ],
+       [0.36105635, 0.73984099, 0.99645573, 0.31634698],
+       [0.13654458, 0.38398001, 0.32051928, 0.36641475]])
+x = array([0.70965156, 0.90014243, 0.53411544, 0.24729376]), check_input = True
+
+    def matvec_real_dumb(A, x, check_input=True):
+        '''
+        Compute the matrix-vector product of A and x, where
+        A in R^NxM and x in R^M. The imaginary parts are ignored.
+    
+        The code uses a simple doubly nested "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        A : array 2D
+            NxM matrix with real elements.
+    
+        x : array 1D
+            Real vector witn M elements.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : array 1D
+            Product of A and x.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:587: NameError
+____________________ test_matvec_complex_compare_numpy_dot _____________________
+
+    def test_matvec_complex_compare_numpy_dot():
+        'compare matvec_complex with numpy.dot'
+        np.random.seed(98)
+        matrix = np.random.rand(3,4) + 1j*np.random.rand(3,4)
+        vector = np.random.rand(4) + 1j*np.random.rand(4)
+>       output_dumb = temp.matvec_complex(matrix, vector, function='dumb')
+
+test_template.py:475: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = array([[0.73226725+0.93326466j, 0.56718902+0.29199227j,
+        0.30122389+0.83864138j, 0.78058293+0.989218j  ],
+     ...61j],
+       [0.33752558+0.6864842j , 0.08255076+0.29715185j,
+        0.36519776+0.97792204j, 0.4088914 +0.69332166j]])
+x = array([0.03178681+0.85834939j, 0.13107755+0.65024762j,
+       0.26430383+0.81720146j, 0.88691402+0.54844453j])
+check_input = True, function = 'dumb'
+
+    def matvec_complex(A, x, check_input=True, function='numba'):
+        '''
+        Compute the matrix-vector product of an NxM matrix A and
+        a Mx1 vector x.
+    
+        Parameters
+        ----------
+        A : array 2D
+            NxM matrix.
+    
+        x : array 1D
+            Mx1 vector.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real mattrix-vectorvec product.
+            The function name must be 'dumb', 'numba', 'dot' or 'columns'.
+            Default is 'numba'.
+    
+        Returns
+        -------
+        result : array 1D
+            Product of A and x.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:713: NameError
+______________________ test_matmat_real_input_dont_match _______________________
+
+    def test_matmat_real_input_dont_match():
+        'fail when matrices dont match to compute the product'
+        A = np.ones((3,3))
+        B = np.ones((4,5))
+        with pytest.raises(AssertionError):
+>           temp.matmat_real_dumb(A, B, check_input=True)
+
+test_template.py:523: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = array([[1., 1., 1.],
+       [1., 1., 1.],
+       [1., 1., 1.]])
+B = array([[1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1.]])
+check_input = True
+
+    def matmat_real_dumb(A, B, check_input=True):
+        '''
+        Compute the matrix-matrix product of A and B, where
+        A in R^NxM and B in R^MxP. The imaginary parts are ignored.
+    
+        The code uses a simple triply nested "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        A, B : 2D arrays
+            Real matrices.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : 2D array
+            Product of A and B.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:739: NameError
+_________________ test_matmat_real_functions_compare_numpy_dot _________________
+
+    def test_matmat_real_functions_compare_numpy_dot():
+        'compare matmat_real_XXXX with numpy.dot'
+        np.random.seed(35)
+        matrix_1 = np.random.rand(5,3)
+        matrix_2 = np.random.rand(3,3)
+>       output_dumb = temp.matmat_real_dumb(matrix_1, matrix_2)
+
+test_template.py:541: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = array([[0.45805495, 0.30834961, 0.23148705],
+       [0.27742455, 0.81723481, 0.11134664],
+       [0.62643723, 0.27678789, 0.68217467],
+       [0.67897078, 0.79671742, 0.04580216],
+       [0.91259827, 0.21381599, 0.3036373 ]])
+B = array([[0.98906362, 0.1858815 , 0.98872484],
+       [0.75008423, 0.22238605, 0.14790391],
+       [0.51579028, 0.39425832, 0.06988013]])
+check_input = True
+
+    def matmat_real_dumb(A, B, check_input=True):
+        '''
+        Compute the matrix-matrix product of A and B, where
+        A in R^NxM and B in R^MxP. The imaginary parts are ignored.
+    
+        The code uses a simple triply nested "for" to iterate on the arrays.
+    
+        Parameters
+        ----------
+        A, B : 2D arrays
+            Real matrices.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        Returns
+        -------
+        result : 2D array
+            Product of A and B.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:739: NameError
+____________________ test_matmat_complex_compare_numpy_dot _____________________
+
+    def test_matmat_complex_compare_numpy_dot():
+        'compare matmat_complex with numpy.dot'
+        np.random.seed(13)
+        matrix_1 = np.random.rand(5,3) + 1j*np.random.rand(5,3)
+        matrix_2 = np.random.rand(3,3) + 1j*np.random.rand(3,3)
+>       output_dumb = temp.matmat_complex(matrix_1, matrix_2, function='dumb')
+
+test_template.py:561: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+A = array([[0.77770241+0.67984795j, 0.23754122+0.25627995j,
+        0.82427853+0.34758122j],
+       [0.9657492 +0.00941277...     0.29844947+0.629829j  ],
+       [0.05851249+0.87381344j, 0.85706094+0.00871573j,
+        0.37285403+0.74657724j]])
+B = array([[8.12841171e-01+0.32458205j, 7.57174462e-02+0.27699636j,
+        6.56455335e-01+0.69544545j],
+       [5.0926220...-01+0.45808582j],
+       [1.20335695e-05+0.25299268j, 2.46978701e-01+0.37933329j,
+        7.12232678e-01+0.60453883j]])
+check_input = True, function = 'dumb'
+
+    def matmat_complex(A, B, check_input=True, function='numba'):
+        '''
+        Compute the matrix-matrix product of A and B, where
+        A in C^NxM and B in C^MxP.
+    
+        Parameters
+        ----------
+        A, B : 2D arrays
+            Complex matrices.
+    
+        check_input : boolean
+            If True, verify if the input is valid. Default is True.
+    
+        function : string
+            Function to be used for computing the real and imaginary parts.
+            The function name must be 'dumb', 'numba', 'dot', 'columns', 'matvec'
+            and 'outer'. Default is 'numba'.
+    
+        Returns
+        -------
+        result : 2D array
+            Product of A and B.
+        '''
+    
+    
+>       return result
+E       NameError: name 'result' is not defined
+
+template.py:913: NameError
+=============================== warnings summary ===============================
+test_template.py: 70 warnings
+  /home/vanderlei/anaconda3/lib/python3.7/site-packages/pytest_remotedata/plugin.py:65: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+    if LooseVersion(pytest.__version__) < LooseVersion("3.6"):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED test_template.py::test_dot_real_not_1D_arrays - NameError: name 'resul...
+FAILED test_template.py::test_dot_real_different_sizes - NameError: name 'res...
+FAILED test_template.py::test_dot_real_known_values - NameError: name 'result...
+FAILED test_template.py::test_dot_real_compare_numpy_dot - NameError: name 'r...
+FAILED test_template.py::test_dot_real_commutativity - NameError: name 'resul...
+FAILED test_template.py::test_dot_real_distributivity - NameError: name 'resu...
+FAILED test_template.py::test_dot_real_scalar_multiplication - NameError: nam...
+FAILED test_template.py::test_dot_complex_functions_compare_numpy_dot - NameE...
+FAILED test_template.py::test_dot_complex_compare_numpy_dot - NameError: name...
+FAILED test_template.py::test_dot_complex_compare_numpy_vdot - NameError: nam...
+FAILED test_template.py::test_dot_complex_invalid_function - NameError: name ...
+FAILED test_template.py::test_hadamard_real_different_shapes - NameError: nam...
+FAILED test_template.py::test_hadamard_real_compare_asterisk - NameError: nam...
+FAILED test_template.py::test_hadamard_complex_compare_asterisk - NameError: ...
+FAILED test_template.py::test_hadamard_complex_invalid_function - NameError: ...
+FAILED test_template.py::test_outer_real_input_not_vector - NameError: name '...
+FAILED test_template.py::test_outer_real_compare_numpy_outer - NameError: nam...
+FAILED test_template.py::test_outer_real_known_values - NameError: name 'resu...
+FAILED test_template.py::test_outer_real_transposition - NameError: name 'res...
+FAILED test_template.py::test_outer_real_distributivity - NameError: name 're...
+FAILED test_template.py::test_outer_real_scalar_multiplication - NameError: n...
+FAILED test_template.py::test_outer_complex_invalid_function - NameError: nam...
+FAILED test_template.py::test_outer_complex_compare_numpy_outer - NameError: ...
+FAILED test_template.py::test_matvec_real_input_doesnt_match - NameError: nam...
+FAILED test_template.py::test_matvec_real_functions_compare_numpy_dot - NameE...
+FAILED test_template.py::test_matvec_complex_compare_numpy_dot - NameError: n...
+FAILED test_template.py::test_matmat_real_input_dont_match - NameError: name ...
+FAILED test_template.py::test_matmat_real_functions_compare_numpy_dot - NameE...
+FAILED test_template.py::test_matmat_complex_compare_numpy_dot - NameError: n...
+================== 29 failed, 6 passed, 70 warnings in 1.26s ===================

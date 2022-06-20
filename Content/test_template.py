@@ -96,7 +96,7 @@ def test_scalar_vec_complex_functions_compare_numpy():
 ### dot_product
 
 def test_dot_real_not_1D_arrays():
-    'fail due to input that is not 1D array'
+    'fail if input that is not 1D array'
     vector_1 = np.ones((3,2))
     vector_2 = np.arange(4)
     with pytest.raises(AssertionError):
