@@ -16,15 +16,15 @@
 
 #### Basic matrix operations
 
-- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-1) functions implementation
+- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-1) functions implementation
 
-- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-2) SMA in matrix notation
+- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-2) SMA in matrix notation
 
-- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-3) central finite differences
+- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-3) central finite differences
 
-- [ ] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb) functions simulation
+- [x] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb) functions simulation (extra)
 
-- [ ] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb#Exercise) functions implementation
+- [x] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb#Exercise) functions implementation
 
 #### How to determine the computational cost of a given operation?
 

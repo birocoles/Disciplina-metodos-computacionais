@@ -28,14 +28,14 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] cross product ([`cross.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/cross.ipynb))
 
-- [x] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/vector-norms.ipynb))
+- [ ] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/vector-norms.ipynb))
 
 
 #### Basic matrix operations
 
-- [ ] matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb))
+- [x] matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb))
 
-- [ ] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb))
+- [x] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb))
 
 - [ ] Matrix norms ([`matrix-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-norms.ipynb))
 
