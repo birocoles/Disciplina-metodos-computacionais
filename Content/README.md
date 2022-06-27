@@ -35,11 +35,11 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb))
 
-    - [x] [matrix-vector product simulation](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix_vector_simulations.pdf)
+    - [x] [matrix-vector product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix_vector_simulations.pdf)
 
 - [x] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb))
 
-    - [x] [matrix-matrix product simulation](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix_matrix_simulations.pdf)
+    - [x] [matrix-matrix product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix_matrix_simulations.pdf)
 
 - [ ] Matrix norms ([`matrix-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-norms.ipynb))
 
