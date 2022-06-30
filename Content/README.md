@@ -50,15 +50,15 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### Structured matrices
 
-- [ ] Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/permutation_matrices.ipynb))
+- [x] Permutation matrices ([`permutation_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/permutation_matrices.ipynb))
 
-- [ ] Diagonal matrices - part 1 ([`diagonal_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part1.ipynb))
+- [x] Diagonal matrices - part 1 ([`diagonal_matrices_part1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part1.ipynb))
 
-- [ ] Diagonal matrices - part 2 ([`diagonal_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part2.ipynb))
+- [x] Diagonal matrices - part 2 ([`diagonal_matrices_part2.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part2.ipynb))
 
-- [ ] Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_matrices.ipynb))
+- [x] Triangular matrices ([`triangular_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_matrices.ipynb))
 
-- [ ] Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/block_matrices.ipynb))
+- [x] Block matrices ([`block_matrices.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/block_matrices.ipynb))
 
 #### Discrete Fourier Transform
 

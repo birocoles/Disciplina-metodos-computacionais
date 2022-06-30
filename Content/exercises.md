@@ -32,9 +32,9 @@
 
 #### Structured matrices
 
-- [ ] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
+- [x] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
 
-- [ ] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_matrices_part1.ipynb#Exercise-2) functions implementation
+- [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_matrices.ipynb#Exercise-2) functions implementation
 
 #### Discrete Fourier Transform
 
