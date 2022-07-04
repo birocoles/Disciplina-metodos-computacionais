@@ -106,9 +106,9 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### Numerical solution of linear systems
 
-- [ ] Introduction to linear systems ([`intro_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/intro_linear_syst.ipynb))
+- [x] Introduction to linear systems ([`intro_linear_syst.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/intro_linear_syst.ipynb))
 
-- [ ] Triangular systems ([`triangular_systems.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb))
+- [x] Triangular systems ([`triangular_systems.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb))
 
 - [ ] Gaussian elimination - Introduction ([`gauss-elim-intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-intro.ipynb))
 

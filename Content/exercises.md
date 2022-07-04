@@ -57,9 +57,9 @@
 
 #### Numerical solution of linear systems
 
-- [ ] [Upper triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-1) implementation
+- [x] [Upper triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-1) implementation
 
-- [ ] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-2) implementation
+- [x] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-2) implementation
 
 - [ ] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
 
