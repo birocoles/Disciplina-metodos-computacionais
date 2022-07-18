@@ -114,7 +114,7 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] Gaussian elimination - Outer product formulation ([`gauss-elim-outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-outer.ipynb))
 
-- [ ] Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb))
+- [x] Gaussian elimination - Pivoting ([`gauss-elim-pivoting.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb))
 
 - [ ] LU decomposition - Introduction ([`lu_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_intro.ipynb))
 

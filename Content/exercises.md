@@ -61,9 +61,9 @@
 
 - [x] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-2) implementation
 
-- [ ] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
+- [x] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
 
-- [ ] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
+- [x] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
 
 - [ ] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_intro.ipynb#Exercise) implementation
 
