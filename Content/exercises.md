@@ -65,11 +65,11 @@
 
 - [x] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
 
-- [ ] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_intro.ipynb#Exercise) implementation
+- [x] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_intro.ipynb#Exercise) implementation
 
-- [ ] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_pivoting.ipynb#Exercise) implementation
+- [x] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_pivoting.ipynb#Exercise) implementation
 
-- [ ] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/ldlt_decomp.ipynb#Exercise-1) implementation
+- [x] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/ldlt_decomp.ipynb#Exercise-1) implementation
 
 - [ ] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/chol_decomp.ipynb#Exercise-1) implementation
 
