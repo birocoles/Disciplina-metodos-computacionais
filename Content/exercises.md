@@ -71,7 +71,7 @@
 
 - [x] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/ldlt_decomp.ipynb#Exercise-1) implementation
 
-- [ ] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/chol_decomp.ipynb#Exercise-1) implementation
+- [x] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/chol_decomp.ipynb#Exercise-1) implementation
 
 - [ ] [Fitting a straight line](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/straight_line.ipynb#Exercise)
 
