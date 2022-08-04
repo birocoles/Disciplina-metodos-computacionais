@@ -124,17 +124,17 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/chol_decomp.ipynb))
 
-- [ ] Least Squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/least_squares.ipynb))
+- [x] Least Squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/least_squares.ipynb))
 
-  - [ ] Review 1 ([`review_math_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/review_math_1.ipynb))
+  - [x] Review 1 ([`review_math_1.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/review_math_1.ipynb))
 
-  - [ ] Fitting a straight line
+  - [x] Fitting a straight line
   ([`straight_line.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/straight_line.ipynb))
 
-  - [ ] Well log linear inversion example
+  - [x] Well log linear inversion example
   ([`well_log_linear_inversion.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/well_log_linear_inversion.ipynb))
 
-- [ ] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/weighted_least_squares.ipynb))
+- [x] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/weighted_least_squares.ipynb))
 
   - [ ] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/grav_net.ipynb))
 
