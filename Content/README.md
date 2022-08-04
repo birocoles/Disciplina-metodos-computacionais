@@ -136,11 +136,11 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [x] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/weighted_least_squares.ipynb))
 
-  - [ ] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/grav_net.ipynb))
+  - [x] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/grav_net.ipynb))
 
-- [ ] L1 regression ([`L1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/L1_regression.ipynb))
+- [x] L1 regression ([`L1_regression.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/L1_regression.ipynb))
 
-  - [ ] Fitting a parabola with outliers
+  - [x] Fitting a parabola with outliers
   ([`parabola.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/parabola.ipynb))
 
 - [ ] Steepest decent with exact Line Search
