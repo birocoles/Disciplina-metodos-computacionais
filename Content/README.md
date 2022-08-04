@@ -131,6 +131,9 @@ A list of all exercises given along the course can be found in [`exercises.md`](
   - [ ] Fitting a straight line
   ([`straight_line.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/straight_line.ipynb))
 
+  - [ ] Well log linear inversion example
+  ([`well_log_linear_inversion.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/well_log_linear_inversion.ipynb))
+
 - [ ] Weighted Least Squares ([`weighted_least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/weighted_least_squares.ipynb))
 
   - [ ] Simple gravity network ([`grav_net.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/grav_net.ipynb))
