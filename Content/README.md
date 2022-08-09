@@ -143,10 +143,10 @@ A list of all exercises given along the course can be found in [`exercises.md`](
   - [x] Fitting a parabola with outliers
   ([`parabola.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/parabola.ipynb))
 
-- [ ] Steepest decent with exact Line Search
+- [x] Steepest decent with exact Line Search
 ([`sd_exact_lsearch.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/sd_exact_lsearch.ipynb))
 
-- [ ] Conjugate Gradient Method
+- [x] Conjugate Gradient Method
 ([`cg_method.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/cg_method.ipynb))
 
 
