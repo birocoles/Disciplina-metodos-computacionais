@@ -160,17 +160,17 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### Interpolation and curve fitting
 
-- [ ] Lagrange's method ([`Lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/Lagrange.ipynb))
+- [x] Lagrange's method ([`Lagrange.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/Lagrange.ipynb))
 
-- [ ] Neville's method ([`Neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/Neville.ipynb))
+- [x] Neville's method ([`Neville.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/Neville.ipynb))
 
-- [ ] Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/polynomial.ipynb))
+- [x] Polynomial fitting ([`polynomial.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/polynomial.ipynb))
 
-- [ ] Spline interpolation with Green's functions ([`greens_interp_theory.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/greens_interp_theory.ipynb))
+- [x] Spline interpolation with Green's functions ([`greens_interp_theory.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/greens_interp_theory.ipynb))
 
-  - [ ] 1D case ([`greens_interp_1D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/greens_interp_1D.ipynb))
+  - [x] 1D case ([`greens_interp_1D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/greens_interp_1D.ipynb))
 
-  - [ ] 2D case ([`greens_interp_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/greens_interp_2D.ipynb))
+  - [x] 2D case ([`greens_interp_2D.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/greens_interp_2D.ipynb))
 
 #### Numerical solution of differential equations
 
