@@ -123,13 +123,13 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [ ] Cholesky decomposition - Symmetric and positive definite matrices ([`chol_decomp.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/chol_decomp.ipynb))
 
-- [ ] QR decomposition - Introduction (['QR_decomp_intro.ipynb'](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/QR_decomp_intro.ipynb))
+- [ ] QR decomposition - Introduction ([`QR_decomp_intro.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/QR_decomp_intro.ipynb))
 
-  - [ ] Householder transformation (['Householder_transformation.ipynb'](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/Householder_transformation.ipynb))
+  - [ ] Householder transformation ([`Householder_transformation.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/Householder_transformation.ipynb))
 
-  - [ ] Givens rotation (['Givens_rotation.ipynb'](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/Givens_rotation.ipynb))
+  - [ ] Givens rotation ([`Givens_rotation.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/Givens_rotation.ipynb))
 
-  - [ ] Modified Gram-Schmidt method (['modified_GSM.ipynb'](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/modified_GSM.ipynb))
+  - [ ] Modified Gram-Schmidt method ([`modified_GSM.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/modified_GSM.ipynb))
 
 - [ ] Least Squares ([`least_squares.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/least_squares.ipynb))
 
@@ -189,8 +189,8 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### Numerical integration
 
-* Newton-Cotes formulas (extra) ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/newton-cotes.ipynb))
+* Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/newton-cotes.ipynb))
 
     - [ ] Exercise: Simulate an abrupt temperature perturbation
 
-* Gauss-Legendre quadrature (['gauss_legendre.ipynb'](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/gauss_legendre.ipynb))
+* Gauss-Legendre quadrature ([`gauss_legendre.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/gauss_legendre.ipynb))
