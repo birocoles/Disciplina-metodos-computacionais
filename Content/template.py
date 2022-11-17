@@ -800,7 +800,8 @@ def matmat_real_columns(A, B, check_input=True, function='numba'):
     Compute the matrix-matrix product of A and B, where
     A in R^NxM and B in R^MxP. The imaginary parts are ignored.
 
-    The code replaces one "for" by a scalar-vector product.
+    The code replaces two "fors" by a matrix-vector product defining
+    a column of the resultant matrix.
 
     Parameters
     ----------
@@ -811,7 +812,7 @@ def matmat_real_columns(A, B, check_input=True, function='numba'):
         If True, verify if the input is valid. Default is True.
 
     function : string
-        Function to be used for computing the real scalar-vector product.
+        Function to be used for computing the real matrix-vector product.
         The function name must be 'dumb', 'numpy' or 'numba'.
         Default is 'numba'.
 
@@ -830,7 +831,8 @@ def matmat_real_matvec(A, B, check_input=True, function='numba'):
     Compute the matrix-matrix product of A and B, where
     A in R^NxM and B in R^MxP. The imaginary parts are ignored.
 
-    The code replaces two "for" by a matrix-vector product.
+    The code replaces two "fors" by a matrix-vector product defining
+    a row of the resultant matrix.
 
     Parameters
     ----------
