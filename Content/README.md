@@ -189,8 +189,8 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### Numerical integration
 
-* Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/newton-cotes.ipynb))
+- [ ] Newton-Cotes formulas ([`newton-cotes.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/newton-cotes.ipynb))
 
     - [ ] Exercise: Simulate an abrupt temperature perturbation
 
-* Gauss-Legendre quadrature ([`gauss_legendre.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/gauss_legendre.ipynb))
+- [ ] Gauss-Legendre quadrature ([`gauss_legendre.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/gauss_legendre.ipynb))
