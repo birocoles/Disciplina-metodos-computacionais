@@ -143,8 +143,7 @@ foram instaladas pelo Anaconda. Deve aparecer algo do tipo:
 
  * Graham, L., D. E. Knuth, and O. Patashnik (1994). Concrete mathematics: a foundation for computer science, 2 ed.: Addison-Wesley Publishing Company. ISBN 0-201-55802-5
 
- * Shewchuk, J. R. (1994). An introduction to the Conjugate Gradient Method without the agonizing
- pain, 1 1/4 ed.: School of Computer Science Carnegie Mellon, University Pittsburgh, [versão pdf](https://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf)
+ * Shewchuk, J. R. (1994). An introduction to the Conjugate Gradient Method without the agonizing pain, 1 1/4 ed.: School of Computer Science Carnegie Mellon, University Pittsburgh, [versão pdf](https://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf)
 
  * Lawson, C. L,. and Hanson, R. J. (1995). Solving least squares problems. SIAM, ISBN 0-89871-356-0
 

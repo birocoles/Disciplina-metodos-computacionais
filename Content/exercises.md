@@ -2,29 +2,29 @@
 
 #### First steps in Python
 
-- [x] [Software Carpentry Lessons](https://github.com/birocoles/Disciplina-metodos-computacionais/tree/2022/Content/first_steps_Python#software-carpentry-lesson) (Optional)
+- [ ] [Software Carpentry Lessons](https://github.com/birocoles/Disciplina-metodos-computacionais/tree/2022/Content/first_steps_Python#software-carpentry-lesson) (Optional)
 
-- [x] Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/template.py) and [`test_template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/test_template.py).
+- [ ] Take a look in the files [`template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/template.py) and [`test_template.py`](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/test_template.py).
 
 #### Basic vector operations
 
-- [x] [dot product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/dot.ipynb#Exercise) functions implementation
+- [ ] [dot product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/dot.ipynb#Exercise) functions implementation
 
-- [x] [Hadamard product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/hadamard.ipynb#Exercise) functions implementation
+- [ ] [Hadamard product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/hadamard.ipynb#Exercise) functions implementation
 
-- [x] [outer product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/outer.ipynb#Exercise) functions implementation
+- [ ] [outer product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/outer.ipynb#Exercise) functions implementation
 
 #### Basic matrix operations
 
-- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-1) functions implementation
+- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-1) functions implementation
 
-- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-2) SMA in matrix notation
+- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-2) SMA in matrix notation
 
-- [x] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-3) central finite differences
+- [ ] [matrix-vector](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-vector.ipynb#Exercise-3) central finite differences
 
-- [x] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb) functions simulation (extra)
+- [ ] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb) functions simulation (extra)
 
-- [x] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb#Exercise) functions implementation
+- [ ] [matrix-matrix product](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/matrix-matrix.ipynb#Exercise) functions implementation
 
 #### How to determine the computational cost of a given operation?
 
@@ -32,9 +32,9 @@
 
 #### Structured matrices
 
-- [x] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
+- [ ] [diagonal matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/diagonal_matrices_part1.ipynb#Exercise) algorithms
 
-- [x] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_matrices.ipynb#Exercise-2) functions implementation
+- [ ] [triangular matrices](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_matrices.ipynb#Exercise-2) functions implementation
 
 #### Discrete Fourier Transform
 
@@ -57,22 +57,22 @@
 
 #### Numerical solution of linear systems
 
-- [x] [Upper triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-1) implementation
+- [ ] [Upper triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-1) implementation
 
-- [x] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-2) implementation
+- [ ] [Lower triangular systems](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/triangular_systems.ipynb#Exercise-2) implementation
 
-- [x] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
+- [ ] [Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-1) implementation
 
-- [x] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
+- [ ] [Expanded Gaussian elimination with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/gauss-elim-pivoting.ipynb#Exercise-2) implementation
 
-- [x] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_intro.ipynb#Exercise) implementation
+- [ ] [LU decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_intro.ipynb#Exercise) implementation
 
-- [x] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_pivoting.ipynb#Exercise) implementation
+- [ ] [LU decomposition with partial pivoting](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/lu_decomp_pivoting.ipynb#Exercise) implementation
 
-- [x] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/ldlt_decomp.ipynb#Exercise-1) implementation
+- [ ] [LDL<sup>T</sup> decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/ldlt_decomp.ipynb#Exercise-1) implementation
 
-- [x] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/chol_decomp.ipynb#Exercise-1) implementation
+- [ ] [Cholesky decomposition](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/chol_decomp.ipynb#Exercise-1) implementation
 
-- [x] [Fitting a straight line](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/straight_line.ipynb#Exercise)
+- [ ] [Fitting a straight line](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/straight_line.ipynb#Exercise)
 
 - [ ] [Simple gravity network](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/2022/Content/grav_net.ipynb)
