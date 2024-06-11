@@ -6,43 +6,43 @@
 
 The idea here is giving the required background to follow the course.
 
-Access the directory [`elements_Python`](https://github.com/birocoles/Disciplina-metodos-computacionais/tree/reformulacao/Content/elements_Python) and take a look at the instructions.
+Access the directory `elements_Python`.
 
 
 #### Exercises
 
-A list of all exercises given along the course can be found in [`exercises.md`](https://github.com/birocoles/Disciplina-metodos-computacionais/tree/reformulacao/Content/exercises.md).
+A list of all exercises given along the course can be found in `exercises.md`.
 
 
 #### Basic vector operations
 
 
-- [ ] scalar-vector product ([`scalar_vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/scalar_vector.ipynb))
+- [ ] scalar-vector product (`scalar_vector.ipynb`)
 
-- [ ] timing the scalar vector product ([`timing_scalar_vector_product`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/timing_scalar_vector_product.ipynb))
+- [ ] timing the scalar vector product (`timing_scalar_vector_product`)
 
-- [ ] dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/dot.ipynb))
+- [ ] dot product (`dot.ipynb`)
 
-- [ ] Hadamard product ([`hadamard.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/hadamard.ipynb))
+- [ ] Hadamard product (`hadamard.ipynb`)
 
-- [ ] outer product ([`outer.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/outer.ipynb))
+- [ ] outer product (`outer.ipynb`)
 
-- [ ] Vector norms ([`vector-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/vector-norms.ipynb))
+- [ ] Vector norms (`vector-norms.ipynb`)
 
 
 #### Basic matrix operations
 
-- [ ] matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix-vector.ipynb))
+- [ ] matrix-vector product (`matrix-vector.ipynb`)
 
-  - [ ] [matrix-vector product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix_vector_simulations.pdf)
+  - [ ] matrix-vector product simulation (`matrix_vector_simulations.pdf`)
 
-- [ ] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix-matrix.ipynb))
+- [ ] matrix-matrix product (`matrix-matrix.ipynb`)
 
-  - [ ] [matrix-matrix product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix_matrix_simulations.pdf)
+  - [ ] matrix-matrix product simulation (`matrix_matrix_simulations.pdf`)
 
-- [ ] Matrix norms ([`matrix-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix-norms.ipynb))
+- [ ] Matrix norms (`matrix-norms.ipynb`)
 
-- [ ] Floating-point operations (flops) ([`flops.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/flops.ipynb))
+- [ ] Floating-point operations (flops) (`flops.ipynb`)
 
 
 #### Structured matrices
