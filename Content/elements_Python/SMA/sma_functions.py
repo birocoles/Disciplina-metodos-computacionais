@@ -52,6 +52,7 @@ def plot(x, y, z = None, w = None, labely = None, labelz = None, labelw = None):
 
     plt.show()
 
+
 def sma1d(data, window_size):
     '''
     Apply a simple moving average filter with

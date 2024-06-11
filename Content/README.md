@@ -2,9 +2,6 @@
 
 <img src='LU_decomposition_sketch.JPG' width = 700>
 
-> All the content of this folder can be accessed at [nbviewer](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/tree/reformulacao/Content/)
-
-
 #### Elements of Python
 
 The idea here is giving the required background to follow the course.
@@ -19,9 +16,10 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 #### Basic vector operations
 
+
 - [ ] scalar-vector product ([`scalar_vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/scalar_vector.ipynb))
 
-  - [ ] timing the scalar vector product ([`timing_scalar_vector_product`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/timing_scalar_vector_product.ipynb))
+- [ ] timing the scalar vector product ([`timing_scalar_vector_product`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/timing_scalar_vector_product.ipynb))
 
 - [ ] dot product ([`dot.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/dot.ipynb))
 
@@ -36,11 +34,11 @@ A list of all exercises given along the course can be found in [`exercises.md`](
 
 - [ ] matrix-vector product ([`matrix-vector.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix-vector.ipynb))
 
-    - [ ] [matrix-vector product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix_vector_simulations.pdf)
+  - [ ] [matrix-vector product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix_vector_simulations.pdf)
 
 - [ ] matrix-matrix product ([`matrix-matrix.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix-matrix.ipynb))
 
-    - [ ] [matrix-matrix product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix_matrix_simulations.pdf)
+  - [ ] [matrix-matrix product simulation](https://github.com/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix_matrix_simulations.pdf)
 
 - [ ] Matrix norms ([`matrix-norms.ipynb`](https://nbviewer.jupyter.org/github/birocoles/Disciplina-metodos-computacionais/blob/reformulacao/Content/matrix-norms.ipynb))
 
