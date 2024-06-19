@@ -321,6 +321,34 @@ def test_outer_complex_compare_numpy_outer():
     aae(output, output_numpy_outer, decimal=10)
 
 
+# vec norm
+
+def test_vec_norm_invalid_vector():
+    'fail with non-vector inputs'
+    p = 1
+    x1 = np.ones((4,4))
+    x2 = 'not-a-vector'
+    x3 = 3.7
+    x4 = [3.7]
+    x5 = (3.7)
+    for x in [x1, x2, x3, x4, x5]:
+        with pytest.raises(AssertionError):
+            temp.vec_norm(x, p)
+
+
+def test_vec_norm_invalid_p():
+    'fail with p different from 0, 1 or 2'
+    x = np.ones(4)
+    p1 = 10
+    p2 = -1
+    p3 = '3'
+    p4 = (2)
+    p5 = [1]
+    for p in [p1, p2, p3, p4, p5]:
+        with pytest.raises(AssertionError):
+            temp.vec_norm(x, p)
+
+
 # ### matrix-vector product
 
 # def test_matvec_real_input_doesnt_match():
