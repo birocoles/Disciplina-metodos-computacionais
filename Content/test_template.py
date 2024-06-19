@@ -178,91 +178,63 @@ def test_dot_complex_compare_numpy_dot():
 
 # Hadamard product
 
-# def test_hadamard_real_different_shapes():
-#     'fail due to inputs having different sizes'
-#     a = np.linspace(5,10,8)
-#     B = np.ones((4,4))
-#     with pytest.raises(AssertionError):
-#         temp.hadamard_real(a, B)
-#     with pytest.raises(AssertionError):
-#         temp.hadamard_real_numpy(a, B)
-#     with pytest.raises(AssertionError):
-#         temp.hadamard_real_numba(a, B)
+def test_hadamard_real_different_shapes():
+    'fail if input variables have different sizes'
+    a = np.linspace(5,10,8)
+    B = np.ones((4,4))
+    with pytest.raises(AssertionError):
+        temp.hadamard_real(a, B)
 
 
-# def test_hadamard_real_compare_asterisk():
-#     'compare hadamard_real function with * operator'
-#     # for vectors
-#     np.random.seed(7)
-#     input1 = np.random.rand(10)
-#     input2 = np.random.rand(10)
-#     output = temp.hadamard_real(input1, input2)
-#     output_numpy = temp.hadamard_real_numpy(input1, input2)
-#     output_numba = temp.hadamard_real_numba(input1, input2)
-#     output_asterisk = input1*input2
-#     aae(output, output_asterisk, decimal=10)
-#     aae(output_numpy, output_asterisk, decimal=10)
-#     aae(output_numba, output_asterisk, decimal=10)
-#     # for matrices
-#     np.random.seed(9)
-#     input1 = np.random.rand(5, 7)
-#     input2 = np.random.rand(5, 7)
-#     output = temp.hadamard_real(input1, input2)
-#     output_numpy = temp.hadamard_real_numpy(input1, input2)
-#     output_numba = temp.hadamard_real_numba(input1, input2)
-#     output_asterisk = input1*input2
-#     aae(output, output_asterisk, decimal=10)
-#     aae(output_numpy, output_asterisk, decimal=10)
-#     aae(output_numba, output_asterisk, decimal=10)
+def test_hadamard_real_compare_asterisk():
+    'compare hadamard_real function with * operator'
+    # for vectors
+    # set random generator
+    rng = np.random.default_rng(11117665544444412)
+    # use the random generator to create input parameters
+    input1 = rng.random(18)
+    input2 = rng.random(18)
+    output = temp.hadamard_real(input1, input2)
+    output_asterisk = input1*input2
+    aae(output, output_asterisk, decimal=10)
+    # for matrices
+    input1 = rng.random((5, 7))
+    input2 = rng.random((5, 7))
+    output = temp.hadamard_real(input1, input2)
+    output_asterisk = input1*input2
+    aae(output, output_asterisk, decimal=10)
 
 
-# def test_hadamard_real_ignore_complex():
-#     'complex part of input must be ignored'
-#     # for vectors
-#     np.random.seed(7)
-#     input1 = np.random.rand(10)
-#     input2 = np.random.rand(10) + 1j*np.ones(10)
-#     output = temp.hadamard_real(input1, input2)
-#     output_numpy = temp.hadamard_real_numpy(input1, input2)
-#     output_numba = temp.hadamard_real_numba(input1, input2)
-#     output_reference = input1.real*input2.real
-#     aae(output, output_reference, decimal=10)
-#     aae(output_numpy, output_reference, decimal=10)
-#     aae(output_numba, output_reference, decimal=10)
-#     # for matrices
-#     np.random.seed(9)
-#     input1 = np.random.rand(5, 7) - 1j*np.ones((5,7))
-#     input2 = np.random.rand(5, 7)
-#     output = temp.hadamard_real(input1, input2)
-#     output_numpy = temp.hadamard_real_numpy(input1, input2)
-#     output_numba = temp.hadamard_real_numba(input1, input2)
-#     output_reference = input1.real*input2.real
-#     aae(output, output_reference, decimal=10)
-#     aae(output_numpy, output_reference, decimal=10)
-#     aae(output_numba, output_reference, decimal=10)
+def test_hadamard_real_ignore_complex():
+    'complex part of input must be ignored'
+    # for vectors
+    # set random generator
+    rng = np.random.default_rng(9999999917665544444412)
+    # use the random generator to create input parameters
+    input1 = rng.random(10)
+    input2 = rng.random(10) + 1j*np.ones(10)
+    output = temp.hadamard_real(input1, input2)
+    output_reference = input1.real*input2.real
+    aae(output, output_reference, decimal=10)
+    # for matrices
+    input1 = rng.random((5, 7)) - 1j*np.ones((5,7))
+    input2 = rng.random((5, 7))
+    output = temp.hadamard_real(input1, input2)
+    output_reference = input1.real*input2.real
+    aae(output, output_reference, decimal=10)
 
 
-# def test_hadamard_complex_compare_asterisk():
-#     'compare hadamard_complex function with * operator'
-#     # for matrices
-#     np.random.seed(34)
-#     input1 = np.random.rand(4, 3)
-#     input2 = np.random.rand(4, 3)
-#     output = temp.hadamard_complex(input1, input2, function='simple')
-#     output_numpy = temp.hadamard_complex(input1, input2, function='numpy')
-#     output_numba = temp.hadamard_complex(input1, input2, function='numba')
-#     output_asterisk = input1*input2
-#     aae(output, output_asterisk, decimal=10)
-#     aae(output_numpy, output_asterisk, decimal=10)
-#     aae(output_numba, output_asterisk, decimal=10)
+def test_hadamard_complex_compare_asterisk():
+    'compare hadamard_complex function with * operator'
+    # for matrices
+    # set random generator
+    rng = np.random.default_rng(777799917665544444412)
+    input1 = rng.random((4, 3))
+    input2 = rng.random((4, 3))
+    output = temp.hadamard_complex(input1, input2)
+    output_asterisk = input1*input2
+    aae(output, output_asterisk, decimal=10)
 
-
-# def test_hadamard_complex_invalid_function():
-#     'fail due to invalid function'
-#     vector_1 = np.ones(8)
-#     vector_2 = np.arange(8)+1.5
-#     with pytest.raises(ValueError):
-#         temp.hadamard_complex(vector_1, vector_2, function='not_valid_function')
 
 # # Outer product
 
