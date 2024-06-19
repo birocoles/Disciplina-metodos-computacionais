@@ -236,134 +236,89 @@ def test_hadamard_complex_compare_asterisk():
     aae(output, output_asterisk, decimal=10)
 
 
-# # Outer product
+# Outer product
 
-# def test_outer_real_input_not_vector():
-#     'fail with non-vector inputs'
-#     a = np.linspace(5,10,8)
-#     B = np.ones((4,4))
-#     with pytest.raises(AssertionError):
-#         temp.outer_real(a, B)
-#     with pytest.raises(AssertionError):
-#         temp.outer_real_numpy(a, B)
-#     with pytest.raises(AssertionError):
-#         temp.outer_real_numba(a, B)
+def test_outer_real_input_not_vector():
+    'fail with non-vector inputs'
+    a = np.linspace(5,10,8)
+    B = np.ones((4,4))
+    with pytest.raises(AssertionError):
+        temp.outer_real(a, B)
 
 
-# def test_outer_real_compare_numpy_outer():
-#     'compare with numpy.outer'
-#     np.random.seed(301)
-#     vector_1 = np.random.rand(13)
-#     vector_2 = np.random.rand(13)
-#     reference_output_numpy = np.outer(vector_1, vector_2)
-#     computed_output = temp.outer_real(vector_1, vector_2)
-#     computed_output_numpy = temp.outer_real_numpy(vector_1, vector_2)
-#     computed_output_numba = temp.outer_real_numba(vector_1, vector_2)
-#     aae(reference_output_numpy, computed_output, decimal=10)
-#     aae(reference_output_numpy, computed_output_numpy, decimal=10)
-#     aae(reference_output_numpy, computed_output_numba, decimal=10)
+def test_outer_real_compare_numpy_outer():
+    'compare with numpy.outer'
+    # set random generator
+    rng = np.random.default_rng(555799917665544441234)
+    vector_1 = rng.random(13)
+    vector_2 = rng.random(13)
+    reference_output_numpy = np.outer(vector_1, vector_2)
+    computed_output = temp.outer_real(vector_1, vector_2)
+    aae(reference_output_numpy, computed_output, decimal=10)
 
 
-# def test_outer_real_known_values():
-#     'check output produced by specific input'
-#     vector_1 = np.ones(5)
-#     vector_2 = np.arange(1,11)
-#     reference_output = np.resize(vector_2, (vector_1.size, vector_2.size))
-#     computed_output = temp.outer_real(vector_1, vector_2)
-#     computed_output_numpy = temp.outer_real_numpy(vector_1, vector_2)
-#     computed_output_numba = temp.outer_real_numba(vector_1, vector_2)
-#     aae(reference_output, computed_output, decimal=10)
-#     aae(reference_output, computed_output_numpy, decimal=10)
-#     aae(reference_output, computed_output_numba, decimal=10)
+def test_outer_real_known_values():
+    'check output produced by specific input'
+    vector_1 = np.ones(5)
+    vector_2 = np.arange(1,11)
+    reference_output = np.resize(vector_2, (vector_1.size, vector_2.size))
+    computed_output = temp.outer_real(vector_1, vector_2)
+    aae(reference_output, computed_output, decimal=10)
 
 
-# def test_outer_real_transposition():
-#     'verify the transposition property'
-#     np.random.seed(72)
-#     a = np.random.rand(8)
-#     b = np.random.rand(5)
-#     a_outer_b_T = temp.outer_real(a, b).T
-#     b_outer_a = temp.outer_real(b, a)
-#     a_outer_b_T_numpy = temp.outer_real_numpy(a, b).T
-#     b_outer_a_numpy = temp.outer_real_numpy(b, a)
-#     a_outer_b_T_numba = temp.outer_real_numba(a, b).T
-#     b_outer_a_numba = temp.outer_real_numba(b, a)
-#     aae(a_outer_b_T, b_outer_a, decimal=10)
-#     aae(a_outer_b_T_numpy, b_outer_a_numpy, decimal=10)
-#     aae(a_outer_b_T_numba, b_outer_a_numba, decimal=10)
+def test_outer_real_transposition():
+    'verify the transposition property'
+    # set random generator
+    rng = np.random.default_rng(555799917665544441234)
+    a = rng.random(8)
+    b = rng.random(5)
+    a_outer_b_T = temp.outer_real(a, b).T
+    b_outer_a = temp.outer_real(b, a)
+    aae(a_outer_b_T, b_outer_a, decimal=10)
 
 
-# def test_outer_real_distributivity():
-#     'verify the distributivity property'
-#     np.random.seed(2)
-#     a = np.random.rand(5)
-#     b = np.random.rand(5)
-#     c = np.random.rand(4)
-#     a_plus_b_outer_c = temp.outer_real(a+b, c)
-#     a_outer_c_plus_b_outer_c = temp.outer_real(a, c) + \
-#                                     temp.outer_real(b, c)
-#     a_plus_b_outer_c_numpy = temp.outer_real_numpy(a+b, c)
-#     a_outer_c_plus_b_outer_c_numpy = temp.outer_real_numpy(a, c) + \
-#                                      temp.outer_real_numpy(b, c)
-#     a_plus_b_outer_c_numba = temp.outer_real_numba(a+b, c)
-#     a_outer_c_plus_b_outer_c_numba = temp.outer_real_numba(a, c) + \
-#                                      temp.outer_real_numba(b, c)
-#     aae(a_plus_b_outer_c, a_outer_c_plus_b_outer_c, decimal=10)
-#     aae(a_plus_b_outer_c_numpy, a_outer_c_plus_b_outer_c_numpy, decimal=10)
-#     aae(a_plus_b_outer_c_numba, a_outer_c_plus_b_outer_c_numba, decimal=10)
+def test_outer_real_distributivity():
+    'verify the distributivity property'
+    rng = np.random.default_rng(111555799917665544441)
+    a = rng.random(5)
+    b = rng.random(5)
+    c = rng.random(4)
+    a_plus_b_outer_c = temp.outer_real(a+b, c)
+    a_outer_c_plus_b_outer_c = (
+        temp.outer_real(a, c) + temp.outer_real(b, c)
+        )
+    aae(a_plus_b_outer_c, a_outer_c_plus_b_outer_c, decimal=10)
 
 
-# def test_outer_real_scalar_multiplication():
-#     'verify scalar multiplication property'
-#     np.random.seed(23)
-#     a = np.random.rand(3)
-#     b = np.random.rand(6)
-#     c = 3.4
-#     ca_outer_b = temp.outer_real(c*a, b)
-#     a_outer_cb = temp.outer_real(a, c*b)
-#     ca_outer_b_numpy = temp.outer_real_numpy(c*a, b)
-#     a_outer_cb_numpy = temp.outer_real_numpy(a, c*b)
-#     ca_outer_b_numba = temp.outer_real_numba(c*a, b)
-#     a_outer_cb_numba = temp.outer_real_numba(a, c*b)
-#     aae(ca_outer_b, a_outer_cb, decimal=10)
-#     aae(ca_outer_b_numpy, a_outer_cb_numpy, decimal=10)
-#     aae(ca_outer_b_numba, a_outer_cb_numba, decimal=10)
+def test_outer_real_scalar_multiplication():
+    'verify scalar multiplication property'
+    rng = np.random.default_rng(231115557999176655444)
+    a = rng.random(3)
+    b = rng.random(6)
+    c = 3.4
+    ca_outer_b = temp.outer_real(c*a, b)
+    a_outer_cb = temp.outer_real(a, c*b)
+    aae(ca_outer_b, a_outer_cb, decimal=10)
 
 
-# def test_outer_real_ignore_complex():
-#     'complex part of input must be ignored'
-#     vector_1 = np.ones(5) - 0.4j*np.ones(5)
-#     vector_2 = np.arange(1,11)
-#     reference_output = np.resize(vector_2, (vector_1.size, vector_2.size))
-#     computed_output = temp.outer_real(vector_1, vector_2)
-#     computed_output_numpy = temp.outer_real_numpy(vector_1, vector_2)
-#     computed_output_numba = temp.outer_real_numba(vector_1, vector_2)
-#     aae(reference_output, computed_output, decimal=10)
-#     aae(reference_output, computed_output_numpy, decimal=10)
-#     aae(reference_output, computed_output_numba, decimal=10)
+def test_outer_real_ignore_complex():
+    'complex part of input must be ignored'
+    vector_1 = np.ones(5) - 0.4j*np.ones(5)
+    vector_2 = np.arange(1,11)
+    reference_output = np.resize(vector_2, (vector_1.size, vector_2.size))
+    computed_output = temp.outer_real(vector_1, vector_2)
+    aae(reference_output, computed_output, decimal=10)
 
 
-# def test_outer_complex_invalid_function():
-#     'fail due to invalid function'
-#     vector_1 = np.ones(3)
-#     vector_2 = np.arange(4)
-#     with pytest.raises(ValueError):
-#         temp.outer_complex(vector_1, vector_2, function='not_valid_function')
-
-
-# def test_outer_complex_compare_numpy_outer():
-#     'compare hadamard_complex function with * operator'
-#     # for matrices
-#     np.random.seed(21)
-#     input1 = np.random.rand(7) + 1j*np.random.rand(7)
-#     input2 = np.random.rand(7) + 1j*np.random.rand(7)
-#     output = temp.outer_complex(input1, input2, function='simple')
-#     output_numpy = temp.outer_complex(input1, input2, function='numpy')
-#     output_numba = temp.outer_complex(input1, input2, function='numba')
-#     output_numpy_outer = np.outer(input1, input2)
-#     aae(output, output_numpy_outer, decimal=10)
-#     aae(output_numpy, output_numpy_outer, decimal=10)
-#     aae(output_numba, output_numpy_outer, decimal=10)
+def test_outer_complex_compare_numpy_outer():
+    'compare hadamard_complex function with * operator'
+    # for matrices
+    rng = np.random.default_rng(876231115557999176655)
+    input1 = rng.random(7) + 1j*rng.random(7)
+    input2 = rng.random(7) + 1j*rng.random(7)
+    output = temp.outer_complex(input1, input2)
+    output_numpy_outer = np.outer(input1, input2)
+    aae(output, output_numpy_outer, decimal=10)
 
 
 # ### matrix-vector product
