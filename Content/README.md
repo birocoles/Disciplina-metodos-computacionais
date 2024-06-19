@@ -17,11 +17,11 @@ A list of all exercises given along the course can be found in `exercises.md`.
 #### Basic vector operations
 
 
-- [ ] scalar-vector product (`scalar_vector.ipynb`)
+- [x] scalar-vector product (`scalar_vector.ipynb`)
 
-- [ ] timing the scalar vector product (`timing_scalar_vector_product`)
+- [x] timing the scalar vector product (`timing_scalar_vector_product.ipynb`)
 
-- [ ] dot product (`dot.ipynb`)
+- [x] dot product (`dot.ipynb`)
 
 - [ ] Hadamard product (`hadamard.ipynb`)
 
