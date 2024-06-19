@@ -176,18 +176,6 @@ def test_dot_complex_compare_numpy_dot():
     aae(output, output_numpy_dot, decimal=10)
 
 
-def test_dot_complex_compare_numpy_dot():
-    'compare dot_complex with numpy.dot'
-    # set random generator
-    rng = np.random.default_rng(5511763412)
-    # use the random generator to create input parameters
-    vector_1 = rng.random(13) + 1j*rng.random(13)
-    vector_2 = rng.random(13) + 1j*rng.random(13)
-    output = temp.dot_complex(vector_1, vector_2)
-    output_numpy_dot = np.dot(vector_1, vector_2)
-    aae(output, output_numpy_dot, decimal=10)
-
-
 # Hadamard product
 
 # def test_hadamard_real_different_shapes():
