@@ -9,11 +9,6 @@ The idea here is giving the required background to follow the course.
 Access the directory `elements_Python`.
 
 
-#### Exercises
-
-A list of all exercises given along the course can be found in `exercises.md`.
-
-
 #### Basic vector operations
 
 
@@ -23,11 +18,11 @@ A list of all exercises given along the course can be found in `exercises.md`.
 
 - [x] dot product (`dot.ipynb`)
 
-- [ ] Hadamard product (`hadamard.ipynb`)
+- [x] Hadamard product (`hadamard.ipynb`)
 
-- [ ] outer product (`outer.ipynb`)
+- [x] outer product (`outer.ipynb`)
 
-- [ ] Vector norms (`vector-norms.ipynb`)
+- [x] Vector norms (`vector-norms.ipynb`)
 
 
 #### Basic matrix operations
