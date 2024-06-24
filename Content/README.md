@@ -8,6 +8,9 @@ The idea here is giving the required background to follow the course.
 
 Access the directory `elements_Python`.
 
+#### Exercises list
+
+A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Basic vector operations
 
@@ -36,6 +39,9 @@ Access the directory `elements_Python`.
   - [ ] matrix-matrix product simulation (`matrix_matrix_simulations.pdf`)
 
 - [ ] Matrix norms (`matrix-norms.ipynb`)
+
+
+### Flops
 
 - [ ] Floating-point operations (flops) (`flops.ipynb`)
 
