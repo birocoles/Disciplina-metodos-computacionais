@@ -407,145 +407,153 @@ def test_vec_norm_invalid_p():
             temp.vec_norm(x, p)
 
 
-# ### matrix-vector product
+### matrix-vector product
 
-# def test_matvec_real_input_doesnt_match():
-#     'fail when matrix columns doesnt match vector size'
-#     A = np.ones((5,4))
-#     x = np.ones(3)
-#     with pytest.raises(AssertionError):
-#         temp.matvec_real(A, x)
-#     with pytest.raises(AssertionError):
-#         temp.matvec_real_numba(A, x)
-#     with pytest.raises(AssertionError):
-#         temp.matvec_real_dot(A, x)
-#     with pytest.raises(AssertionError):
-#         temp.matvec_real_columns(A, x)
+def test_matvec_real_input_doesnt_match():
+    'fail when matrix columns doesnt match vector size'
+    A = np.ones((5,4))
+    x = np.ones(3)
+    with pytest.raises(AssertionError):
+        temp.matvec_real_simple(A, x)
+    with pytest.raises(AssertionError):
+        temp.matvec_real_dot(A, x)
+    with pytest.raises(AssertionError):
+        temp.matvec_real_columns(A, x)
 
 
-# def test_matvec_real_functions_compare_numpy_dot():
-#     'compare matvec_real_XXXX with numpy.dot'
-#     np.random.seed(24)
-#     matrix = np.random.rand(3,4)
-#     vector = np.random.rand(4)
-#     output = temp.matvec_real(matrix, vector)
-#     output_numba = temp.matvec_real_numba(matrix, vector)
-#     output_dot = temp.matvec_real_dot(matrix, vector)
-#     output_columns = temp.matvec_real_columns(matrix, vector)
-#     output_numpy_dot = np.dot(matrix, vector)
-#     aae(output, output_numpy_dot, decimal=10)
-#     aae(output_numba, output_numpy_dot, decimal=10)
-#     aae(output_dot, output_numpy_dot, decimal=10)
-#     aae(output_columns, output_numpy_dot, decimal=10)
+def test_matvec_real_functions_compare_numpy_dot():
+    'compare matvec_real_XXXX with numpy.dot'
+    rng = np.random.default_rng(7777723111555799917665)
+    matrix = rng.random(3,4)
+    vector = rng.random(4)
+    output_simple = temp.matvec_real_simple(matrix, vector)
+    output_dot = temp.matvec_real_dot(matrix, vector)
+    output_columns = temp.matvec_real_columns(matrix, vector)
+    output_numpy_dot = np.dot(matrix, vector)
+    aae(output_simple, output_numpy_dot, decimal=10)
+    aae(output_dot, output_numpy_dot, decimal=10)
+    aae(output_columns, output_numpy_dot, decimal=10)
 
 
-# def test_matvec_real_functions_ignore_complex():
-#     'complex part of input must be ignored'
-#     np.random.seed(24)
-#     matrix = np.random.rand(3,4) - 0.3j*np.ones((3,4))
-#     vector = np.random.rand(4) + 2j*np.ones(4)
-#     output = temp.matvec_real(matrix, vector)
-#     output_numba = temp.matvec_real_numba(matrix, vector)
-#     output_dot = temp.matvec_real_dot(matrix, vector)
-#     output_columns = temp.matvec_real_columns(matrix, vector)
-#     output_reference = np.dot(matrix.real, vector.real)
-#     aae(output, output_reference, decimal=10)
-#     aae(output_numba, output_reference, decimal=10)
-#     aae(output_dot, output_reference, decimal=10)
-#     aae(output_columns, output_reference, decimal=10)
+def test_matvec_real_functions_ignore_complex():
+    'complex part of input must be ignored'
+    rng = np.random.default_rng(9999977777231115557999)
+    matrix = rng.random(3,4) - 0.3j*np.ones((3,4))
+    vector = rng.random(4) + 2j*np.ones(4)
+    output_simple = temp.matvec_real_simple(matrix, vector)
+    output_dot = temp.matvec_real_dot(matrix, vector)
+    output_columns = temp.matvec_real_columns(matrix, vector)
+    output_reference = np.dot(matrix.real, vector.real)
+    aae(output_simple, output_reference, decimal=10)
+    aae(output_dot, output_reference, decimal=10)
+    aae(output_columns, output_reference, decimal=10)
 
 
-# def test_matvec_complex_compare_numpy_dot():
-#     'compare matvec_complex with numpy.dot'
-#     np.random.seed(98)
-#     matrix = np.random.rand(3,4) + 1j*np.random.rand(3,4)
-#     vector = np.random.rand(4) + 1j*np.random.rand(4)
-#     output = temp.matvec_complex(matrix, vector, function='simple')
-#     output_numba = temp.matvec_complex(matrix, vector, function='numba')
-#     output_dot = temp.matvec_complex(matrix, vector, function='dot')
-#     output_columns = temp.matvec_complex(matrix, vector, function='columns')
-#     output_numpy_dot = np.dot(matrix, vector)
-#     aae(output, output_numpy_dot, decimal=10)
-#     aae(output_numba, output_numpy_dot, decimal=10)
-#     aae(output_dot, output_numpy_dot, decimal=10)
-#     aae(output_columns, output_numpy_dot, decimal=10)
+def test_matvec_complex_compare_numpy_dot():
+    'compare matvec_complex with numpy.dot'
+    rng = np.random.default_rng(9999977777231115557999)
+    matrix = rng.random(3,4) + 1j*np.random.rand(3,4)
+    vector = rng.random(4) + 1j*np.random.rand(4)
+    output_simple = temp.matvec_complex(matrix, vector, function='simple')
+    output_dot = temp.matvec_complex(matrix, vector, function='dot')
+    output_columns = temp.matvec_complex(matrix, vector, function='columns')
+    output_numpy_dot = np.dot(matrix, vector)
+    aae(output_simple, output_numpy_dot, decimal=10)
+    aae(output_dot, output_numpy_dot, decimal=10)
+    aae(output_columns, output_numpy_dot, decimal=10)
 
 
-# ### matrix-matrix product
-
-# def test_matmat_real_input_doesnt_match():
-#     'fail when matrices dont match to compute the product'
-#     A = np.ones((3,3))
-#     B = np.ones((4,5))
-#     with pytest.raises(AssertionError):
-#         temp.matmat_real(A, B, check_input=True)
-#     with pytest.raises(AssertionError):
-#         temp.matmat_real_numba(A, B, check_input=True)
-#     with pytest.raises(AssertionError):
-#         temp.matmat_real_dot(A, B, check_input=True)
-#     with pytest.raises(AssertionError):
-#         temp.matmat_real_columns(A, B, check_input=True)
-#     with pytest.raises(AssertionError):
-#         temp.matmat_real_outer(A, B, check_input=True)
-#     with pytest.raises(AssertionError):
-#         temp.matmat_real_matvec(A, B, check_input=True)
+def test_matvec_complex_invalid_function():
+    'must raise error for invalid function'
+    A = np.ones((5,4))
+    x = np.ones(4)
+    with pytest.raises(AssertionError):
+        temp.matvec_complex(A, x, check_input=True, function='invalid-function')
+    with pytest.raises(AssertionError):
+        temp.matvec_complex(A, x, check_input=True, function='column')
+    with pytest.raises(AssertionError):
+        temp.matvec_complex(A, x, check_input=True, function='Dot')
 
 
-# def test_matmat_real_functions_compare_numpy_dot():
-#     'compare matmat_real_XXXX with numpy.dot'
-#     np.random.seed(35)
-#     matrix_1 = np.random.rand(5,3)
-#     matrix_2 = np.random.rand(3,3)
-#     output = temp.matmat_real(matrix_1, matrix_2)
-#     output_numba = temp.matmat_real_numba(matrix_1, matrix_2)
-#     output_dot = temp.matmat_real_dot(matrix_1, matrix_2)
-#     output_columns = temp.matmat_real_columns(matrix_1, matrix_2)
-#     output_matvec = temp.matmat_real_matvec(matrix_1, matrix_2)
-#     output_outer = temp.matmat_real_outer(matrix_1, matrix_2)
-#     reference = np.dot(matrix_1, matrix_2)
-#     aae(output, reference, decimal=10)
-#     aae(output_numba, reference, decimal=10)
-#     aae(output_dot, reference, decimal=10)
-#     aae(output_columns, reference, decimal=10)
-#     aae(output_matvec, reference, decimal=10)
-#     aae(output_outer, reference, decimal=10)
+### matrix-matrix product
+
+def test_matmat_real_input_doesnt_match():
+    'fail when matrices dont match to compute the product'
+    A = np.ones((3,3))
+    B = np.ones((4,5))
+    with pytest.raises(AssertionError):
+        temp.matmat_real_simple(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_dot(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_rows(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_columns(A, B, check_input=True)
+    with pytest.raises(AssertionError):
+        temp.matmat_real_outer(A, B, check_input=True)
 
 
-# def test_matmat_real_functions_ignore_complex():
-#     'complex part of input must be ignored'
-#     np.random.seed(35)
-#     matrix_1 = np.random.rand(5,3)
-#     matrix_2 = np.random.rand(3,3) - 0.7j*np.ones((3,3))
-#     output = temp.matmat_real(matrix_1, matrix_2)
-#     output_numba = temp.matmat_real_numba(matrix_1, matrix_2)
-#     output_dot = temp.matmat_real_dot(matrix_1, matrix_2)
-#     output_columns = temp.matmat_real_columns(matrix_1, matrix_2)
-#     output_matvec = temp.matmat_real_matvec(matrix_1, matrix_2)
-#     output_outer = temp.matmat_real_outer(matrix_1, matrix_2)
-#     reference = np.dot(matrix_1.real, matrix_2.real)
-#     aae(output, reference, decimal=10)
-#     aae(output_numba, reference, decimal=10)
-#     aae(output_dot, reference, decimal=10)
-#     aae(output_columns, reference, decimal=10)
-#     aae(output_matvec, reference, decimal=10)
-#     aae(output_outer, reference, decimal=10)
+def test_matmat_real_functions_compare_numpy_dot():
+    'compare matmat_real_XXXX with numpy.dot'
+    rng = np.random.default_rng(1234599999777772311155)
+    matrix_1 = rng.random(5,3)
+    matrix_2 = rng.random(3,3)
+    output_simple = temp.matmat_real_simple(matrix_1, matrix_2)
+    output_dot = temp.matmat_real_dot(matrix_1, matrix_2)
+    output_rows = temp.matmat_real_rows(matrix_1, matrix_2)
+    output_columns = temp.matmat_real_columns(matrix_1, matrix_2)
+    output_outer = temp.matmat_real_outer(matrix_1, matrix_2)
+    reference = np.dot(matrix_1, matrix_2)
+    aae(output_simple, reference, decimal=10)
+    aae(output_dot, reference, decimal=10)
+    aae(output_rows, reference, decimal=10)
+    aae(output_columns, reference, decimal=10)
+    aae(output_outer, reference, decimal=10)
 
 
-# def test_matmat_complex_compare_numpy_dot():
-#     'compare matmat_complex with numpy.dot'
-#     np.random.seed(13)
-#     matrix_1 = np.random.rand(5,3) + 1j*np.random.rand(5,3)
-#     matrix_2 = np.random.rand(3,3) + 1j*np.random.rand(3,3)
-#     output = temp.matmat_complex(matrix_1, matrix_2, function='simple')
-#     output_numba = temp.matmat_complex(matrix_1, matrix_2, function='numba')
-#     output_dot = temp.matmat_complex(matrix_1, matrix_2, function='dot')
-#     output_columns = temp.matmat_complex(matrix_1, matrix_2, function='columns')
-#     output_matvec = temp.matmat_complex(matrix_1, matrix_2, function='matvec')
-#     output_outer = temp.matmat_complex(matrix_1, matrix_2, function='outer')
-#     reference = np.dot(matrix_1, matrix_2)
-#     aae(output, reference, decimal=10)
-#     aae(output_numba, reference, decimal=10)
-#     aae(output_dot, reference, decimal=10)
-#     aae(output_columns, reference, decimal=10)
-#     aae(output_matvec, reference, decimal=10)
-#     aae(output_outer, reference, decimal=10)
+def test_matmat_real_functions_ignore_complex():
+    'complex part of input must be ignored'
+    rng = np.random.default_rng(7623012345999997777723)
+    matrix_1 = rng.random(5,3)
+    matrix_2 = rng.random(3,3) - 0.7j*np.ones((3,3))
+    output_simple = temp.matmat_real_simple(matrix_1, matrix_2)
+    output_dot = temp.matmat_real_dot(matrix_1, matrix_2)
+    output_rows = temp.matmat_real_rows(matrix_1, matrix_2)
+    output_columns = temp.matmat_real_columns(matrix_1, matrix_2)
+    output_outer = temp.matmat_real_outer(matrix_1, matrix_2)
+    reference = np.dot(matrix_1.real, matrix_2.real)
+    aae(output_simple, reference, decimal=10)
+    aae(output_dot, reference, decimal=10)
+    aae(output_rows, reference, decimal=10)
+    aae(output_columns, reference, decimal=10)
+    aae(output_outer, reference, decimal=10)
+
+
+def test_matmat_complex_compare_numpy_dot():
+    'compare matmat_complex with numpy.dot'
+    rng = np.random.default_rng(87900054312345999997777723)
+    matrix_1 = rng.random(5,3) + 1j*np.random.rand(5,3)
+    matrix_2 = rng.random(3,3) + 1j*np.random.rand(3,3)
+    output_simple = temp.matmat_complex_simple(matrix_1, matrix_2, function='simple')
+    output_dot = temp.matmat_complex(matrix_1, matrix_2, function='dot')
+    output_rows = temp.matmat_complex(matrix_1, matrix_2, function='rows')
+    output_columns = temp.matmat_complex(matrix_1, matrix_2, function='columns')
+    output_outer = temp.matmat_complex(matrix_1, matrix_2, function='outer')
+    reference = np.dot(matrix_1, matrix_2)
+    aae(output_simple, reference, decimal=10)
+    aae(output_dot, reference, decimal=10)
+    aae(output_rows, reference, decimal=10)
+    aae(output_columns, reference, decimal=10)
+    aae(output_outer, reference, decimal=10)
+
+
+def test_matmat_complex_invalid_function():
+    'must raise error for invalid function'
+    A = np.ones((5,4))
+    B = np.ones((4,3)
+    with pytest.raises(AssertionError):
+        temp.matmat_complex(A, B, check_input=True, function='invalid-function')
+    with pytest.raises(AssertionError):
+        temp.matmat_complex(A, B, check_input=True, function='column')
+    with pytest.raises(AssertionError):
+        temp.matmat_complex(A, B, check_input=True, function='Dot')
