@@ -30,13 +30,13 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Basic matrix operations
 
-- [ ] matrix-vector product (`matrix-vector.ipynb`)
+- [x] matrix-vector product (`matrix-vector.ipynb`)
 
-  - [ ] matrix-vector product simulation (`matrix_vector_simulations.pdf`)
+  - [x] matrix-vector product simulation (`matrix_vector_simulations.pdf`)
 
-- [ ] matrix-matrix product (`matrix-matrix.ipynb`)
+- [x] matrix-matrix product (`matrix-matrix.ipynb`)
 
-  - [ ] matrix-matrix product simulation (`matrix_matrix_simulations.pdf`)
+  - [x] matrix-matrix product simulation (`matrix_matrix_simulations.pdf`)
 
 - [ ] Matrix norms (`matrix-norms.ipynb`)
 
