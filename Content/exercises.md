@@ -9,3 +9,4 @@
 - [x] `matrix-vector.ipynb` : implement the `deriv1d` function and at least the test using `numpy.sin` and `numpy.cos` functions.
 - [x] `matrix-matrix.ipynb` : implement the `matmat_real_simple`, `matmat_real_dot`, `matmat_real_rows`, `matmat_real_columns`, `matmat_real_outer` and `matmat_complex` functions.
 - [x] `matrix-norms.ipynb` (optional) : implement the `mat_norm` function and its corresponding tests.
+- [x] `triangular_matrices.ipynb` : implement the functions `matvec_triu_prod3`, `matvec_triu_prod5`, `matvec_tril_prod8` and `matvec_tril_prod10` defined by, respectively, the Algorithms 3, 5, 8 and 10.
