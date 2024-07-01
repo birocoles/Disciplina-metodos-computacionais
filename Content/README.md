@@ -38,21 +38,21 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
   - [x] matrix-matrix product simulation (`matrix_matrix_simulations.pdf`)
 
-- [ ] Matrix norms (`matrix-norms.ipynb`)
+- [x] Matrix norms (`matrix-norms.ipynb`)
 
 
 ### Flops
 
-- [ ] Floating-point operations (flops) (`flops.ipynb`)
+- [x] Floating-point operations (flops) (`flops.ipynb`)
 
 
 #### Structured matrices
 
-- [ ] Permutation matrices (`permutation_matrices.ipynb`)
+- [x] Permutation matrices (`permutation_matrices.ipynb`)
 
-- [ ] Diagonal matrices (`diagonal_matrices.ipynb`)
+- [x] Diagonal matrices (`diagonal_matrices.ipynb`)
 
-- [ ] Triangular matrices (`triangular_matrices.ipynb`)
+- [x] Triangular matrices (`triangular_matrices.ipynb`)
 
 - [ ] Block matrices (`block_matrices.ipynb`)
 
