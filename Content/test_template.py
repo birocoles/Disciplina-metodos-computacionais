@@ -550,7 +550,7 @@ def test_matmat_complex_compare_numpy_dot():
 def test_matmat_complex_invalid_function():
     'must raise error for invalid function'
     A = np.ones((5,4))
-    B = np.ones((4,3)
+    B = np.ones((4,3))
     with pytest.raises(AssertionError):
         temp.matmat_complex(A, B, check_input=True, function='invalid-function')
     with pytest.raises(AssertionError):

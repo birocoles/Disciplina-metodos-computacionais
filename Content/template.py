@@ -281,8 +281,8 @@ def outer_complex(x, y, check_input=True, function='simple'):
 
 
     outer_real = {
-        'simple' : outer_real_simple
-        'row' : outer_real_row
+        'simple' : outer_real_simple,
+        'row' : outer_real_row,
         'column' : outer_real_column
     }
 
@@ -406,8 +406,8 @@ def matvec_complex(A, x, check_input=True, function='dot'):
     '''
 
     matvec_real = {
-        'simple' : matvec_real_simple
-        'dot' : matvec_real_dot
+        'simple' : matvec_real_simple,
+        'dot' : matvec_real_dot,
         'columns' : matvec_real_columns
     }
 
