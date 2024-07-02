@@ -10,5 +10,6 @@
 - [x] `matrix-matrix.ipynb` : implement the `matmat_real_simple`, `matmat_real_dot`, `matmat_real_rows`, `matmat_real_columns`, `matmat_real_outer` and `matmat_complex` functions.
 - [x] `matrix-norms.ipynb` (optional) : implement the `mat_norm` function and its corresponding tests.
 - [x] `triangular_matrices.ipynb` : implement the functions `matvec_triu_prod3`, `matvec_triu_prod5`, `matvec_tril_prod8` and `matvec_tril_prod10` defined by, respectively, the Algorithms 3, 5, 8 and 10.
-- [ ] `triangular_systems.ipynb` : implement a function `triu_system` for solving a triangular system by back substitution and create at least two tests.
-- [ ] `triangular_systems.ipynb` : implement a function `tril_system` for solving a triangular system by forward substitution and create at least two tests.
+- [x] `triangular_systems.ipynb` : implement a function `triu_system` for solving a triangular system by back substitution and create at least two tests.
+- [x] `triangular_systems.ipynb` : implement a function `tril_system` for solving a triangular system by forward substitution and create at least two tests.
+- [ ] `gauss-elim-pivoting.ipynb` : implement 

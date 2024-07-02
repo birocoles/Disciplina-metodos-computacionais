@@ -104,13 +104,13 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Numerical solution of linear systems
 
-- [ ] Introduction to linear systems (`intro_linear_syst.ipynb`)
+- [x] Introduction to linear systems (`intro_linear_syst.ipynb`)
 
-- [ ] Triangular systems (`triangular_systems.ipynb`)
+- [x] Triangular systems (`triangular_systems.ipynb`)
 
-- [ ] Gaussian elimination - Introduction (`gauss-elim-intro.ipynb`)
+- [x] Gaussian elimination - Introduction (`gauss-elim-intro.ipynb`)
 
-- [ ] Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
+- [x] Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
 
 - [ ] Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
 
