@@ -112,15 +112,15 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 - [x] Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
 
-- [ ] Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
+- [x] Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
 
-- [ ] LU decomposition - Introduction (`lu_decomp.ipynb`)
+- [x] LU decomposition - Introduction (`lu_decomp.ipynb`)
 
-- [ ] LU decomposition - Pivoting (`lu_decomp_pivoting.ipynb`)
+- [x] LU decomposition - Pivoting (`lu_decomp_pivoting.ipynb`)
 
 - [ ] LDL<sup>T</sup> decomposition - Symmetric matrices (`ldlt_decomp.ipynb`)
 
-- [ ] Cholesky decomposition - Symmetric and positive definite matrices (`chol_decomp.ipynb`)
+- [x] Cholesky decomposition - Symmetric and positive definite matrices (`chol_decomp.ipynb`)
 
 - [ ] QR decomposition - Introduction (`QR_decomp_intro.ipynb`)
 
