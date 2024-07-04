@@ -16,4 +16,4 @@
 - [ ] `lu_decomp.ipynb` : implement the functions `lu_decomp` and `lu_solve`, as well as the corresponding tests.
 - [ ] `lu_decomp_pivoting.ipynb` : implement the functions `lu_decomp_pivoting` and `lu_solve_pivoting`, as well as the corresponding tests.
 - [ ] `ldlt_decomp.ipynb` (optional): implement the functions and tests of the exercises 1, 2 and 3.
-- [ ] `cho_decomp.ipynb` (optional): implement the functions and tests of the exercises 1, 2 and 3.
+- [ ] `cho_decomp.ipynb`: implement the functions and tests of the exercises 1, 2 and 3.
