@@ -114,7 +114,7 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 - [ ] Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
 
-- [ ] LU decomposition - Introduction (`lu_decomp_intro.ipynb`)
+- [ ] LU decomposition - Introduction (`lu_decomp.ipynb`)
 
 - [ ] LU decomposition - Pivoting (`lu_decomp_pivoting.ipynb`)
 
