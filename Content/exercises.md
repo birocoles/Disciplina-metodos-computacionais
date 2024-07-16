@@ -19,3 +19,5 @@
 - [x] `cho_decomp.ipynb`: implement the functions and tests of the exercises 1, 2 and 3.
 - [x] `least_squares.ipynb` : implemente the functions `straight_line_matrix`, `straight_line` and `parameter_covariance`,
 as well as the corresponding tests.
+- [x] `weighted_least_squares.ipynb` : estimate the absolute gravity values at the nodes of synthetic gravity network, as well
+as their corresponding uncertainties.

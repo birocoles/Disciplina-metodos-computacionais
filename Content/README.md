@@ -138,13 +138,13 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
   - [ ] Well log linear inversion example (`well_log_linear_inversion.ipynb`)
 
-- [ ] Weighted Least Squares (`weighted_least_squares.ipynb`)
+- [x] Weighted Least Squares (`weighted_least_squares.ipynb`)
 
-  - [ ] Simple gravity network (`grav_net.ipynb`)
+  - [x] Simple gravity network (`grav_net.ipynb`)
 
-- [ ] L1 regression (`L1_regression.ipynb`)
+- [x] L1 regression (`L1_regression.ipynb`)
 
-  - [ ] Fitting a parabola with outliers (`parabola.ipynb`)
+  - [x] Fitting a parabola with outliers (`parabola.ipynb`)
 
 - [ ] Steepest decent with exact Line Search (`sd_exact_lsearch.ipynb`)
 
