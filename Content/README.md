@@ -130,11 +130,11 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
   - [ ] Modified Gram-Schmidt method (`modified_GSM.ipynb`)
 
-- [ ] Least Squares (`least_squares.ipynb`)
+- [x] Least Squares (`least_squares.ipynb`)
 
-  - [ ] Review 1 (`review_math_1.ipynb`)
+  - [x] Review 1 (`review_math_1.ipynb`)
 
-  - [ ] Fitting a straight line (`straight_line.ipynb`)
+  - [x] Fitting a straight line (`straight_line.ipynb`)
 
   - [ ] Well log linear inversion example (`well_log_linear_inversion.ipynb`)
 
