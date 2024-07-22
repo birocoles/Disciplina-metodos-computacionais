@@ -168,17 +168,17 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Interpolation and curve fitting
 
-- [ ] Lagrange's method (`Lagrange.ipynb`)
+- [x] Lagrange's method (`Lagrange.ipynb`)
 
-- [ ] Neville's method (`Neville.ipynb`)
+- [x] Neville's method (`Neville.ipynb`)
 
-- [ ] Polynomial fitting (`polynomial.ipynb`)
+- [x] Polynomial fitting (`polynomial.ipynb`)
 
-- [ ] Spline interpolation with Green's functions (`greens_interp_theory.ipynb`)
+- [x] Spline interpolation with Green's functions (`greens_interp_theory.ipynb`)
 
-  - [ ] 1D case (`greens_interp_1D.ipynb`)
+  - [x] 1D case (`greens_interp_1D.ipynb`)
 
-  - [ ] 2D case (`greens_interp_2D.ipynb`)
+  - [x] 2D case (`greens_interp_2D.ipynb`)
 
 
 #### Numerical integration

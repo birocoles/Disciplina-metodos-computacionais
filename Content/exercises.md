@@ -21,3 +21,4 @@
 as well as the corresponding tests.
 - [x] `weighted_least_squares.ipynb` : estimate the absolute gravity values at the nodes of synthetic gravity network, as well
 as their corresponding uncertainties.
+- [x] `greens_interp_theory.ipynb` (optional) : implement the interpolation with Green's functions by using your own functions in a jupyter notebook.
