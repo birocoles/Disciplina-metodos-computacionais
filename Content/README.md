@@ -153,7 +153,9 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Eigenvalues and Eigenvectors
 
+- [x] Theory (`eigenvalues_eigenvectors.ipynb`)
 
+  - [x] Application (`magnetic_susceptibility_tensor.ipynb` and `magnetic_susceptibility_tensor.pdf`)
 
 #### Singular Value Decomposition
 
