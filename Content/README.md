@@ -154,6 +154,7 @@ A list of the exercises given along the course can be found in `exercises.md`.
 #### Eigenvalues and Eigenvectors
 
 
+
 #### Singular Value Decomposition
 
 
@@ -183,8 +184,8 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Numerical integration
 
-- [ ] Newton-Cotes formulas (`newton-cotes.ipynb`)
+- [x] Newton-Cotes formulas (`newton-cotes.ipynb`)
 
-  - [ ] Exercise: Simulate an abrupt temperature perturbation
+  - [x] Exercise: Simulate an abrupt temperature perturbation
 
-- [ ] Gauss-Legendre quadrature (`gauss_legendre.ipynb`)
+- [x] Gauss-Legendre quadrature
