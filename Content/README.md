@@ -59,13 +59,13 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Discrete Fourier Transform
 
-- [ ] Fourier Transform 1D - intro (`fourier_1D_intro.ipynb`)
+- [x] Fourier Transform 1D - intro (`fourier_1D_intro.ipynb`)
 
-- [ ] Fourier Transform 1D - part 1 (`fourier_1D_1.ipynb`)
+- [x] Fourier Transform 1D - part 1 (`fourier_1D_1.ipynb`)
 
 - [ ] Fourier Transform 1D - part 2 (`fourier_1D_2.ipynb`)
 
-  - [ ] Fourier Series - functions with period 2pi (`fourier_series_2pi.ipynb`)
+  - [x] Fourier Series - functions with period 2pi (`fourier_series_2pi.ipynb`)
 
 - [ ] Fourier Transform 1D - part 3 (`fourier_1D_3.ipynb`)
 
