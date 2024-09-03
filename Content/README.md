@@ -63,17 +63,17 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 - [x] Fourier Transform 1D - part 1 (`fourier_1D_1.ipynb`)
 
-- [ ] Fourier Transform 1D - part 2 (`fourier_1D_2.ipynb`)
+- [x] Fourier Transform 1D - part 2 (`fourier_1D_2.ipynb`)
 
   - [x] Fourier Series - functions with period 2pi (`fourier_series_2pi.ipynb`)
 
-- [ ] Fourier Transform 1D - part 3 (`fourier_1D_3.ipynb`)
+- [x] Fourier Transform 1D - part 3 (`fourier_1D_3.ipynb`)
 
-  - [ ] Fourier Series - functions with arbitrary period (`fourier_series_T0.ipynb`)
+  - [x] Fourier Series - functions with arbitrary period (`fourier_series_T0.ipynb`)
 
-- [ ] Fourier Transform 1D - part 4 (`fourier_1D_4.ipynb`)
+- [x] Fourier Transform 1D - part 4 (`fourier_1D_4.ipynb`)
 
-  - [ ] Example DFT 1D for N = 6 (`fourier_1D_4_example.pdf`)
+  - [x] Example DFT 1D for N = 6 (`fourier_1D_4_example.pdf`)
 
 - [ ] Fourier Transform 1D - part 5 (`fourier_1D_5.ipynb`)
 
@@ -159,6 +159,7 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Singular Value Decomposition
 
+- [x] Theory (`singular_value_decomposition_intro.ipynb`)
 
 #### Numerical solution of nonlinear systems
 

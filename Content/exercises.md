@@ -17,8 +17,9 @@
 - [x] `lu_decomp_pivoting.ipynb` : implement the functions `lu_decomp_pivoting` and `lu_solve_pivoting`, as well as the corresponding tests.
 - [ ] `ldlt_decomp.ipynb` (optional): implement the functions and tests of the exercises 1, 2 and 3.
 - [x] `cho_decomp.ipynb`: implement the functions and tests of the exercises 1, 2 and 3.
-- [x] `least_squares.ipynb` : implemente the functions `straight_line_matrix`, `straight_line` and `parameter_covariance`,
+- [x] `least_squares.ipynb` : implement the functions `straight_line_matrix`, `straight_line` and `parameter_covariance`,
 as well as the corresponding tests.
 - [x] `weighted_least_squares.ipynb` : estimate the absolute gravity values at the nodes of synthetic gravity network, as well
 as their corresponding uncertainties.
 - [x] `greens_interp_theory.ipynb` (optional) : implement the interpolation with Green's functions by using your own functions in a jupyter notebook.
+- [x] `fourier_1D_4.ipynb` : implement the functions `DFT_matrix`, `fft1D` and `ifft1D`, as well as the corresponding tests. 
