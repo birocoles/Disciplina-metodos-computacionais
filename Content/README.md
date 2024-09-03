@@ -59,21 +59,21 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Discrete Fourier Transform
 
-- [ ] Fourier Transform 1D - intro (`fourier_1D_intro.ipynb`)
+- [x] Fourier Transform 1D - intro (`fourier_1D_intro.ipynb`)
 
-- [ ] Fourier Transform 1D - part 1 (`fourier_1D_1.ipynb`)
+- [x] Fourier Transform 1D - part 1 (`fourier_1D_1.ipynb`)
 
-- [ ] Fourier Transform 1D - part 2 (`fourier_1D_2.ipynb`)
+- [x] Fourier Transform 1D - part 2 (`fourier_1D_2.ipynb`)
 
-  - [ ] Fourier Series - functions with period 2pi (`fourier_series_2pi.ipynb`)
+  - [x] Fourier Series - functions with period 2pi (`fourier_series_2pi.ipynb`)
 
-- [ ] Fourier Transform 1D - part 3 (`fourier_1D_3.ipynb`)
+- [x] Fourier Transform 1D - part 3 (`fourier_1D_3.ipynb`)
 
-  - [ ] Fourier Series - functions with arbitrary period (`fourier_series_T0.ipynb`)
+  - [x] Fourier Series - functions with arbitrary period (`fourier_series_T0.ipynb`)
 
-- [ ] Fourier Transform 1D - part 4 (`fourier_1D_4.ipynb`)
+- [x] Fourier Transform 1D - part 4 (`fourier_1D_4.ipynb`)
 
-  - [ ] Example DFT 1D for N = 6 (`fourier_1D_4_example.pdf`)
+  - [x] Example DFT 1D for N = 6 (`fourier_1D_4_example.pdf`)
 
 - [ ] Fourier Transform 1D - part 5 (`fourier_1D_5.ipynb`)
 
@@ -104,23 +104,23 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Numerical solution of linear systems
 
-- [ ] Introduction to linear systems (`intro_linear_syst.ipynb`)
+- [x] Introduction to linear systems (`intro_linear_syst.ipynb`)
 
-- [ ] Triangular systems (`triangular_systems.ipynb`)
+- [x] Triangular systems (`triangular_systems.ipynb`)
 
-- [ ] Gaussian elimination - Introduction (`gauss-elim-intro.ipynb`)
+- [x] Gaussian elimination - Introduction (`gauss-elim-intro.ipynb`)
 
-- [ ] Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
+- [x] Gaussian elimination - Outer product formulation (`gauss-elim-outer.ipynb`)
 
-- [ ] Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
+- [x] Gaussian elimination - Pivoting (`gauss-elim-pivoting.ipynb`)
 
-- [ ] LU decomposition - Introduction (`lu_decomp_intro.ipynb`)
+- [x] LU decomposition - Introduction (`lu_decomp.ipynb`)
 
-- [ ] LU decomposition - Pivoting (`lu_decomp_pivoting.ipynb`)
+- [x] LU decomposition - Pivoting (`lu_decomp_pivoting.ipynb`)
 
 - [ ] LDL<sup>T</sup> decomposition - Symmetric matrices (`ldlt_decomp.ipynb`)
 
-- [ ] Cholesky decomposition - Symmetric and positive definite matrices (`chol_decomp.ipynb`)
+- [x] Cholesky decomposition - Symmetric and positive definite matrices (`chol_decomp.ipynb`)
 
 - [ ] QR decomposition - Introduction (`QR_decomp_intro.ipynb`)
 
@@ -130,21 +130,21 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
   - [ ] Modified Gram-Schmidt method (`modified_GSM.ipynb`)
 
-- [ ] Least Squares (`least_squares.ipynb`)
+- [x] Least Squares (`least_squares.ipynb`)
 
-  - [ ] Review 1 (`review_math_1.ipynb`)
+  - [x] Review 1 (`review_math_1.ipynb`)
 
-  - [ ] Fitting a straight line (`straight_line.ipynb`)
+  - [x] Fitting a straight line (`straight_line.ipynb`)
 
   - [ ] Well log linear inversion example (`well_log_linear_inversion.ipynb`)
 
-- [ ] Weighted Least Squares (`weighted_least_squares.ipynb`)
+- [x] Weighted Least Squares (`weighted_least_squares.ipynb`)
 
-  - [ ] Simple gravity network (`grav_net.ipynb`)
+  - [x] Simple gravity network (`grav_net.ipynb`)
 
-- [ ] L1 regression (`L1_regression.ipynb`)
+- [x] L1 regression (`L1_regression.ipynb`)
 
-  - [ ] Fitting a parabola with outliers (`parabola.ipynb`)
+  - [x] Fitting a parabola with outliers (`parabola.ipynb`)
 
 - [ ] Steepest decent with exact Line Search (`sd_exact_lsearch.ipynb`)
 
@@ -153,9 +153,13 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Eigenvalues and Eigenvectors
 
+- [x] Theory (`eigenvalues_eigenvectors.ipynb`)
+
+  - [x] Application (`magnetic_susceptibility_tensor.ipynb` and `magnetic_susceptibility_tensor.pdf`)
 
 #### Singular Value Decomposition
 
+- [x] Theory (`singular_value_decomposition_intro.ipynb`)
 
 #### Numerical solution of nonlinear systems
 
@@ -168,23 +172,23 @@ A list of the exercises given along the course can be found in `exercises.md`.
 
 #### Interpolation and curve fitting
 
-- [ ] Lagrange's method (`Lagrange.ipynb`)
+- [x] Lagrange's method (`Lagrange.ipynb`)
 
-- [ ] Neville's method (`Neville.ipynb`)
+- [x] Neville's method (`Neville.ipynb`)
 
-- [ ] Polynomial fitting (`polynomial.ipynb`)
+- [x] Polynomial fitting (`polynomial.ipynb`)
 
-- [ ] Spline interpolation with Green's functions (`greens_interp_theory.ipynb`)
+- [x] Spline interpolation with Green's functions (`greens_interp_theory.ipynb`)
 
-  - [ ] 1D case (`greens_interp_1D.ipynb`)
+  - [x] 1D case (`greens_interp_1D.ipynb`)
 
-  - [ ] 2D case (`greens_interp_2D.ipynb`)
+  - [x] 2D case (`greens_interp_2D.ipynb`)
 
 
 #### Numerical integration
 
-- [ ] Newton-Cotes formulas (`newton-cotes.ipynb`)
+- [x] Newton-Cotes formulas (`newton-cotes.ipynb`)
 
-  - [ ] Exercise: Simulate an abrupt temperature perturbation
+  - [x] Exercise: Simulate an abrupt temperature perturbation
 
-- [ ] Gauss-Legendre quadrature (`gauss_legendre.ipynb`)
+- [x] Gauss-Legendre quadrature
